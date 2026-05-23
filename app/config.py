@@ -11,7 +11,7 @@ class Settings(BaseSettings):
     debug: bool = False
     app_name: str = "Radix"
     app_version: str = "1.0.0"
-    public_url: str = "https://socialaautoreply.up.railway.app"
+    public_url: str = "https://web-production-be8a.up.railway.app"
 
     class Config:
         env_file = ".env"
