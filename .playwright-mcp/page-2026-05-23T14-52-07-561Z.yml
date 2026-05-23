@@ -1,0 +1,164 @@
+- generic [ref=e2]:
+  - generic [ref=e4]:
+    - generic [ref=e5]:
+      - generic [ref=e11]:
+        - link "Meta للأعمال (المعروف سابقًا باسم فيسبوك للأعمال)" [ref=e12] [cursor=pointer]:
+          - /url: https://business.facebook.com/business
+          - img "Meta للأعمال (المعروف سابقًا باسم فيسبوك للأعمال)" [ref=e13]
+        - generic [ref=e14]:
+          - link "بدء الاستخدام" [ref=e16] [cursor=pointer]:
+            - /url: "#"
+          - link "الإعلان" [ref=e18] [cursor=pointer]:
+            - /url: "#"
+          - link "التعلُّم" [ref=e20] [cursor=pointer]:
+            - /url: "#"
+          - link "الدعم" [ref=e22] [cursor=pointer]:
+            - /url: "#"
+        - generic [ref=e23]:
+          - link [ref=e26] [cursor=pointer]:
+            - /url: "#"
+          - button [ref=e33] [cursor=pointer]:
+            - img [ref=e34]
+          - generic [ref=e39]:
+            - button "ابدأ الآن" [ref=e41] [cursor=pointer]
+            - button [ref=e43] [cursor=pointer]:
+              - img [ref=e44]
+      - generic [ref=e49]:
+        - link "مركز مساعدة الأعمال" [ref=e52] [cursor=pointer]:
+          - /url: /business/help
+        - link "الحصول على الدعم" [ref=e55] [cursor=pointer]:
+          - /url: /business/help/support
+          - generic [ref=e56]: الحصول على الدعم
+      - generic [ref=e60]:
+        - main [ref=e61]:
+          - generic [ref=e62]:
+            - heading "حول مستخدمي النظام في Meta Business Suite" [level=1] [ref=e66]
+            - generic [ref=e71]:
+              - generic [ref=e73]:
+                - paragraph [ref=e74]: يمثل مستخدمو النظام الخوادم أو البرامج التي تقوم بإجراء استدعاءات واجهة API للأصول التي تديرها حافظة أعمال في Meta Business Suite.
+                - paragraph [ref=e75]: "يوجد نوعان من مستخدمي النظام:"
+                - list [ref=e76]:
+                  - listitem [ref=e77]:
+                    - generic [ref=e78]: "مستخدم النظام المسؤول: يمكن لمستخدم النظام المسؤول إنشاء حسابات لمستخدمي النظام وإضافة حسابات وتعيين أذونات وغير ذلك الكثير."
+                  - listitem [ref=e79]:
+                    - generic [ref=e80]: "مستخدم النظام العادي: يمكن لمستخدمي النظام الوصول فقط إلى الأصول التي حصلوا على أذونات لها."
+                - paragraph [ref=e81]: قم بإنشاء حساب مستخدم نظام واحد لكل نوع من أنواع صلاحية الوصول التي تحتاج إليها. وامنح حسابات مستخدمي النظام صلاحية وصول إلى الأصول واستخدمها لمعظم استدعاءات واجهة API.
+                - paragraph [ref=e82]: استخدِم "مستخدم النظام المسؤول" للاحتفاظ بالأدوار الصحيحة برمجيًا. وبهذه الطريقة، إذا تعرض رمز مستخدم النظام للاختراق، فإن نطاقه يكون محدودًا ولا يمكن اختراق المزيد من الأذونات.
+                - paragraph [ref=e83]: يتعين تقييد استخدام "مستخدم النظام المسؤول" وقصره على الإجراءات الإدارية، مثل تعيين الأذونات. ونظرًا لتمتعه بأكبر قدر من الأذونات، يجب الحرص على حماية رمز وصول مستخدم النظام المسؤول.
+                - heading "تعرَّف على المزيد" [level=2] [ref=e85]
+                - list [ref=e86]:
+                  - listitem [ref=e87]:
+                    - link "إضافة مستخدمي النظام إلى حافظة الأعمال الخاصة بك" [ref=e89] [cursor=pointer]:
+                      - /url: /help/503306463479099
+                  - listitem [ref=e90]:
+                    - 'link "وثائق المطوّرين: مستخدمو النظام" [ref=e92] [cursor=pointer]':
+                      - /url: https://developers.facebook.com/docs/marketing-api/businessmanager/systemuser/v2.9
+              - generic [ref=e97]:
+                - heading "موضوعات الدعم الشائعة" [level=5] [ref=e100]
+                - generic [ref=e102]:
+                  - link "حول قيود الإعلانات" [ref=e105] [cursor=pointer]:
+                    - /url: /business/help/975570072950669
+                  - heading "مركز مساعدة الأعمال" [level=5] [ref=e107]
+                - generic [ref=e111]:
+                  - link "اكتشاف مشكلات حساب مُعطَّل أو مقيّد وحلها" [ref=e114] [cursor=pointer]:
+                    - /url: /business/help/422289316306981
+                  - heading "مركز مساعدة الأعمال" [level=5] [ref=e116]
+                - generic [ref=e120]:
+                  - link "حول الصفحة الرئيسية لدعم الأعمال من Meta" [ref=e123] [cursor=pointer]:
+                    - /url: /business/help/254088759757736
+                  - heading "مركز مساعدة الأعمال" [level=5] [ref=e125]
+                - generic [ref=e129]:
+                  - link "معالجة مشكلة فشل عملية الدفع على Meta" [ref=e132] [cursor=pointer]:
+                    - /url: /business/help/268196136699959
+                  - heading "مركز مساعدة الأعمال" [level=5] [ref=e134]
+                - link [ref=e138] [cursor=pointer]:
+                  - /url: "#"
+              - generic [ref=e141]:
+                - link "الرابط الثابت" [ref=e142] [cursor=pointer]:
+                  - /url: /business/help/327596604689624?helpref=uf_permalink
+                  - img "الرابط الثابت" [ref=e143]
+                - link "مشاركة" [ref=e144] [cursor=pointer]:
+                  - /url: https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fbusiness.facebook.com%2Fbusiness%2Fhelp%2F327596604689624
+                  - img "مشاركة" [ref=e145]
+              - generic [ref=e148]:
+                - paragraph [ref=e150]: "المزيد في هذا القسم: أدوات الإدارة"
+                - generic [ref=e152]:
+                  - generic [ref=e157]:
+                    - generic [ref=e159]:
+                      - button "الأساسيات" [expanded] [ref=e160] [cursor=pointer]:
+                        - heading "الأساسيات" [level=3] [ref=e165]
+                      - generic [ref=e170]:
+                        - link "حول المستخدمين في حافظة الأعمال الخاصة بك" [ref=e171] [cursor=pointer]:
+                          - /url: /business/help/2399703093590353
+                        - link "حول الشركاء في Meta Business Suite" [ref=e172] [cursor=pointer]:
+                          - /url: /business/help/695463587559330
+                        - link "حول مستخدمي النظام في Meta Business Suite" [ref=e173] [cursor=pointer]:
+                          - /url: /business/help/327596604689624
+                    - generic [ref=e174]:
+                      - button "الإعداد" [ref=e175] [cursor=pointer]:
+                        - heading "الإعداد" [level=3] [ref=e180]
+                      - generic [ref=e184]:
+                        - link "إضافة أشخاص إلى حافظة أعمال وتعيين أحد أصول النشاط التجاري" [ref=e185] [cursor=pointer]:
+                          - /url: /business/help/2169003770027706
+                        - link "تعيين أصول النشاط التجاري إلى الأشخاص في حافظة الأعمال الخاصة بك" [ref=e186] [cursor=pointer]:
+                          - /url: /business/help/325571851329683
+                        - link "منح الشركاء صلاحية الوصول إلى أصول النشاط التجاري في حافظة أعمالك" [ref=e187] [cursor=pointer]:
+                          - /url: /business/help/1717412048538897
+                        - link "مطالبة الشريك بمشاركة الأصول مع نشاطك التجاري" [ref=e188] [cursor=pointer]:
+                          - /url: /business/help/408759743051505
+                        - link "إضافة مستخدمي النظام إلى حافظة الأعمال الخاصة بك" [ref=e189] [cursor=pointer]:
+                          - /url: /business/help/503306463479099
+                  - generic [ref=e196]:
+                    - button "الإدارة" [ref=e197] [cursor=pointer]:
+                      - heading "الإدارة" [level=3] [ref=e202]
+                    - generic [ref=e206]:
+                      - link "أفضل الممارسات لمنح الأشخاص صلاحية الوصول إلى صفحتك في Meta Business Suite" [ref=e207] [cursor=pointer]:
+                        - /url: /business/help/591434521377961
+                      - link "إزالة الأشخاص من حافظة الأعمال الخاصة بك" [ref=e208] [cursor=pointer]:
+                        - /url: /business/help/353397428740939
+                      - link "إزالة الشركاء من حافظة الأعمال الخاصة بك" [ref=e209] [cursor=pointer]:
+                        - /url: /business/help/2222659621282858
+        - generic [ref=e214]:
+          - generic [ref=e219]:
+            - heading "احصل على آخر التحديثات من Meta للأعمال." [level=2] [ref=e220]
+            - paragraph [ref=e222]: أدخِل عنوان بريدك الإلكتروني حتى تصلك آخر التحديثات من Meta للأعمال، بما في ذلك الأخبار والمناسبات وتحديثات المنتجات.
+          - generic [ref=e231]:
+            - generic [ref=e233]:
+              - textbox "البريد الإلكتروني" [ref=e235]
+              - combobox "أدخل اسم بلد..." [ref=e240]
+              - paragraph [ref=e249]:
+                - text: بإرسال هذا النموذج، فإنك توافق على تلقي مراسلات إلكترونية ذات طبيعة تسويقية من Meta، بما في ذلك الأخبار والمناسبات والتحديثات ورسائل البريد الإلكتروني الترويجية. يمكنك التراجع عن موافقتك وإلغاء الاشتراك في هذه المراسلات في أي وقت، على سبيل المثال، عن طريق النقر على رابط إلغاء الاشتراك المضمّن في رسائل البريد الإلكتروني التي نرسلها لك. للحصول على مزيد من المعلومات بشأن كيفية تعامل Meta مع بياناتك، يُرجى قراءة
+                - link "سياسة البيانات" [ref=e250] [cursor=pointer]:
+                  - /url: /about/privacy
+                - text: .
+            - button "اشتراك" [ref=e253] [cursor=pointer]
+        - generic [ref=e261]:
+          - link "© 2026 Meta" [ref=e263] [cursor=pointer]:
+            - /url: https://www.facebook.com/
+          - generic [ref=e269]:
+            - generic [ref=e270]:
+              - link "حول فيسبوك" [ref=e271] [cursor=pointer]:
+                - /url: https://www.meta.com/about/?fbclid=IwZXh0bgNhZW0CMTEAYnJpZBExVDVmTkdvR3ZJWFBNY05BV3NydGMGYXBwX2lkDzQzNjc2MTc3OTc0NDYyMAABHjIjVug26c4zPJUv4zu4C_IJnCBJmZB_6HifYjl8LUFVuqu0g_YGgjsalWlT_aem_F4HdvsCnDcQGZH1TLP-6cg
+              - link "المطوّرون" [ref=e272] [cursor=pointer]:
+                - /url: https://developers.meta.com/?fbclid=IwZXh0bgNhZW0CMTEAYnJpZBExVDVmTkdvR3ZJWFBNY05BV3NydGMGYXBwX2lkDzQzNjc2MTc3OTc0NDYyMAABHvJubBXmUJ6bcbAH-_DsxY6TUCVovoo2RGXOaTDc1z-z7QlY038UD-6Oxt4E_aem_zuxqxVwbcvsqNiPVTJtkTg
+              - link "الوظائف" [ref=e273] [cursor=pointer]:
+                - /url: https://l.facebook.com/l.php?u=https%3A%2F%2Fwww.metacareers.com%2F%3Ffbclid%3DIwZXh0bgNhZW0CMTEAYnJpZBExVDVmTkdvR3ZJWFBNY05BV3NydGMGYXBwX2lkDzQzNjc2MTc3OTc0NDYyMAABHptpbmH5uqz_GW6APDVTjFKCG-vbTqmGw5C5bwxrp_XiU3-s7h5n87u9vNEe_aem_GKua7CdS5wZlcRIXKaXIBA&h=AUC0SmyHfptpkaRQjH4WtbbDYC7tygNzTYCkzUDyvtnUyiMTGdU0wiaYPm7fHokajcuO33rLokereh-DgUgAuWayP1rfoAJnkxHhEFc-J8t0b0cNC2upg6JmxRKVQ63ditz8dg
+              - link "الخصوصية" [ref=e274] [cursor=pointer]:
+                - /url: https://www.facebook.com/privacy/explanation
+              - link "ملفات تعريف الارتباط" [ref=e275] [cursor=pointer]:
+                - /url: https://www.facebook.com/help/cookies
+              - link "الشروط" [ref=e276] [cursor=pointer]:
+                - /url: https://www.facebook.com/policies/
+              - link "مركز المساعدة" [ref=e277] [cursor=pointer]:
+                - /url: https://www.facebook.com/business/help/
+            - generic [ref=e278]:
+              - button "العربية" [ref=e279] [cursor=pointer]
+              - button "English (US)" [ref=e280] [cursor=pointer]
+              - button "English (UK)" [ref=e281] [cursor=pointer]
+              - button "Español" [ref=e282] [cursor=pointer]
+              - button "Português (Brasil)" [ref=e283] [cursor=pointer]
+              - button "Français (France)" [ref=e284] [cursor=pointer]
+              - button "المزيد من اللغات" [ref=e285] [cursor=pointer]: المزيد من اللغات
+    - button "مساعد الأعمال من Meta AI" [ref=e290] [cursor=pointer]
+  - link "الترجمات" [ref=e299] [cursor=pointer]:
+    - /url: https://www.facebook.com/translations/?ref=trans_nub

@@ -1,0 +1,430 @@
+- generic [active]:
+  - generic:
+    - generic:
+      - iframe
+    - generic:
+      - iframe
+    - generic:
+      - iframe
+    - generic:
+      - iframe
+    - generic [ref=e1]:
+      - generic [ref=e4]:
+        - generic [ref=e5]:
+          - link "شعار Meta" [ref=e7] [cursor=pointer]:
+            - /url: /?no_redirect=true
+            - img "شعار Meta" [ref=e9]
+          - tablist [ref=e18]:
+            - link "تطبيقاتي" [ref=e19] [cursor=pointer]:
+              - /url: /apps/
+              - generic [ref=e22]: تطبيقاتي
+            - link "الإجراءات المطلوبة" [ref=e23] [cursor=pointer]:
+              - /url: /required-actions/
+              - generic [ref=e26]: الإجراءات المطلوبة
+            - tab "الوثائق" [ref=e27] [cursor=pointer]:
+              - generic [ref=e30]: الوثائق
+            - tab "الأدوات" [ref=e32] [cursor=pointer]:
+              - generic [ref=e35]: الأدوات
+            - tab "الدعم" [ref=e37] [cursor=pointer]:
+              - generic [ref=e40]: الدعم
+        - generic [ref=e42]:
+          - generic [ref=e43]:
+            - generic [ref=e49]: إدخال البحث
+            - textbox "إدخال البحث" [ref=e60]:
+              - /placeholder: بحث...
+          - link [ref=e63] [cursor=pointer]:
+            - /url: "#"
+          - link "Facebook" [ref=e68] [cursor=pointer]:
+            - /url: "#"
+            - img "Facebook" [ref=e73]
+      - generic [ref=e74]:
+        - generic [ref=e76]:
+          - generic [ref=e79]:
+            - generic [ref=e82]:
+              - generic [ref=e88]: Searchable selector for all apps
+              - combobox "Searchable selector for all apps Radix Auto Reply" [ref=e93] [cursor=pointer]:
+                - generic [ref=e103]: Radix Auto Reply
+            - navigation [ref=e106]:
+              - list [ref=e107]:
+                - listitem [ref=e108]:
+                  - button "لوحة المعلومات" [ref=e110] [cursor=pointer]
+                  - generic:
+                    - listitem:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - generic: لوحة المعلومات
+                - listitem [ref=e116]:
+                  - button "الإجراءات المطلوبة" [ref=e118] [cursor=pointer]
+                  - generic:
+                    - listitem:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - generic: الإجراءات المطلوبة
+                - listitem [ref=e124]:
+                  - button "حالات الاستخدام" [ref=e126] [cursor=pointer]
+                  - generic:
+                    - listitem:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - generic: حالات الاستخدام
+                - listitem [ref=e132]:
+                  - generic [ref=e133]:
+                    - button "تسجيل دخول فيسبوك للأعمال" [ref=e135] [cursor=pointer]
+                    - generic:
+                      - listitem:
+                        - generic:
+                          - generic:
+                            - generic:
+                              - generic: تسجيل دخول فيسبوك للأعمال
+                          - button "تبديل المجموعة" [ref=e141] [cursor=pointer]:
+                            - generic [ref=e144]: تبديل المجموعة
+                  - list [ref=e147]:
+                    - generic [ref=e148]:
+                      - button "الإعدادات" [ref=e150] [cursor=pointer]
+                      - generic:
+                        - listitem:
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic: الإعدادات
+                    - generic [ref=e155]:
+                      - button "البدء السريع" [ref=e157] [cursor=pointer]
+                      - generic:
+                        - listitem:
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic: البدء السريع
+                    - generic [ref=e162]:
+                      - button "عمليات التكوين" [ref=e164] [cursor=pointer]
+                      - generic:
+                        - listitem:
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic: عمليات التكوين
+                    - generic [ref=e169]:
+                      - button "القوالب" [ref=e171] [cursor=pointer]
+                      - generic:
+                        - listitem:
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic: القوالب
+                - listitem [ref=e176]:
+                  - generic [ref=e177]:
+                    - button "مراجعة" [expanded] [ref=e179] [cursor=pointer]
+                    - generic:
+                      - listitem:
+                        - generic:
+                          - generic:
+                            - generic:
+                              - generic: مراجعة
+                          - button "تبديل المجموعة" [ref=e185] [cursor=pointer]:
+                            - generic [ref=e188]: تبديل المجموعة
+                  - list [ref=e192]:
+                    - generic [ref=e193]:
+                      - button "الاختبار" [ref=e195] [cursor=pointer]
+                      - generic:
+                        - listitem:
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic: الاختبار
+                    - generic [ref=e200]:
+                      - button "التحقق" [ref=e202] [cursor=pointer]
+                      - generic:
+                        - listitem:
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic: التحقق
+                    - generic [ref=e207]:
+                      - button "مراجعة التطبيق" [ref=e209] [cursor=pointer]
+                      - generic:
+                        - listitem:
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic: مراجعة التطبيق
+                - listitem [ref=e214]:
+                  - button "نشر" [ref=e216] [cursor=pointer]:
+                    - generic [ref=e219]:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - generic: غير منشور
+                          - status: حالة نشر التطبيق
+                  - generic:
+                    - listitem:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - generic: نشر
+                        - generic:
+                          - generic:
+                            - generic:
+                              - generic: غير منشور
+                            - status: حالة نشر التطبيق
+          - generic [ref=e223]:
+            - navigation [ref=e224]:
+              - list [ref=e225]:
+                - listitem [ref=e226]:
+                  - generic [ref=e227]:
+                    - button "إعدادات التطبيق" [ref=e229] [cursor=pointer]
+                    - generic:
+                      - listitem:
+                        - generic:
+                          - generic:
+                            - generic:
+                              - generic: إعدادات التطبيق
+                          - button "تبديل المجموعة" [ref=e235] [cursor=pointer]:
+                            - generic [ref=e238]: تبديل المجموعة
+                  - list [ref=e241]:
+                    - generic [ref=e242]:
+                      - button "أساسي" [ref=e244] [cursor=pointer]
+                      - generic:
+                        - listitem:
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic: أساسي
+                    - generic [ref=e249]:
+                      - button "إعدادات متقدمة" [ref=e251] [cursor=pointer]
+                      - generic:
+                        - listitem:
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic: إعدادات متقدمة
+                - listitem [ref=e256]:
+                  - generic [ref=e257]:
+                    - button "الأدوار بالتطبيق" [ref=e259] [cursor=pointer]
+                    - generic:
+                      - listitem:
+                        - generic:
+                          - generic:
+                            - generic:
+                              - generic: الأدوار بالتطبيق
+                          - button "تبديل المجموعة" [ref=e265] [cursor=pointer]:
+                            - generic [ref=e268]: تبديل المجموعة
+                  - list [ref=e271]:
+                    - generic [ref=e272]:
+                      - button "الأدوار" [ref=e274] [cursor=pointer]
+                      - generic:
+                        - listitem:
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic: الأدوار
+                    - generic [ref=e279]:
+                      - button "الحسابات الاختبارية" [ref=e281] [cursor=pointer]
+                      - generic:
+                        - listitem:
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic: الحسابات الاختبارية
+                - listitem [ref=e286]:
+                  - button "البريد الوارد للتنبيهات" [ref=e288] [cursor=pointer]
+                  - generic:
+                    - listitem:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - generic: البريد الوارد للتنبيهات
+            - separator [ref=e294]
+            - generic [ref=e295]:
+              - button "سجل النشاطات" [ref=e296] [cursor=pointer]:
+                - generic [ref=e299]: سجل النشاطات
+              - button "مساعدة" [ref=e303] [cursor=pointer]:
+                - generic [ref=e306]: مساعدة
+              - button "فتح/إغلاق التنقل الجانبي" [ref=e311] [cursor=pointer]:
+                - generic [ref=e314]: فتح/إغلاق التنقل الجانبي
+        - generic [ref=e327]:
+          - generic [ref=e329]:
+            - heading "عمليات الإرسال إلى مراجعة التطبيق" [level=1] [ref=e330]
+            - generic [ref=e331]:
+              - text: عند تقديم طلبك، سينظر مراجعونا في كل شيء في التطبيق للتأكد من إعداده لتوفير تجربة آمنة وعالية الجودة للمستخدمين لديك. سنراجع الطلبات الجديدة وتلك التي تمت الموافقة عليها سابقًا للتأكد من اتباع الاستخدام لسياساتنا. وسنراجع أيضًا أيقونة تطبيقك ورابط سياسة الخصوصية والإعدادات الأخرى.
+              - link "حول مراجعة التطبيقات" [ref=e332] [cursor=pointer]:
+                - /url: /docs/resp-plat-initiatives/appreview/
+          - generic [ref=e335]:
+            - generic [ref=e338]:
+              - heading "لم يتم الإرسال" [level=1] [ref=e339]
+              - generic [ref=e340]:
+                - heading "طلبات جديدة" [level=3] [ref=e341]
+                - generic [ref=e343]:
+                  - generic [ref=e345]:
+                    - generic [ref=e346]: instagram_manage_messages
+                    - generic [ref=e347]:
+                      - link "إرشادات الاستخدام" [ref=e350] [cursor=pointer]:
+                        - /url: "#"
+                      - link "في حالة استخدام واحدة" [ref=e353] [cursor=pointer]:
+                        - /url: "#"
+                      - button "إزالة" [ref=e354] [cursor=pointer]:
+                        - generic [ref=e357]: إزالة
+                  - generic [ref=e361]:
+                    - separator [ref=e362]
+                    - generic [ref=e363]:
+                      - generic [ref=e364]: instagram_business_basic
+                      - generic [ref=e365]:
+                        - link "إرشادات الاستخدام" [ref=e368] [cursor=pointer]:
+                          - /url: "#"
+                        - link "في حالة استخدام واحدة" [ref=e371] [cursor=pointer]:
+                          - /url: "#"
+                        - button "إزالة" [ref=e372] [cursor=pointer]:
+                          - generic [ref=e375]: إزالة
+                  - generic [ref=e379]:
+                    - separator [ref=e380]
+                    - generic [ref=e381]:
+                      - generic [ref=e382]: instagram_business_manage_messages
+                      - generic [ref=e383]:
+                        - link "إرشادات الاستخدام" [ref=e386] [cursor=pointer]:
+                          - /url: "#"
+                        - link "في حالة استخدام واحدة" [ref=e389] [cursor=pointer]:
+                          - /url: "#"
+                        - button "إزالة" [ref=e390] [cursor=pointer]:
+                          - generic [ref=e393]: إزالة
+                  - generic [ref=e397]:
+                    - separator [ref=e398]
+                    - generic [ref=e399]:
+                      - generic [ref=e400]: pages_show_list
+                      - generic [ref=e401]:
+                        - link "إرشادات الاستخدام" [ref=e404] [cursor=pointer]:
+                          - /url: "#"
+                        - link "في حالة استخدام واحدة" [ref=e407] [cursor=pointer]:
+                          - /url: "#"
+                        - button "إزالة" [ref=e408] [cursor=pointer]:
+                          - generic [ref=e411]: إزالة
+                  - generic [ref=e415]:
+                    - separator [ref=e416]
+                    - generic [ref=e417]:
+                      - generic [ref=e418]: pages_manage_metadata
+                      - generic [ref=e419]:
+                        - link "إرشادات الاستخدام" [ref=e422] [cursor=pointer]:
+                          - /url: "#"
+                        - link "في حالة استخدام واحدة" [ref=e425] [cursor=pointer]:
+                          - /url: "#"
+                        - button "إزالة" [ref=e426] [cursor=pointer]:
+                          - generic [ref=e429]: إزالة
+                  - generic [ref=e433]:
+                    - separator [ref=e434]
+                    - generic [ref=e435]:
+                      - generic [ref=e436]: instagram_manage_comments
+                      - generic [ref=e437]:
+                        - link "إرشادات الاستخدام" [ref=e440] [cursor=pointer]:
+                          - /url: "#"
+                        - link "في حالة استخدام واحدة" [ref=e443] [cursor=pointer]:
+                          - /url: "#"
+                        - button "إزالة" [ref=e444] [cursor=pointer]:
+                          - generic [ref=e447]: إزالة
+                  - generic [ref=e451]:
+                    - separator [ref=e452]
+                    - generic [ref=e453]:
+                      - generic [ref=e454]: pages_messaging
+                      - generic [ref=e455]:
+                        - link "إرشادات الاستخدام" [ref=e458] [cursor=pointer]:
+                          - /url: "#"
+                        - link "في حالة استخدام واحدة" [ref=e461] [cursor=pointer]:
+                          - /url: "#"
+                        - button "إزالة" [ref=e462] [cursor=pointer]:
+                          - generic [ref=e465]: إزالة
+                  - generic [ref=e469]:
+                    - separator [ref=e470]
+                    - generic [ref=e471]:
+                      - generic [ref=e472]: instagram_business_manage_insights
+                      - generic [ref=e473]:
+                        - link "إرشادات الاستخدام" [ref=e476] [cursor=pointer]:
+                          - /url: "#"
+                        - link "في حالة استخدام واحدة" [ref=e479] [cursor=pointer]:
+                          - /url: "#"
+                        - button "إزالة" [ref=e480] [cursor=pointer]:
+                          - generic [ref=e483]: إزالة
+                  - generic [ref=e487]:
+                    - separator [ref=e488]
+                    - generic [ref=e489]:
+                      - generic [ref=e490]: business_management
+                      - generic [ref=e491]:
+                        - link "إرشادات الاستخدام" [ref=e494] [cursor=pointer]:
+                          - /url: "#"
+                        - link "في حالة استخدام واحدة" [ref=e497] [cursor=pointer]:
+                          - /url: "#"
+                        - button "إزالة" [ref=e498] [cursor=pointer]:
+                          - generic [ref=e501]: إزالة
+                  - generic [ref=e505]:
+                    - separator [ref=e506]
+                    - generic [ref=e507]:
+                      - generic [ref=e508]: instagram_business_manage_comments
+                      - generic [ref=e509]:
+                        - link "إرشادات الاستخدام" [ref=e512] [cursor=pointer]:
+                          - /url: "#"
+                        - link "في حالة استخدام واحدة" [ref=e515] [cursor=pointer]:
+                          - /url: "#"
+                        - button "إزالة" [ref=e516] [cursor=pointer]:
+                          - generic [ref=e519]: إزالة
+                  - generic [ref=e523]:
+                    - separator [ref=e524]
+                    - generic [ref=e525]:
+                      - generic [ref=e526]: ads_read
+                      - generic [ref=e527]:
+                        - link "إرشادات الاستخدام" [ref=e530] [cursor=pointer]:
+                          - /url: "#"
+                        - link "في حالة استخدام واحدة" [ref=e533] [cursor=pointer]:
+                          - /url: "#"
+                        - button "إزالة" [ref=e534] [cursor=pointer]:
+                          - generic [ref=e537]: إزالة
+                  - generic [ref=e541]:
+                    - separator [ref=e542]
+                    - generic [ref=e543]:
+                      - generic [ref=e544]: pages_read_engagement
+                      - generic [ref=e545]:
+                        - link "إرشادات الاستخدام" [ref=e548] [cursor=pointer]:
+                          - /url: "#"
+                        - link "في حالة استخدام واحدة" [ref=e551] [cursor=pointer]:
+                          - /url: "#"
+                        - button "إزالة" [ref=e552] [cursor=pointer]:
+                          - generic [ref=e555]: إزالة
+                  - generic [ref=e559]:
+                    - separator [ref=e560]
+                    - generic [ref=e561]:
+                      - generic [ref=e562]: public_profile
+                      - generic [ref=e563]:
+                        - link "إرشادات الاستخدام" [ref=e566] [cursor=pointer]:
+                          - /url: "#"
+                        - link "في حالة استخدام واحدة" [ref=e569] [cursor=pointer]:
+                          - /url: "#"
+                        - button "إزالة" [ref=e570] [cursor=pointer]:
+                          - generic [ref=e573]: إزالة
+                  - generic [ref=e577]:
+                    - separator [ref=e578]
+                    - generic [ref=e579]:
+                      - generic [ref=e580]: ads_management
+                      - generic [ref=e581]:
+                        - link "إرشادات الاستخدام" [ref=e584] [cursor=pointer]:
+                          - /url: "#"
+                        - link "في حالة استخدام واحدة" [ref=e587] [cursor=pointer]:
+                          - /url: "#"
+                        - button "إزالة" [ref=e588] [cursor=pointer]:
+                          - generic [ref=e591]: إزالة
+                  - generic [ref=e595]:
+                    - separator [ref=e596]
+                    - generic [ref=e597]:
+                      - generic [ref=e598]: Marketing API Access Tier
+                      - generic [ref=e599]:
+                        - link "إرشادات الاستخدام" [ref=e602] [cursor=pointer]:
+                          - /url: "#"
+                        - link "في حالة استخدام واحدة" [ref=e605] [cursor=pointer]:
+                          - /url: "#"
+                        - button "إزالة" [ref=e606] [cursor=pointer]:
+                          - generic [ref=e609]: إزالة
+            - generic [ref=e613]:
+              - generic [ref=e615]:
+                - text: لإزالة الأذونات والميزات من تطبيقك، ليس فقط مراجعة التطبيق،
+                - link "تخصيص حالات الاستخدام" [ref=e616] [cursor=pointer]:
+                  - /url: "#"
+              - link "التالي" [ref=e618] [cursor=pointer]:
+                - /url: /apps/4353700201609567/app-review/submissions/?submission_id=4353732011606386
+                - generic [ref=e622]: التالي

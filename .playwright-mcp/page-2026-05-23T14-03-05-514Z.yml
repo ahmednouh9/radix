@@ -1,0 +1,205 @@
+- generic [ref=e10]:
+  - navigation "التنقل داخل الإعدادات" [ref=e11]:
+    - generic [ref=e12]:
+      - heading "الإعدادات والخصوصية" [level=1] [ref=e20]
+      - generic [ref=e27]:
+        - generic:
+          - img
+        - combobox "بحث في الإعدادات" [ref=e28]
+      - generic [ref=e35]:
+        - heading "الإعدادات والخصوصية" [level=2] [ref=e47]:
+          - generic [ref=e49]: الإعدادات والخصوصية
+        - generic [ref=e53]:
+          - generic [ref=e60]:
+            - heading "التفضيلات" [level=2] [ref=e65]:
+              - generic [ref=e67]: التفضيلات
+            - generic [ref=e72]: يمكنك تخصيص تجربتك على فيسبوك.
+          - link "إعدادات تفضيلات التفاعلات" [ref=e79] [cursor=pointer]:
+            - /url: https://www.facebook.com/settings/?tab=reaction_preferences
+            - generic [ref=e81]:
+              - img [ref=e83]
+              - generic [ref=e88]: تفضيلات التفاعلات
+          - link "إعدادات الإشعارات" [ref=e95] [cursor=pointer]:
+            - /url: https://www.facebook.com/settings/?tab=notifications
+            - generic [ref=e97]:
+              - img [ref=e99]
+              - generic [ref=e104]: الإشعارات
+          - link "إعدادات إمكانية الوصول" [ref=e111] [cursor=pointer]:
+            - /url: https://www.facebook.com/settings/?tab=accessibility
+            - generic [ref=e113]:
+              - img [ref=e115]
+              - generic [ref=e120]: إمكانية الوصول
+          - link "إعدادات الوسائط" [ref=e127] [cursor=pointer]:
+            - /url: https://www.facebook.com/settings/?tab=videos
+            - generic [ref=e129]:
+              - img [ref=e131]
+              - generic [ref=e136]: الوسائط
+          - link "إعدادات الوضع المظلم" [ref=e143] [cursor=pointer]:
+            - /url: https://www.facebook.com/settings/?tab=dark_mode_category
+            - generic [ref=e145]:
+              - img [ref=e147]
+              - generic [ref=e152]: الوضع المظلم
+        - generic [ref=e154]:
+          - generic [ref=e161]:
+            - heading "الجمهور وإمكانية الرؤية" [level=2] [ref=e166]:
+              - generic [ref=e168]: الجمهور وإمكانية الرؤية
+            - generic [ref=e173]: يمكنك التحكم في الأشخاص الذين يمكنهم رؤية ما تشاركه على فيسبوك.
+          - link "تفاصيل الصفحة" [ref=e181] [cursor=pointer]:
+            - /url: https://www.facebook.com/me/about/
+            - generic [ref=e183]:
+              - img [ref=e185]
+              - generic [ref=e190]: تفاصيل الصفحة
+          - link "إعدادات طريقة عثور الأشخاص عليك والتواصل معك" [ref=e197] [cursor=pointer]:
+            - /url: https://www.facebook.com/settings/?tab=how_people_find_and_contact_you
+            - generic [ref=e199]:
+              - img [ref=e201]
+              - generic [ref=e206]: طريقة عثور الأشخاص عليك والتواصل معك
+          - link "إعدادات المنشورات" [ref=e213] [cursor=pointer]:
+            - /url: https://www.facebook.com/settings/?tab=posts
+            - generic [ref=e215]:
+              - img [ref=e217]
+              - generic [ref=e222]: المنشورات
+          - link "إعدادات القصص" [ref=e229] [cursor=pointer]:
+            - /url: https://www.facebook.com/settings/?tab=stories
+            - generic [ref=e231]:
+              - img [ref=e233]
+              - generic [ref=e238]: القصص
+          - link "إعدادات إعداد الصفحة" [ref=e245] [cursor=pointer]:
+            - /url: https://www.facebook.com/settings/?tab=pages
+            - generic [ref=e247]:
+              - img [ref=e249]
+              - generic [ref=e254]: إعداد الصفحة
+          - link "إعدادات ريلز" [ref=e261] [cursor=pointer]:
+            - /url: https://www.facebook.com/settings/?tab=reels
+            - generic [ref=e263]:
+              - img [ref=e265]
+              - generic [ref=e270]: ريلز
+          - link "إعدادات المتابعون والمحتوى العام" [ref=e277] [cursor=pointer]:
+            - /url: https://www.facebook.com/settings/?tab=followers_and_public_content
+            - generic [ref=e279]:
+              - img [ref=e281]
+              - generic [ref=e286]: المتابعون والمحتوى العام
+          - link "إعدادات الصفحة والإشارات" [ref=e293] [cursor=pointer]:
+            - /url: https://www.facebook.com/settings/?tab=profile_and_tagging
+            - generic [ref=e295]:
+              - img [ref=e297]
+              - generic [ref=e302]: الصفحة والإشارات
+          - link "إعدادات الحظر" [ref=e309] [cursor=pointer]:
+            - /url: https://www.facebook.com/settings/?tab=blocking
+            - generic [ref=e311]:
+              - img [ref=e313]
+              - generic [ref=e318]: الحظر
+        - generic [ref=e320]:
+          - generic [ref=e327]:
+            - heading "عمليات الدفع" [level=2] [ref=e332]:
+              - generic [ref=e334]: عمليات الدفع
+            - generic [ref=e339]: يمكنك إدارة معلومات ونشاطات الدفع.
+          - link "عمليات الدفع الخاصة بالإعلانات" [ref=e347] [cursor=pointer]:
+            - /url: https://www.facebook.com/billing_hub/payment_settings/?asset_id=313821344526178&placement=fb_payment_settings
+            - generic [ref=e349]:
+              - img [ref=e351]
+              - generic [ref=e356]: عمليات الدفع الخاصة بالإعلانات
+        - generic [ref=e358]:
+          - generic [ref=e365]:
+            - heading "الأذونات" [level=2] [ref=e370]:
+              - generic [ref=e372]: الأذونات
+            - generic [ref=e377]: يمكنك إدارة المعلومات التي يستخدمها فيسبوك لتحسين تجربتك، مثل اهتماماتك وموقعك.
+          - link "إعدادات الحسابات المرتبطة" [ref=e384] [cursor=pointer]:
+            - /url: https://www.facebook.com/settings/?tab=linked_profiles
+            - generic [ref=e386]:
+              - img [ref=e388]
+              - generic [ref=e393]: الحسابات المرتبطة
+          - link "النشاط خارج فيسبوك" [ref=e401] [cursor=pointer]:
+            - /url: https://www.facebook.com/off_facebook_activity/
+            - generic [ref=e403]:
+              - img [ref=e405]
+              - generic [ref=e410]: النشاط خارج فيسبوك
+        - generic [ref=e412]:
+          - generic [ref=e419]:
+            - heading "معلوماتك" [level=2] [ref=e424]:
+              - generic [ref=e426]: معلوماتك
+            - generic [ref=e431]: يمكنك الوصول إلى سجل نشاطاتك وعناصر التحكم لإدارة معلوماتك على فيسبوك.
+          - link "سجل النشاطات" [ref=e439] [cursor=pointer]:
+            - /url: https://www.facebook.com/61565410412344/allactivity/?category_key=ALL&entry_point=settings_yfi&should_load_landing_page=1
+            - generic [ref=e441]:
+              - img [ref=e443]
+              - generic [ref=e448]: سجل النشاطات
+          - link "الوصول والتحكم" [ref=e456] [cursor=pointer]:
+            - /url: https://www.facebook.com/deactivate_delete_account/
+            - generic [ref=e458]:
+              - img [ref=e460]
+              - generic [ref=e465]: الوصول والتحكم
+          - link "تنزيل معلوماتك" [ref=e473] [cursor=pointer]:
+            - /url: https://www.facebook.com/dyi/?referrer=www_settings
+            - generic [ref=e475]:
+              - img [ref=e477]
+              - generic [ref=e482]: تنزيل معلوماتك
+        - generic [ref=e484]:
+          - heading "الموارد" [level=2] [ref=e496]:
+            - generic [ref=e498]: الموارد
+          - link "موارد الصحفيين" [ref=e508] [cursor=pointer]:
+            - /url: https://www.facebook.com/journalist_registration/
+            - generic [ref=e510]:
+              - img [ref=e512]
+              - generic [ref=e517]: موارد الصحفيين
+        - generic [ref=e519]:
+          - heading "معايير المجتمع والسياسات القانونية" [level=2] [ref=e531]:
+            - generic [ref=e533]: معايير المجتمع والسياسات القانونية
+          - link "شروط الخدمة" [ref=e543] [cursor=pointer]:
+            - /url: https://www.facebook.com/policies_center/?ref=pf
+            - generic [ref=e545]:
+              - img [ref=e547]
+              - generic [ref=e552]: شروط الخدمة
+          - link "سياسة الخصوصية" [ref=e560] [cursor=pointer]:
+            - /url: https://www.facebook.com/privacy/policy/?entry_point=facebook_settings
+            - generic [ref=e562]:
+              - img [ref=e564]
+              - generic [ref=e569]: سياسة الخصوصية
+          - link "سياسة ملفات تعريف الارتباط" [ref=e577] [cursor=pointer]:
+            - /url: https://www.facebook.com/privacy/policies/cookies/?entry_point=facebook_settings
+            - generic [ref=e579]:
+              - img [ref=e581]
+              - generic [ref=e586]: سياسة ملفات تعريف الارتباط
+          - link "معايير المجتمع" [ref=e594] [cursor=pointer]:
+            - /url: https://l.facebook.com/l.php?u=https%3A%2F%2Ftransparency.meta.com%2Fpolicies%2Fcommunity-standards%2F%3Ffbclid%3DIwZXh0bgNhZW0CMTAAYnJpZBExRlQ1Q0MxNXVKTFBzUWJEZXNydGMGYXBwX2lkEDIyMjAzOTE3ODgyMDA4OTIAAR79OtoHNJbSzaRHIzUxHAFfU0XZCrLK_O06BwtIi7Kj84LMfIDi3WiCSGAR8A_aem_blEaYHx_WG6ovYWIUM7ovA&h=AUD4K8CwAdzT1f6OkGVvCY_28dFtlaMMAD3mE4OJXSmEU29fdsJ2mnM4Z2iVsgmYsBvj2A3276mVC5DSzpWsMAdBNAgQhY-KbrXBnulJ8Sbv0VccCofgjSIzzWE5WhiH6kCFEw
+            - generic [ref=e596]:
+              - img [ref=e598]
+              - generic [ref=e603]: معايير المجتمع
+  - main "الإعدادات" [ref=e604]:
+    - generic [ref=e606]:
+      - generic [ref=e612]:
+        - heading "العثور على الإعداد الذي تحتاج إليه" [level=2] [ref=e622]:
+          - generic [ref=e624]: العثور على الإعداد الذي تحتاج إليه
+        - textbox "مربع إدخال البحث للإعدادات" [ref=e627]:
+          - /placeholder: بحث في الإعدادات
+      - generic [ref=e629]:
+        - generic [ref=e632]:
+          - generic [ref=e633]: الإعدادات الأكثر زيارة
+          - generic [ref=e635]:
+            - link "الحظر يمكنك مراجعة الأشخاص الذين سبق لك حظرهم أو إضافة شخص إلى قائمة الحظر." [ref=e638] [cursor=pointer]:
+              - /url: https://www.facebook.com/settings/?tab=blocking
+              - generic [ref=e648]:
+                - generic [ref=e651]: الحظر
+                - generic [ref=e654]: يمكنك مراجعة الأشخاص الذين سبق لك حظرهم أو إضافة شخص إلى قائمة الحظر.
+            - link "سجل النشاطات يمكنك عرض وإدارة نشاطاتك على فيسبوك." [ref=e657] [cursor=pointer]:
+              - /url: https://www.facebook.com/61565410412344/allactivity/?category_key=ALL&entry_point=settings_yfi&should_load_landing_page=1
+              - generic [ref=e667]:
+                - generic [ref=e670]: سجل النشاطات
+                - generic [ref=e673]: يمكنك عرض وإدارة نشاطاتك على فيسبوك.
+            - link "الوضع المظلم" [ref=e676] [cursor=pointer]:
+              - /url: https://www.facebook.com/settings/?tab=dark_mode_category
+              - generic [ref=e689]: الوضع المظلم
+        - generic [ref=e693]:
+          - heading "هل تبحث عن شيء آخر؟" [level=2] [ref=e703]:
+            - generic [ref=e705]: هل تبحث عن شيء آخر؟
+          - generic [ref=e707]:
+            - link "مركز الخصوصية تعرف على كيفية إدارة خصوصيتك والتحكم فيها على مستوى منتجات Meta." [ref=e709] [cursor=pointer]:
+              - /url: /privacy/center/?entry_point=facebook_settings
+              - generic [ref=e718]:
+                - generic [ref=e720]: مركز الخصوصية
+                - generic [ref=e722]: تعرف على كيفية إدارة خصوصيتك والتحكم فيها على مستوى منتجات Meta.
+            - link "مركز مساعدة فيسبوك تعرف على المزيد عن تجربة الإعدادات المحدّثة التي نوفرها على فيسبوك." [ref=e726] [cursor=pointer]:
+              - /url: https://www.facebook.com/help/2127174237420552
+              - generic [ref=e735]:
+                - generic [ref=e737]: مركز مساعدة فيسبوك
+                - generic [ref=e739]: تعرف على المزيد عن تجربة الإعدادات المحدّثة التي نوفرها على فيسبوك.

@@ -1,0 +1,164 @@
+- generic [ref=e2]:
+  - generic:
+    - iframe
+  - generic:
+    - iframe
+  - generic:
+    - iframe
+  - generic:
+    - iframe
+  - generic [ref=e3]:
+    - navigation "أساسي" [ref=e7]:
+      - generic [ref=e14]:
+        - link "الصفحة الرئيسية في Meta" [ref=e17] [cursor=pointer]:
+          - /url: https://developers.facebook.com/
+          - img "شعار التنقل" [ref=e18]
+        - list [ref=e22]:
+          - listitem [ref=e23]:
+            - generic [ref=e25]:
+              - button "الإنشاء معنا" [ref=e26] [cursor=pointer]:
+                - generic [ref=e27]: الإنشاء معنا
+              - generic:
+                - img
+          - listitem [ref=e28]:
+            - link "المستندات" [ref=e31] [cursor=pointer]:
+              - /url: /docs/
+              - generic [ref=e32]: المستندات
+          - listitem [ref=e33]:
+            - link "المدونة" [ref=e36] [cursor=pointer]:
+              - /url: /blog/
+              - generic [ref=e37]: المدونة
+          - listitem [ref=e38]:
+            - generic [ref=e40]:
+              - button "الموارد" [ref=e41] [cursor=pointer]:
+                - generic [ref=e42]: الموارد
+              - generic:
+                - img
+          - listitem [ref=e43]:
+            - generic [ref=e45]:
+              - button "مراكز المطوّرين" [ref=e46] [cursor=pointer]:
+                - generic [ref=e47]: مراكز المطوّرين
+              - generic:
+                - img
+        - generic [ref=e51]:
+          - link "تطبيقاتي" [ref=e52] [cursor=pointer]:
+            - /url: /apps/
+          - button "بحث" [ref=e53] [cursor=pointer]:
+            - img "بحث" [ref=e54]
+    - main [ref=e58]:
+      - generic [ref=e62]:
+        - generic [ref=e63]: عذرًا، قد يكون الرابط الذي تابعته معطّلاً أو قد تمت إزالة الصفحة.
+        - link "بحث عن ‏‎apps 4353700201609567 permissions‎‏ على developers.facebook.com" [ref=e65] [cursor=pointer]:
+          - /url: https://developers.facebook.com/search/?q=apps+4353700201609567+permissions&notfound=1
+          - generic [ref=e66]:
+            - text: بحث عن ‏‎
+            - strong [ref=e67]: apps 4353700201609567 permissions
+            - text: ‎‏ على developers.facebook.com
+    - contentinfo [ref=e71]:
+      - generic [ref=e72]:
+        - separator [ref=e73]
+        - generic [ref=e75]:
+          - generic [ref=e77]:
+            - generic [ref=e79]:
+              - img "Meta" [ref=e81]
+              - list [ref=e83]:
+                - listitem [ref=e84]:
+                  - link "Facebook" [ref=e85] [cursor=pointer]:
+                    - /url: https://www.facebook.com/MetaforDevelopers
+                    - img "Facebook" [ref=e86]
+                - listitem [ref=e87]:
+                  - link "Instagram" [ref=e88] [cursor=pointer]:
+                    - /url: https://l.facebook.com/l.php?u=https%3A%2F%2Fwww.instagram.com%2Fmetafordevelopers%2F%3Ffbclid%3DIwZXh0bgNhZW0CMTAAYnJpZBExVDVmTkdvR3ZJWFBNY05BV3NydGMGYXBwX2lkATAAAR4Qa9YmyY_lk_ZlzuF66uwZw4kiob0BxMZbkgz6SGBI7Qmci8cql4cAuZfy1A_aem_a6IP1FBpgQJBwL-KBjY6dQ&h=AUBwvxM3F9cV4wLNWddU3qz01_-IVAHOcjZOAD3_xMCt_9FjYVCmJwbJtXsG8Gvog5dvConskh6E0Xp5zKXptAsr5Or593fv4yWd7qUwZnluCG55oU3bxET4xDzoiM4RKLTvPg
+                    - img "Instagram" [ref=e89]
+                - listitem [ref=e90]:
+                  - link "X" [ref=e91] [cursor=pointer]:
+                    - /url: https://l.facebook.com/l.php?u=https%3A%2F%2Ftwitter.com%2Fmetafordevs%3Ffbclid%3DIwZXh0bgNhZW0CMTAAYnJpZBExVDVmTkdvR3ZJWFBNY05BV3NydGMGYXBwX2lkATAAAR52czsseySow3jp1mSMGb3UYlw9SnZ0luEq9bdjsafM9R_QkaMU1MTsHXlMkg_aem_bEJfm1s-mIZfr_2NpJF0dw&h=AUBwvxM3F9cV4wLNWddU3qz01_-IVAHOcjZOAD3_xMCt_9FjYVCmJwbJtXsG8Gvog5dvConskh6E0Xp5zKXptAsr5Or593fv4yWd7qUwZnluCG55oU3bxET4xDzoiM4RKLTvPg
+                    - img "X" [ref=e92]
+                - listitem [ref=e93]:
+                  - link "LinkedIn" [ref=e94] [cursor=pointer]:
+                    - /url: https://l.facebook.com/l.php?u=https%3A%2F%2Fwww.linkedin.com%2Fshowcase%2Fmeta-for-developers%2F%3Ffbclid%3DIwZXh0bgNhZW0CMTAAYnJpZBExVDVmTkdvR3ZJWFBNY05BV3NydGMGYXBwX2lkATAAAR7vH4c7XegHgNaajv5f9JaA-Lj5UtTuVUmdJSrREGxGbHJRnzsiTXqtTpM76g_aem_EgrR2OqUUtew83ai8zAKZA&h=AUBwvxM3F9cV4wLNWddU3qz01_-IVAHOcjZOAD3_xMCt_9FjYVCmJwbJtXsG8Gvog5dvConskh6E0Xp5zKXptAsr5Or593fv4yWd7qUwZnluCG55oU3bxET4xDzoiM4RKLTvPg
+                    - img "LinkedIn" [ref=e95]
+                - listitem [ref=e96]:
+                  - link "YouTube" [ref=e97] [cursor=pointer]:
+                    - /url: https://l.facebook.com/l.php?u=https%3A%2F%2Fwww.youtube.com%2FMetaDevelopers%2F%3Ffbclid%3DIwZXh0bgNhZW0CMTAAYnJpZBExVDVmTkdvR3ZJWFBNY05BV3NydGMGYXBwX2lkATAAAR7AUF0x-dw0iBX0CWnocwx2JKFQuPHthYpZUKhCOlZob0Mc2POkNHUzoVhQ0Q_aem_WV9jFQj5onjctTlUK3gOVQ&h=AUBwvxM3F9cV4wLNWddU3qz01_-IVAHOcjZOAD3_xMCt_9FjYVCmJwbJtXsG8Gvog5dvConskh6E0Xp5zKXptAsr5Or593fv4yWd7qUwZnluCG55oU3bxET4xDzoiM4RKLTvPg
+                    - img "YouTube" [ref=e98]
+            - generic [ref=e100]:
+              - generic [ref=e103]:
+                - heading "Build with Meta" [level=2] [ref=e104]:
+                  - generic [ref=e105]: Build with Meta
+                - list [ref=e106]:
+                  - listitem [ref=e107]:
+                    - link "AI" [ref=e109] [cursor=pointer]:
+                      - /url: https://l.facebook.com/l.php?u=https%3A%2F%2Fwww.llama.com%2F%3Ffbclid%3DIwZXh0bgNhZW0CMTAAYnJpZBExVDVmTkdvR3ZJWFBNY05BV3NydGMGYXBwX2lkATAAAR52czsseySow3jp1mSMGb3UYlw9SnZ0luEq9bdjsafM9R_QkaMU1MTsHXlMkg_aem_bEJfm1s-mIZfr_2NpJF0dw&h=AUBwvxM3F9cV4wLNWddU3qz01_-IVAHOcjZOAD3_xMCt_9FjYVCmJwbJtXsG8Gvog5dvConskh6E0Xp5zKXptAsr5Or593fv4yWd7qUwZnluCG55oU3bxET4xDzoiM4RKLTvPg
+                  - listitem [ref=e110]:
+                    - link "Meta Horizon" [ref=e112] [cursor=pointer]:
+                      - /url: https://l.facebook.com/l.php?u=https%3A%2F%2Fdevelopers.meta.com%2Fhorizon%2F%3Ffbclid%3DIwZXh0bgNhZW0CMTAAYnJpZBExVDVmTkdvR3ZJWFBNY05BV3NydGMGYXBwX2lkATAAAR7vH4c7XegHgNaajv5f9JaA-Lj5UtTuVUmdJSrREGxGbHJRnzsiTXqtTpM76g_aem_EgrR2OqUUtew83ai8zAKZA&h=AUBwvxM3F9cV4wLNWddU3qz01_-IVAHOcjZOAD3_xMCt_9FjYVCmJwbJtXsG8Gvog5dvConskh6E0Xp5zKXptAsr5Or593fv4yWd7qUwZnluCG55oU3bxET4xDzoiM4RKLTvPg
+                  - listitem [ref=e113]:
+                    - link "Social technologies" [ref=e115] [cursor=pointer]:
+                      - /url: /social-technologies/
+                  - listitem [ref=e116]:
+                    - link "Wearables" [ref=e118] [cursor=pointer]:
+                      - /url: https://l.facebook.com/l.php?u=https%3A%2F%2Fdevelopers.meta.com%2Fwearables%2F%3Ffbclid%3DIwZXh0bgNhZW0CMTAAYnJpZBExVDVmTkdvR3ZJWFBNY05BV3NydGMGYXBwX2lkATAAAR7AUF0x-dw0iBX0CWnocwx2JKFQuPHthYpZUKhCOlZob0Mc2POkNHUzoVhQ0Q_aem_WV9jFQj5onjctTlUK3gOVQ&h=AUBwvxM3F9cV4wLNWddU3qz01_-IVAHOcjZOAD3_xMCt_9FjYVCmJwbJtXsG8Gvog5dvConskh6E0Xp5zKXptAsr5Or593fv4yWd7qUwZnluCG55oU3bxET4xDzoiM4RKLTvPg
+              - generic [ref=e121]:
+                - heading "News" [level=2] [ref=e122]:
+                  - generic [ref=e123]: News
+                - list [ref=e124]:
+                  - listitem [ref=e125]:
+                    - link "Meta for Developers" [ref=e127] [cursor=pointer]:
+                      - /url: https://l.facebook.com/l.php?u=https%3A%2F%2Fdevelopers.meta.com%2Fblog%2F%3Ffbclid%3DIwZXh0bgNhZW0CMTAAYnJpZBExVDVmTkdvR3ZJWFBNY05BV3NydGMGYXBwX2lkATAAAR7AUF0x-dw0iBX0CWnocwx2JKFQuPHthYpZUKhCOlZob0Mc2POkNHUzoVhQ0Q_aem_WV9jFQj5onjctTlUK3gOVQ&h=AUBwvxM3F9cV4wLNWddU3qz01_-IVAHOcjZOAD3_xMCt_9FjYVCmJwbJtXsG8Gvog5dvConskh6E0Xp5zKXptAsr5Or593fv4yWd7qUwZnluCG55oU3bxET4xDzoiM4RKLTvPg
+                  - listitem [ref=e128]:
+                    - link "Blog" [ref=e130] [cursor=pointer]:
+                      - /url: /blog/
+                  - listitem [ref=e131]:
+                    - link "Success stories" [ref=e133] [cursor=pointer]:
+                      - /url: /success-stories/
+              - generic [ref=e136]:
+                - heading "Support" [level=2] [ref=e137]:
+                  - generic [ref=e138]: Support
+                - list [ref=e139]:
+                  - listitem [ref=e140]:
+                    - link "Developer Support" [ref=e142] [cursor=pointer]:
+                      - /url: /support/
+                  - listitem [ref=e143]:
+                    - link "Bug tool" [ref=e145] [cursor=pointer]:
+                      - /url: /support/bugs/
+                  - listitem [ref=e146]:
+                    - link "Platform status" [ref=e148] [cursor=pointer]:
+                      - /url: https://l.facebook.com/l.php?u=https%3A%2F%2Fmetastatus.com%2F%3Ffbclid%3DIwZXh0bgNhZW0CMTAAYnJpZBExVDVmTkdvR3ZJWFBNY05BV3NydGMGYXBwX2lkATAAAR5zq7Y5SEb_U_VepO2j8jPXsM2yhFQhAruZRLUmo3WqXUnoJxkL3v7UBFbtXw_aem_G_iVnqzJSGi7lGkvskLmvg&h=AUBwvxM3F9cV4wLNWddU3qz01_-IVAHOcjZOAD3_xMCt_9FjYVCmJwbJtXsG8Gvog5dvConskh6E0Xp5zKXptAsr5Or593fv4yWd7qUwZnluCG55oU3bxET4xDzoiM4RKLTvPg
+                  - listitem [ref=e149]:
+                    - link "Developer community forum" [ref=e151] [cursor=pointer]:
+                      - /url: https://www.facebook.com/groups/fbdevelopers/
+                  - listitem [ref=e152]:
+                    - link "Report an incident" [ref=e154] [cursor=pointer]:
+                      - /url: /incident/report/
+              - generic [ref=e157]:
+                - heading "About us" [level=2] [ref=e158]:
+                  - generic [ref=e159]: About us
+                - list [ref=e160]:
+                  - listitem [ref=e161]:
+                    - link "About" [ref=e163] [cursor=pointer]:
+                      - /url: https://l.facebook.com/l.php?u=https%3A%2F%2Fabout.fb.com%2F&h=AUBwvxM3F9cV4wLNWddU3qz01_-IVAHOcjZOAD3_xMCt_9FjYVCmJwbJtXsG8Gvog5dvConskh6E0Xp5zKXptAsr5Or593fv4yWd7qUwZnluCG55oU3bxET4xDzoiM4RKLTvPg
+                  - listitem [ref=e164]:
+                    - link "Careers" [ref=e166] [cursor=pointer]:
+                      - /url: https://www.facebook.com/careers
+              - generic [ref=e169]:
+                - heading "Terms and policies" [level=2] [ref=e170]:
+                  - generic [ref=e171]: Terms and policies
+                - list [ref=e172]:
+                  - listitem [ref=e173]:
+                    - link "Responsible platform initiatives" [ref=e175] [cursor=pointer]:
+                      - /url: /products/responsible-platform-initiatives/
+                  - listitem [ref=e176]:
+                    - link "Platform terms" [ref=e178] [cursor=pointer]:
+                      - /url: /terms/dfc_platform_terms/
+                  - listitem [ref=e179]:
+                    - link "Developer policies" [ref=e181] [cursor=pointer]:
+                      - /url: /devpolicy/
+                  - listitem [ref=e182]:
+                    - link "Privacy policy" [ref=e184] [cursor=pointer]:
+                      - /url: https://www.facebook.com/about/privacy
+                  - listitem [ref=e185]:
+                    - link "Cookies" [ref=e187] [cursor=pointer]:
+                      - /url: https://www.facebook.com/help/cookies
+          - button "تغيير اللغة" [ref=e192] [cursor=pointer]:
+            - generic [ref=e194]: English (US)

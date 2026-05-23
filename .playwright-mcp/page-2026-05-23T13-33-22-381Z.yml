@@ -1,0 +1,49 @@
+- generic [ref=e423]:
+  - banner [ref=e425]:
+    - generic [ref=e426]:
+      - link "Railway Logo" [ref=e427] [cursor=pointer]:
+        - /url: /dashboard
+        - img "Railway Logo" [ref=e429]
+      - generic [ref=e432]:
+        - button "pleasing-recreation" [ref=e435] [cursor=pointer]:
+          - generic "ahmednouh9's Projects" [ref=e436]
+          - generic [ref=e438]: pleasing-recreation
+          - img [ref=e440]
+        - button "production" [ref=e444] [cursor=pointer]:
+          - generic [ref=e445]: production
+          - img [ref=e447]
+    - navigation [ref=e449]:
+      - generic [ref=e451]:
+        - button "Toggle activity" [ref=e453] [cursor=pointer]:
+          - img [ref=e455]
+        - button [ref=e457] [cursor=pointer]:
+          - img [ref=e460]
+        - button "30 days or $5.00 left" [ref=e463] [cursor=pointer]:
+          - paragraph [ref=e465]:
+            - generic [ref=e466]: 30 days or $5.00 left
+        - button "Agent" [ref=e468] [cursor=pointer]:
+          - img [ref=e470]
+          - text: Agent
+  - generic [ref=e472]:
+    - navigation "Project navigation" [ref=e473]:
+      - generic [ref=e474]:
+        - link "Architecture" [ref=e477] [cursor=pointer]:
+          - /url: /project/5c396182-0bd1-4e28-bdeb-1f9561dbe8a1?environmentId=598d73e2-5c28-444c-8720-515a08c35c12
+          - img [ref=e479]
+        - link "Observability" [ref=e485] [cursor=pointer]:
+          - /url: /project/5c396182-0bd1-4e28-bdeb-1f9561dbe8a1/observability?environmentId=598d73e2-5c28-444c-8720-515a08c35c12
+          - img [ref=e487]
+        - link "Logs" [ref=e490] [cursor=pointer]:
+          - /url: /project/5c396182-0bd1-4e28-bdeb-1f9561dbe8a1/logs?environmentId=598d73e2-5c28-444c-8720-515a08c35c12
+          - img [ref=e492]
+        - link "Settings" [ref=e496] [cursor=pointer]:
+          - /url: /project/5c396182-0bd1-4e28-bdeb-1f9561dbe8a1/settings?environmentId=598d73e2-5c28-444c-8720-515a08c35c12
+          - img [ref=e498]
+      - button [ref=e501] [cursor=pointer]:
+        - generic "ahmednouh3230@gmail.com" [ref=e503]
+    - region [ref=e509]:
+      - generic [ref=e516] [cursor=pointer]:
+        - img [ref=e518]
+        - generic [ref=e520]:
+          - img [ref=e521]
+          - img [ref=e522]

@@ -1,0 +1,75 @@
+- generic [ref=e2]:
+  - generic:
+    - iframe
+  - generic:
+    - iframe
+  - generic:
+    - iframe
+  - generic:
+    - iframe
+  - generic [ref=e3]:
+    - generic [ref=e96]:
+      - generic [ref=e97]:
+        - link "شعار Meta" [ref=e99] [cursor=pointer]:
+          - /url: /?no_redirect=true
+          - img "شعار Meta" [ref=e101]
+        - tablist [ref=e110]:
+          - link "تطبيقاتي" [ref=e111] [cursor=pointer]:
+            - /url: /apps/
+            - generic [ref=e114]: تطبيقاتي
+          - link "الإجراءات المطلوبة" [ref=e115] [cursor=pointer]:
+            - /url: /required-actions/
+            - generic [ref=e118]: الإجراءات المطلوبة
+          - tab "الوثائق" [ref=e119] [cursor=pointer]:
+            - generic [ref=e122]: الوثائق
+          - tab "الأدوات" [ref=e124] [cursor=pointer]:
+            - generic [ref=e127]: الأدوات
+          - tab "الدعم" [ref=e129] [cursor=pointer]:
+            - generic [ref=e132]: الدعم
+      - generic [ref=e134]:
+        - generic [ref=e135]:
+          - generic [ref=e141]: إدخال البحث
+          - textbox "إدخال البحث" [ref=e152]:
+            - /placeholder: بحث...
+        - link [ref=e155] [cursor=pointer]:
+          - /url: "#"
+        - link "Facebook" [ref=e160] [cursor=pointer]:
+          - /url: "#"
+          - img "Facebook" [ref=e165]
+    - generic [ref=e27]:
+      - heading "إنشاء تطبيق" [level=1] [ref=e29]
+      - generic [ref=e31]:
+        - list [ref=e43]:
+          - listitem [ref=e44]:
+            - button "تفاصيل التطبيق حالة غير مكتملة" [ref=e166] [cursor=pointer]:
+              - generic [ref=e50]: تفاصيل التطبيق
+          - listitem [ref=e51]:
+            - button "حالات الاستخدام حالة معلقة" [disabled] [ref=e52]:
+              - generic [ref=e57]: حالات الاستخدام
+          - listitem [ref=e58]:
+            - button "النشاط التجاري حالة معلقة" [disabled] [ref=e59]:
+              - generic [ref=e64]: النشاط التجاري
+          - listitem [ref=e65]:
+            - button "المتطلبات حالة معلقة" [disabled] [ref=e66]:
+              - generic [ref=e71]: المتطلبات
+          - listitem [ref=e72]:
+            - button "نظرة عامة حالة معلقة" [disabled] [ref=e73]:
+              - generic [ref=e78]: نظرة عامة
+        - generic [ref=e175]:
+          - generic [ref=e178]:
+            - generic [ref=e181]:
+              - generic [ref=e184]: اسم التطبيق
+              - generic [ref=e185]: هذا هو اسم التطبيق الذي سيظهر في صحة تطبيقاتي لديك والمقترن بمعرف تطبيقك. يمكنك تغيير هذا الاسم في أي وقت بالرجوع إلى الإعدادات.
+            - generic [ref=e191]:
+              - textbox "اسم التطبيق" [active] [ref=e194]: Radix Auto Reply
+              - generic [ref=e196]: 16/30
+          - generic [ref=e199]:
+            - generic [ref=e202]:
+              - generic [ref=e205]: البريد الإلكتروني للاتصال للتطبيق
+              - generic [ref=e206]: هذا هو عنوان البريد الإلكتروني الذي سنستخدمه للتواصل معك بشأن تطبيقك. تأكد من أنه عنوان تتحقق منه بانتظام. قد نتواصل معك بشأن السياسات أو القيود المفروضة على التطبيق أو الاسترداد إذا تم حذف تطبيقك أو تعرض للاختراق.
+            - textbox "البريد الإلكتروني للاتصال للتطبيق" [ref=e215]: ahmednouh3230@gmail.com
+          - generic [ref=e216]:
+            - button "إلغاء" [ref=e218] [cursor=pointer]:
+              - generic [ref=e222]: إلغاء
+            - button "التالي" [ref=e224] [cursor=pointer]:
+              - generic [ref=e228]: التالي

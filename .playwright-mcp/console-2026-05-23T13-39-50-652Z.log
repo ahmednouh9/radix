@@ -1,0 +1,7 @@
+[    1335ms] [VERBOSE] [DOM] Input elements should have autocomplete attributes (suggested: "new-password"): (More info: https://goo.gl/9p2vKq) %o @ https://web-production-be8a.up.railway.app/settings:0
+[    1336ms] [VERBOSE] [DOM] Input elements should have autocomplete attributes (suggested: "new-password"): (More info: https://goo.gl/9p2vKq) %o @ https://web-production-be8a.up.railway.app/settings:0
+[    1337ms] [VERBOSE] [DOM] Input elements should have autocomplete attributes (suggested: "new-password"): (More info: https://goo.gl/9p2vKq) %o @ https://web-production-be8a.up.railway.app/settings:0
+[    1337ms] [VERBOSE] [DOM] Input elements should have autocomplete attributes (suggested: "new-password"): (More info: https://goo.gl/9p2vKq) %o @ https://web-production-be8a.up.railway.app/settings:0
+[    1354ms] [ERROR] Failed to load resource: the server responded with a status of 404 () @ https://web-production-be8a.up.railway.app/api/v1/configs/facebook:0
+[    1354ms] [ERROR] Failed to load resource: the server responded with a status of 404 () @ https://web-production-be8a.up.railway.app/api/v1/configs/instagram:0
+[    1622ms] [ERROR] Failed to load resource: the server responded with a status of 404 () @ https://web-production-be8a.up.railway.app/favicon.ico:0

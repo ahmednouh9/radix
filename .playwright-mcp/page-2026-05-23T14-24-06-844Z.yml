@@ -1,0 +1,545 @@
+- generic [ref=e1]:
+  - generic [ref=e2]:
+    - generic:
+      - iframe
+    - generic:
+      - iframe
+    - generic:
+      - iframe
+    - generic:
+      - iframe
+    - generic [ref=e3]:
+      - generic [ref=e9]:
+        - generic [ref=e10]:
+          - link "شعار Meta" [ref=e12] [cursor=pointer]:
+            - /url: /?no_redirect=true
+            - img "شعار Meta" [ref=e14]
+          - tablist [ref=e23]:
+            - link "تطبيقاتي" [ref=e24] [cursor=pointer]:
+              - /url: /apps/
+              - generic [ref=e27]: تطبيقاتي
+            - link "الإجراءات المطلوبة" [ref=e28] [cursor=pointer]:
+              - /url: /required-actions/
+              - generic [ref=e31]: الإجراءات المطلوبة
+            - tab "الوثائق" [ref=e32] [cursor=pointer]:
+              - generic [ref=e35]: الوثائق
+            - tab "الأدوات" [selected] [ref=e37] [cursor=pointer]:
+              - generic [ref=e40]: الأدوات
+            - tab "الدعم" [ref=e42] [cursor=pointer]:
+              - generic [ref=e45]: الدعم
+        - generic [ref=e47]:
+          - generic [ref=e48]:
+            - generic [ref=e54]: إدخال البحث
+            - textbox "إدخال البحث" [ref=e65]:
+              - /placeholder: بحث...
+          - link [ref=e68] [cursor=pointer]:
+            - /url: "#"
+          - link "Facebook" [ref=e73] [cursor=pointer]:
+            - /url: "#"
+            - img "Facebook" [ref=e78]
+      - generic [ref=e80]:
+        - generic [ref=e84]: مستكشف Graph API
+        - generic [ref=e87]:
+          - generic [ref=e88]:
+            - generic [ref=e89]:
+              - button "Favorites" [ref=e91] [cursor=pointer]:
+                - generic [ref=e94]: Favorites
+              - generic [ref=e95]:
+                - button "GET" [ref=e97] [cursor=pointer]:
+                  - generic [ref=e101]: GET
+                - generic [ref=e104]:
+                  - link "← graph." [ref=e105] [cursor=pointer]:
+                    - /url: "#"
+                  - button ".facebook.com/" [ref=e107] [cursor=pointer]:
+                    - generic [ref=e111]: .facebook.com/
+                - button "v25.0" [ref=e114] [cursor=pointer]:
+                  - generic [ref=e118]: v25.0
+                - generic [ref=e120]: /
+                - generic [ref=e121]:
+                  - combobox [expanded] [ref=e124]: me/accounts
+                  - button "إزالة" [ref=e125] [cursor=pointer]
+            - button "إرسال" [active] [ref=e129] [cursor=pointer]:
+              - generic [ref=e131]: إرسال
+          - generic [ref=e133]:
+            - list [ref=e394]:
+              - listitem [ref=e454]:
+                - generic [ref=e455]:
+                  - text: "Edge:"
+                  - generic [ref=e457]: me/accounts
+                - generic [ref=e458]:
+                  - list
+                  - combobox [ref=e459]:
+                    - option "+" [selected]
+                    - option "limit"
+                    - option "about"
+                    - option "access_token"
+                    - option "ad_campaign"
+                    - option "affiliation"
+                    - option "app_id"
+                    - option "artists_we_like"
+                    - option "attire"
+                    - option "available_promo_offer_ids"
+                    - option "awards"
+                    - option "band_interests"
+                    - option "band_members"
+                    - option "best_page"
+                    - option "birthday"
+                    - option "booking_agent"
+                    - option "built"
+                    - option "business"
+                    - option "can_checkin"
+                    - option "can_post"
+                    - option "category"
+                    - option "category_list"
+                    - option "checkins"
+                    - option "company_overview"
+                    - option "connected_instagram_account"
+                    - option "connected_page_backed_instagram_account"
+                    - option "contact_address"
+                    - option "copyright_attribution_insights"
+                    - option "copyright_whitelisted_ig_partners"
+                    - option "country_page_likes"
+                    - option "cover"
+                    - option "culinary_team"
+                    - option "current_location"
+                    - option "delivery_and_pickup_option_info"
+                    - option "description"
+                    - option "description_html"
+                    - option "differently_open_offerings"
+                    - option "directed_by"
+                    - option "display_subtext"
+                    - option "displayed_message_response_time"
+                    - option "does_viewer_have_page_permission_link_ig"
+                    - option "emails"
+                    - option "engagement"
+                    - option "fan_count"
+                    - option "featured_video"
+                    - option "features"
+                    - option "followers_count"
+                    - option "food_styles"
+                    - option "founded"
+                    - option "general_info"
+                    - option "general_manager"
+                    - option "genre"
+                    - option "global_brand_page_name"
+                    - option "global_brand_root_id"
+                    - option "has_added_app"
+                    - option "has_lead_access"
+                    - option "has_transitioned_to_new_page_experience"
+                    - option "has_whatsapp_business_number"
+                    - option "has_whatsapp_number"
+                    - option "hometown"
+                    - option "hours"
+                    - option "id"
+                    - option "impressum"
+                    - option "influences"
+                    - option "instagram_business_account"
+                    - option "is_always_open"
+                    - option "is_calling_eligible"
+                    - option "is_chain"
+                    - option "is_community_page"
+                    - option "is_eligible_for_branded_content"
+                    - option "is_eligible_for_disable_connect_ig_btn_for_non_page_admin_am_web"
+                    - option "is_messenger_bot_get_started_enabled"
+                    - option "is_messenger_platform_bot"
+                    - option "is_owned"
+                    - option "is_permanently_closed"
+                    - option "is_published"
+                    - option "is_unclaimed"
+                    - option "is_webhooks_subscribed"
+                    - option "leadgen_tos_acceptance_time"
+                    - option "leadgen_tos_accepted"
+                    - option "leadgen_tos_accepting_user"
+                    - option "link"
+                    - option "location"
+                    - option "members"
+                    - option "merchant_id"
+                    - option "merchant_review_status"
+                    - option "messaging_feature_status"
+                    - option "messenger_ads_default_icebreakers"
+                    - option "messenger_ads_default_quick_replies"
+                    - option "messenger_ads_quick_replies_type"
+                    - option "mission"
+                    - option "mpg"
+                    - option "name"
+                    - option "name_with_location_descriptor"
+                    - option "network"
+                    - option "new_like_count"
+                    - option "offer_eligible"
+                    - option "overall_star_rating"
+                    - option "page_backed_threads_account_id"
+                    - option "page_token"
+                    - option "parent_page"
+                    - option "parking"
+                    - option "payment_options"
+                    - option "personal_info"
+                    - option "personal_interests"
+                    - option "pharma_safety_info"
+                    - option "phone"
+                    - option "pickup_options"
+                    - option "place_type"
+                    - option "plot_outline"
+                    - option "preferred_audience"
+                    - option "press_contact"
+                    - option "price_range"
+                    - option "priority_hours"
+                    - option "privacy_info_url"
+                    - option "produced_by"
+                    - option "products"
+                    - option "promotion_eligible"
+                    - option "promotion_ineligible_reason"
+                    - option "public_transit"
+                    - option "rating_count"
+                    - option "recipient"
+                    - option "record_label"
+                    - option "release_date"
+                    - option "restaurant_services"
+                    - option "restaurant_specialties"
+                    - option "schedule"
+                    - option "screenplay_by"
+                    - option "season"
+                    - option "single_line_address"
+                    - option "starring"
+                    - option "start_info"
+                    - option "store_code"
+                    - option "store_location_descriptor"
+                    - option "store_number"
+                    - option "studio"
+                    - option "supports_donate_button_in_live_video"
+                    - option "talking_about_count"
+                    - option "tasks"
+                    - option "temporary_status"
+                    - option "unread_message_count"
+                    - option "unread_notif_count"
+                    - option "unseen_message_count"
+                    - option "user_access_expire_time"
+                    - option "username"
+                    - option "verification_status"
+                    - option "voip_info"
+                    - option "website"
+                    - option "were_here_count"
+                    - option "whatsapp_number"
+                    - option "written_by"
+                    - option "ab_tests"
+                    - option "ads_eligibility"
+                    - option "ads_posts"
+                    - option "agencies"
+                    - option "albums"
+                    - option "ar_experience"
+                    - option "assigned_users"
+                    - option "audio_media_copyrights"
+                    - option "blocked"
+                    - option "businessprojects"
+                    - option "call_to_actions"
+                    - option "canvas_elements"
+                    - option "canvases"
+                    - option "chat_plugin"
+                    - option "commerce_merchant_settings"
+                    - option "commerce_orders"
+                    - option "commerce_payouts"
+                    - option "commerce_transactions"
+                    - option "conversations"
+                    - option "crosspost_whitelisted_pages"
+                    - option "ctx_optimization_eligibility"
+                    - option "custom_labels"
+                    - option "custom_user_settings"
+                    - option "dataset"
+                    - option "events"
+                    - option "fantasy_games"
+                    - option "feed"
+                    - option "global_brand_children"
+                    - option "image_copyrights"
+                    - option "indexed_videos"
+                    - option "insights"
+                    - option "instagram_accounts"
+                    - option "leadgen_forms"
+                    - option "likes"
+                    - option "live_videos"
+                    - option "locations"
+                    - option "media_fingerprints"
+                    - option "message_templates"
+                    - option "messaging_feature_review"
+                    - option "messenger_call_permissions"
+                    - option "messenger_call_settings"
+                    - option "messenger_lead_forms"
+                    - option "messenger_profile"
+                    - option "notification_message_tokens"
+                    - option "page_backed_instagram_accounts"
+                    - option "personas"
+                    - option "photos"
+                    - option "picture"
+                    - option "posts"
+                    - option "product_catalogs"
+                    - option "published_posts"
+                    - option "ratings"
+                    - option "roles"
+                    - option "rtb_dynamic_posts"
+                    - option "scheduled_posts"
+                    - option "settings"
+                    - option "shop_setup_status"
+                    - option "space_participants"
+                    - option "store_locations"
+                    - option "stories"
+                    - option "subscribed_apps"
+                    - option "tabs"
+                    - option "tagged"
+                    - option "thread_owner"
+                    - option "threads"
+                    - option "video_copyright_rules"
+                    - option "video_lists"
+                    - option "video_reels"
+                    - option "videos"
+                    - option "visitor_posts"
+                    - option "welcome_message_flows"
+                  - textbox "بحث عن حقل" [ref=e460]
+            - generic [ref=e138]:
+              - generic [ref=e143]:
+                - generic:
+                  - generic:
+                    - button "تعرف على هذه الميزة الجديدة" [ref=e144] [cursor=pointer]
+                    - button "إغلاق النافذة المنبثقة والعودة" [ref=e146] [cursor=pointer]
+                - generic [ref=e147]:
+                  - generic [ref=e461]:
+                    - text: "{"
+                    - generic [ref=e462]:
+                      - text: "\"data\":"
+                      - generic [ref=e463]:
+                        - text: "["
+                        - generic [ref=e465]:
+                          - text: "{"
+                          - generic [ref=e466]: "\"access_token\": \"EAA93qtH5uV8BRlQfYEGflRxbZBLHqOdKY1xzT10Og3BTyKZCkdhxolxtYNzzSF8ZB7adzzXevVdyGPwRGnT3daaJguj1UoOYQDvZBs0cHc1FI1ZBkPHUjJKjVYOcoyOPdETn4fqSWF3yDF1NjNlNZAAcuI1U32UwZAsG6JDaXVlBHmyBvoJ69NZCgxEPb1QjsceZARosjdtUtMAMZCC9epBbMZAnaJdphJtdL396DBY8hyBqZAy7no2naF1UJ4u9Pr4ZD\","
+                          - generic [ref=e467]: "\"category\": \"رياضة\","
+                          - generic [ref=e468]:
+                            - text: "\"category_list\":"
+                            - generic [ref=e469]:
+                              - text: "["
+                              - generic [ref=e471]:
+                                - text: "{"
+                                - generic [ref=e472]:
+                                  - text: "\"id\":"
+                                  - generic [ref=e473]:
+                                    - text: "\""
+                                    - link "964585346994407" [ref=e474] [cursor=pointer]:
+                                      - /url: "#"
+                                    - text: "\""
+                                  - text: ","
+                                - generic [ref=e475]: "\"name\": \"رياضة\""
+                                - text: "}"
+                              - text: "]"
+                            - text: ","
+                          - generic [ref=e476]: "\"name\": \"Nobel Swim Academy\","
+                          - generic [ref=e477]:
+                            - text: "\"id\":"
+                            - generic [ref=e478]:
+                              - text: "\""
+                              - link "427668740423316" [ref=e479] [cursor=pointer]:
+                                - /url: "#"
+                              - text: "\""
+                            - text: ","
+                          - generic [ref=e480]:
+                            - text: "\"tasks\":"
+                            - generic [ref=e481]:
+                              - text: "["
+                              - generic [ref=e482]: "\"MODERATE\","
+                              - generic [ref=e483]: "\"MESSAGING\","
+                              - generic [ref=e484]: "\"ANALYZE\","
+                              - generic [ref=e485]: "\"ADVERTISE\","
+                              - generic [ref=e486]: "\"CREATE_CONTENT\","
+                              - generic [ref=e487]: "\"MANAGE\""
+                              - text: "]"
+                          - text: "}"
+                        - text: "]"
+                      - text: ","
+                    - generic [ref=e488]:
+                      - text: "\"paging\":"
+                      - generic [ref=e489]:
+                        - text: "{"
+                        - generic [ref=e490]:
+                          - text: "\"cursors\":"
+                          - generic [ref=e491]:
+                            - text: "{"
+                            - generic [ref=e492]: "\"before\": \"QVFIU1NMQkRacFNSWG5YYlJjU001clhld2RNemlLVDBSUzVYUy1zejhUSVZAaVExycEw2Yk1WVVJleEJBSW96RHpiMmhoclZAJVW9pSk55UktNUWh4VWxkemFn\","
+                            - generic [ref=e493]: "\"after\": \"QVFIU1NMQkRacFNSWG5YYlJjU001clhld2RNemlLVDBSUzVYUy1zejhUSVZAaVExycEw2Yk1WVVJleEJBSW96RHpiMmhoclZAJVW9pSk55UktNUWh4VWxkemFn\""
+                            - text: "}"
+                        - text: "}"
+                    - text: "}"
+                  - generic [ref=e151]:
+                    - generic [ref=e413]: استغرقت عملية الاستجابة 365 مللي ثانية
+                    - generic [ref=e153]:
+                      - button "نسخ معلومات تصحيح الأخطاء" [ref=e154]:
+                        - button "نسخ معلومات تصحيح الأخطاء" [ref=e156] [cursor=pointer]:
+                          - generic [ref=e158]: نسخ معلومات تصحيح الأخطاء
+                      - button "الحصول على رمز" [ref=e159] [cursor=pointer]:
+                        - generic [ref=e162]: الحصول على رمز
+                      - button "حفظ الجلسة" [ref=e163] [cursor=pointer]:
+                        - generic [ref=e165]: حفظ الجلسة
+              - generic [ref=e171]:
+                - heading "رمز الوصول" [level=4] [ref=e172]
+                - generic [ref=e174]:
+                  - generic [ref=e175]:
+                    - textbox [ref=e178]:
+                      - /placeholder: رمز الوصول
+                      - text: EAA93qtH5uV8BRi6qUQlRGel1W0lngXawKGyaB02hEMK9pRcqRoiMQ2tnMRbWQlcr1jzpZCA2GlQaq9PCy7xnqU9EDY2plg31FQpZB0k6xphXkgRyqLbDdoVCAHc3e0EvSaPZCSlbjTZC5xAC6ZBA5JZAwVlwKYSIzJe4ddOH56FM1evyZCnkyuB7Xb5u3JEffFV5lo474hKexyhWD0PBSb1bLVO1KLBx7DYRL8mXbU6TJS03r88MaZC3
+                    - button "Copy Token" [ref=e181] [cursor=pointer]:
+                      - generic [ref=e184]: Copy Token
+                  - button "Generate Access Token" [ref=e186] [cursor=pointer]:
+                    - generic [ref=e188]: Generate Access Token
+                - generic [ref=e189]: تطبيق Meta
+                - generic:
+                  - generic:
+                    - button "تعرف على هذه الميزة الجديدة" [ref=e190] [cursor=pointer]
+                    - button "إغلاق النافذة المنبثقة والعودة" [ref=e192] [cursor=pointer]
+                - button "Radix Auto Reply" [ref=e195] [cursor=pointer]:
+                  - generic [ref=e201]: Radix Auto Reply
+                - generic [ref=e203]: مستخدم أو صفحة
+                - generic [ref=e204]:
+                  - generic:
+                    - generic:
+                      - button "تعرف على هذه الميزة الجديدة" [ref=e205] [cursor=pointer]
+                      - button "إغلاق النافذة المنبثقة والعودة" [ref=e207] [cursor=pointer]
+                  - button "رمز المستخدم" [ref=e209] [cursor=pointer]:
+                    - generic [ref=e213]: رمز المستخدم
+                - generic [ref=e218]:
+                  - radio "Permissions" [checked] [disabled] [ref=e219]:
+                    - generic [ref=e221]: Permissions
+                  - radio "Configurations" [disabled] [ref=e222]:
+                    - generic [ref=e224]: Configurations
+                - generic [ref=e226]:
+                  - heading "الأذونات Reset Clear" [level=4] [ref=e227]:
+                    - text: الأذونات
+                    - link "Reset Clear" [ref=e228] [cursor=pointer]:
+                      - /url: /docs/facebook-login/permissions/
+                      - generic [ref=e231]:
+                        - button "Reset" [ref=e232]:
+                          - generic [ref=e235]: Reset
+                        - button "Clear" [ref=e236]:
+                          - generic [ref=e239]: Clear
+                  - list [ref=e241]:
+                    - listitem [ref=e242]:
+                      - generic [ref=e244]:
+                        - button [ref=e245] [cursor=pointer]
+                        - text: pages_show_list
+                  - generic:
+                    - generic:
+                      - button "تعرف على هذه الميزة الجديدة" [ref=e247] [cursor=pointer]
+                      - button "إغلاق النافذة المنبثقة والعودة" [ref=e249] [cursor=pointer]
+                  - combobox [ref=e253]
+                  - button "pages_show_list" [ref=e255] [cursor=pointer]:
+                    - generic [ref=e259]: pages_show_list
+      - contentinfo [ref=e264]:
+        - generic [ref=e265]:
+          - separator [ref=e266]
+          - generic [ref=e268]:
+            - generic [ref=e270]:
+              - generic [ref=e272]:
+                - img "Meta" [ref=e274]
+                - list [ref=e276]:
+                  - listitem [ref=e277]:
+                    - link "Facebook" [ref=e278] [cursor=pointer]:
+                      - /url: https://www.facebook.com/MetaforDevelopers
+                      - img "Facebook" [ref=e279]
+                  - listitem [ref=e280]:
+                    - link "Instagram" [ref=e281] [cursor=pointer]:
+                      - /url: https://l.facebook.com/l.php?u=https%3A%2F%2Fwww.instagram.com%2Fmetafordevelopers%2F%3Ffbclid%3DIwZXh0bgNhZW0CMTAAYnJpZBExWUx1NTBLUHNOb1FHREszdHNydGMGYXBwX2lkATAAAR4mwlqXgiK0K-bkvo3ECjYmVPnfwFh8yP-BgU6ezlEoM9Mb6yWphkvS6XAoDw_aem_aFP1dJntCUlQ25Tveo1J2A&h=AUDf2I0cQecx9HjQU0H5VkCajRBTiTFAmr2jDdrBw6DVGqe1yFTxBub-5NG9NkrYVUEbXME5jyPI63pKete7IgsSP9Nq7ZkCbgs2GCDY9MSCNR8u6hchsVudTntHvmlMaTQdLw
+                      - img "Instagram" [ref=e282]
+                  - listitem [ref=e283]:
+                    - link "X" [ref=e284] [cursor=pointer]:
+                      - /url: https://l.facebook.com/l.php?u=https%3A%2F%2Ftwitter.com%2Fmetafordevs%3Ffbclid%3DIwZXh0bgNhZW0CMTAAYnJpZBExWUx1NTBLUHNOb1FHREszdHNydGMGYXBwX2lkATAAAR7ZSqyrCZm8GHM-XrCuvtZ_TGoL_NssFsa4jIafJ7lupCMLRXe1WixC-fPnIA_aem_25VxfF8vv2XKCcTAaZjtMQ&h=AUDf2I0cQecx9HjQU0H5VkCajRBTiTFAmr2jDdrBw6DVGqe1yFTxBub-5NG9NkrYVUEbXME5jyPI63pKete7IgsSP9Nq7ZkCbgs2GCDY9MSCNR8u6hchsVudTntHvmlMaTQdLw
+                      - img "X" [ref=e285]
+                  - listitem [ref=e286]:
+                    - link "LinkedIn" [ref=e287] [cursor=pointer]:
+                      - /url: https://l.facebook.com/l.php?u=https%3A%2F%2Fwww.linkedin.com%2Fshowcase%2Fmeta-for-developers%2F%3Ffbclid%3DIwZXh0bgNhZW0CMTAAYnJpZBExWUx1NTBLUHNOb1FHREszdHNydGMGYXBwX2lkATAAAR4JDJ8STWflGQLFeS7KVN9VJvfPNA1P1NyL1iOE1BQkRERXhReTd9vmE6q5JA_aem_Up5fzRmZwSf8Td1IG5aHfA&h=AUDf2I0cQecx9HjQU0H5VkCajRBTiTFAmr2jDdrBw6DVGqe1yFTxBub-5NG9NkrYVUEbXME5jyPI63pKete7IgsSP9Nq7ZkCbgs2GCDY9MSCNR8u6hchsVudTntHvmlMaTQdLw
+                      - img "LinkedIn" [ref=e288]
+                  - listitem [ref=e289]:
+                    - link "YouTube" [ref=e290] [cursor=pointer]:
+                      - /url: https://l.facebook.com/l.php?u=https%3A%2F%2Fwww.youtube.com%2FMetaDevelopers%2F%3Ffbclid%3DIwZXh0bgNhZW0CMTAAYnJpZBExWUx1NTBLUHNOb1FHREszdHNydGMGYXBwX2lkATAAAR7gPt6PfYTd9wg9j8ntnWTRRvrms4XO2x2qPBAhFhD4ExjPx6sXhDc-vxQXuQ_aem_BwrffWt4BBxws-wqHg0d5g&h=AUDf2I0cQecx9HjQU0H5VkCajRBTiTFAmr2jDdrBw6DVGqe1yFTxBub-5NG9NkrYVUEbXME5jyPI63pKete7IgsSP9Nq7ZkCbgs2GCDY9MSCNR8u6hchsVudTntHvmlMaTQdLw
+                      - img "YouTube" [ref=e291]
+              - generic [ref=e293]:
+                - generic [ref=e296]:
+                  - heading "Build with Meta" [level=2] [ref=e297]:
+                    - generic [ref=e298]: Build with Meta
+                  - list [ref=e299]:
+                    - listitem [ref=e300]:
+                      - link "AI" [ref=e302] [cursor=pointer]:
+                        - /url: https://l.facebook.com/l.php?u=https%3A%2F%2Fwww.llama.com%2F%3Ffbclid%3DIwZXh0bgNhZW0CMTAAYnJpZBExWUx1NTBLUHNOb1FHREszdHNydGMGYXBwX2lkATAAAR7egLLAVOqScY9IY4dj8CL_VykrORrrDvlk0SsHx1AIx7A-tWo0JgdBvPGJuQ_aem_5n_-mrwONUz5fcRdBx64sA&h=AUDf2I0cQecx9HjQU0H5VkCajRBTiTFAmr2jDdrBw6DVGqe1yFTxBub-5NG9NkrYVUEbXME5jyPI63pKete7IgsSP9Nq7ZkCbgs2GCDY9MSCNR8u6hchsVudTntHvmlMaTQdLw
+                    - listitem [ref=e303]:
+                      - link "Meta Horizon" [ref=e305] [cursor=pointer]:
+                        - /url: https://l.facebook.com/l.php?u=https%3A%2F%2Fdevelopers.meta.com%2Fhorizon%2F%3Ffbclid%3DIwZXh0bgNhZW0CMTAAYnJpZBExWUx1NTBLUHNOb1FHREszdHNydGMGYXBwX2lkATAAAR7gPt6PfYTd9wg9j8ntnWTRRvrms4XO2x2qPBAhFhD4ExjPx6sXhDc-vxQXuQ_aem_BwrffWt4BBxws-wqHg0d5g&h=AUDf2I0cQecx9HjQU0H5VkCajRBTiTFAmr2jDdrBw6DVGqe1yFTxBub-5NG9NkrYVUEbXME5jyPI63pKete7IgsSP9Nq7ZkCbgs2GCDY9MSCNR8u6hchsVudTntHvmlMaTQdLw
+                    - listitem [ref=e306]:
+                      - link "Social technologies" [ref=e308] [cursor=pointer]:
+                        - /url: /social-technologies/
+                    - listitem [ref=e309]:
+                      - link "Wearables" [ref=e311] [cursor=pointer]:
+                        - /url: https://l.facebook.com/l.php?u=https%3A%2F%2Fdevelopers.meta.com%2Fwearables%2F%3Ffbclid%3DIwZXh0bgNhZW0CMTAAYnJpZBExWUx1NTBLUHNOb1FHREszdHNydGMGYXBwX2lkATAAAR4JDJ8STWflGQLFeS7KVN9VJvfPNA1P1NyL1iOE1BQkRERXhReTd9vmE6q5JA_aem_Up5fzRmZwSf8Td1IG5aHfA&h=AUDf2I0cQecx9HjQU0H5VkCajRBTiTFAmr2jDdrBw6DVGqe1yFTxBub-5NG9NkrYVUEbXME5jyPI63pKete7IgsSP9Nq7ZkCbgs2GCDY9MSCNR8u6hchsVudTntHvmlMaTQdLw
+                - generic [ref=e314]:
+                  - heading "News" [level=2] [ref=e315]:
+                    - generic [ref=e316]: News
+                  - list [ref=e317]:
+                    - listitem [ref=e318]:
+                      - link "Meta for Developers" [ref=e320] [cursor=pointer]:
+                        - /url: https://l.facebook.com/l.php?u=https%3A%2F%2Fdevelopers.meta.com%2Fblog%2F%3Ffbclid%3DIwZXh0bgNhZW0CMTAAYnJpZBExWUx1NTBLUHNOb1FHREszdHNydGMGYXBwX2lkATAAAR760LZZ0qz4amIsrAHLpBFdGgrCfd-GPA9OI6rrlUCK97S1YmES-dN0rETDxQ_aem_XYRt-8Ra_DMLdp5iGqA_0w&h=AUDf2I0cQecx9HjQU0H5VkCajRBTiTFAmr2jDdrBw6DVGqe1yFTxBub-5NG9NkrYVUEbXME5jyPI63pKete7IgsSP9Nq7ZkCbgs2GCDY9MSCNR8u6hchsVudTntHvmlMaTQdLw
+                    - listitem [ref=e321]:
+                      - link "Blog" [ref=e323] [cursor=pointer]:
+                        - /url: /blog/
+                    - listitem [ref=e324]:
+                      - link "Success stories" [ref=e326] [cursor=pointer]:
+                        - /url: /success-stories/
+                - generic [ref=e329]:
+                  - heading "Support" [level=2] [ref=e330]:
+                    - generic [ref=e331]: Support
+                  - list [ref=e332]:
+                    - listitem [ref=e333]:
+                      - link "Developer Support" [ref=e335] [cursor=pointer]:
+                        - /url: /support/
+                    - listitem [ref=e336]:
+                      - link "Bug tool" [ref=e338] [cursor=pointer]:
+                        - /url: /support/bugs/
+                    - listitem [ref=e339]:
+                      - link "Platform status" [ref=e341] [cursor=pointer]:
+                        - /url: https://l.facebook.com/l.php?u=https%3A%2F%2Fmetastatus.com%2F%3Ffbclid%3DIwZXh0bgNhZW0CMTAAYnJpZBExWUx1NTBLUHNOb1FHREszdHNydGMGYXBwX2lkATAAAR4JDJ8STWflGQLFeS7KVN9VJvfPNA1P1NyL1iOE1BQkRERXhReTd9vmE6q5JA_aem_Up5fzRmZwSf8Td1IG5aHfA&h=AUDf2I0cQecx9HjQU0H5VkCajRBTiTFAmr2jDdrBw6DVGqe1yFTxBub-5NG9NkrYVUEbXME5jyPI63pKete7IgsSP9Nq7ZkCbgs2GCDY9MSCNR8u6hchsVudTntHvmlMaTQdLw
+                    - listitem [ref=e342]:
+                      - link "Developer community forum" [ref=e344] [cursor=pointer]:
+                        - /url: https://www.facebook.com/groups/fbdevelopers/
+                    - listitem [ref=e345]:
+                      - link "Report an incident" [ref=e347] [cursor=pointer]:
+                        - /url: /incident/report/
+                - generic [ref=e350]:
+                  - heading "About us" [level=2] [ref=e351]:
+                    - generic [ref=e352]: About us
+                  - list [ref=e353]:
+                    - listitem [ref=e354]:
+                      - link "About" [ref=e356] [cursor=pointer]:
+                        - /url: https://l.facebook.com/l.php?u=https%3A%2F%2Fabout.fb.com%2F&h=AUDf2I0cQecx9HjQU0H5VkCajRBTiTFAmr2jDdrBw6DVGqe1yFTxBub-5NG9NkrYVUEbXME5jyPI63pKete7IgsSP9Nq7ZkCbgs2GCDY9MSCNR8u6hchsVudTntHvmlMaTQdLw
+                    - listitem [ref=e357]:
+                      - link "Careers" [ref=e359] [cursor=pointer]:
+                        - /url: https://www.facebook.com/careers
+                - generic [ref=e362]:
+                  - heading "Terms and policies" [level=2] [ref=e363]:
+                    - generic [ref=e364]: Terms and policies
+                  - list [ref=e365]:
+                    - listitem [ref=e366]:
+                      - link "Responsible platform initiatives" [ref=e368] [cursor=pointer]:
+                        - /url: /products/responsible-platform-initiatives/
+                    - listitem [ref=e369]:
+                      - link "Platform terms" [ref=e371] [cursor=pointer]:
+                        - /url: /terms/dfc_platform_terms/
+                    - listitem [ref=e372]:
+                      - link "Developer policies" [ref=e374] [cursor=pointer]:
+                        - /url: /devpolicy/
+                    - listitem [ref=e375]:
+                      - link "Privacy policy" [ref=e377] [cursor=pointer]:
+                        - /url: https://www.facebook.com/about/privacy
+                    - listitem [ref=e378]:
+                      - link "Cookies" [ref=e380] [cursor=pointer]:
+                        - /url: https://www.facebook.com/help/cookies
+            - button "تغيير اللغة" [ref=e385] [cursor=pointer]:
+              - generic [ref=e387]: English (US)
+  - generic:
+    - region "تعرف على هذه الميزة الجديدة"
+  - generic:
+    - region "تعرف على هذه الميزة الجديدة"
+  - generic:
+    - region "تعرف على هذه الميزة الجديدة"
+  - generic:
+    - region "تعرف على هذه الميزة الجديدة"
+  - generic [ref=e391]: تم إيجاد ٤ نتيجة

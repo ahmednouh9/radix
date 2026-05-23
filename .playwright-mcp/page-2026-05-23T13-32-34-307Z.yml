@@ -1,0 +1,45 @@
+- generic [ref=e306]:
+  - banner [ref=e308]:
+    - generic [ref=e309]:
+      - link "Railway Logo" [ref=e310] [cursor=pointer]:
+        - /url: /dashboard
+        - img "Railway Logo" [ref=e312]
+      - generic [ref=e315]:
+        - button "New project" [ref=e318] [cursor=pointer]:
+          - generic "ahmednouh9's Projects" [ref=e319]
+          - generic [ref=e321]: New project
+          - img [ref=e323]
+        - paragraph [ref=e327]: GitHub
+    - navigation [ref=e328]:
+      - generic [ref=e330]:
+        - button [ref=e331] [cursor=pointer]:
+          - img [ref=e334]
+        - button "30 days or $5.00 left" [ref=e337] [cursor=pointer]:
+          - paragraph [ref=e339]:
+            - generic [ref=e340]: 30 days or $5.00 left
+        - button [ref=e341] [cursor=pointer]:
+          - generic "ahmednouh3230@gmail.com" [ref=e343]
+  - region [ref=e351]:
+    - generic [ref=e356]:
+      - img [ref=e357]
+      - generic [ref=e360]:
+        - generic:
+          - img
+          - button "No repositories found - try a different search" [ref=e393]:
+            - generic [ref=e365]:
+              - combobox [expanded] [active] [ref=e368]
+              - listbox "Suggestions" [ref=e369]:
+                - generic [ref=e370]:
+                  - separator [ref=e371]
+                  - option "Configure GitHub App Refresh" [ref=e372] [cursor=pointer]:
+                    - generic [ref=e373]:
+                      - button "Configure GitHub App" [ref=e374]:
+                        - img [ref=e376]
+                        - generic [ref=e378]: Configure GitHub App
+                      - button "Refresh" [ref=e379]:
+                        - img [ref=e381]
+                        - generic [ref=e384]: Refresh
+                  - option "No repositories found - try a different search" [selected] [ref=e385] [cursor=pointer]:
+                    - generic [ref=e386]:
+                      - img [ref=e388]
+                      - text: No repositories found - try a different search

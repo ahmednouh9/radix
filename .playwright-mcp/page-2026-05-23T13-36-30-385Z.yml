@@ -1,0 +1,228 @@
+- generic [ref=e4]:
+  - banner [ref=e6]:
+    - generic [ref=e7]:
+      - link "Railway Logo" [ref=e8] [cursor=pointer]:
+        - /url: /dashboard
+        - img "Railway Logo" [ref=e10]
+      - generic [ref=e13]:
+        - button "pleasing-recreation" [ref=e16] [cursor=pointer]:
+          - generic "ahmednouh9's Projects" [ref=e17]
+          - generic [ref=e19]: pleasing-recreation
+          - img [ref=e21]
+        - button "production" [ref=e25] [cursor=pointer]:
+          - generic [ref=e26]: production
+          - img [ref=e28]
+    - navigation [ref=e30]:
+      - generic [ref=e32]:
+        - button "Toggle activity" [ref=e34] [cursor=pointer]:
+          - img [ref=e36]
+        - button [ref=e38] [cursor=pointer]:
+          - img [ref=e41]
+        - button "30 days or $5.00 left" [ref=e44] [cursor=pointer]:
+          - paragraph [ref=e46]:
+            - generic [ref=e47]: 30 days or $5.00 left
+        - button "Agent" [ref=e49] [cursor=pointer]:
+          - img [ref=e51]
+          - text: Agent
+  - generic [ref=e53]:
+    - navigation "Project navigation" [ref=e54]:
+      - generic [ref=e55]:
+        - link "Architecture" [ref=e58] [cursor=pointer]:
+          - /url: /project/5c396182-0bd1-4e28-bdeb-1f9561dbe8a1?environmentId=598d73e2-5c28-444c-8720-515a08c35c12
+          - img [ref=e60]
+        - link "Observability" [ref=e66] [cursor=pointer]:
+          - /url: /project/5c396182-0bd1-4e28-bdeb-1f9561dbe8a1/observability?environmentId=598d73e2-5c28-444c-8720-515a08c35c12
+          - img [ref=e68]
+        - link "Logs" [ref=e71] [cursor=pointer]:
+          - /url: /project/5c396182-0bd1-4e28-bdeb-1f9561dbe8a1/logs?environmentId=598d73e2-5c28-444c-8720-515a08c35c12
+          - img [ref=e73]
+        - link "Settings" [ref=e77] [cursor=pointer]:
+          - /url: /project/5c396182-0bd1-4e28-bdeb-1f9561dbe8a1/settings?environmentId=598d73e2-5c28-444c-8720-515a08c35c12
+          - img [ref=e79]
+      - button [ref=e82] [cursor=pointer]:
+        - generic "ahmednouh3230@gmail.com" [ref=e84]
+    - region [ref=e90]:
+      - generic [ref=e91]:
+        - generic [ref=e112]:
+          - img [ref=e113]
+          - generic [ref=e114]:
+            - generic [ref=e116]:
+              - generic:
+                - img
+                - button "web web-production-be8a.up.railway.app Online" [ref=e401]:
+                  - link "web web-production-be8a.up.railway.app Online" [ref=e402] [cursor=pointer]:
+                    - /url: /project/5c396182-0bd1-4e28-bdeb-1f9561dbe8a1/service/9a7f263d-2102-4b21-a411-dadca75e1e21?environmentId=598d73e2-5c28-444c-8720-515a08c35c12
+                    - generic [ref=e121]:
+                      - img [ref=e123]
+                      - generic [ref=e125]:
+                        - paragraph [ref=e126]: web
+                        - paragraph [ref=e127]: web-production-be8a.up.railway.app
+                    - generic [ref=e404]:
+                      - img [ref=e405]
+                      - paragraph [ref=e408]: Online
+            - toolbar "Canvas options" [ref=e135]:
+              - button "Canvas settings" [ref=e136] [cursor=pointer]:
+                - img [ref=e138]
+              - group "canvas action" [ref=e148]:
+                - button "Zoom in" [ref=e149] [cursor=pointer]:
+                  - img [ref=e151]
+                - button "Zoom out" [ref=e153] [cursor=pointer]:
+                  - img [ref=e155]
+                - button "Center canvas" [ref=e156] [cursor=pointer]:
+                  - img [ref=e158]
+              - group "canvas action" [ref=e163]:
+                - button "Undo" [ref=e164] [cursor=pointer]:
+                  - img [ref=e166]
+                - button "Redo" [ref=e169] [cursor=pointer]:
+                  - img [ref=e171]
+              - button "Visibility layers" [ref=e174] [cursor=pointer]:
+                - img [ref=e176]
+            - img [ref=e178]
+        - generic [ref=e181]:
+          - generic [ref=e182]:
+            - generic [ref=e183]:
+              - generic [ref=e185]:
+                - button [ref=e186] [cursor=pointer]:
+                  - img [ref=e188]
+                - heading "web" [level=1] [ref=e190]:
+                  - button "web" [ref=e191] [cursor=pointer]
+              - link [ref=e193] [cursor=pointer]:
+                - /url: /project/5c396182-0bd1-4e28-bdeb-1f9561dbe8a1?environmentId=598d73e2-5c28-444c-8720-515a08c35c12
+                - img [ref=e195]
+            - generic [ref=e197]:
+              - link "Deployments" [ref=e198] [cursor=pointer]:
+                - /url: /project/5c396182-0bd1-4e28-bdeb-1f9561dbe8a1/service/9a7f263d-2102-4b21-a411-dadca75e1e21?environmentId=598d73e2-5c28-444c-8720-515a08c35c12
+                - generic [ref=e199]: Deployments
+              - link "Variables" [ref=e201] [cursor=pointer]:
+                - /url: /project/5c396182-0bd1-4e28-bdeb-1f9561dbe8a1/service/9a7f263d-2102-4b21-a411-dadca75e1e21/variables?environmentId=598d73e2-5c28-444c-8720-515a08c35c12
+                - generic [ref=e202]: Variables
+              - link "Metrics" [ref=e203] [cursor=pointer]:
+                - /url: /project/5c396182-0bd1-4e28-bdeb-1f9561dbe8a1/service/9a7f263d-2102-4b21-a411-dadca75e1e21/metrics?environmentId=598d73e2-5c28-444c-8720-515a08c35c12
+                - generic [ref=e204]: Metrics
+              - link "Settings" [ref=e205] [cursor=pointer]:
+                - /url: /project/5c396182-0bd1-4e28-bdeb-1f9561dbe8a1/service/9a7f263d-2102-4b21-a411-dadca75e1e21/settings?environmentId=598d73e2-5c28-444c-8720-515a08c35c12
+                - generic [ref=e206]: Settings
+          - generic [ref=e209]:
+            - generic [ref=e210]:
+              - generic [ref=e211]:
+                - img [ref=e213]
+                - link "web-production-be8a.up.railway.app" [ref=e216] [cursor=pointer]:
+                  - /url: https://web-production-be8a.up.railway.app
+              - generic [ref=e217]:
+                - generic [ref=e218]:
+                  - img [ref=e220]
+                  - link "US West" [ref=e223] [cursor=pointer]:
+                    - /url: /project/5c396182-0bd1-4e28-bdeb-1f9561dbe8a1/service/9a7f263d-2102-4b21-a411-dadca75e1e21/settings?environmentId=598d73e2-5c28-444c-8720-515a08c35c12#deploy-region-config
+                - generic [ref=e224]:
+                  - img [ref=e226]
+                  - link "1 Replica" [ref=e228] [cursor=pointer]:
+                    - /url: /project/5c396182-0bd1-4e28-bdeb-1f9561dbe8a1/service/9a7f263d-2102-4b21-a411-dadca75e1e21/settings?environmentId=598d73e2-5c28-444c-8720-515a08c35c12#deploy-region-config
+            - generic [ref=e230]:
+              - link "Active Add itsdangerous dependency for SessionMiddleware 41 seconds ago via GitHub View logs" [ref=e409] [cursor=pointer]:
+                - /url: /project/5c396182-0bd1-4e28-bdeb-1f9561dbe8a1/service/9a7f263d-2102-4b21-a411-dadca75e1e21?environmentId=598d73e2-5c28-444c-8720-515a08c35c12&id=176ae620-6bfc-4f3d-a902-72455d178002#deploy
+                - generic [ref=e233]:
+                  - generic [ref=e235]: Active
+                  - generic [ref=e237]:
+                    - generic "ahmednouh9" [ref=e238]
+                    - img [ref=e241]
+                  - generic [ref=e244]:
+                    - paragraph [ref=e245]: Add itsdangerous dependency for SessionMiddleware
+                    - paragraph [ref=e246]:
+                      - time [ref=e247]: 41 seconds ago
+                      - text: via GitHub
+                  - generic [ref=e248]:
+                    - button "Deployment actions" [ref=e249]:
+                      - img [ref=e251]
+                    - link "View logs" [ref=e255]:
+                      - /url: /project/5c396182-0bd1-4e28-bdeb-1f9561dbe8a1/service/9a7f263d-2102-4b21-a411-dadca75e1e21?environmentId=598d73e2-5c28-444c-8720-515a08c35c12&id=176ae620-6bfc-4f3d-a902-72455d178002#deploy
+                      - generic [ref=e256]: View logs
+              - button "Deployment successful" [ref=e410] [cursor=pointer]:
+                - generic [ref=e411]:
+                  - img [ref=e413]
+                  - paragraph [ref=e416]: Deployment successful
+                - img [ref=e280]
+            - generic [ref=e284]:
+              - generic [ref=e285]:
+                - button "History" [expanded] [ref=e286] [cursor=pointer]:
+                  - img [ref=e288]
+                  - paragraph [ref=e290]: History
+                - button "Hide Skipped" [ref=e291] [cursor=pointer]
+              - region "History" [ref=e292]:
+                - generic [ref=e293]:
+                  - link "Failed Initial commit - Radix auto-reply tool 3 minutes ago via GitHub View logs" [ref=e294] [cursor=pointer]:
+                    - /url: /project/5c396182-0bd1-4e28-bdeb-1f9561dbe8a1/service/9a7f263d-2102-4b21-a411-dadca75e1e21?environmentId=598d73e2-5c28-444c-8720-515a08c35c12&id=f0acd51f-6881-4761-8095-fc609b588057#details
+                    - generic [ref=e296]:
+                      - generic [ref=e298]: Failed
+                      - generic [ref=e300]:
+                        - generic "Ahmednouh000p" [ref=e301]
+                        - img [ref=e304]
+                      - generic [ref=e307]:
+                        - paragraph [ref=e308]: Initial commit - Radix auto-reply tool
+                        - paragraph [ref=e309]:
+                          - time [ref=e310]: 3 minutes ago
+                          - text: via GitHub
+                      - generic [ref=e311]:
+                        - button "Deployment actions" [ref=e312]:
+                          - img [ref=e314]
+                        - link "View logs" [ref=e318]:
+                          - /url: /project/5c396182-0bd1-4e28-bdeb-1f9561dbe8a1/service/9a7f263d-2102-4b21-a411-dadca75e1e21?environmentId=598d73e2-5c28-444c-8720-515a08c35c12&id=f0acd51f-6881-4761-8095-fc609b588057#details
+                          - generic [ref=e319]: View logs
+                  - generic [ref=e321]:
+                    - button "Deployment failed during network process (01:31)" [expanded] [ref=e322] [cursor=pointer]:
+                      - generic [ref=e323]:
+                        - generic [ref=e324]:
+                          - img [ref=e326]
+                          - paragraph [ref=e328]: Deployment failed during network process
+                        - paragraph [ref=e329]:
+                          - text: (
+                          - time [ref=e330]: 01:31
+                          - text: )
+                      - img [ref=e332]
+                    - region "Deployment failed during network process (01:31)" [ref=e334]:
+                      - generic [ref=e336]:
+                        - img [ref=e338]
+                        - generic [ref=e340]:
+                          - paragraph [ref=e342]: Initialization
+                          - paragraph [ref=e343]:
+                            - text: (
+                            - time [ref=e344]: 00:31
+                            - text: )
+                      - generic [ref=e346]:
+                        - img [ref=e348]
+                        - generic [ref=e350]:
+                          - paragraph [ref=e352]: Build
+                          - paragraph [ref=e353]:
+                            - text: (
+                            - time [ref=e354]: 00:31
+                            - text: )
+                      - generic [ref=e356]:
+                        - img [ref=e358]
+                        - generic [ref=e360]:
+                          - paragraph [ref=e362]: Deploy
+                          - paragraph [ref=e363]:
+                            - text: (
+                            - time [ref=e364]: 00:05
+                            - text: )
+                      - generic [ref=e365]:
+                        - generic [ref=e366]:
+                          - img [ref=e368]
+                          - generic [ref=e370]:
+                            - paragraph [ref=e372]:
+                              - text: Network
+                              - generic [ref=e373]: › Healthcheck
+                            - paragraph [ref=e374]:
+                              - text: (
+                              - time [ref=e375]: 00:53
+                              - text: )
+                        - paragraph [ref=e378]: Healthcheck failure
+                      - generic [ref=e380]:
+                        - img [ref=e382]
+                        - generic [ref=e385]:
+                          - paragraph [ref=e386]: Try running a diagnosis to understand why this deployment failed.
+                          - button "Diagnose" [ref=e388] [cursor=pointer]:
+                            - generic [ref=e389]: Diagnose
+                      - generic [ref=e391]:
+                        - img [ref=e393]
+                        - generic [ref=e395]:
+                          - paragraph [ref=e397]: Post-deploy
+                          - paragraph [ref=e398]: Not started

@@ -1,0 +1,317 @@
+- generic [active]:
+  - generic:
+    - generic:
+      - iframe
+    - generic:
+      - iframe
+    - generic:
+      - iframe
+    - generic:
+      - iframe
+    - generic [ref=e1]:
+      - generic [ref=e4]:
+        - generic [ref=e5]:
+          - link "شعار Meta" [ref=e7] [cursor=pointer]:
+            - /url: /?no_redirect=true
+            - img "شعار Meta" [ref=e9]
+          - tablist [ref=e18]:
+            - link "تطبيقاتي" [ref=e19] [cursor=pointer]:
+              - /url: /apps/
+              - generic [ref=e22]: تطبيقاتي
+            - link "الإجراءات المطلوبة" [ref=e23] [cursor=pointer]:
+              - /url: /required-actions/
+              - generic [ref=e26]: الإجراءات المطلوبة
+            - tab "الوثائق" [ref=e27] [cursor=pointer]:
+              - generic [ref=e30]: الوثائق
+            - tab "الأدوات" [ref=e32] [cursor=pointer]:
+              - generic [ref=e35]: الأدوات
+            - tab "الدعم" [ref=e37] [cursor=pointer]:
+              - generic [ref=e40]: الدعم
+        - generic [ref=e42]:
+          - generic [ref=e43]:
+            - generic [ref=e49]: إدخال البحث
+            - textbox "إدخال البحث" [ref=e60]:
+              - /placeholder: بحث...
+          - link [ref=e63] [cursor=pointer]:
+            - /url: "#"
+          - link "Facebook" [ref=e68] [cursor=pointer]:
+            - /url: "#"
+            - img "Facebook" [ref=e73]
+      - generic [ref=e74]:
+        - generic [ref=e76]:
+          - generic [ref=e79]:
+            - generic [ref=e82]:
+              - generic [ref=e88]: Searchable selector for all apps
+              - combobox "Searchable selector for all apps Radix Auto Reply" [ref=e93] [cursor=pointer]:
+                - generic [ref=e103]: Radix Auto Reply
+            - navigation [ref=e106]:
+              - list [ref=e107]:
+                - listitem [ref=e108]:
+                  - button "لوحة المعلومات" [ref=e110] [cursor=pointer]
+                  - generic:
+                    - listitem:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - generic: لوحة المعلومات
+                - listitem [ref=e116]:
+                  - button "الإجراءات المطلوبة" [ref=e118] [cursor=pointer]
+                  - generic:
+                    - listitem:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - generic: الإجراءات المطلوبة
+                - listitem [ref=e124]:
+                  - button "حالات الاستخدام" [ref=e126] [cursor=pointer]
+                  - generic:
+                    - listitem:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - generic: حالات الاستخدام
+                - listitem [ref=e132]:
+                  - generic [ref=e133]:
+                    - button "تسجيل دخول فيسبوك للأعمال" [ref=e135] [cursor=pointer]
+                    - generic:
+                      - listitem:
+                        - generic:
+                          - generic:
+                            - generic:
+                              - generic: تسجيل دخول فيسبوك للأعمال
+                          - button "تبديل المجموعة" [ref=e141] [cursor=pointer]:
+                            - generic [ref=e144]: تبديل المجموعة
+                  - list [ref=e147]:
+                    - generic [ref=e148]:
+                      - button "الإعدادات" [ref=e150] [cursor=pointer]
+                      - generic:
+                        - listitem:
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic: الإعدادات
+                    - generic [ref=e155]:
+                      - button "البدء السريع" [ref=e157] [cursor=pointer]
+                      - generic:
+                        - listitem:
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic: البدء السريع
+                    - generic [ref=e162]:
+                      - button "عمليات التكوين" [ref=e164] [cursor=pointer]
+                      - generic:
+                        - listitem:
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic: عمليات التكوين
+                    - generic [ref=e169]:
+                      - button "القوالب" [ref=e171] [cursor=pointer]
+                      - generic:
+                        - listitem:
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic: القوالب
+                - listitem [ref=e176]:
+                  - generic [ref=e177]:
+                    - button "مراجعة" [expanded] [ref=e179] [cursor=pointer]
+                    - generic:
+                      - listitem:
+                        - generic:
+                          - generic:
+                            - generic:
+                              - generic: مراجعة
+                          - button "تبديل المجموعة" [ref=e185] [cursor=pointer]:
+                            - generic [ref=e188]: تبديل المجموعة
+                  - list [ref=e192]:
+                    - generic [ref=e193]:
+                      - button "الاختبار" [ref=e195] [cursor=pointer]
+                      - generic:
+                        - listitem:
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic: الاختبار
+                    - generic [ref=e200]:
+                      - button "التحقق" [ref=e202] [cursor=pointer]
+                      - generic:
+                        - listitem:
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic: التحقق
+                    - generic [ref=e207]:
+                      - button "مراجعة التطبيق" [ref=e209] [cursor=pointer]
+                      - generic:
+                        - listitem:
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic: مراجعة التطبيق
+                - listitem [ref=e214]:
+                  - button "نشر" [ref=e216] [cursor=pointer]:
+                    - generic [ref=e219]:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - generic: غير منشور
+                          - status: حالة نشر التطبيق
+                  - generic:
+                    - listitem:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - generic: نشر
+                        - generic:
+                          - generic:
+                            - generic:
+                              - generic: غير منشور
+                            - status: حالة نشر التطبيق
+          - generic [ref=e223]:
+            - navigation [ref=e224]:
+              - list [ref=e225]:
+                - listitem [ref=e226]:
+                  - generic [ref=e227]:
+                    - button "إعدادات التطبيق" [ref=e229] [cursor=pointer]
+                    - generic:
+                      - listitem:
+                        - generic:
+                          - generic:
+                            - generic:
+                              - generic: إعدادات التطبيق
+                          - button "تبديل المجموعة" [ref=e235] [cursor=pointer]:
+                            - generic [ref=e238]: تبديل المجموعة
+                  - list [ref=e241]:
+                    - generic [ref=e242]:
+                      - button "أساسي" [ref=e244] [cursor=pointer]
+                      - generic:
+                        - listitem:
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic: أساسي
+                    - generic [ref=e249]:
+                      - button "إعدادات متقدمة" [ref=e251] [cursor=pointer]
+                      - generic:
+                        - listitem:
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic: إعدادات متقدمة
+                - listitem [ref=e256]:
+                  - generic [ref=e257]:
+                    - button "الأدوار بالتطبيق" [ref=e259] [cursor=pointer]
+                    - generic:
+                      - listitem:
+                        - generic:
+                          - generic:
+                            - generic:
+                              - generic: الأدوار بالتطبيق
+                          - button "تبديل المجموعة" [ref=e265] [cursor=pointer]:
+                            - generic [ref=e268]: تبديل المجموعة
+                  - list [ref=e271]:
+                    - generic [ref=e272]:
+                      - button "الأدوار" [ref=e274] [cursor=pointer]
+                      - generic:
+                        - listitem:
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic: الأدوار
+                    - generic [ref=e279]:
+                      - button "الحسابات الاختبارية" [ref=e281] [cursor=pointer]
+                      - generic:
+                        - listitem:
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic: الحسابات الاختبارية
+                - listitem [ref=e286]:
+                  - button "البريد الوارد للتنبيهات" [ref=e288] [cursor=pointer]
+                  - generic:
+                    - listitem:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - generic: البريد الوارد للتنبيهات
+            - separator [ref=e294]
+            - generic [ref=e295]:
+              - button "سجل النشاطات" [ref=e296] [cursor=pointer]:
+                - generic [ref=e299]: سجل النشاطات
+              - button "مساعدة" [ref=e303] [cursor=pointer]:
+                - generic [ref=e306]: مساعدة
+              - button "فتح/إغلاق التنقل الجانبي" [ref=e311] [cursor=pointer]:
+                - generic [ref=e314]: فتح/إغلاق التنقل الجانبي
+        - generic [ref=e321]:
+          - generic [ref=e323]:
+            - heading "إرسال لمراجعة التطبيقات" [level=1] [ref=e324]
+            - generic [ref=e327]:
+              - heading "بعض الأمور التي يجب تذكّرها" [level=4] [ref=e335]
+              - list [ref=e339]:
+                - listitem [ref=e340]:
+                  - text: لا تنطبق هذه الخطوات إلا على البيانات التي يتلقاها هذا التطبيق من Meta، والتي نشير إليها على أنها
+                  - link "بيانات المنصة" [ref=e341] [cursor=pointer]:
+                    - /url: https://developers.facebook.com/terms#glossary
+                  - text: .
+                - listitem [ref=e342]:
+                  - text: إذا كنت بحاجة إلى مساعدة، يرجى التحقق من وثائق المطوّرين في
+                  - link "مراجعة التطبيقات" [ref=e343] [cursor=pointer]:
+                    - /url: /docs/resp-plat-initiatives/appreview/
+                  - text: و
+                  - link "أسباب الرفض الشائعة" [ref=e344] [cursor=pointer]:
+                    - /url: /docs/resp-plat-initiatives/appreview/tutorial#common-mistakes/
+                - listitem [ref=e345]: إذا لم تكن متأكدًا من كيفية الإجابة عن أي سؤال، فإننا نوصي بأن تستشير زملاء مناسبين لديهم دراية بجانبي القانون وأمان البيانات في مؤسستك. وقد ينتج عن توفير إجابات غير مكتملة أو غامضة فقدان صلاحية الوصول إلى المنصة.
+                - listitem [ref=e346]: تأكد من مراجعة النماذج التي تم ملؤها مسبقًا للتأكد من أن المعلومات المقدَّمة في الماضي لا تزال دقيقة.
+          - generic [ref=e348]:
+            - generic [ref=e355]:
+              - link "التحقق \"توسيع/طي\"" [ref=e356] [cursor=pointer]:
+                - /url: "#"
+                - generic [ref=e357]:
+                  - heading "التحقق" [level=3] [ref=e360]
+                  - button "\"توسيع/طي\"" [ref=e362]:
+                    - generic [ref=e365]: "\"توسيع/طي\""
+              - text: تتطلب Meta عمليات التحقق لمساعدتنا على معرفة من يقوم بإنشاء التطبيقات على هذه المنصة.
+              - button "انتقال إلى التحقق" [ref=e368] [cursor=pointer]:
+                - generic [ref=e372]: انتقال إلى التحقق
+            - generic [ref=e459]:
+              - link "إعدادات التطبيق \"توسيع/طي\"" [ref=e460] [cursor=pointer]:
+                - /url: "#"
+                - generic [ref=e461]:
+                  - heading "إعدادات التطبيق" [level=3] [ref=e464]
+                  - button "\"توسيع/طي\"" [ref=e466]:
+                    - generic [ref=e469]: "\"توسيع/طي\""
+              - text: تأكد من إكمال جميع الإعدادات المطلوبة، مثل اسم التطبيق والبريد الإلكتروني للاتصال والأيقونة والفئة وغير ذلك الكثير.
+              - button "انتقال إلى إعدادات التطبيق" [ref=e472] [cursor=pointer]:
+                - generic [ref=e476]: انتقال إلى إعدادات التطبيق
+            - generic [ref=e477]:
+              - link "الاستخدام المسموح به \"توسيع/طي\"" [ref=e478] [cursor=pointer]:
+                - /url: "#"
+                - generic [ref=e479]:
+                  - heading "الاستخدام المسموح به" [level=3] [ref=e482]
+                  - button "\"توسيع/طي\"" [ref=e484]:
+                    - generic [ref=e487]: "\"توسيع/طي\""
+              - text: تأكد من أن تطبيقك يستخدم الأذونات والميزات وواجهات API وفق الاستخدام المسموح به لديه.
+              - button "انتقال إلى الاستخدام المسموح به" [ref=e490] [cursor=pointer]:
+                - generic [ref=e494]: انتقال إلى الاستخدام المسموح به
+            - link "معالجة البيانات \"توسيع/طي\"" [ref=e415] [cursor=pointer]:
+              - /url: "#"
+              - generic [ref=e416]:
+                - heading "معالجة البيانات" [level=3] [ref=e419]
+                - button "\"توسيع/طي\"" [ref=e421]:
+                  - generic [ref=e424]: "\"توسيع/طي\""
+            - link "تعليمات المراجع بحاجة إلى مراجعتك \"توسيع/طي\"" [ref=e433] [cursor=pointer]:
+              - /url: "#"
+              - generic [ref=e434]:
+                - heading "تعليمات المراجع" [level=3] [ref=e437]
+                - generic [ref=e438]:
+                  - generic [ref=e439]:
+                    - generic [ref=e441]: بحاجة إلى مراجعتك
+                    - status [ref=e442]: بحاجة إلى مراجعتك
+                  - button "\"توسيع/طي\"" [ref=e443]:
+                    - generic [ref=e446]: "\"توسيع/طي\""
+            - generic [ref=e450]:
+              - heading "يجب إكمال كل الخطوات قبل إرسال المحتوى للمراجعة." [level=4] [ref=e452]
+              - button "إرسال للمراجعة" [disabled] [ref=e454]:
+                - generic [ref=e458]: إرسال للمراجعة

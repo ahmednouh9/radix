@@ -1,0 +1,303 @@
+- generic [ref=e5]:
+  - banner:
+    - generic [ref=e6]:
+      - generic:
+        - generic:
+          - button [disabled]:
+            - img
+      - link "فيسبوك" [ref=e7] [cursor=pointer]:
+        - /url: /
+        - img [ref=e8]
+    - generic [ref=e16]:
+      - generic [ref=e17]:
+        - generic:
+          - generic:
+            - generic:
+              - button:
+                - img
+      - generic [ref=e19]:
+        - generic:
+          - img
+        - combobox "بحث في فيسبوك" [ref=e20]
+    - navigation "فيسبوك" [ref=e24]:
+      - list [ref=e25]:
+        - listitem [ref=e26]:
+          - link "الصفحة الرئيسية" [ref=e29] [cursor=pointer]:
+            - /url: /
+            - img [ref=e31]
+        - listitem [ref=e33]:
+          - link "ريلز" [ref=e36] [cursor=pointer]:
+            - /url: /reel/?s=tab
+            - img [ref=e38]
+        - listitem [ref=e41]:
+          - link "Marketplace" [ref=e44] [cursor=pointer]:
+            - /url: /marketplace/?ref=app_tab
+            - img [ref=e46]
+        - listitem [ref=e48]:
+          - link "المجموعات" [ref=e51] [cursor=pointer]:
+            - /url: /groups/
+            - img [ref=e53]
+        - listitem [ref=e55]:
+          - link "الألعاب" [ref=e58] [cursor=pointer]:
+            - /url: /gaming/play/?store_visit_source=gaming_tab
+            - img [ref=e60]
+    - navigation "عناصر التحكم وإعدادات الحساب" [ref=e64]:
+      - button "قائمة فيسبوك" [ref=e68] [cursor=pointer]:
+        - img [ref=e69]
+      - button "Messenger" [ref=e75] [cursor=pointer]:
+        - img [ref=e76]
+      - generic [ref=e82]:
+        - button "الإشعارات" [ref=e83] [cursor=pointer]:
+          - img [ref=e84]
+        - button [ref=e86] [cursor=pointer]:
+          - generic [ref=e87]:
+            - generic [ref=e88]: عدد الإشعارات غير المقروءة
+            - generic [ref=e89]: "3"
+      - button "ملفك الشخصي" [ref=e92] [cursor=pointer]:
+        - generic [ref=e93]:
+          - img "ملفك الشخصي" [ref=e94]
+          - img [ref=e101]
+  - main [ref=e110]:
+    - generic [ref=e111]:
+      - link "عرض صورة غلاف الملف الشخصي" [ref=e122] [cursor=pointer]:
+        - /url: https://www.facebook.com/photo/?fbid=122204892566513680&set=a.122178092420513680
+      - generic [ref=e130]:
+        - button "Nobel Swim Academy" [ref=e134] [cursor=pointer]:
+          - img "Nobel Swim Academy" [ref=e136]
+        - generic [ref=e143]:
+          - generic [ref=e145]:
+            - generic [ref=e148]:
+              - heading "Nobel Swim Academy" [level=1] [ref=e153]:
+                - button "Nobel Swim Academy" [ref=e154] [cursor=pointer]: Nobel Swim Academy
+              - generic [ref=e156]:
+                - link "‏المتابعون‏ ‏٩٧‏" [ref=e157] [cursor=pointer]:
+                  - /url: https://www.facebook.com/profile.php?id=61565410412344&sk=followers
+                  - text: ‏المتابعون‏ ‏
+                  - strong [ref=e158]: ٩٧
+                  - text: ‏
+                - text: •
+                - link "‏يتابع‏ ‏٠‏" [ref=e159] [cursor=pointer]:
+                  - /url: https://www.facebook.com/profile.php?id=61565410412344&sk=following
+                  - text: ‏يتابع‏ ‏
+                  - strong [ref=e160]: ٠
+                  - text: ‏
+            - generic [ref=e163]:
+              - button "تتابعه" [ref=e167] [cursor=pointer]:
+                - generic [ref=e170]: تتابعه
+              - button "مراسلة" [ref=e173] [cursor=pointer]:
+                - generic [ref=e176]: مراسلة
+              - button "بحث في ملف Nobel Swim Academy الشخصي" [ref=e179] [cursor=pointer]:
+                - generic [ref=e182]: بحث
+          - generic [ref=e184]:
+            - text: Fear stops you. Nobel starts you. ⚡️
+            - text: Redefining swimming education for all generations. 🫧
+            - text: • Infants | Kids | Adults
+            - text: • Special Needs & Water Therapy
+            - text: • Certified Coaches | Small Groups
+            - text: Don’t just swim. Dominate. 🔱
+            - text: 📍 Fustat, Old Cairo
+          - list "تفاصيل العناصر البارزة" [ref=e188]:
+            - listitem [ref=e189]:
+              - generic [ref=e190]:
+                - img [ref=e192]
+                - button "رياضة" [ref=e193] [cursor=pointer]
+    - generic [ref=e202]:
+      - tablist [ref=e210]:
+        - generic:
+          - generic:
+            - generic [ref=e212]:
+              - generic [ref=e213]: المزيد
+              - img [ref=e215]
+            - tab "الكل" [selected] [ref=e218] [cursor=pointer]:
+              - generic [ref=e220]: الكل
+            - tab "حول" [ref=e222] [cursor=pointer]:
+              - generic [ref=e224]: حول
+            - tab "ريلز" [ref=e226] [cursor=pointer]:
+              - generic [ref=e228]: ريلز
+            - tab "الصور" [ref=e230] [cursor=pointer]:
+              - generic [ref=e232]: الصور
+            - tab "المتابعون" [ref=e234] [cursor=pointer]:
+              - generic [ref=e236]: المتابعون
+      - button "خيارات \"عرض المزيد\" لإعدادات الملف الشخصي" [ref=e240] [cursor=pointer]:
+        - img [ref=e242]
+    - generic [ref=e246]:
+      - generic [ref=e254]:
+        - generic [ref=e260]: يمكنك التبديل إلى صفحة ‏‎Nobel Swim Academy‎‏ لبدء إدارتها.
+        - button "تبديل الآن" [ref=e263] [cursor=pointer]:
+          - generic [ref=e266]: تبديل الآن
+      - generic [ref=e268]:
+        - generic [ref=e272]:
+          - generic [ref=e274]:
+            - generic [ref=e278]:
+              - heading "التفاصيل" [level=2] [ref=e283]:
+                - generic [ref=e284]: التفاصيل
+              - list "التفاصيل" [ref=e285]:
+                - button "رأي واحد" [ref=e286] [cursor=pointer]:
+                  - generic [ref=e288]:
+                    - img [ref=e290]
+                    - listitem [ref=e291]:
+                      - generic [ref=e293]: رأي واحد
+            - generic [ref=e297]:
+              - heading "الروابط" [level=2] [ref=e302]:
+                - generic [ref=e303]: الروابط
+              - list "الروابط" [ref=e304]:
+                - generic [ref=e306]:
+                  - img [ref=e308]
+                  - listitem [ref=e309]:
+                    - link "tiktok.com" [ref=e313] [cursor=pointer]:
+                      - /url: https://l.facebook.com/l.php?u=http%3A%2F%2Fwww.tiktok.com%2F%40nobel_swim_academy%3Ffbclid%3DIwZXh0bgNhZW0CMTAAYnJpZBExRlQ1Q0MxNXVKTFBzUWJEZXNydGMGYXBwX2lkEDIyMjAzOTE3ODgyMDA4OTIAAR7oipbh3DjdQ-ST7Qx5n7JIBZybjMNJohdAW7rA5HwuiyiMW1EMADdXZyULSw_aem_dui8DJV6X_KBuBpPWBruPA&h=AUCdTCjDT1BrIBOyQOXCMSDZkFij5XT_avKu87JiShwWMSC9JrpFUNvx6sDdGSlq0TIcSFH6uLax4NLxZpw4RohVsRApngnEprKTRsmsBhN2hEux-zlukDta1hBWWUcJgFmP
+          - status "جارٍ التحميل..." [ref=e315]:
+            - list [ref=e322]:
+              - listitem [ref=e323]
+              - listitem [ref=e327]
+              - listitem [ref=e331]
+              - listitem [ref=e335]
+              - listitem [ref=e339]
+              - listitem [ref=e343]
+              - listitem [ref=e347]
+              - listitem [ref=e351]
+              - listitem [ref=e355]
+        - generic [ref=e359]:
+          - generic [ref=e363]:
+            - heading "المنشورات" [level=2] [ref=e367]:
+              - generic [ref=e368]: المنشورات
+            - button "الفلاتر" [ref=e372] [cursor=pointer]:
+              - generic [ref=e373]:
+                - img [ref=e374]
+                - generic [ref=e377]: الفلاتر
+          - generic [ref=e378]:
+            - article [ref=e385]:
+              - generic [ref=e393]:
+                - generic [ref=e395]:
+                  - link "Nobel Swim Academy، مشاهدة القصة" [ref=e399] [cursor=pointer]:
+                    - /url: /stories/122101197776513680/UzpfSVNDOjkyNTA5NTgxNzIyMTEyMA==/?view_single=false&__cft__[0]=AZZvbPzcQEWAnOFRuGwB7lGrHwiRC0KLF4xkyAWkFuj68rGDj-HmMzhBbLmDpZZNc-8nM2BSYzDkr7k5uNcaPYsOYoON4eeHheclIKWl0ZR6P-RDmgOsxZHMX0kMHePtLCPznjp61SCMFdQ7p-fqaRVDOUm7kZMKGUDXISD0Onb8A-DWbXTAPhtnaIrDZ80T3C57Z0ZmGzP7-w81h8dXsN1E&__tn__=%3C%3C%2CP-R
+                    - img "Nobel Swim Academy، مشاهدة القصة" [ref=e401]
+                  - generic [ref=e407]:
+                    - heading "‏‎ Nobel Swim Academy ‎‏ في ‏ نادى الحضارات ‏." [level=2] [ref=e411]:
+                      - generic [ref=e414]:
+                        - text: ‏‎
+                        - link "Nobel Swim Academy" [ref=e420] [cursor=pointer]:
+                          - /url: https://www.facebook.com/profile.php?id=61565410412344&__cft__[0]=AZZvbPzcQEWAnOFRuGwB7lGrHwiRC0KLF4xkyAWkFuj68rGDj-HmMzhBbLmDpZZNc-8nM2BSYzDkr7k5uNcaPYsOYoON4eeHheclIKWl0ZR6P-RDmgOsxZHMX0kMHePtLCPznjp61SCMFdQ7p-fqaRVDOUm7kZMKGUDXISD0Onb8A-DWbXTAPhtnaIrDZ80T3C57Z0ZmGzP7-w81h8dXsN1E&__tn__=-]C%2CP-R
+                        - text: ‎‏ في ‏
+                        - link "نادى الحضارات" [ref=e426] [cursor=pointer]:
+                          - /url: https://www.facebook.com/The.Egyptian.Cairo?__cft__[0]=AZZvbPzcQEWAnOFRuGwB7lGrHwiRC0KLF4xkyAWkFuj68rGDj-HmMzhBbLmDpZZNc-8nM2BSYzDkr7k5uNcaPYsOYoON4eeHheclIKWl0ZR6P-RDmgOsxZHMX0kMHePtLCPznjp61SCMFdQ7p-fqaRVDOUm7kZMKGUDXISD0Onb8A-DWbXTAPhtnaIrDZ80T3C57Z0ZmGzP7-w81h8dXsN1E&__tn__=-]C%2CP-R
+                        - text: ‏.
+                    - generic [ref=e429]:
+                      - link "٢١ س" [ref=e433] [cursor=pointer]:
+                        - /url: https://www.facebook.com/reel/1487178033062431/?__cft__[0]=AZZvbPzcQEWAnOFRuGwB7lGrHwiRC0KLF4xkyAWkFuj68rGDj-HmMzhBbLmDpZZNc-8nM2BSYzDkr7k5uNcaPYsOYoON4eeHheclIKWl0ZR6P-RDmgOsxZHMX0kMHePtLCPznjp61SCMFdQ7p-fqaRVDOUm7kZMKGUDXISD0Onb8A-DWbXTAPhtnaIrDZ80T3C57Z0ZmGzP7-w81h8dXsN1E&__tn__=%2CO%2CP-R
+                      - generic [ref=e435]: ·
+                      - link "‏القاهرة‏، ‏محافظة القاهرة‏" [ref=e437] [cursor=pointer]:
+                        - /url: https://www.facebook.com/pages/%D8%A7%D9%84%D9%82%D8%A7%D9%87%D8%B1%D8%A9/115351105145884?__cft__[0]=AZZvbPzcQEWAnOFRuGwB7lGrHwiRC0KLF4xkyAWkFuj68rGDj-HmMzhBbLmDpZZNc-8nM2BSYzDkr7k5uNcaPYsOYoON4eeHheclIKWl0ZR6P-RDmgOsxZHMX0kMHePtLCPznjp61SCMFdQ7p-fqaRVDOUm7kZMKGUDXISD0Onb8A-DWbXTAPhtnaIrDZ80T3C57Z0ZmGzP7-w81h8dXsN1E&__tn__=%2CP-R
+                      - generic [ref=e439]: ·
+                      - img "تمت المشاركة مع العامة" [ref=e444]
+                  - button "الإجراءات لهذا المنشور بواسطة Nobel Swim Academy" [ref=e452] [cursor=pointer]:
+                    - img [ref=e453]
+                - generic [ref=e464]:
+                  - generic [ref=e465]:
+                    - text: “الأجازة بدأت… والموبايل بقى صاحب ابنك الأنتيم”
+                    - img "📱" [ref=e467]
+                    - img "💔" [ref=e469]
+                  - generic [ref=e470]: الأجازة بدأت رسمي.
+                  - generic [ref=e471]:
+                    - text: و...
+                    - button "عرض المزيد" [ref=e472] [cursor=pointer]
+                - button "عرض الرؤى" [ref=e492] [cursor=pointer]:
+                  - generic [ref=e493]: عرض الرؤى
+                - generic [ref=e496]:
+                  - generic [ref=e500]:
+                    - generic [ref=e501]:
+                      - button "أعجبني" [ref=e502] [cursor=pointer]:
+                        - generic [ref=e508]: ٧
+                      - button "تفاعل" [ref=e509] [cursor=pointer]:
+                        - img [ref=e510]
+                    - button "كتابة تعليق" [ref=e513] [cursor=pointer]:
+                      - generic [ref=e518]: ٢
+                    - button "يمكنك إرسال هذا إلى الأصدقاء أو نشره على ملفك الشخصي." [ref=e520] [cursor=pointer]
+                    - toolbar "تعرف على الأشخاص الذين تفاعلوا مع هذا" [ref=e525]:
+                      - generic [ref=e526]:
+                        - 'button "أحببته: ٥ أشخاص" [ref=e530] [cursor=pointer]'
+                        - 'button "أعجبني: شخص واحد" [ref=e534] [cursor=pointer]'
+                        - 'button "أدعمه: شخص واحد" [ref=e538] [cursor=pointer]'
+                  - generic [ref=e539]:
+                    - generic [ref=e541]:
+                      - article "تعليق من Marian Ebid منذ ١٧ ساعة" [ref=e544]:
+                        - link [ref=e548] [cursor=pointer]:
+                          - /url: https://www.facebook.com/maro.candle?comment_id=Y29tbWVudDoxMjIyMDU0Mjg2NjA1MTM2ODBfMTAxOTk4MzM4MzcxNDY2NQ%3D%3D&__cft__[0]=AZZvbPzcQEWAnOFRuGwB7lGrHwiRC0KLF4xkyAWkFuj68rGDj-HmMzhBbLmDpZZNc-8nM2BSYzDkr7k5uNcaPYsOYoON4eeHheclIKWl0ZR6P-RDmgOsxZHMX0kMHePtLCPznjp61SCMFdQ7p-fqaRVDOUm7kZMKGUDXISD0Onb8A-DWbXTAPhtnaIrDZ80T3C57Z0ZmGzP7-w81h8dXsN1E&__tn__=R-R
+                          - img [ref=e550]
+                        - generic [ref=e554]:
+                          - generic [ref=e555]:
+                            - generic [ref=e558]:
+                              - link "Marian Ebid" [ref=e561] [cursor=pointer]:
+                                - /url: https://www.facebook.com/maro.candle?comment_id=Y29tbWVudDoxMjIyMDU0Mjg2NjA1MTM2ODBfMTAxOTk4MzM4MzcxNDY2NQ%3D%3D&__cft__[0]=AZZvbPzcQEWAnOFRuGwB7lGrHwiRC0KLF4xkyAWkFuj68rGDj-HmMzhBbLmDpZZNc-8nM2BSYzDkr7k5uNcaPYsOYoON4eeHheclIKWl0ZR6P-RDmgOsxZHMX0kMHePtLCPznjp61SCMFdQ7p-fqaRVDOUm7kZMKGUDXISD0Onb8A-DWbXTAPhtnaIrDZ80T3C57Z0ZmGzP7-w81h8dXsN1E&__tn__=R-R
+                                - generic [ref=e563]: Marian Ebid
+                              - generic [ref=e567]: تفاصيل
+                            - button "‏‏إخفاء‏ أو ‏إبلاغ‏‏ هذا" [ref=e572] [cursor=pointer]:
+                              - img [ref=e573]
+                          - generic [ref=e575]:
+                            - list [ref=e576]:
+                              - listitem [ref=e577]:
+                                - link "١٧ س" [ref=e580] [cursor=pointer]:
+                                  - /url: https://www.facebook.com/reel/1487178033062431/?comment_id=1019983383714665&__cft__[0]=AZZvbPzcQEWAnOFRuGwB7lGrHwiRC0KLF4xkyAWkFuj68rGDj-HmMzhBbLmDpZZNc-8nM2BSYzDkr7k5uNcaPYsOYoON4eeHheclIKWl0ZR6P-RDmgOsxZHMX0kMHePtLCPznjp61SCMFdQ7p-fqaRVDOUm7kZMKGUDXISD0Onb8A-DWbXTAPhtnaIrDZ80T3C57Z0ZmGzP7-w81h8dXsN1E&__tn__=R-R
+                              - listitem [ref=e581]:
+                                - generic [ref=e584]:
+                                  - button "أعجبني" [ref=e586] [cursor=pointer]:
+                                    - generic [ref=e587]: أعجبني
+                                  - button "تفاعل" [ref=e588] [cursor=pointer]
+                              - listitem [ref=e590]:
+                                - button "رد" [ref=e592] [cursor=pointer]
+                            - button "NaN من التفاعلات؛ تعرف على الأشخاص الذين تفاعلوا مع هذا" [ref=e596] [cursor=pointer]:
+                              - generic [ref=e598]: ٠
+                      - article "رد من Nobel Swim Academy على تعليق Marian Ebid منذ ١٧ ساعة" [ref=e602]:
+                        - link [ref=e606] [cursor=pointer]:
+                          - /url: https://www.facebook.com/profile.php?id=61565410412344&comment_id=Y29tbWVudDoxMjIyMDU0Mjg2NjA1MTM2ODBfNDI3ODA2OTg1NTgzNzAzNA%3D%3D&__cft__[0]=AZZvbPzcQEWAnOFRuGwB7lGrHwiRC0KLF4xkyAWkFuj68rGDj-HmMzhBbLmDpZZNc-8nM2BSYzDkr7k5uNcaPYsOYoON4eeHheclIKWl0ZR6P-RDmgOsxZHMX0kMHePtLCPznjp61SCMFdQ7p-fqaRVDOUm7kZMKGUDXISD0Onb8A-DWbXTAPhtnaIrDZ80T3C57Z0ZmGzP7-w81h8dXsN1E&__tn__=R-R
+                          - img [ref=e608]
+                        - generic [ref=e612]:
+                          - generic [ref=e613]:
+                            - generic [ref=e616]:
+                              - button "عرض معلومات عن شارات الهوية" [ref=e617] [cursor=pointer]:
+                                - generic [ref=e619]: كاتب المنشور
+                              - link "Nobel Swim Academy" [ref=e622] [cursor=pointer]:
+                                - /url: https://www.facebook.com/profile.php?id=61565410412344&comment_id=Y29tbWVudDoxMjIyMDU0Mjg2NjA1MTM2ODBfNDI3ODA2OTg1NTgzNzAzNA%3D%3D&__cft__[0]=AZZvbPzcQEWAnOFRuGwB7lGrHwiRC0KLF4xkyAWkFuj68rGDj-HmMzhBbLmDpZZNc-8nM2BSYzDkr7k5uNcaPYsOYoON4eeHheclIKWl0ZR6P-RDmgOsxZHMX0kMHePtLCPznjp61SCMFdQ7p-fqaRVDOUm7kZMKGUDXISD0Onb8A-DWbXTAPhtnaIrDZ80T3C57Z0ZmGzP7-w81h8dXsN1E&__tn__=R-R
+                                - generic [ref=e624]: Nobel Swim Academy
+                              - generic [ref=e628]:
+                                - link "Marian Ebid" [ref=e629] [cursor=pointer]:
+                                  - /url: https://www.facebook.com/maro.candle?__cft__[0]=AZZvbPzcQEWAnOFRuGwB7lGrHwiRC0KLF4xkyAWkFuj68rGDj-HmMzhBbLmDpZZNc-8nM2BSYzDkr7k5uNcaPYsOYoON4eeHheclIKWl0ZR6P-RDmgOsxZHMX0kMHePtLCPznjp61SCMFdQ7p-fqaRVDOUm7kZMKGUDXISD0Onb8A-DWbXTAPhtnaIrDZ80T3C57Z0ZmGzP7-w81h8dXsN1E&__tn__=R-R
+                                  - generic [ref=e631]: Marian Ebid
+                                - text: تم الرد
+                                - img "✅" [ref=e633]
+                            - button "‏‏إخفاء‏ أو ‏إبلاغ‏‏ هذا" [ref=e638] [cursor=pointer]:
+                              - img [ref=e639]
+                          - generic [ref=e641]:
+                            - list [ref=e642]:
+                              - listitem [ref=e643]:
+                                - link "١٧ س" [ref=e646] [cursor=pointer]:
+                                  - /url: https://www.facebook.com/reel/1487178033062431/?comment_id=1019983383714665&reply_comment_id=4278069855837034&__cft__[0]=AZZvbPzcQEWAnOFRuGwB7lGrHwiRC0KLF4xkyAWkFuj68rGDj-HmMzhBbLmDpZZNc-8nM2BSYzDkr7k5uNcaPYsOYoON4eeHheclIKWl0ZR6P-RDmgOsxZHMX0kMHePtLCPznjp61SCMFdQ7p-fqaRVDOUm7kZMKGUDXISD0Onb8A-DWbXTAPhtnaIrDZ80T3C57Z0ZmGzP7-w81h8dXsN1E&__tn__=R-R
+                              - listitem [ref=e647]:
+                                - generic [ref=e650]:
+                                  - button "أعجبني" [ref=e652] [cursor=pointer]:
+                                    - generic [ref=e653]: أعجبني
+                                  - button "تفاعل" [ref=e654] [cursor=pointer]
+                              - listitem [ref=e656]:
+                                - button "رد" [ref=e658] [cursor=pointer]
+                            - button "NaN من التفاعلات؛ تعرف على الأشخاص الذين تفاعلوا مع هذا" [ref=e662] [cursor=pointer]:
+                              - generic [ref=e664]: ٠
+                    - generic [ref=e670]:
+                      - button "الأصوات المتوفرة، تبديل الملف الشخصي" [ref=e672] [cursor=pointer]:
+                        - generic [ref=e673]:
+                          - img [ref=e674]
+                          - img [ref=e681]
+                      - generic [ref=e684]:
+                        - generic [ref=e687]:
+                          - generic:
+                            - generic:
+                              - generic:
+                                - textbox "تعليق باسم ‏احمد نوح‏"
+                                - generic: تعليق باسم ‏احمد نوح‏
+                        - generic [ref=e688]:
+                          - img [ref=e690]
+                          - generic [ref=e693]: إنك تُعلّق باسم احمد نوح.
+            - generic [ref=e695]:
+              - article [ref=e696]:
+                - status "جارٍ التحميل..." [ref=e697]
+              - article [ref=e710]:
+                - status "جارٍ التحميل..." [ref=e711]

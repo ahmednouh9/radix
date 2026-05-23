@@ -1,0 +1,102 @@
+- generic [ref=e2]:
+  - generic:
+    - iframe
+  - generic:
+    - iframe
+  - generic:
+    - iframe
+  - generic:
+    - iframe
+  - generic [ref=e3]:
+    - generic [ref=e96]:
+      - generic [ref=e97]:
+        - link "شعار Meta" [ref=e99] [cursor=pointer]:
+          - /url: /?no_redirect=true
+          - img "شعار Meta" [ref=e101]
+        - tablist [ref=e110]:
+          - link "تطبيقاتي" [ref=e111] [cursor=pointer]:
+            - /url: /apps/
+            - generic [ref=e114]: تطبيقاتي
+          - link "الإجراءات المطلوبة" [ref=e115] [cursor=pointer]:
+            - /url: /required-actions/
+            - generic [ref=e118]: الإجراءات المطلوبة
+          - tab "الوثائق" [ref=e508] [cursor=pointer]:
+            - generic [ref=e511]: الوثائق
+          - tab "الأدوات" [ref=e711] [cursor=pointer]:
+            - generic [ref=e714]: الأدوات
+          - tab "الدعم" [ref=e716] [cursor=pointer]:
+            - generic [ref=e719]: الدعم
+      - generic [ref=e134]:
+        - generic [ref=e135]:
+          - generic [ref=e141]: إدخال البحث
+          - textbox "إدخال البحث" [ref=e152]:
+            - /placeholder: بحث...
+        - link [ref=e155] [cursor=pointer]:
+          - /url: "#"
+        - link "Facebook" [ref=e160] [cursor=pointer]:
+          - /url: "#"
+          - img "Facebook" [ref=e165]
+    - generic [ref=e27]:
+      - heading "إنشاء تطبيق" [level=1] [ref=e29]
+      - generic [ref=e31]:
+        - list [ref=e43]:
+          - listitem [ref=e44]:
+            - button "تفاصيل التطبيق حالة مكتملة" [ref=e229] [cursor=pointer]:
+              - generic [ref=e50]: تفاصيل التطبيق
+          - listitem [ref=e51]:
+            - button "حالات الاستخدام حالة مكتملة" [ref=e527] [cursor=pointer]:
+              - generic [ref=e57]: حالات الاستخدام
+          - listitem [ref=e58]:
+            - button "النشاط التجاري حالة مكتملة" [ref=e606] [cursor=pointer]:
+              - generic [ref=e64]: النشاط التجاري
+          - listitem [ref=e65]:
+            - button "المتطلبات حالة مكتملة" [ref=e642] [cursor=pointer]:
+              - generic [ref=e71]: المتطلبات
+          - listitem [ref=e72]:
+            - button "نظرة عامة حالة معلقة" [ref=e73] [cursor=pointer]:
+              - generic [ref=e78]: نظرة عامة
+        - generic [ref=e646]:
+          - heading "نظرة عامة" [level=2] [ref=e649]
+          - generic [ref=e652]:
+            - generic [ref=e653]:
+              - heading "تفاصيل التطبيق" [level=3] [ref=e654]
+              - generic [ref=e655]:
+                - generic [ref=e657]:
+                  - heading "اسم التطبيق" [level=4] [ref=e658]
+                  - generic [ref=e659]: Radix Auto Reply
+                - generic [ref=e662]:
+                  - heading "البريد الإلكتروني للتطبيق" [level=4] [ref=e663]
+                  - generic [ref=e664]: ahmednouh3230@gmail.com
+            - generic [ref=e665]:
+              - heading "حالات الاستخدام" [level=3] [ref=e666]
+              - generic [ref=e671]:
+                - generic [ref=e674]:
+                  - heading "إدارة المراسلة والمحتوى على Instagram" [level=4] [ref=e675]
+                  - generic [ref=e676]:
+                    - text: يمكنك نشر المنشورات ومشاركة القصص والرد على التعليقات والرد على الرسائل الخاصة وغير ذلك الكثير من خلال واجهة Instagram API.
+                    - link "حول واجهة Instagram API" [ref=e677] [cursor=pointer]:
+                      - /url: /docs/development/create-an-app/instagram-use-case/
+                - link "+ حالة استخدام واحدة" [active] [ref=e680] [cursor=pointer]:
+                  - /url: "#"
+            - generic [ref=e681]:
+              - heading "النشاط التجاري" [level=3] [ref=e682]
+              - generic [ref=e684]: لم يتم تحديد أي نشاط تجاري.
+            - generic [ref=e685]:
+              - heading "المتطلبات" [level=3] [ref=e686]
+              - generic [ref=e688]: لا توجد متطلبات لحالات الاستخدام على هذا التطبيق.
+            - generic [ref=e689]:
+              - text: بالمتابعة، فإنك توافق على
+              - link "شروط منصة Meta" [ref=e690] [cursor=pointer]:
+                - /url: "#"
+              - text: و
+              - link "سياسات المطوِّرين" [ref=e691] [cursor=pointer]:
+                - /url: "#"
+              - text: وكل الشروط والسياسات الأخرى المعمول بها.
+          - generic [ref=e692]:
+            - button "إلغاء" [ref=e695] [cursor=pointer]:
+              - generic [ref=e699]: إلغاء
+            - generic [ref=e700]:
+              - button "السابق" [ref=e701] [cursor=pointer]:
+                - generic [ref=e705]: السابق
+              - button "إنشاء تطبيق" [ref=e706] [cursor=pointer]:
+                - generic [ref=e710]: إنشاء تطبيق

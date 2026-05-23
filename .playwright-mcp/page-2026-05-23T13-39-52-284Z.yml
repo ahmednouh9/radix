@@ -1,0 +1,79 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e2]:
+    - complementary [ref=e3]:
+      - generic [ref=e4]:
+        - generic [ref=e5]: Rx
+        - generic [ref=e6]: Radix
+      - navigation [ref=e7]:
+        - link "📊 Dashboard" [ref=e8] [cursor=pointer]:
+          - /url: /dashboard
+          - generic [ref=e9]: 📊
+          - generic [ref=e10]: Dashboard
+        - link "🎯 Campaigns" [ref=e11] [cursor=pointer]:
+          - /url: /campaigns
+          - generic [ref=e12]: 🎯
+          - generic [ref=e13]: Campaigns
+        - link "⚙️ Settings" [ref=e14] [cursor=pointer]:
+          - /url: /settings
+          - generic [ref=e15]: ⚙️
+          - generic [ref=e16]: Settings
+        - link "🔔 Notifications" [ref=e17] [cursor=pointer]:
+          - /url: /notifications
+          - generic [ref=e18]: 🔔
+          - generic [ref=e19]: Notifications
+        - link "📈 Analytics" [ref=e20] [cursor=pointer]:
+          - /url: /analytics
+          - generic [ref=e21]: 📈
+          - generic [ref=e22]: Analytics
+      - generic [ref=e23]:
+        - button "🇬🇧 Language AR" [ref=e24] [cursor=pointer]:
+          - generic [ref=e25]: 🇬🇧
+          - generic [ref=e26]: Language
+          - generic [ref=e27]: AR
+        - link "🚪 Logout" [ref=e28] [cursor=pointer]:
+          - /url: /logout
+          - generic [ref=e29]: 🚪
+          - generic [ref=e30]: Logout
+    - main [ref=e31]:
+      - generic [ref=e32]:
+        - heading "Settings" [level=1] [ref=e34]
+        - generic [ref=e36]:
+          - generic [ref=e39]: IG
+          - generic [ref=e42]: FB
+      - generic [ref=e43]:
+        - generic [ref=e44]:
+          - button "📱 Instagram" [ref=e45] [cursor=pointer]
+          - button "📘 Facebook" [ref=e46] [cursor=pointer]
+        - generic [ref=e49]:
+          - generic [ref=e50]:
+            - generic [ref=e51]:
+              - generic [ref=e52]: App ID
+              - textbox [ref=e53]
+            - generic [ref=e54]:
+              - generic [ref=e55]: App Secret
+              - generic [ref=e56]:
+                - textbox [ref=e57]
+                - button "👁️" [ref=e58] [cursor=pointer]
+          - generic [ref=e59]:
+            - generic [ref=e60]: Access Token
+            - generic [ref=e61]:
+              - textbox [ref=e62]
+              - button "👁️" [ref=e63] [cursor=pointer]
+          - generic [ref=e64]:
+            - generic [ref=e65]:
+              - generic [ref=e66]: IG Business Account ID
+              - textbox [ref=e67]
+            - generic [ref=e68]:
+              - generic [ref=e69]: Webhook Verify Token
+              - textbox [ref=e70]
+          - generic [ref=e71]:
+            - generic [ref=e72]: Webhook URL
+            - generic [ref=e73]:
+              - textbox [ref=e74]: https://web-production-be8a.up.railway.app/webhook/instagram
+              - button "Copy" [ref=e75] [cursor=pointer]
+          - generic [ref=e76]:
+            - button "Save Settings" [ref=e77] [cursor=pointer]
+            - button "Test Connection" [ref=e78] [cursor=pointer]
+  - generic [ref=e79]:
+    - generic [ref=e80]: Config not found
+    - generic [ref=e81]: Config not found

@@ -1,0 +1,179 @@
+- generic [ref=e2]:
+  - generic [ref=e3]:
+    - generic [ref=e7]:
+      - link "Meta للأعمال (المعروف سابقًا باسم فيسبوك للأعمال)" [ref=e8] [cursor=pointer]:
+        - /url: https://www.facebook.com/business?client_id=4353700201609567&redirect_uri=https%3A%2F%2Fdevelopers.facebook.com%2Ftools%2Fexplorer%2Fcallback%2F&scope=pages_show_list%2Cpages_read_engagement%2Cpages_read_user_content%2Cpages_manage_engagement%2Cbusiness_management&response_type=token%2Cgrant
+        - img "Meta للأعمال (المعروف سابقًا باسم فيسبوك للأعمال)" [ref=e9]
+      - generic [ref=e10]:
+        - link "بدء الاستخدام" [ref=e12] [cursor=pointer]:
+          - /url: "#"
+        - link "الإعلان" [ref=e14] [cursor=pointer]:
+          - /url: "#"
+        - link "التعلُّم" [ref=e16] [cursor=pointer]:
+          - /url: "#"
+        - link "الدعم" [ref=e18] [cursor=pointer]:
+          - /url: "#"
+      - generic [ref=e19]:
+        - link [ref=e22] [cursor=pointer]:
+          - /url: "#"
+        - button [ref=e29] [cursor=pointer]:
+          - img [ref=e30]
+        - generic [ref=e35]:
+          - button "ابدأ الآن" [ref=e37] [cursor=pointer]
+          - button [ref=e39] [cursor=pointer]:
+            - img [ref=e40]
+    - generic [ref=e44]:
+      - main [ref=e45]:
+        - generic [ref=e48]:
+          - generic [ref=e52]:
+            - generic [ref=e53]:
+              - heading "لقد وصلت إلى صفحة غير موجودة." [level=1] [ref=e54]
+              - paragraph [ref=e56]: دعنا نساعدك على استئناف نشاطك التجاري.
+            - button "استكشاف Meta للأعمال" [ref=e57] [cursor=pointer]
+          - img "هذه الصفحة غير موجودة" [ref=e62]
+        - generic [ref=e66]:
+          - generic [ref=e67]:
+            - generic [ref=e73]:
+              - heading "موصى به" [level=5] [ref=e74]
+              - heading "الانتقال بنشاطك التجاري إلى المرحلة التالية من خلال الإلهام والرؤى والموارد المختارة لك فقط." [level=2] [ref=e75]
+            - link "carousel navigation previous slide button" [ref=e77] [cursor=pointer]:
+              - /url: "#"
+            - link "carousel navigation next slide button" [ref=e80] [cursor=pointer]:
+              - /url: "#"
+          - generic [ref=e85]:
+            - link "قراءة كيفية تحسين المحتوى للبحث على وسائل التواصل الاجتماعي على تقنيات Meta الأخبار كيفية تحسين المحتوى للبحث على وسائل التواصل الاجتماعي على تقنيات Meta" [ref=e89] [cursor=pointer]:
+              - /url: /business/news/social-search-series-2
+              - generic [ref=e90]:
+                - generic [ref=e91]:
+                  - paragraph [ref=e94]: قراءة
+                  - img "كيفية تحسين المحتوى للبحث على وسائل التواصل الاجتماعي على تقنيات Meta" [ref=e95]
+                - generic [ref=e97]:
+                  - heading "الأخبار" [level=5] [ref=e98]
+                  - heading "كيفية تحسين المحتوى للبحث على وسائل التواصل الاجتماعي على تقنيات Meta" [level=3] [ref=e99]
+            - link "قراءة الاتجاهات التي تعيد تشكيل البحث وعائد الاستثمار الذي يبرر اتخاذ القرار الفوري نحو التغيير الأخبار الاتجاهات التي تعيد تشكيل البحث وعائد الاستثمار الذي يبرر اتخاذ القرار الفوري نحو التغيير" [ref=e103] [cursor=pointer]:
+              - /url: /business/news/social-search-series-3
+              - generic [ref=e104]:
+                - generic [ref=e105]:
+                  - paragraph [ref=e108]: قراءة
+                  - img "الاتجاهات التي تعيد تشكيل البحث وعائد الاستثمار الذي يبرر اتخاذ القرار الفوري نحو التغيير" [ref=e109]
+                - generic [ref=e111]:
+                  - heading "الأخبار" [level=5] [ref=e112]
+                  - heading "الاتجاهات التي تعيد تشكيل البحث وعائد الاستثمار الذي يبرر اتخاذ القرار الفوري نحو التغيير" [level=3] [ref=e113]
+            - link "قراءة لماذا لا يتنافس البحث على وسائل التواصل الاجتماعي مع البحث التقليدي، بل يكمل أحدهما الآخر الأخبار لماذا لا يتنافس البحث على وسائل التواصل الاجتماعي مع البحث التقليدي، بل يكمل أحدهما الآخر" [ref=e117] [cursor=pointer]:
+              - /url: /business/news/social-search-series-1
+              - generic [ref=e118]:
+                - generic [ref=e119]:
+                  - paragraph [ref=e122]: قراءة
+                  - img "لماذا لا يتنافس البحث على وسائل التواصل الاجتماعي مع البحث التقليدي، بل يكمل أحدهما الآخر" [ref=e123]
+                - generic [ref=e125]:
+                  - heading "الأخبار" [level=5] [ref=e126]
+                  - heading "لماذا لا يتنافس البحث على وسائل التواصل الاجتماعي مع البحث التقليدي، بل يكمل أحدهما الآخر" [level=3] [ref=e127]
+            - 'link "قراءة Cyber 5 2025: عوامل النجاح، والعناصر التي تغيرت، وكيفية تحقيق النجاح في الربع الخامس الرؤى Cyber 5 2025: عوامل النجاح، والعناصر التي تغيرت، وكيفية تحقيق النجاح في الربع الخامس" [ref=e131] [cursor=pointer]':
+              - /url: /business/news/cyber-5-2025-what-worked
+              - generic [ref=e132]:
+                - generic [ref=e133]:
+                  - paragraph [ref=e136]: قراءة
+                  - 'img "Cyber 5 2025: عوامل النجاح، والعناصر التي تغيرت، وكيفية تحقيق النجاح في الربع الخامس" [ref=e137]'
+                - generic [ref=e139]:
+                  - heading "الرؤى" [level=5] [ref=e140]
+                  - 'heading "Cyber 5 2025: عوامل النجاح، والعناصر التي تغيرت، وكيفية تحقيق النجاح في الربع الخامس" [level=3] [ref=e141]'
+            - 'link "قراءة Meta: أكبر ملعب لممارسة الألعاب الرياضية الرؤى Meta: أكبر ملعب لممارسة الألعاب الرياضية" [ref=e145] [cursor=pointer]':
+              - /url: /business/news/sports-consumer-research-2025
+              - generic [ref=e146]:
+                - generic [ref=e147]:
+                  - paragraph [ref=e150]: قراءة
+                  - 'img "Meta: أكبر ملعب لممارسة الألعاب الرياضية" [ref=e151]'
+                - generic [ref=e153]:
+                  - heading "الرؤى" [level=5] [ref=e154]
+                  - 'heading "Meta: أكبر ملعب لممارسة الألعاب الرياضية" [level=3] [ref=e155]'
+            - 'link "قراءة لا تدَع نشاطك التجاري يقع فريسة: احرص على حماية حسابك على فيسبوك من التصيد الاحتيالي أفضل الممارسات لا تدَع نشاطك التجاري يقع فريسة: احرص على حماية حسابك على فيسبوك من التصيد الاحتيالي" [ref=e159] [cursor=pointer]':
+              - /url: /business/news/dont-let-your-business-be-a-victim-protect-your-facebook-account-from-phishing
+              - generic [ref=e160]:
+                - generic [ref=e161]:
+                  - paragraph [ref=e164]: قراءة
+                  - 'img "لا تدَع نشاطك التجاري يقع فريسة: احرص على حماية حسابك على فيسبوك من التصيد الاحتيالي" [ref=e165]'
+                - generic [ref=e167]:
+                  - heading "أفضل الممارسات" [level=5] [ref=e168]
+                  - 'heading "لا تدَع نشاطك التجاري يقع فريسة: احرص على حماية حسابك على فيسبوك من التصيد الاحتيالي" [level=3] [ref=e169]'
+            - link "قراءة يتوسع سوق منشئي المحتوى على Instagram ليشمل أسواقًا جديدة ويختبر توصيات أكثر دقة الإعلامات يتوسع سوق منشئي المحتوى على Instagram ليشمل أسواقًا جديدة ويختبر توصيات أكثر دقة" [ref=e173] [cursor=pointer]:
+              - /url: https://business.instagram.com/blog/creatormarketplaceexpansion?fbclid=IwZXh0bgNhZW0CMTEAYnJpZBExWUx1NTBLUHNOb1FHREszdHNydGMGYXBwX2lkDDI1NjI4MTA0MDU1OAABHl_yUmV3U7sKfVt77T-SvGyElqhNsnpNBGO-90RXDyvvy-DQ55skvBznu10N_aem_WiDoaEUh4FUqz_kwWuF_Sg
+              - generic [ref=e174]:
+                - generic [ref=e175]:
+                  - paragraph [ref=e178]: قراءة
+                  - img "يتوسع سوق منشئي المحتوى على Instagram ليشمل أسواقًا جديدة ويختبر توصيات أكثر دقة" [ref=e179]
+                - generic [ref=e181]:
+                  - heading "الإعلامات" [level=5] [ref=e182]
+                  - heading "يتوسع سوق منشئي المحتوى على Instagram ليشمل أسواقًا جديدة ويختبر توصيات أكثر دقة" [level=3] [ref=e183]
+            - link "قراءة ترويج عمليات الطرح التالية والوصول إلى مزيد من الأشخاص باستخدام إعلانات Instagram الجديدة الإعلامات ترويج عمليات الطرح التالية والوصول إلى مزيد من الأشخاص باستخدام إعلانات Instagram الجديدة" [ref=e187] [cursor=pointer]:
+              - /url: https://business.instagram.com/blog/reminder-ads-and-ads-in-search-results?fbclid=IwZXh0bgNhZW0CMTEAYnJpZBExWUx1NTBLUHNOb1FHREszdHNydGMGYXBwX2lkDDI1NjI4MTA0MDU1OAABHgM9iL16lib6qiXbQ10n7vZCgCYWnbgi-OuhyY5ZflPUiiKiOnjq8al00zXt_aem_6suVnsBmPndlJTLLLS_g-Q
+              - generic [ref=e188]:
+                - generic [ref=e189]:
+                  - paragraph [ref=e192]: قراءة
+                  - img "ترويج عمليات الطرح التالية والوصول إلى مزيد من الأشخاص باستخدام إعلانات Instagram الجديدة" [ref=e193]
+                - generic [ref=e195]:
+                  - heading "الإعلامات" [level=5] [ref=e196]
+                  - heading "ترويج عمليات الطرح التالية والوصول إلى مزيد من الأشخاص باستخدام إعلانات Instagram الجديدة" [level=3] [ref=e197]
+        - heading "استكشاف التطبيقات" [level=2] [ref=e203]
+        - generic [ref=e208]:
+          - button "فيسبوك" [ref=e210] [cursor=pointer]: فيسبوك
+          - button "Instagram" [ref=e213] [cursor=pointer]: Instagram
+          - button "Messenger" [ref=e216] [cursor=pointer]: Messenger
+          - button "واتساب" [ref=e219] [cursor=pointer]: واتساب
+        - generic [ref=e223]:
+          - heading "روابط سريعة مفيدة" [level=2] [ref=e229]
+          - generic [ref=e235]:
+            - link "الحصول على الإجابات في مركز مساعدة الأعمال" [ref=e237] [cursor=pointer]:
+              - /url: /business/help
+              - heading "الحصول على الإجابات في مركز مساعدة الأعمال" [level=3] [ref=e239]
+            - link "التعلُّم من خلال الدورات التدريبية على Meta Blueprint" [ref=e241] [cursor=pointer]:
+              - /url: /business/learn
+              - heading "التعلُّم من خلال الدورات التدريبية على Meta Blueprint" [level=3] [ref=e243]
+            - link "بدء استخدام إعلانات Meta" [ref=e245] [cursor=pointer]:
+              - /url: /business/ads
+              - heading "بدء استخدام إعلانات Meta" [level=3] [ref=e247]
+            - link "الانتقال إلى مدير الإعلانات" [ref=e249] [cursor=pointer]:
+              - /url: /adsmanager
+              - heading "الانتقال إلى مدير الإعلانات" [level=3] [ref=e251]
+      - generic [ref=e254]:
+        - generic [ref=e259]:
+          - heading "احصل على آخر التحديثات من Meta للأعمال." [level=2] [ref=e260]
+          - paragraph [ref=e262]: أدخِل عنوان بريدك الإلكتروني حتى تصلك آخر التحديثات من Meta للأعمال، بما في ذلك الأخبار والمناسبات وتحديثات المنتجات.
+        - generic [ref=e271]:
+          - generic [ref=e273]:
+            - textbox "البريد الإلكتروني" [ref=e275]
+            - combobox "أدخل اسم بلد..." [ref=e280]
+            - paragraph [ref=e288]:
+              - text: بإرسال هذا النموذج، فإنك توافق على تلقي مراسلات إلكترونية ذات طبيعة تسويقية من Meta، بما في ذلك الأخبار والمناسبات والتحديثات ورسائل البريد الإلكتروني الترويجية. يمكنك التراجع عن موافقتك وإلغاء الاشتراك في هذه المراسلات في أي وقت، على سبيل المثال، عن طريق النقر على رابط إلغاء الاشتراك المضمّن في رسائل البريد الإلكتروني التي نرسلها لك. للحصول على مزيد من المعلومات بشأن كيفية تعامل Meta مع بياناتك، يُرجى قراءة
+              - link "سياسة البيانات" [ref=e289] [cursor=pointer]:
+                - /url: /about/privacy
+              - text: .
+          - button "اشتراك" [ref=e292] [cursor=pointer]
+      - generic [ref=e300]:
+        - link "© 2026 Meta" [ref=e302] [cursor=pointer]:
+          - /url: https://www.facebook.com/
+        - generic [ref=e308]:
+          - generic [ref=e309]:
+            - link "حول فيسبوك" [ref=e310] [cursor=pointer]:
+              - /url: https://www.meta.com/about/?fbclid=IwZXh0bgNhZW0CMTEAYnJpZBExWUx1NTBLUHNOb1FHREszdHNydGMGYXBwX2lkDDI1NjI4MTA0MDU1OAABHpuFhtf15cEfbPoV5I_3OBk1P5ZH2UizFCWlyBeShpPgXKzr_p7tUPOgMylt_aem_bHjN8xQmEPTxD5JUQ7Bfpw
+            - link "المطوّرون" [ref=e311] [cursor=pointer]:
+              - /url: https://developers.meta.com/?fbclid=IwZXh0bgNhZW0CMTEAYnJpZBExWUx1NTBLUHNOb1FHREszdHNydGMGYXBwX2lkDDI1NjI4MTA0MDU1OAABHlI8lsoci2Amo6j1aa3tBvUYO98zY7MjlTsaX-8u4_e21L5uwPgn-odYGwR1_aem_skOUIskUNvgghQnhDyKMlQ
+            - link "الوظائف" [ref=e312] [cursor=pointer]:
+              - /url: https://l.facebook.com/l.php?u=https%3A%2F%2Fwww.metacareers.com%2F%3Ffbclid%3DIwZXh0bgNhZW0CMTEAYnJpZBExWUx1NTBLUHNOb1FHREszdHNydGMGYXBwX2lkDDI1NjI4MTA0MDU1OAABHsV4tQSVQOY6ZTaOa2K-tY-aVbxiDpdFmVjfoU6c_fc9I3cZ67V0bJjgXdth_aem_To9faabpmKH1IC-Nyu_7SA&h=AUCYX3u1A95wl7I1DNGub5DoMZMyMEf5ahVWXk_n41bdxrNEUdchqXxBWr7RU8Clt51Ur2qy0xqdh3h9mzy-rN1-p3DFUUx6xH9DhH5GT0SvT4D8N9rk08xYz5e0eqXVCXwKdA
+            - link "الخصوصية" [ref=e313] [cursor=pointer]:
+              - /url: https://www.facebook.com/privacy/explanation
+            - link "ملفات تعريف الارتباط" [ref=e314] [cursor=pointer]:
+              - /url: https://www.facebook.com/help/cookies
+            - link "الشروط" [ref=e315] [cursor=pointer]:
+              - /url: https://www.facebook.com/policies/
+            - link "مركز المساعدة" [ref=e316] [cursor=pointer]:
+              - /url: https://www.facebook.com/business/help/
+          - generic [ref=e317]:
+            - button "العربية" [ref=e318] [cursor=pointer]
+            - button "English (US)" [ref=e319] [cursor=pointer]
+            - button "English (UK)" [ref=e320] [cursor=pointer]
+            - button "Español" [ref=e321] [cursor=pointer]
+            - button "Português (Brasil)" [ref=e322] [cursor=pointer]
+            - button "Français (France)" [ref=e323] [cursor=pointer]
+            - button "المزيد من اللغات" [ref=e324] [cursor=pointer]: المزيد من اللغات
+  - link "الترجمات" [ref=e329] [cursor=pointer]:
+    - /url: https://www.facebook.com/translations/?ref=trans_nub

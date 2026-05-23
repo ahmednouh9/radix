@@ -1,0 +1,251 @@
+- generic [ref=e12]:
+  - generic [ref=e20]:
+    - generic [ref=e24]:
+      - button "تعديل صورة الغلاف" [ref=e41] [cursor=pointer]:
+        - generic [ref=e44]:
+          - img [ref=e46]
+          - generic [ref=e49]: تعديل صورة الغلاف
+          - img [ref=e50]
+      - generic [ref=e52]:
+        - generic [ref=e53]:
+          - generic [ref=e55]:
+            - link "Facebook" [ref=e59] [cursor=pointer]:
+              - /url: "#"
+              - img "Facebook" [ref=e64]
+            - link "Instagram" [ref=e68] [cursor=pointer]:
+              - /url: "#"
+              - img "Instagram" [ref=e73]
+          - generic [ref=e76]:
+            - heading "Nobel Swim Academy" [level=1] [ref=e78]
+            - generic [ref=e79]:
+              - generic [ref=e84]:
+                - img "Facebook" [ref=e86]
+                - generic [ref=e87]: Nobel Swim Academy
+              - generic [ref=e93]:
+                - img "Instagram" [ref=e95]
+                - generic [ref=e96]: "@nobel_swim_academy"
+        - button "المتابعون على فيسبوك Facebook ٩٧ المتابعون على Instagram Instagram ٧" [ref=e99] [cursor=pointer]:
+          - generic [ref=e102]:
+            - generic [ref=e104]:
+              - generic [ref=e105]: المتابعون على فيسبوك
+              - generic [ref=e106]:
+                - img "Facebook" [ref=e107]
+                - generic [ref=e108]: ٩٧
+            - generic [ref=e111]:
+              - generic [ref=e112]: المتابعون على Instagram
+              - generic [ref=e113]:
+                - img "Instagram" [ref=e114]
+                - generic [ref=e115]: ٧
+            - img [ref=e117]
+    - generic [ref=e127]:
+      - button "إنشاء منشور" [ref=e129] [cursor=pointer]:
+        - generic [ref=e134]: إنشاء منشور
+      - button "إنشاء إعلان" [ref=e136] [cursor=pointer]:
+        - generic [ref=e141]: إنشاء إعلان
+      - button "إنشاء مقطع ريلز" [ref=e143] [cursor=pointer]:
+        - generic [ref=e148]: إنشاء مقطع ريلز
+      - button "إنشاء قصة" [ref=e150] [cursor=pointer]:
+        - generic [ref=e155]: إنشاء قصة
+      - button "المزيد" [ref=e156] [cursor=pointer]:
+        - generic [ref=e159]:
+          - generic [ref=e160]: المزيد
+          - img [ref=e161]
+    - generic [ref=e172]:
+      - generic [ref=e187]:
+        - heading "قائمة المهام" [level=1] [ref=e189]
+        - generic [ref=e190]: راجع الرسائل غير المقروءة والتعليقات والأشياء الأخرى التي قد تتطلب تدخلك.
+      - generic [ref=e205]: أنت على اطلاع بأحدث مستجدات قائمة مهامك.
+      - generic [ref=e227]:
+        - generic [ref=e229]:
+          - generic [ref=e232]:
+            - generic [ref=e234]:
+              - generic [ref=e235]:
+                - heading "الخطة الأسبوعية" [level=3] [ref=e236]
+                - img [ref=e241]
+                - generic [ref=e244]:
+                  - generic [ref=e245]:
+                    - img [ref=e247]
+                    - generic [ref=e250]: تبقى 16 من الساعات
+                  - status [ref=e251]: تبقى 16 من الساعات
+              - generic [ref=e252]: قم بإعداد نشاطك التجاري لتحقيق النجاح من خلال إكمال المهام الموصى بها.
+            - button "الاطلاع على الخطة الكاملة" [ref=e254] [cursor=pointer]:
+              - generic [ref=e257]:
+                - img [ref=e258]
+                - generic [ref=e261]: الاطلاع على الخطة الكاملة
+          - generic [ref=e262]:
+            - generic [ref=e263]:
+              - img [ref=e264]
+              - heading "حققت عملاً رائعًا من خلال إكمال الهدف الأسبوعي!" [level=3] [ref=e266]
+            - generic [ref=e267]:
+              - progressbar [ref=e268]
+              - generic [ref=e272]:
+                - generic [ref=e274]: الهدف الأسبوعي
+                - status [ref=e275]: الهدف الأسبوعي
+            - generic [ref=e277]: اكتملت 5 من 7 من المهام
+        - generic [ref=e280]:
+          - button "نشر إعلان واحد 0 / 1" [ref=e284] [cursor=pointer]:
+            - generic [ref=e292]:
+              - generic [ref=e294]: نشر إعلان واحد
+              - generic [ref=e296]: 0 / 1
+          - button "الحفاظ على معدل الاستجابة ‏1%‏ 0.5 / 1" [ref=e300] [cursor=pointer]:
+            - generic [ref=e308]:
+              - generic [ref=e310]: الحفاظ على معدل الاستجابة ‏1%‏
+              - generic [ref=e312]: 0.5 / 1
+      - generic [ref=e327]:
+        - heading "إدارة المحتوى التسويقي" [level=1] [ref=e329]
+        - generic [ref=e330]: يمكنك رؤية منشوراتك وقصصك وإعلاناتك الأخيرة والقادمة وجدولة التخطيط المسبق للمحتوى.
+      - generic [ref=e342]:
+        - progressbar [ref=e344]
+        - generic [ref=e346]:
+          - progressbar [ref=e347]
+          - generic [ref=e349]:
+            - generic [ref=e350]:
+              - progressbar [ref=e352]
+              - progressbar [ref=e354]
+              - generic [ref=e355]:
+                - progressbar
+                - progressbar
+                - progressbar
+              - generic [ref=e356]:
+                - progressbar
+            - generic [ref=e357]:
+              - generic [ref=e358]:
+                - progressbar
+                - generic:
+                  - progressbar
+              - generic [ref=e359]:
+                - progressbar
+                - progressbar
+      - progressbar [ref=e362]
+  - generic [ref=e386]:
+    - generic [ref=e388]:
+      - button "Meta Business Suite" [ref=e389] [cursor=pointer]:
+        - generic [ref=e391]: Meta Business Suite
+      - combobox "Instagram Facebook Nobel Swim Academy, nobel_swim_academy" [ref=e403] [cursor=pointer]:
+        - generic [ref=e411]:
+          - generic [ref=e412]:
+            - generic [ref=e414]:
+              - img "Instagram" [ref=e419]
+              - img "Facebook" [ref=e424]
+            - generic [ref=e426]: Nobel Swim Academy, nobel_swim_academy
+          - img [ref=e427]
+    - navigation "الروابط" [ref=e433]:
+      - generic [ref=e434]: الروابط
+      - list [ref=e435]:
+        - generic [ref=e436]:
+          - listitem [ref=e440]:
+            - generic [ref=e442]:
+              - link "الصفحة الرئيسية" [ref=e443] [cursor=pointer]:
+                - /url: https://business.facebook.com/latest/home?asset_id=427668740423316
+                - generic [ref=e444]: الصفحة الرئيسية
+              - generic:
+                - generic:
+                  - generic:
+                    - generic: الصفحة الرئيسية
+          - listitem [ref=e448]:
+            - generic [ref=e450]:
+              - link "الإشعارات" [ref=e451] [cursor=pointer]:
+                - generic [ref=e452]: الإشعارات
+              - generic:
+                - generic:
+                  - generic:
+                    - generic: الإشعارات
+          - listitem [ref=e456]:
+            - generic [ref=e458]:
+              - link "البريد الوارد" [ref=e459] [cursor=pointer]:
+                - /url: https://business.facebook.com/latest/inbox?asset_id=427668740423316
+                - generic [ref=e460]: البريد الوارد
+              - generic:
+                - generic:
+                  - generic:
+                    - generic: البريد الوارد
+          - listitem [ref=e465]:
+            - generic [ref=e467]:
+              - link "المحتوى" [ref=e468] [cursor=pointer]:
+                - /url: https://business.facebook.com/latest/posts?asset_id=427668740423316
+                - generic [ref=e469]: المحتوى
+              - generic:
+                - generic:
+                  - generic:
+                    - generic: المحتوى
+          - listitem [ref=e473]:
+            - generic [ref=e475]:
+              - link "سوق منشئي المحتوى" [ref=e476] [cursor=pointer]:
+                - /url: https://business.facebook.com/latest/creator_marketplace?asset_id=427668740423316&cm_entrypoint=biz_kit_nav_route_item
+                - generic [ref=e477]: سوق منشئي المحتوى
+              - generic:
+                - generic:
+                  - generic:
+                    - generic: سوق منشئي المحتوى
+          - listitem [ref=e481]:
+            - generic [ref=e483]:
+              - link "أداة التخطيط" [ref=e484] [cursor=pointer]:
+                - /url: https://business.facebook.com/latest/content_calendar?asset_id=427668740423316
+                - generic [ref=e485]: أداة التخطيط
+              - generic:
+                - generic:
+                  - generic:
+                    - generic: أداة التخطيط
+          - listitem [ref=e490]:
+            - generic [ref=e492]:
+              - link "الإعلانات" [ref=e493] [cursor=pointer]:
+                - /url: https://business.facebook.com/latest/ad_center/ads_summary?asset_id=427668740423316
+                - generic [ref=e494]: الإعلانات
+              - generic:
+                - generic:
+                  - generic:
+                    - generic: الإعلانات
+          - listitem [ref=e499]:
+            - generic [ref=e501]:
+              - link "الرؤى" [ref=e502] [cursor=pointer]:
+                - /url: https://business.facebook.com/latest/insights?asset_id=427668740423316
+                - generic [ref=e503]: الرؤى
+              - generic:
+                - generic:
+                  - generic:
+                    - generic: الرؤى
+          - listitem [ref=e507]:
+            - generic [ref=e509]:
+              - link "كل الأدوات" [ref=e510] [cursor=pointer]:
+                - generic [ref=e511]: كل الأدوات
+              - generic:
+                - generic:
+                  - generic:
+                    - generic: كل الأدوات
+          - button "تعديل التنقل في الشريط الجانبي" [ref=e514] [cursor=pointer]:
+            - generic [ref=e518]: تعديل
+    - generic [ref=e522]:
+      - listitem [ref=e525]:
+        - generic [ref=e527]:
+          - link "بحث" [ref=e528] [cursor=pointer]:
+            - generic [ref=e529]: بحث
+          - generic:
+            - generic:
+              - generic:
+                - generic: بحث
+          - generic:
+            - generic:
+              - img
+      - navigation "الروابط" [ref=e530]:
+        - generic [ref=e531]: الروابط
+        - list [ref=e532]:
+          - listitem [ref=e536]:
+            - generic [ref=e538]:
+              - link "الإعدادات" [ref=e539] [cursor=pointer]:
+                - /url: https://business.facebook.com/latest/settings/profiles?asset_id=427668740423316
+                - generic [ref=e540]: الإعدادات
+              - generic:
+                - generic:
+                  - generic:
+                    - generic: الإعدادات
+      - listitem [ref=e547]:
+        - generic [ref=e549]:
+          - link "مساعدة" [ref=e550] [cursor=pointer]:
+            - generic [ref=e551]: مساعدة
+          - generic:
+            - generic:
+              - generic:
+                - generic: مساعدة
+          - generic:
+            - generic:
+              - img

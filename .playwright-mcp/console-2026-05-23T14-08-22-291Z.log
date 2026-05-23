@@ -1,0 +1,47 @@
+[    1018ms] [VERBOSE] Rendering was performed in a subtree hidden by content-visibility. @ https://static.cdninstagram.com/rsrc.php/v4/ym/r/t_lX-67hSLT.js:260
+[    1271ms] [VERBOSE] [DOM] Input elements should have autocomplete attributes (suggested: "current-password"): (More info: https://goo.gl/9p2vKq) %o @ https://www.instagram.com/accounts/login/:0
+[    2261ms] [LOG] 
+%cStop! font-family:helvetica; font-size:20px; font-size:50px; font-weight:bold; color:red; -webkit-text-stroke:1px black; @ https://static.cdninstagram.com/rsrc.php/v4/ym/r/t_lX-67hSLT.js:244
+[    2261ms] [LOG] 
+%cThis is a browser feature intended for developers. If someone told you to copy-paste something here to enable an Instagram feature or "hack" someone's account, it is a scam and will give them access to your Instagram account. font-family:helvetica; font-size:20px;  @ https://static.cdninstagram.com/rsrc.php/v4/ym/r/t_lX-67hSLT.js:244
+[    2262ms] [LOG] 
+%cSee https://www.facebook.com/selfxss for more information. font-family:helvetica; font-size:20px;  @ https://static.cdninstagram.com/rsrc.php/v4/ym/r/t_lX-67hSLT.js:244
+[    2262ms] [LOG] 
+%c  @ https://static.cdninstagram.com/rsrc.php/v4/ym/r/t_lX-67hSLT.js:244
+[    2299ms] [INFO] Banner not shown: beforeinstallpromptevent.preventDefault() called. The page must call beforeinstallpromptevent.prompt() to show the banner. @ https://www.instagram.com/accounts/login/:0
+[   27080ms] [ERROR] ErrorUtils caught an error:
+
+Missing cryptedUid for successful web login
+
+Subsequent non-fatal errors won't be logged; see https://fburl.com/debugjs. {column: 17870, clientTime: 1779545329, extra: Object, guardList: Array(1), hash: hya2u5} @ https://static.cdninstagram.com/rsrc.php/v4/ym/r/t_lX-67hSLT.js:78
+[   28338ms] [INFO] Banner not shown: beforeinstallpromptevent.preventDefault() called. The page must call beforeinstallpromptevent.prompt() to show the banner. @ https://www.instagram.com/auth_platform/recaptcha/?apc=Q8HeCgM7BFSLDmn9Ir5EgnDEJMPGKNUolAj2wPnZy9e_rw-tGlMLBfw1pdaxU1sqLl4R_vWV1h0lbYyo38SaZ7vmWZRuq7VSbZS2YqfF4eCGZYFaYw0snVceRAO6AtxnG4NqW_mj8bnsNmm-gc9fs7B4odvifD1yRFfKfIcjLlCYPt6w2FfxWgQfRsNkGJGxI1IUrwuTAco1l22TYes-aARYnCHox_A_gvPDiEoUxnf007lQmVkp2l-9vVcoPRMK9CeL8lhy2XPB5FG8Wb-LyOvkBzYnHUPlJJQkARozQNHAp9DnQDeREtREnOPGO4nje7airuhlLsAhHcQNMvfnG7nT7b6S0GNxifG10kWTnhisjSk4BzbS3rHbJgZSYq3ia9Kn-Khp60P34LdoeDCQTWmK30At6IzvLHYGO-joOP9fMDJbaDpQQVf-xNpbnOKwPqhsVYDFBoe-QQ8dnES4Kp-LUZ7F_TqU69sFW3lLsDgp8RVG9FxWtjXMGJtQIezg_WIqVsImN_WTIuVwiGt3QTLRgahFHiXuchaR-nz7tkO7iKHTzYKrdQEnMAEC2keR1WkStHpqIA_p1j0H-9dWpR0Xt3-HLzHX9N5qAGjE_UXpKsj4IbEwONeFL71sv995WrqT7rK8gYVofgSTBJW5H665d50xzHZAPkX3DJSR7ZRqinLYK06JDEMHp-iW7XKZXWXOBYG3x3jM6hCqxt9PBkaHB0s-aLQF2hUKHaRMaXcPQ18K9g8j8bEJg2YVRjH8tZ5AsvviFsGudHT85O_DCNkuzdjQZFTY1vujBCVO6g1Q_sXVnCc9qMDMFY4V1kcmgRSbJH9mUTpmDAirS5P1qGRf1qnY1_60Ea-pCCyuY77dVeTbcG9tGFAckLe01Ezg3cYCoqxVi2czxNRiIFABHroC3GipbqXDF7KAtVCM8lkgge9JIrbk-tceIXJ-9Qzz5XTnxtBdY5Cl0b56kJkRB8FlLrxsuH1Ng0_Y-Ddobpx6gUSjZfOinJMuNLpsJxInIUXHTuu0keT12EC3rkbgzIGBCbW3NrW0u5rxXR2_tWxLkDdn0GVOLX0adzUgF4fkDAYD-2G5z5ffkxCe6Sm6A1khP8LK_IS4Bzh8NUDueUIn5c_ppxhdtXeakmByR87lTE5IzWApi55_on7PZdiTegp4iCTxAweZySPuZemuhagt1d1UJJaNiNkCT6RKnbOdPsKuEU3QhKhIdehqoi-zJwa4cG1K9T3Cc0GVh0ZK8Y9mSTAO5NaqXTYWqj-ew9qQoj10n3qZgoJ961L1xGDYLYtGPo0JrUTF_m24qOmkMJfk-9hGczbV6mjqteh3XG9VqEdUt-fVyzQQnVzgen8m4zziU1jpaBsSODQ95DZG-kxKSAbZkLTGQtN-FJUuKfiZjIOZe7sdrr3MdZGCROY2ZcbI6aI6nH99AbQu5mU4aiaWbFkT0ufXFcKKeEav4gnTYK6Rw1r_zqy3fhjIK99BoPJZP_LZVMggkqbFZtk49aOBT1er0XBLSqOd1SKDFktjFDsA7SQEvaIyo7Q4Y2yujx9CcpLXoDZCUavO4iUt9k31pjUPQBBISIESPIamJP0IgucPyXQJHXqUgcAfRH1uXmqNABD6Pyv-dWCFoKZUYX7bAOUjHpOd-WhqDy5lu677hYjWE61YGV_YQX5jlx12uTWX2tc7Wkj931LXs3C4oFfqLjKoQSNDBzawEhLIm7a_emcLO8VAqo0NcWZwctQEyOdLuTSscFizzas7zzmrV6y3-jzQuWmyQkzypwldwkxWEEpeGff0foREVHmnfjFg1UkpbhwOsJOoS_fhjq77e7DDXP4KR1xPmu2SvereNzRSb6TSNlQ-1629YXWs5wuCWCdJKxRxOxYGYU0a2_JHVvwnHgQ6VD_vJi6-45naX9xJBJiHLMxv9HNPRTt-peP2pgaFdcjCqAusFx55oVJ7DD4rq73VEq5RoAqFCuPKw6YLIFRZeNWxS1eFz51wbg8MRG5O7XzKt49PAJqlPhkn37SnW8A1-toSbXx0W0pstRuU85C-hHNwsINP-fJcpw5IbI0EkRAPGh435ystXNY8UV2-YnF_H0MJKcXvkAunSn4_-i-h1qIFuY5KqkHCGaAmoNMEzuRFjy3ynsvhs6Ws0Xw6l64pg7A7s8la9O44oeqiDH20QJUOLYEC4PpZob6cwmAFbMlFhrfCJw7JPeu85BJDx0YvgWbzDx0G27bVlSTmnPM90q0tGqf_dTRzi_A2vxnHEVJMjZqaaGl8CKjyBvCUMy0h0fTClMAxN6QtitDWShOVT7NeVWqGtpk1I_EYxTOVefsaZdTPfi1MHUFiweSb6NFeK5IUS9rZ_C0pHhWmdkcp_y7qqbUCuVpI8HRtwt9miETsKuU9lFo78wy7uDoljNdC1nOrOFfNEF-vPu1qhJQydICnx8uRwDGQOJwgUkTyt0uNVOOz1UIgjQeIpSAQUQ9fQSYnHR41Zab0aPWQ7kJh9lBpptKDTC7tYOLyhRmL8zYgmFYEf59PqqnuOFcJ9-AqPyuFfEYXFF9fM4ifigwmjls4xFgIPUPABA%7Capas&device_id=ahGzpQALAAHbLUCiooLVYy0picYX:0
+[   28422ms] [LOG] 
+%cStop! font-family:helvetica; font-size:20px; font-size:50px; font-weight:bold; color:red; -webkit-text-stroke:1px black; @ https://static.cdninstagram.com/rsrc.php/v4/ym/r/t_lX-67hSLT.js:244
+[   28422ms] [LOG] 
+%cThis is a browser feature intended for developers. If someone told you to copy-paste something here to enable an Instagram feature or "hack" someone's account, it is a scam and will give them access to your Instagram account. font-family:helvetica; font-size:20px;  @ https://static.cdninstagram.com/rsrc.php/v4/ym/r/t_lX-67hSLT.js:244
+[   28422ms] [LOG] 
+%cSee https://www.facebook.com/selfxss for more information. font-family:helvetica; font-size:20px;  @ https://static.cdninstagram.com/rsrc.php/v4/ym/r/t_lX-67hSLT.js:244
+[   28423ms] [LOG] 
+%c  @ https://static.cdninstagram.com/rsrc.php/v4/ym/r/t_lX-67hSLT.js:244
+[   29031ms] [ERROR] Permissions policy violation: unload is not allowed in this document. @ https://static.xx.fbcdn.net/rsrc.php/v4/yf/r/3eZiCoyW1Mb.js:320
+[   43021ms] [INFO] Banner not shown: beforeinstallpromptevent.preventDefault() called. The page must call beforeinstallpromptevent.prompt() to show the banner. @ https://www.instagram.com/accounts/onetap/:0
+[   43763ms] [LOG] 
+%cStop! font-family:helvetica; font-size:20px; font-size:50px; font-weight:bold; color:red; -webkit-text-stroke:1px black; @ https://static.cdninstagram.com/rsrc.php/v4/ya/r/Me80Z13eYqn.js:244
+[   43763ms] [LOG] 
+%cThis is a browser feature intended for developers. If someone told you to copy-paste something here to enable an Instagram feature or "hack" someone's account, it is a scam and will give them access to your Instagram account. font-family:helvetica; font-size:20px;  @ https://static.cdninstagram.com/rsrc.php/v4/ya/r/Me80Z13eYqn.js:244
+[   43764ms] [LOG] 
+%cSee https://www.facebook.com/selfxss for more information. font-family:helvetica; font-size:20px;  @ https://static.cdninstagram.com/rsrc.php/v4/ya/r/Me80Z13eYqn.js:244
+[   43764ms] [LOG] 
+%c  @ https://static.cdninstagram.com/rsrc.php/v4/ya/r/Me80Z13eYqn.js:244
+[   46516ms] [VERBOSE] Rendering was performed in a subtree hidden by content-visibility. @ https://static.cdninstagram.com/rsrc.php/v4/ya/r/Me80Z13eYqn.js:260
+[   46761ms] [VERBOSE] Rendering was performed in a subtree hidden by content-visibility. @ https://static.cdninstagram.com/rsrc.php/v4i8vL4/yE/l/en_US-j/F5vvwHDxoP3F9gt9hnlbA2d2bw7AoRRhGqRxbEPS4P5gWAwe9rVoWmDRGxoFX_mosHRgtjiFm_Tg9ajCNa7rrsGVVQl9VWHOJ32tYP1FYcmPWviGiyNTBGt9EARC0U9jgPcFaGzI0vQT6ME-1kgJYB7hBPO-X6dvAiuVzUQ5YSDjfvs7fEXKxzJbolxsErtKw5B8lq2B2IhwIQYBI1JinbJI5aTXMkjus00BbpX9NrcFQZ2-f1ChyLU1FeW8-DunyUKx4ppn.js:684
+[   51591ms] [INFO] Banner not shown: beforeinstallpromptevent.preventDefault() called. The page must call beforeinstallpromptevent.prompt() to show the banner. @ https://www.instagram.com/:0
+[   52451ms] [LOG] 
+%cStop! font-family:helvetica; font-size:20px; font-size:50px; font-weight:bold; color:red; -webkit-text-stroke:1px black; @ https://static.cdninstagram.com/rsrc.php/v4/ya/r/Me80Z13eYqn.js:244
+[   52452ms] [LOG] 
+%cThis is a browser feature intended for developers. If someone told you to copy-paste something here to enable an Instagram feature or "hack" someone's account, it is a scam and will give them access to your Instagram account. font-family:helvetica; font-size:20px;  @ https://static.cdninstagram.com/rsrc.php/v4/ya/r/Me80Z13eYqn.js:244
+[   52482ms] [LOG] 
+%cSee https://www.facebook.com/selfxss for more information. font-family:helvetica; font-size:20px;  @ https://static.cdninstagram.com/rsrc.php/v4/ya/r/Me80Z13eYqn.js:244
+[   52482ms] [LOG] 
+%c  @ https://static.cdninstagram.com/rsrc.php/v4/ya/r/Me80Z13eYqn.js:244
+[   56481ms] [ERROR] Permissions policy violation: unload is not allowed in this document. @ https://static.xx.fbcdn.net/rsrc.php/v4/ya/r/Me80Z13eYqn.js:240

@@ -1,0 +1,176 @@
+- generic [ref=e2]:
+  - generic [ref=e9]:
+    - generic [ref=e21]:
+      - generic [ref=e23]:
+        - heading "الإعدادات" [level=1] [ref=e24]
+        - toolbar [ref=e26]:
+          - heading "Other assets" [level=4] [ref=e39]
+      - generic [ref=e40]:
+        - generic [ref=e47]:
+          - generic [ref=e50]:
+            - navigation [ref=e51]:
+              - list [ref=e52]:
+                - listitem [ref=e55]:
+                  - link "الملفات الشخصية" [ref=e57] [cursor=pointer]:
+                    - /url: https://business.facebook.com/latest/settings/profiles
+                  - generic:
+                    - listitem:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - generic: الملفات الشخصية
+                - listitem [ref=e65]:
+                  - link "التصريحات وعمليات التحقق" [ref=e67] [cursor=pointer]:
+                    - /url: https://business.facebook.com/latest/settings/authorizations_verifications
+                  - generic:
+                    - listitem:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - generic: التصريحات وعمليات التحقق
+            - navigation [ref=e73]:
+              - list [ref=e74]:
+                - listitem [ref=e77]:
+                  - link "إعدادات اللغة" [ref=e79] [cursor=pointer]:
+                    - /url: https://www.facebook.com/settings/?tab=language
+                  - generic:
+                    - listitem:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - generic: إعدادات اللغة
+                        - generic:
+                          - img
+          - button "طي" [ref=e89] [cursor=pointer]:
+            - generic [ref=e91]:
+              - generic [ref=e92]: طي
+              - img [ref=e94]
+        - progressbar [ref=e109]:
+          - img [ref=e110]
+    - generic [ref=e118]:
+      - generic [ref=e120]:
+        - button "Meta Business Suite" [ref=e121] [cursor=pointer]:
+          - generic [ref=e123]: Meta Business Suite
+        - button "Pressable" [ref=e132] [cursor=pointer]
+      - navigation "الروابط" [ref=e140]:
+        - generic [ref=e141]: الروابط
+        - list [ref=e142]:
+          - generic [ref=e143]:
+            - listitem [ref=e147]:
+              - generic [ref=e149]:
+                - link "الصفحة الرئيسية" [ref=e150] [cursor=pointer]:
+                  - /url: https://business.facebook.com/latest/home?asset_id=427668740423316
+                  - generic [ref=e151]: الصفحة الرئيسية
+                - generic:
+                  - generic:
+                    - generic:
+                      - generic: الصفحة الرئيسية
+            - listitem [ref=e155]:
+              - generic [ref=e157]:
+                - link "الإشعارات" [ref=e158] [cursor=pointer]:
+                  - generic [ref=e159]: الإشعارات
+                - generic:
+                  - generic:
+                    - generic:
+                      - generic: الإشعارات
+            - listitem [ref=e163]:
+              - generic [ref=e165]:
+                - link "البريد الوارد" [ref=e166] [cursor=pointer]:
+                  - /url: https://business.facebook.com/latest/inbox?asset_id=427668740423316
+                  - generic [ref=e167]: البريد الوارد
+                - generic:
+                  - generic:
+                    - generic:
+                      - generic: البريد الوارد
+            - listitem [ref=e172]:
+              - generic [ref=e174]:
+                - link "المحتوى" [ref=e175] [cursor=pointer]:
+                  - /url: https://business.facebook.com/latest/posts?asset_id=427668740423316
+                  - generic [ref=e176]: المحتوى
+                - generic:
+                  - generic:
+                    - generic:
+                      - generic: المحتوى
+            - listitem [ref=e180]:
+              - generic [ref=e182]:
+                - link "سوق منشئي المحتوى" [ref=e183] [cursor=pointer]:
+                  - /url: https://business.facebook.com/latest/creator_marketplace?asset_id=427668740423316&cm_entrypoint=biz_kit_nav_route_item
+                  - generic [ref=e184]: سوق منشئي المحتوى
+                - generic:
+                  - generic:
+                    - generic:
+                      - generic: سوق منشئي المحتوى
+            - listitem [ref=e188]:
+              - generic [ref=e190]:
+                - link "أداة التخطيط" [ref=e191] [cursor=pointer]:
+                  - /url: https://business.facebook.com/latest/content_calendar?asset_id=427668740423316
+                  - generic [ref=e192]: أداة التخطيط
+                - generic:
+                  - generic:
+                    - generic:
+                      - generic: أداة التخطيط
+            - listitem [ref=e197]:
+              - generic [ref=e199]:
+                - link "الإعلانات" [ref=e200] [cursor=pointer]:
+                  - /url: https://business.facebook.com/latest/ad_center/ads_summary?asset_id=427668740423316
+                  - generic [ref=e201]: الإعلانات
+                - generic:
+                  - generic:
+                    - generic:
+                      - generic: الإعلانات
+            - listitem [ref=e206]:
+              - generic [ref=e208]:
+                - link "الرؤى" [ref=e209] [cursor=pointer]:
+                  - /url: https://business.facebook.com/latest/insights?asset_id=427668740423316
+                  - generic [ref=e210]: الرؤى
+                - generic:
+                  - generic:
+                    - generic:
+                      - generic: الرؤى
+            - listitem [ref=e214]:
+              - generic [ref=e216]:
+                - link "كل الأدوات" [ref=e217] [cursor=pointer]:
+                  - generic [ref=e218]: كل الأدوات
+                - generic:
+                  - generic:
+                    - generic:
+                      - generic: كل الأدوات
+            - button "تعديل التنقل في الشريط الجانبي" [ref=e221] [cursor=pointer]:
+              - generic [ref=e225]: تعديل
+      - generic [ref=e229]:
+        - listitem [ref=e232]:
+          - generic [ref=e234]:
+            - link "بحث" [ref=e235] [cursor=pointer]:
+              - generic [ref=e236]: بحث
+            - generic:
+              - generic:
+                - generic:
+                  - generic: بحث
+            - generic:
+              - generic:
+                - img
+        - navigation "الروابط" [ref=e237]:
+          - generic [ref=e238]: الروابط
+          - list [ref=e239]:
+            - listitem [ref=e243]:
+              - generic [ref=e245]:
+                - link "الإعدادات" [ref=e246] [cursor=pointer]:
+                  - /url: https://business.facebook.com/latest/settings/profiles?asset_id=427668740423316
+                  - generic [ref=e247]: الإعدادات
+                - generic:
+                  - generic:
+                    - generic:
+                      - generic: الإعدادات
+        - listitem [ref=e254]:
+          - generic [ref=e256]:
+            - link "مساعدة" [ref=e257] [cursor=pointer]:
+              - generic [ref=e258]: مساعدة
+            - generic:
+              - generic:
+                - generic:
+                  - generic: مساعدة
+            - generic:
+              - generic:
+                - img
+  - link "الترجمات" [ref=e262] [cursor=pointer]:
+    - /url: https://www.facebook.com/translations/?ref=trans_nub

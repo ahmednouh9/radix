@@ -1,0 +1,20 @@
+[    4580ms] [WARNING] Canvas2D: Multiple readback operations using getImageData are faster with the willReadFrequently attribute set to true. See: https://html.spec.whatwg.org/multipage/canvas.html#concept-canvas-will-read-frequently @ https://static.xx.fbcdn.net/rsrc.php/v4ie9Y4/y-/l/ar_AR-j/XfkH0b6QjkXjP-3qe6j1BOaNtGIMGDlhnsBKEdNkxcMuVDd-Ul5c-PB2ROB1ioELvw6aUGN8sdI0-NQ0X1jcjhcqSLtNgOTenM92Q0Dltb9yADgLry41E9Vxlgz9cj2NBXdttvMAsQ-0hmr3YkM7vON1xDxqUzkHD3EDN7h9cuHj6J90.js:792
+[    6350ms] [ERROR] Permissions policy violation: unload is not allowed in this document. @ https://static.xx.fbcdn.net/rsrc.php/v4/yf/r/3eZiCoyW1Mb.js:320
+[    7355ms] [LOG] 
+%cانتبه! font-family:helvetica; font-size:20px; font-size:50px; font-weight:bold; color:red; -webkit-text-stroke:1px black; @ https://static.xx.fbcdn.net/rsrc.php/v4/ya/r/Me80Z13eYqn.js:244
+[    7356ms] [LOG] 
+%cميزة المتصفح هذه موجهة للمطورين. إذا طلب منك شخص ما نسخ ولصق أي شيء هنا لتمكين ميزة على فيسبوك أو "اختراق" حساب شخص آخر، فإن هذه محاولة احتيالية وستتيح له الوصول إلى حساب فيسبوك الخاص بك. font-family:helvetica; font-size:20px;  @ https://static.xx.fbcdn.net/rsrc.php/v4/ya/r/Me80Z13eYqn.js:244
+[    7356ms] [LOG] 
+%cيمكنك الاطلاع على https://www.facebook.com/selfxss للحصول على مزيد من المعلومات. font-family:helvetica; font-size:20px;  @ https://static.xx.fbcdn.net/rsrc.php/v4/ya/r/Me80Z13eYqn.js:244
+[    7356ms] [LOG] 
+%c  @ https://static.xx.fbcdn.net/rsrc.php/v4/ya/r/Me80Z13eYqn.js:244
+[   48609ms] Object
+[   54594ms] [WARNING] Canvas2D: Multiple readback operations using getImageData are faster with the willReadFrequently attribute set to true. See: https://html.spec.whatwg.org/multipage/canvas.html#concept-canvas-will-read-frequently @ https://static.xx.fbcdn.net/rsrc.php/v4iZJp4/yj/l/ar_AR-j/SLtNgOTenM92Q0Dltb9yADgz9cj2NBXdttvMAsQ-0hmr3YkM7vON1xDxqUzkHD3EDNuflX7v5Bhm0JDCE2kCR_eNbHT70VIA4BceuO-YTDE8Zeb2lL3yZdOYK5zvutJpB4vcwowjTOzpMugetqzs6vewS-QL65LNwHa2g_DQLIDqhVKT1BUmBexOT2HmE68Zq0XAJqlhpaphdMDj-bCgCUN0hqZ8VVCHB0jGlDPQTPbxWvLM_9jwq3xyWYHvFMVXO98E1MTX8DW2L_EQ4O6v6nEtxIXkL_Tzhw8bg_m0wS-qNaxJ2bKWYLzeMWGZZAgrzlK9DUO0Py.js:146
+[   56266ms] [LOG] 
+%cانتبه! font-family:helvetica; font-size:20px; font-size:50px; font-weight:bold; color:red; -webkit-text-stroke:1px black; @ https://static.xx.fbcdn.net/rsrc.php/v4/ya/r/Me80Z13eYqn.js:244
+[   56266ms] [LOG] 
+%cميزة المتصفح هذه موجهة للمطورين. إذا طلب منك شخص ما نسخ ولصق أي شيء هنا لتمكين ميزة على فيسبوك أو "اختراق" حساب شخص آخر، فإن هذه محاولة احتيالية وستتيح له الوصول إلى حساب فيسبوك الخاص بك. font-family:helvetica; font-size:20px;  @ https://static.xx.fbcdn.net/rsrc.php/v4/ya/r/Me80Z13eYqn.js:244
+[   56266ms] [LOG] 
+%cيمكنك الاطلاع على https://www.facebook.com/selfxss للحصول على مزيد من المعلومات. font-family:helvetica; font-size:20px;  @ https://static.xx.fbcdn.net/rsrc.php/v4/ya/r/Me80Z13eYqn.js:244
+[   56267ms] [LOG] 
+%c  @ https://static.xx.fbcdn.net/rsrc.php/v4/ya/r/Me80Z13eYqn.js:244

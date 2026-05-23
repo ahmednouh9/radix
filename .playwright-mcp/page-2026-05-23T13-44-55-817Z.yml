@@ -1,0 +1,350 @@
+- generic [active]:
+  - generic:
+    - generic:
+      - iframe
+    - generic:
+      - iframe
+    - generic:
+      - iframe
+    - generic:
+      - iframe
+    - generic [ref=e1]:
+      - generic [ref=e4]:
+        - generic [ref=e5]:
+          - link "شعار Meta" [ref=e7] [cursor=pointer]:
+            - /url: /?no_redirect=true
+            - img "شعار Meta" [ref=e9]
+          - tablist [ref=e18]:
+            - link "تطبيقاتي" [ref=e19] [cursor=pointer]:
+              - /url: /apps/
+              - generic [ref=e22]: تطبيقاتي
+            - link "الإجراءات المطلوبة" [ref=e23] [cursor=pointer]:
+              - /url: /required-actions/
+              - generic [ref=e26]: الإجراءات المطلوبة
+            - tab "الوثائق" [ref=e27] [cursor=pointer]:
+              - generic [ref=e30]: الوثائق
+            - tab "الأدوات" [ref=e32] [cursor=pointer]:
+              - generic [ref=e35]: الأدوات
+            - tab "الدعم" [ref=e37] [cursor=pointer]:
+              - generic [ref=e40]: الدعم
+        - generic [ref=e42]:
+          - generic [ref=e43]:
+            - generic [ref=e49]: إدخال البحث
+            - textbox "إدخال البحث" [ref=e60]:
+              - /placeholder: بحث...
+          - link [ref=e63] [cursor=pointer]:
+            - /url: "#"
+          - link "Facebook" [ref=e68] [cursor=pointer]:
+            - /url: "#"
+            - img "Facebook" [ref=e73]
+      - generic [ref=e74]:
+        - generic [ref=e124]:
+          - generic [ref=e127]:
+            - generic [ref=e130]:
+              - generic [ref=e136]: Searchable selector for all apps
+              - combobox "Searchable selector for all apps DM Comment Bot" [ref=e141] [cursor=pointer]:
+                - generic [ref=e151]: DM Comment Bot
+            - navigation [ref=e154]:
+              - list [ref=e155]:
+                - listitem [ref=e156]:
+                  - button "لوحة المعلومات" [ref=e158] [cursor=pointer]
+                  - generic:
+                    - listitem:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - generic: لوحة المعلومات
+                - listitem [ref=e164]:
+                  - button "الإجراءات المطلوبة" [ref=e166] [cursor=pointer]
+                  - generic:
+                    - listitem:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - generic: الإجراءات المطلوبة
+                - listitem [ref=e172]:
+                  - button "حالات الاستخدام" [ref=e174] [cursor=pointer]
+                  - generic:
+                    - listitem:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - generic: حالات الاستخدام
+                - listitem [ref=e180]:
+                  - generic [ref=e181]:
+                    - button "مراجعة" [ref=e183] [cursor=pointer]
+                    - generic:
+                      - listitem:
+                        - generic:
+                          - generic:
+                            - generic:
+                              - generic: مراجعة
+                          - button "تبديل المجموعة" [ref=e189] [cursor=pointer]:
+                            - generic [ref=e192]: تبديل المجموعة
+                  - list [ref=e195]:
+                    - generic [ref=e196]:
+                      - button "الاختبار" [ref=e198] [cursor=pointer]
+                      - generic:
+                        - listitem:
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic: الاختبار
+                    - generic [ref=e203]:
+                      - button "التحقق" [ref=e205] [cursor=pointer]
+                      - generic:
+                        - listitem:
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic: التحقق
+                    - generic [ref=e210]:
+                      - button "مراجعة التطبيق" [ref=e212] [cursor=pointer]
+                      - generic:
+                        - listitem:
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic: مراجعة التطبيق
+                - listitem [ref=e217]:
+                  - button "نشر" [ref=e219] [cursor=pointer]:
+                    - generic [ref=e222]:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - generic: غير منشور
+                          - status: حالة نشر التطبيق
+                  - generic:
+                    - listitem:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - generic: نشر
+                        - generic:
+                          - generic:
+                            - generic:
+                              - generic: غير منشور
+                            - status: حالة نشر التطبيق
+          - generic [ref=e226]:
+            - navigation [ref=e227]:
+              - list [ref=e228]:
+                - listitem [ref=e229]:
+                  - generic [ref=e230]:
+                    - button "إعدادات التطبيق" [expanded] [ref=e232] [cursor=pointer]
+                    - generic:
+                      - listitem:
+                        - generic:
+                          - generic:
+                            - generic:
+                              - generic: إعدادات التطبيق
+                          - button "تبديل المجموعة" [ref=e238] [cursor=pointer]:
+                            - generic [ref=e241]: تبديل المجموعة
+                  - list [ref=e245]:
+                    - generic [ref=e246]:
+                      - button "أساسي" [ref=e248] [cursor=pointer]
+                      - generic:
+                        - listitem:
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic: أساسي
+                    - generic [ref=e253]:
+                      - button "إعدادات متقدمة" [ref=e255] [cursor=pointer]
+                      - generic:
+                        - listitem:
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic: إعدادات متقدمة
+                - listitem [ref=e260]:
+                  - generic [ref=e261]:
+                    - button "الأدوار بالتطبيق" [ref=e263] [cursor=pointer]
+                    - generic:
+                      - listitem:
+                        - generic:
+                          - generic:
+                            - generic:
+                              - generic: الأدوار بالتطبيق
+                          - button "تبديل المجموعة" [ref=e269] [cursor=pointer]:
+                            - generic [ref=e272]: تبديل المجموعة
+                  - list [ref=e275]:
+                    - generic [ref=e276]:
+                      - button "الأدوار" [ref=e278] [cursor=pointer]
+                      - generic:
+                        - listitem:
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic: الأدوار
+                    - generic [ref=e283]:
+                      - button "الحسابات الاختبارية" [ref=e285] [cursor=pointer]
+                      - generic:
+                        - listitem:
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic: الحسابات الاختبارية
+                - listitem [ref=e290]:
+                  - button "البريد الوارد للتنبيهات" [ref=e292] [cursor=pointer]
+                  - generic:
+                    - listitem:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - generic: البريد الوارد للتنبيهات
+            - separator [ref=e298]
+            - generic [ref=e299]:
+              - button "سجل النشاطات" [ref=e300] [cursor=pointer]:
+                - generic [ref=e303]: سجل النشاطات
+              - button "مساعدة" [ref=e307] [cursor=pointer]:
+                - generic [ref=e310]: مساعدة
+              - button "فتح/إغلاق التنقل الجانبي" [ref=e315] [cursor=pointer]:
+                - generic [ref=e318]: فتح/إغلاق التنقل الجانبي
+        - generic [ref=e325]:
+          - generic [ref=e327]:
+            - generic [ref=e329]:
+              - text: ‏
+              - generic [ref=e330]: غير مؤهل حاليًا للتقديم
+              - text: ‏‏
+              - generic [ref=e331]: "تفتقد عملية التقديم لبيانات في الحقول التالية:"
+              - text: ‏
+              - list [ref=e332]:
+                - listitem [ref=e333]:
+                  - generic [ref=e334]: ‏أيقونة التطبيق (1024 × 1024)‏
+                - listitem [ref=e335]:
+                  - generic [ref=e336]: عنوان URL لسياسة الخصوصية
+                - listitem [ref=e337]:
+                  - generic [ref=e338]: حذف بيانات المستخدم
+                - listitem [ref=e339]:
+                  - generic [ref=e340]: الفئة
+            - table [ref=e341]:
+              - rowgroup [ref=e342]:
+                - row "معرف التطبيق 1305105728421980 المفتاح السري للتطبيق المفتاح السري للتطبيق ●●●●●●●● إظهار" [ref=e343]:
+                  - cell "معرف التطبيق 1305105728421980" [ref=e344]:
+                    - generic [ref=e348]:
+                      - generic [ref=e354]: معرف التطبيق
+                      - textbox "معرف التطبيق" [disabled] [ref=e363]: "1305105728421980"
+                  - cell "المفتاح السري للتطبيق المفتاح السري للتطبيق ●●●●●●●● إظهار" [ref=e364]:
+                    - generic [ref=e366]:
+                      - heading "المفتاح السري للتطبيق" [level=4] [ref=e367]
+                      - generic [ref=e368]:
+                        - generic [ref=e369]:
+                          - generic [ref=e375]: المفتاح السري للتطبيق
+                          - textbox "المفتاح السري للتطبيق" [disabled] [ref=e384]: ●●●●●●●●
+                        - button "إظهار" [ref=e385] [cursor=pointer]:
+                          - generic [ref=e389]: إظهار
+                - row "اسم العرض اسم العرض DM Comment Bot مساحة الاسم مساحة الاسم" [ref=e390]:
+                  - cell "اسم العرض اسم العرض DM Comment Bot" [ref=e391]:
+                    - heading "اسم العرض" [level=4] [ref=e393]
+                    - generic [ref=e395]:
+                      - generic [ref=e401]: اسم العرض
+                      - textbox "اسم العرض" [ref=e410]: DM Comment Bot
+                  - cell "مساحة الاسم مساحة الاسم" [ref=e411]:
+                    - generic [ref=e412]:
+                      - heading "مساحة الاسم" [level=4] [ref=e413]
+                      - generic [ref=e415]:
+                        - generic [ref=e421]: مساحة الاسم
+                        - textbox "مساحة الاسم" [ref=e430]
+                - row "نطاقات التطبيق البريد الإلكتروني لجهة الاتصال البريد الإلكتروني لجهة الاتصال ahmednouh3230@gmail.com" [ref=e431]:
+                  - cell "نطاقات التطبيق" [ref=e432]:
+                    - generic [ref=e436]:
+                      - generic [ref=e442]: نطاقات التطبيق
+                      - combobox "نطاقات التطبيق" [ref=e452]
+                  - cell "البريد الإلكتروني لجهة الاتصال البريد الإلكتروني لجهة الاتصال ahmednouh3230@gmail.com" [ref=e453]:
+                    - generic [ref=e454]:
+                      - heading "البريد الإلكتروني لجهة الاتصال" [level=4] [ref=e456]
+                      - generic [ref=e463]:
+                        - generic [ref=e469]: البريد الإلكتروني لجهة الاتصال
+                        - textbox "البريد الإلكتروني لجهة الاتصال" [ref=e478]:
+                          - /placeholder: يُستخدَم في المراسلات المهمة حول تطبيقك
+                          - text: ahmednouh3230@gmail.com
+                - row "عنوان URL لسياسة الخصوصية عنوان URL لسياسة الخصوصية عنوان URL لشروط الخدمة عنوان URL لشروط الخدمة" [ref=e479]:
+                  - cell "عنوان URL لسياسة الخصوصية عنوان URL لسياسة الخصوصية" [ref=e480]:
+                    - heading "عنوان URL لسياسة الخصوصية" [level=4] [ref=e481]
+                    - generic [ref=e483]:
+                      - generic [ref=e489]: عنوان URL لسياسة الخصوصية
+                      - textbox "عنوان URL لسياسة الخصوصية" [ref=e498]:
+                        - /placeholder: سياسة خصوصية مربع حوار تسجيل الدخول وتفاصيل التطبيق
+                  - cell "عنوان URL لشروط الخدمة عنوان URL لشروط الخدمة" [ref=e499]:
+                    - generic [ref=e500]:
+                      - heading "عنوان URL لشروط الخدمة" [level=4] [ref=e501]
+                      - generic [ref=e503]:
+                        - generic [ref=e509]: عنوان URL لشروط الخدمة
+                        - textbox "عنوان URL لشروط الخدمة" [ref=e518]:
+                          - /placeholder: شروط خدمة مربع حوار تسجيل الدخول وتفاصيل التطبيق
+                - row "حذف بيانات المستخدم عنوان URL لتعليمات حذف البيانات حذف بيانات المستخدم أيقونة التطبيق (1024 × 1024) ‏1024‏ × ‏1024‏" [ref=e519]:
+                  - cell "حذف بيانات المستخدم عنوان URL لتعليمات حذف البيانات حذف بيانات المستخدم" [ref=e520]:
+                    - generic [ref=e525]:
+                      - generic [ref=e527]:
+                        - generic [ref=e533]: حذف بيانات المستخدم
+                        - combobox "حذف بيانات المستخدم عنوان URL لتعليمات حذف البيانات" [ref=e540] [cursor=pointer]:
+                          - generic [ref=e547]: عنوان URL لتعليمات حذف البيانات
+                      - generic [ref=e551]:
+                        - generic [ref=e557]: حذف بيانات المستخدم
+                        - textbox "حذف بيانات المستخدم" [ref=e566]:
+                          - /placeholder: يمكنك توفير رابط أيضًا
+                  - cell "أيقونة التطبيق (1024 × 1024) ‏1024‏ × ‏1024‏" [ref=e567]:
+                    - generic [ref=e568]: أيقونة التطبيق (1024 × 1024)
+                    - button "‏1024‏ × ‏1024‏" [ref=e570] [cursor=pointer]:
+                      - generic [ref=e572]: ‏1024‏ × ‏1024‏
+                - row "الفئة" [ref=e573]:
+                  - cell "الفئة" [ref=e574]:
+                    - generic [ref=e578]:
+                      - generic [ref=e584]: الفئة
+                      - combobox "الفئة" [ref=e591] [cursor=pointer]
+                  - cell [ref=e597]
+          - generic [ref=e601]:
+            - heading "معلومات الاتصال بمسؤول حماية البيانات" [level=2] [ref=e604]
+            - generic [ref=e606]:
+              - generic [ref=e607]:
+                - generic [ref=e608]: تفرض اللائحة العامة لحماية البيانات (GDPR) على بعض الشركات التي تمارس مهام أعمالها في بلدان الاتحاد الأوروبي تعيين مسؤول حماية بيانات يمكن للأشخاص التواصل معه للحصول على معلومات بخصوص بياناتهم التي تتم معالجتها.
+                - generic [ref=e610]:
+                  - text: سيتم توفير معلومات الاتصال هذه إلى الأشخاص على فيسبوك مع معلومات أخرى عن تطبيقك او موقعك على الويب.
+                  - link "تعرف على المزيد." [ref=e611] [cursor=pointer]:
+                    - /url: https://www.facebook.com/business/gdpr/
+              - generic [ref=e612]:
+                - generic [ref=e613]:
+                  - generic [ref=e615]:
+                    - generic [ref=e617]:
+                      - heading "الاسم" [level=4] [ref=e618]
+                      - generic [ref=e619]: ∙
+                      - generic [ref=e620]: اختياري
+                    - generic [ref=e621]:
+                      - generic [ref=e627]: اختياري∙الاسم
+                      - textbox "اختياري∙الاسم" [ref=e636]
+                  - generic [ref=e638]:
+                    - heading "البريد الإلكتروني" [level=4] [ref=e639]
+                    - generic [ref=e641]:
+                      - generic [ref=e647]: البريد الإلكتروني
+                      - textbox "البريد الإلكتروني" [ref=e656]
+                - heading "العنوان" [level=3] [ref=e658]
+                - generic [ref=e659]:
+                  - generic [ref=e660]:
+                    - heading "عنوان الشارع" [level=4] [ref=e661]
+                    - generic [ref=e663]:
+                      - generic [ref=e669]: عنوان الشارع
+                      - textbox "عنوان الشارع" [ref=e678]
+                  - generic [ref=e681]:
+                    - generic [ref=e687]: اختياري∙شقة/جناح/غير ذلك
+                    - textbox "اختياري∙شقة/جناح/غير ذلك" [ref=e696]
+                  - generic [ref=e699]:
+                    - generic [ref=e705]: المدينة/الحي
+                    - textbox "المدينة/الحي" [ref=e714]
+                  - generic [ref=e715]:
+                    - generic [ref=e719]:
+                      - generic [ref=e725]: الولاية/المقاطعة/المنطقة
+                      - textbox "الولاية/المقاطعة/المنطقة" [ref=e734]
+                    - generic [ref=e738]:
+                      - generic [ref=e744]: الرمز البريدي
+                      - textbox "الرمز البريدي" [ref=e753]
+                    - generic [ref=e757]:
+                      - generic [ref=e763]: Country
+                      - combobox "Country United States" [ref=e768] [cursor=pointer]:
+                        - generic [ref=e775]: United States
+          - generic [ref=e779]:
+            - button
+            - button "إضافة منصة" [ref=e781] [cursor=pointer]:
+              - generic [ref=e786]: إضافة منصة
+          - generic [ref=e789]:
+            - button "حفظ التغييرات" [ref=e790] [cursor=pointer]
+            - button "تجاهل" [ref=e791] [cursor=pointer]

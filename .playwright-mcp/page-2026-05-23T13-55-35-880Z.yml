@@ -1,0 +1,6 @@
+- generic [ref=e13]:
+  - generic [ref=e18]:
+    - generic [ref=e19]: هذا المحتوى غير متوفر الآن
+    - text: "Invalid Scopes: pages_show_list, pages_read_engagement, pages_manage_metadata, instagram_basic, instagram_manage_messages, instagram_manage_comments. This message is only shown to developers. Users of your app will ignore these permissions if present. Please read the documentation for valid permissions at: https://developers.facebook.com/docs/facebook-login/permissions"
+  - button "موافق" [ref=e22] [cursor=pointer]:
+    - generic [ref=e25]: موافق

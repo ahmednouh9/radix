@@ -1,0 +1,9 @@
+[    1163ms] [LOG] 
+%cانتبه! font-family:helvetica; font-size:20px; font-size:50px; font-weight:bold; color:red; -webkit-text-stroke:1px black; @ https://static.xx.fbcdn.net/rsrc.php/v4/ya/r/Me80Z13eYqn.js:244
+[    1164ms] [LOG] 
+%cميزة المتصفح هذه موجهة للمطورين. إذا طلب منك شخص ما نسخ ولصق أي شيء هنا لتمكين ميزة على فيسبوك أو "اختراق" حساب شخص آخر، فإن هذه محاولة احتيالية وستتيح له الوصول إلى حساب فيسبوك الخاص بك. font-family:helvetica; font-size:20px;  @ https://static.xx.fbcdn.net/rsrc.php/v4/ya/r/Me80Z13eYqn.js:244
+[    1164ms] [LOG] 
+%cيمكنك الاطلاع على https://www.facebook.com/selfxss للحصول على مزيد من المعلومات. font-family:helvetica; font-size:20px;  @ https://static.xx.fbcdn.net/rsrc.php/v4/ya/r/Me80Z13eYqn.js:244
+[    1165ms] [LOG] 
+%c  @ https://static.xx.fbcdn.net/rsrc.php/v4/ya/r/Me80Z13eYqn.js:244
+[   -1262ms] [ERROR] The source list for the Content Security Policy directive 'connect-src' contains an invalid source: 'https://*-fort.facebook.com'. It will be ignored. @ https://static.xx.fbcdn.net/rsrc.php/v4id7F4/yG/l/ar_AR-j/-2pKlTnzuEu.js:290

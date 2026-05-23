@@ -1,0 +1,40 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e2]:
+    - generic:
+      - iframe
+    - generic:
+      - iframe
+    - generic:
+      - iframe
+    - generic:
+      - iframe
+    - generic [ref=e3]:
+      - generic [ref=e9]:
+        - generic [ref=e10]:
+          - link "شعار Meta" [ref=e12] [cursor=pointer]:
+            - /url: /?no_redirect=true
+          - tablist [ref=e23]
+        - generic [ref=e47]:
+          - generic [ref=e48]
+          - link [ref=e68] [cursor=pointer]:
+            - /url: "#"
+          - link "Facebook" [ref=e73] [cursor=pointer]:
+            - /url: "#"
+      - generic [ref=e80]:
+        - generic [ref=e84]: مستكشف Graph API
+        - generic [ref=e87]:
+          - generic [ref=e88]
+          - generic [ref=e133]
+      - contentinfo [ref=e264]:
+        - generic [ref=e265]:
+          - separator [ref=e266]
+          - generic [ref=e268]
+  - generic:
+    - region "تعرف على هذه الميزة الجديدة"
+  - generic:
+    - region "تعرف على هذه الميزة الجديدة"
+  - generic:
+    - region "تعرف على هذه الميزة الجديدة"
+  - generic:
+    - region "تعرف على هذه الميزة الجديدة"
+  - generic [ref=e391]: تم إيجاد ٦ نتيجة

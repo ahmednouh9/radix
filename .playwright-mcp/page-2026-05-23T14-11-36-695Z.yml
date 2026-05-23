@@ -1,0 +1,154 @@
+- generic [ref=e2]:
+  - generic:
+    - iframe
+  - generic:
+    - iframe
+  - generic:
+    - iframe
+  - generic:
+    - iframe
+  - generic [ref=e3]:
+    - generic [ref=e96]:
+      - generic [ref=e97]:
+        - link "شعار Meta" [ref=e99] [cursor=pointer]:
+          - /url: /?no_redirect=true
+          - img "شعار Meta" [ref=e101]
+        - tablist [ref=e110]:
+          - link "تطبيقاتي" [ref=e111] [cursor=pointer]:
+            - /url: /apps/
+            - generic [ref=e114]: تطبيقاتي
+          - link "الإجراءات المطلوبة" [ref=e115] [cursor=pointer]:
+            - /url: /required-actions/
+            - generic [ref=e118]: الإجراءات المطلوبة
+          - button "المزيد" [ref=e437] [cursor=pointer]:
+            - generic [ref=e440]: المزيد
+      - generic [ref=e134]:
+        - generic [ref=e135]:
+          - generic [ref=e141]: إدخال البحث
+          - textbox "إدخال البحث" [ref=e152]:
+            - /placeholder: بحث...
+        - link [ref=e155] [cursor=pointer]:
+          - /url: "#"
+        - link "Facebook" [ref=e160] [cursor=pointer]:
+          - /url: "#"
+          - img "Facebook" [ref=e165]
+    - generic [ref=e27]:
+      - heading "إنشاء تطبيق" [level=1] [ref=e29]
+      - generic [ref=e31]:
+        - list [ref=e43]:
+          - listitem [ref=e44]:
+            - button "تفاصيل التطبيق حالة مكتملة" [ref=e229] [cursor=pointer]:
+              - generic [ref=e50]: تفاصيل التطبيق
+          - listitem [ref=e51]:
+            - button "حالات الاستخدام حالة معلقة" [ref=e52] [cursor=pointer]:
+              - generic [ref=e57]: حالات الاستخدام
+          - listitem [ref=e58]:
+            - button "النشاط التجاري حالة معلقة" [disabled] [ref=e59]:
+              - generic [ref=e64]: النشاط التجاري
+          - listitem [ref=e65]:
+            - button "المتطلبات حالة معلقة" [disabled] [ref=e66]:
+              - generic [ref=e71]: المتطلبات
+          - listitem [ref=e72]:
+            - button "نظرة عامة حالة معلقة" [disabled] [ref=e73]:
+              - generic [ref=e78]: نظرة عامة
+        - generic [ref=e233]:
+          - generic [ref=e236]:
+            - heading "إضافة حالات استخدام" [level=2] [ref=e238]
+            - generic [ref=e239]:
+              - generic [ref=e240]:
+                - heading "فلترة حسب" [level=3] [ref=e242]
+                - grid [ref=e244]:
+                  - row "العناصر المميزة (6)" [ref=e245]:
+                    - gridcell "العناصر المميزة (6)" [ref=e246] [cursor=pointer]:
+                      - generic [ref=e248]:
+                        - radio "العناصر المميزة (6)" [ref=e253]
+                        - generic [ref=e258]: العناصر المميزة (6)
+                  - row "الكل (19)" [ref=e259]:
+                    - gridcell "الكل (19)" [ref=e260] [cursor=pointer]:
+                      - generic [ref=e262]:
+                        - radio "الكل (19)" [ref=e267]
+                        - generic [ref=e270]: الكل (19)
+                  - row "الإعلانات وتحقيق الأرباح (6)" [ref=e271]:
+                    - gridcell "الإعلانات وتحقيق الأرباح (6)" [ref=e272] [cursor=pointer]:
+                      - generic [ref=e274]:
+                        - radio "الإعلانات وتحقيق الأرباح (6)" [ref=e279]
+                        - generic [ref=e282]: الإعلانات وتحقيق الأرباح (6)
+                  - row "إدارة المحتوى (5)" [ref=e283]:
+                    - gridcell "إدارة المحتوى (5)" [active] [selected] [ref=e284] [cursor=pointer]:
+                      - generic [ref=e286]:
+                        - radio "إدارة المحتوى (5)" [checked] [ref=e291]
+                        - generic [ref=e294]: إدارة المحتوى (5)
+                  - row "مراسلات الأعمال (3)" [ref=e295]:
+                    - gridcell "مراسلات الأعمال (3)" [ref=e296] [cursor=pointer]:
+                      - generic [ref=e298]:
+                        - radio "مراسلات الأعمال (3)" [ref=e303]
+                        - generic [ref=e306]: مراسلات الأعمال (3)
+                  - row "غير ذلك (5)" [ref=e307]:
+                    - gridcell "غير ذلك (5)" [ref=e308] [cursor=pointer]:
+                      - generic [ref=e310]:
+                        - radio "غير ذلك (5)" [ref=e315]
+                        - generic [ref=e318]: غير ذلك (5)
+              - generic [ref=e321]:
+                - button "الوصول إلى واجهة API تطبيق Threads" [ref=e355] [cursor=pointer]:
+                  - generic [ref=e356]:
+                    - generic [ref=e359]:
+                      - generic:
+                        - img
+                    - generic [ref=e363]:
+                      - heading "الوصول إلى واجهة API تطبيق Threads" [level=3] [ref=e367]
+                      - generic [ref=e368]:
+                        - text: يمكنك استخدام واجهة API تطبيق Threads واختيار مصادقة المستخدمين واسترجاع معلومات، ونشر مقتطفات والرد عليها، وإدارة إعدادات الردود، و/أو جمع رؤى لملف شخصي على Threads تملكه أو تديره نيابة عن آخرين.
+                        - link "حول واجهة API تطبيق Threads" [ref=e369]:
+                          - /url: /docs/development/create-an-app/threads-use-case/
+                - button "إدارة المراسلة والمحتوى على Instagram" [ref=e445] [cursor=pointer]:
+                  - generic [ref=e446]:
+                    - generic [ref=e449]:
+                      - generic:
+                        - img
+                    - generic [ref=e453]:
+                      - heading "إدارة المراسلة والمحتوى على Instagram" [level=3] [ref=e457]
+                      - generic [ref=e458]:
+                        - text: يمكنك نشر المنشورات ومشاركة القصص والرد على التعليقات والرد على الرسائل الخاصة وغير ذلك الكثير من خلال واجهة Instagram API.
+                        - link "حول واجهة Instagram API" [ref=e459]:
+                          - /url: /docs/development/create-an-app/instagram-use-case/
+                - button "الوصول إلى واجهة API لفيديو البث المباشر" [ref=e461] [cursor=pointer]:
+                  - generic [ref=e462]:
+                    - generic [ref=e465]:
+                      - generic:
+                        - img
+                    - generic [ref=e469]:
+                      - heading "الوصول إلى واجهة API لفيديو البث المباشر" [level=3] [ref=e473]
+                      - generic [ref=e474]:
+                        - text: يمكنك استخدام واجهة API لفيديو البث المباشر لبث مقاطع فيديو بث مباشر على فيسبوك.
+                        - link "حول واجهة API لفيديو البث المباشر" [ref=e475]:
+                          - /url: /docs/live-video-api/
+                - button "تضمين محتوى فيسبوك وInstagram وThreads في مواقع ويب أخرى" [ref=e477] [cursor=pointer]:
+                  - generic [ref=e478]:
+                    - generic [ref=e481]:
+                      - generic:
+                        - img
+                    - generic [ref=e485]:
+                      - heading "تضمين محتوى فيسبوك وInstagram وThreads في مواقع ويب أخرى" [level=3] [ref=e489]
+                      - generic [ref=e490]:
+                        - text: يمكنك استخدام واجهة oEmbed API لتضمين محتوى فيسبوك وInstagram وThreads، مثل الصور ومقاطع الفيديو، في مواقع الويب الأخرى.
+                        - link "حول حالة استخدام oEmbed" [ref=e491]:
+                          - /url: /docs/development/create-an-app/oembed-use-case/
+                - button "إدارة كل شيء على صفحتك" [ref=e493] [cursor=pointer]:
+                  - generic [ref=e494]:
+                    - generic [ref=e497]:
+                      - generic:
+                        - img
+                    - generic [ref=e501]:
+                      - heading "إدارة كل شيء على صفحتك" [level=3] [ref=e505]
+                      - generic [ref=e506]:
+                        - text: يمكنك نشر المحتوى ومقاطع الفيديو والإشراف على المنشورات والتعليقات الواردة من المتابعين على صفحتك والحصول على رؤى حول التفاعل.
+                        - link "حول واجهة API الصفحات" [ref=e507]:
+                          - /url: /docs/pages-api/
+          - generic [ref=e418]:
+            - button "إلغاء" [ref=e421] [cursor=pointer]:
+              - generic [ref=e425]: إلغاء
+            - generic [ref=e426]:
+              - button "السابق" [ref=e427] [cursor=pointer]:
+                - generic [ref=e431]: السابق
+              - button "التالي" [disabled] [ref=e432]:
+                - generic [ref=e436]: التالي

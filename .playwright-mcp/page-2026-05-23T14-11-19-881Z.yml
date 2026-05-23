@@ -1,0 +1,169 @@
+- generic [ref=e2]:
+  - generic:
+    - iframe
+  - generic:
+    - iframe
+  - generic:
+    - iframe
+  - generic:
+    - iframe
+  - generic [ref=e3]:
+    - generic [ref=e96]:
+      - generic [ref=e97]:
+        - link "شعار Meta" [ref=e99] [cursor=pointer]:
+          - /url: /?no_redirect=true
+          - img "شعار Meta" [ref=e101]
+        - tablist [ref=e110]:
+          - link "تطبيقاتي" [ref=e111] [cursor=pointer]:
+            - /url: /apps/
+            - generic [ref=e114]: تطبيقاتي
+          - link "الإجراءات المطلوبة" [ref=e115] [cursor=pointer]:
+            - /url: /required-actions/
+            - generic [ref=e118]: الإجراءات المطلوبة
+          - tab "الوثائق" [ref=e119] [cursor=pointer]:
+            - generic [ref=e122]: الوثائق
+          - tab "الأدوات" [ref=e124] [cursor=pointer]:
+            - generic [ref=e127]: الأدوات
+          - tab "الدعم" [ref=e129] [cursor=pointer]:
+            - generic [ref=e132]: الدعم
+      - generic [ref=e134]:
+        - generic [ref=e135]:
+          - generic [ref=e141]: إدخال البحث
+          - textbox "إدخال البحث" [ref=e152]:
+            - /placeholder: بحث...
+        - link [ref=e155] [cursor=pointer]:
+          - /url: "#"
+        - link "Facebook" [ref=e160] [cursor=pointer]:
+          - /url: "#"
+          - img "Facebook" [ref=e165]
+    - generic [ref=e27]:
+      - heading "إنشاء تطبيق" [level=1] [ref=e29]
+      - generic [ref=e31]:
+        - list [ref=e43]:
+          - listitem [ref=e44]:
+            - button "تفاصيل التطبيق حالة مكتملة" [ref=e229] [cursor=pointer]:
+              - generic [ref=e50]: تفاصيل التطبيق
+          - listitem [ref=e51]:
+            - button "حالات الاستخدام حالة معلقة" [ref=e52] [cursor=pointer]:
+              - generic [ref=e57]: حالات الاستخدام
+          - listitem [ref=e58]:
+            - button "النشاط التجاري حالة معلقة" [disabled] [ref=e59]:
+              - generic [ref=e64]: النشاط التجاري
+          - listitem [ref=e65]:
+            - button "المتطلبات حالة معلقة" [disabled] [ref=e66]:
+              - generic [ref=e71]: المتطلبات
+          - listitem [ref=e72]:
+            - button "نظرة عامة حالة معلقة" [disabled] [ref=e73]:
+              - generic [ref=e78]: نظرة عامة
+        - generic [ref=e233]:
+          - generic [ref=e236]:
+            - heading "إضافة حالات استخدام" [level=2] [ref=e238]
+            - generic [ref=e239]:
+              - generic [ref=e240]:
+                - heading "فلترة حسب" [level=3] [ref=e242]
+                - grid [ref=e244]:
+                  - row "العناصر المميزة (6)" [ref=e245]:
+                    - gridcell "العناصر المميزة (6)" [selected] [ref=e246] [cursor=pointer]:
+                      - generic [ref=e248]:
+                        - radio "العناصر المميزة (6)" [checked] [ref=e253]
+                        - generic [ref=e258]: العناصر المميزة (6)
+                  - row "الكل (19)" [ref=e259]:
+                    - gridcell "الكل (19)" [ref=e260] [cursor=pointer]:
+                      - generic [ref=e262]:
+                        - radio "الكل (19)" [ref=e267]
+                        - generic [ref=e270]: الكل (19)
+                  - row "الإعلانات وتحقيق الأرباح (6)" [ref=e271]:
+                    - gridcell "الإعلانات وتحقيق الأرباح (6)" [ref=e272] [cursor=pointer]:
+                      - generic [ref=e274]:
+                        - radio "الإعلانات وتحقيق الأرباح (6)" [ref=e279]
+                        - generic [ref=e282]: الإعلانات وتحقيق الأرباح (6)
+                  - row "إدارة المحتوى (5)" [ref=e283]:
+                    - gridcell "إدارة المحتوى (5)" [ref=e284] [cursor=pointer]:
+                      - generic [ref=e286]:
+                        - radio "إدارة المحتوى (5)" [ref=e291]
+                        - generic [ref=e294]: إدارة المحتوى (5)
+                  - row "مراسلات الأعمال (3)" [ref=e295]:
+                    - gridcell "مراسلات الأعمال (3)" [ref=e296] [cursor=pointer]:
+                      - generic [ref=e298]:
+                        - radio "مراسلات الأعمال (3)" [ref=e303]
+                        - generic [ref=e306]: مراسلات الأعمال (3)
+                  - row "غير ذلك (5)" [ref=e307]:
+                    - gridcell "غير ذلك (5)" [ref=e308] [cursor=pointer]:
+                      - generic [ref=e310]:
+                        - radio "غير ذلك (5)" [ref=e315]
+                        - generic [ref=e318]: غير ذلك (5)
+              - generic [ref=e321]:
+                - button "إنشاء إعلانات وإدارتها من خلال واجهة API التسويق" [ref=e323] [cursor=pointer]:
+                  - generic [ref=e324]:
+                    - generic [ref=e327]:
+                      - generic:
+                        - img
+                    - generic [ref=e331]:
+                      - heading "إنشاء إعلانات وإدارتها من خلال واجهة API التسويق" [level=3] [ref=e335]
+                      - generic [ref=e336]:
+                        - text: يمكنك إنشاء حملات إعلانية وإدارتها وتحسينها على مستوى تقنيات Meta. كما يمكنك تمديدها أو إيقافها أو تحديثها برمجيًا وغير ذلك.
+                        - link "حول واجهة API التسويق" [ref=e337]:
+                          - /url: /docs/development/create-an-app/marketing-api-use-cases/
+                - button "إنشاء وإدارة إعلانات التطبيقات من خلال مدير الإعلانات من Meta" [ref=e339] [cursor=pointer]:
+                  - generic [ref=e340]:
+                    - generic [ref=e343]:
+                      - generic:
+                        - img
+                    - generic [ref=e347]:
+                      - heading "إنشاء وإدارة إعلانات التطبيقات من خلال مدير الإعلانات من Meta" [level=3] [ref=e351]
+                      - generic [ref=e352]:
+                        - text: يمكنك ترويج تطبيق الهواتف المحمولة وزيادة عمليات التثبيت. ويمكنك إنشاء وإدارة الحملات الإعلانية التي تشجع المستخدمين على تنزيل تطبيقك وتثبيته. لا يتضمن هذا الوصول إلى واجهة API التسويق.
+                        - link "حول إعلانات تثبيت التطبيق" [ref=e353]:
+                          - /url: /docs/development/create-an-app/app_install_ads_use_case/
+                - button "الوصول إلى واجهة API تطبيق Threads" [ref=e355] [cursor=pointer]:
+                  - generic [ref=e356]:
+                    - generic [ref=e359]:
+                      - generic:
+                        - img
+                    - generic [ref=e363]:
+                      - heading "الوصول إلى واجهة API تطبيق Threads" [level=3] [ref=e367]
+                      - generic [ref=e368]:
+                        - text: يمكنك استخدام واجهة API تطبيق Threads واختيار مصادقة المستخدمين واسترجاع معلومات، ونشر مقتطفات والرد عليها، وإدارة إعدادات الردود، و/أو جمع رؤى لملف شخصي على Threads تملكه أو تديره نيابة عن آخرين.
+                        - link "حول واجهة API تطبيق Threads" [ref=e369]:
+                          - /url: /docs/development/create-an-app/threads-use-case/
+                - button "طرح لعبة فورية على فيسبوك وMessenger" [ref=e371] [cursor=pointer]:
+                  - generic [ref=e372]:
+                    - generic [ref=e375]:
+                      - generic:
+                        - img
+                    - generic [ref=e379]:
+                      - heading "طرح لعبة فورية على فيسبوك وMessenger" [level=3] [ref=e383]
+                      - generic [ref=e384]:
+                        - text: يمكنك طرح لعبة فورية يمكن للاعبين العثور عليها ولعبها مباشرةً في الموجز أو المحادثات/الرسائل لديهم، على أجهزة الكمبيوتر والأجهزة المحمولة.
+                        - link "حول طرح لعبة فورية على فيسبوك وMessenger" [ref=e385]:
+                          - /url: https://developers.facebook.com/documentation/games
+                - button "المصادقة وطلب البيانات من المستخدمين من خلال تسجيل دخول فيسبوك" [ref=e387] [cursor=pointer]:
+                  - generic [ref=e388]:
+                    - generic [ref=e391]:
+                      - generic:
+                        - img
+                    - generic [ref=e395]:
+                      - heading "المصادقة وطلب البيانات من المستخدمين من خلال تسجيل دخول فيسبوك" [level=3] [ref=e399]
+                      - generic [ref=e400]:
+                        - text: حالة الاستخدام الأكثر شيوعًا لدينا. طريقة آمنة وسريعة ومناسبة للمستخدمين لتسجيل الدخول إلى تطبيقك، أو لعبتك وليتمكن تطبيقك من طلب أذونات للوصول إلى بياناتهم إضفاء طابع شخصي على تجربتهم.
+                        - link "حول تسجيل دخول فيسبوك" [ref=e401]:
+                          - /url: /docs/development/create-an-app/facebook-login-use-case/
+                - button "التواصل مع العملاء عبر واتساب" [ref=e403] [cursor=pointer]:
+                  - generic [ref=e404]:
+                    - generic [ref=e407]:
+                      - generic:
+                        - img
+                    - generic [ref=e411]:
+                      - heading "التواصل مع العملاء عبر واتساب" [level=3] [ref=e415]
+                      - generic [ref=e416]:
+                        - text: يمكنك بدء محادثة على واتساب وإرسال إشعارات وإنشاء إعلانات نقر لفتح محادثة في واتساب وتقديم الدعم. حافظة الأعمال مطلوبة.
+                        - link "حول منصة واتساب للأعمال" [ref=e417]:
+                          - /url: /docs/development/create-an-app/whatsapp-use-case/
+          - generic [ref=e418]:
+            - button "إلغاء" [ref=e421] [cursor=pointer]:
+              - generic [ref=e425]: إلغاء
+            - generic [ref=e426]:
+              - button "السابق" [ref=e427] [cursor=pointer]:
+                - generic [ref=e431]: السابق
+              - button "التالي" [disabled] [ref=e432]:
+                - generic [ref=e436]: التالي

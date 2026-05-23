@@ -1,0 +1,255 @@
+- generic [active]:
+  - generic:
+    - generic:
+      - iframe
+    - generic:
+      - iframe
+    - generic:
+      - iframe
+    - generic:
+      - iframe
+    - generic [ref=e1]:
+      - generic [ref=e4]:
+        - generic [ref=e5]:
+          - link "شعار Meta" [ref=e7] [cursor=pointer]:
+            - /url: /?no_redirect=true
+            - img "شعار Meta" [ref=e9]
+          - tablist [ref=e18]:
+            - link "تطبيقاتي" [ref=e19] [cursor=pointer]:
+              - /url: /apps/
+              - generic [ref=e22]: تطبيقاتي
+            - link "الإجراءات المطلوبة" [ref=e23] [cursor=pointer]:
+              - /url: /required-actions/
+              - generic [ref=e26]: الإجراءات المطلوبة
+            - tab "الوثائق" [ref=e27] [cursor=pointer]:
+              - generic [ref=e30]: الوثائق
+            - tab "الأدوات" [ref=e32] [cursor=pointer]:
+              - generic [ref=e35]: الأدوات
+            - tab "الدعم" [ref=e37] [cursor=pointer]:
+              - generic [ref=e40]: الدعم
+        - generic [ref=e42]:
+          - generic [ref=e43]:
+            - generic [ref=e49]: إدخال البحث
+            - textbox "إدخال البحث" [ref=e60]:
+              - /placeholder: بحث...
+          - link [ref=e63] [cursor=pointer]:
+            - /url: "#"
+          - link "Facebook" [ref=e68] [cursor=pointer]:
+            - /url: "#"
+            - img "Facebook" [ref=e73]
+      - generic [ref=e74]:
+        - generic [ref=e76]:
+          - generic [ref=e79]:
+            - generic [ref=e82]:
+              - generic [ref=e88]: Searchable selector for all apps
+              - combobox "Searchable selector for all apps Radix Auto Reply" [ref=e93] [cursor=pointer]:
+                - generic [ref=e103]: Radix Auto Reply
+            - navigation [ref=e106]:
+              - list [ref=e107]:
+                - listitem [ref=e108]:
+                  - button "لوحة المعلومات" [ref=e110] [cursor=pointer]
+                  - generic:
+                    - listitem:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - generic: لوحة المعلومات
+                - listitem [ref=e116]:
+                  - button "الإجراءات المطلوبة" [ref=e118] [cursor=pointer]
+                  - generic:
+                    - listitem:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - generic: الإجراءات المطلوبة
+                - listitem [ref=e124]:
+                  - button "حالات الاستخدام" [ref=e126] [cursor=pointer]
+                  - generic:
+                    - listitem:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - generic: حالات الاستخدام
+                - listitem [ref=e132]:
+                  - generic [ref=e133]:
+                    - button "تسجيل دخول فيسبوك للأعمال" [ref=e135] [cursor=pointer]
+                    - generic:
+                      - listitem:
+                        - generic:
+                          - generic:
+                            - generic:
+                              - generic: تسجيل دخول فيسبوك للأعمال
+                          - button "تبديل المجموعة" [ref=e141] [cursor=pointer]:
+                            - generic [ref=e144]: تبديل المجموعة
+                  - list [ref=e147]:
+                    - generic [ref=e148]:
+                      - button "الإعدادات" [ref=e150] [cursor=pointer]
+                      - generic:
+                        - listitem:
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic: الإعدادات
+                    - generic [ref=e155]:
+                      - button "البدء السريع" [ref=e157] [cursor=pointer]
+                      - generic:
+                        - listitem:
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic: البدء السريع
+                    - generic [ref=e162]:
+                      - button "عمليات التكوين" [ref=e164] [cursor=pointer]
+                      - generic:
+                        - listitem:
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic: عمليات التكوين
+                    - generic [ref=e169]:
+                      - button "القوالب" [ref=e171] [cursor=pointer]
+                      - generic:
+                        - listitem:
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic: القوالب
+                - listitem [ref=e176]:
+                  - generic [ref=e177]:
+                    - button "مراجعة" [ref=e179] [cursor=pointer]
+                    - generic:
+                      - listitem:
+                        - generic:
+                          - generic:
+                            - generic:
+                              - generic: مراجعة
+                          - button "تبديل المجموعة" [ref=e185] [cursor=pointer]:
+                            - generic [ref=e188]: تبديل المجموعة
+                  - list [ref=e191]:
+                    - generic [ref=e192]:
+                      - button "الاختبار" [ref=e194] [cursor=pointer]
+                      - generic:
+                        - listitem:
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic: الاختبار
+                    - generic [ref=e199]:
+                      - button "التحقق" [ref=e201] [cursor=pointer]
+                      - generic:
+                        - listitem:
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic: التحقق
+                    - generic [ref=e206]:
+                      - button "مراجعة التطبيق" [ref=e208] [cursor=pointer]
+                      - generic:
+                        - listitem:
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic: مراجعة التطبيق
+                - listitem [ref=e213]:
+                  - button "نشر" [ref=e215] [cursor=pointer]:
+                    - generic [ref=e218]:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - generic: غير منشور
+                          - status: حالة نشر التطبيق
+                  - generic:
+                    - listitem:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - generic: نشر
+                        - generic:
+                          - generic:
+                            - generic:
+                              - generic: غير منشور
+                            - status: حالة نشر التطبيق
+          - generic [ref=e222]:
+            - navigation [ref=e223]:
+              - list [ref=e224]:
+                - listitem [ref=e225]:
+                  - generic [ref=e226]:
+                    - button "إعدادات التطبيق" [ref=e228] [cursor=pointer]
+                    - generic:
+                      - listitem:
+                        - generic:
+                          - generic:
+                            - generic:
+                              - generic: إعدادات التطبيق
+                          - button "تبديل المجموعة" [ref=e234] [cursor=pointer]:
+                            - generic [ref=e237]: تبديل المجموعة
+                  - list [ref=e240]:
+                    - generic [ref=e241]:
+                      - button "أساسي" [ref=e243] [cursor=pointer]
+                      - generic:
+                        - listitem:
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic: أساسي
+                    - generic [ref=e248]:
+                      - button "إعدادات متقدمة" [ref=e250] [cursor=pointer]
+                      - generic:
+                        - listitem:
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic: إعدادات متقدمة
+                - listitem [ref=e255]:
+                  - generic [ref=e256]:
+                    - button "الأدوار بالتطبيق" [ref=e258] [cursor=pointer]
+                    - generic:
+                      - listitem:
+                        - generic:
+                          - generic:
+                            - generic:
+                              - generic: الأدوار بالتطبيق
+                          - button "تبديل المجموعة" [ref=e264] [cursor=pointer]:
+                            - generic [ref=e267]: تبديل المجموعة
+                  - list [ref=e270]:
+                    - generic [ref=e271]:
+                      - button "الأدوار" [ref=e273] [cursor=pointer]
+                      - generic:
+                        - listitem:
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic: الأدوار
+                    - generic [ref=e278]:
+                      - button "الحسابات الاختبارية" [ref=e280] [cursor=pointer]
+                      - generic:
+                        - listitem:
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic: الحسابات الاختبارية
+                - listitem [ref=e285]:
+                  - button "البريد الوارد للتنبيهات" [ref=e287] [cursor=pointer]
+                  - generic:
+                    - listitem:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - generic: البريد الوارد للتنبيهات
+            - separator [ref=e293]
+            - generic [ref=e294]:
+              - button "سجل النشاطات" [ref=e295] [cursor=pointer]:
+                - generic [ref=e298]: سجل النشاطات
+              - button "مساعدة" [ref=e302] [cursor=pointer]:
+                - generic [ref=e305]: مساعدة
+              - button "فتح/إغلاق التنقل الجانبي" [ref=e310] [cursor=pointer]:
+                - generic [ref=e313]: فتح/إغلاق التنقل الجانبي
+        - generic [ref=e321]:
+          - generic [ref=e322]:
+            - progressbar [ref=e323]
+            - progressbar [ref=e324]
+          - generic [ref=e330]:
+            - progressbar [ref=e331]
+            - progressbar [ref=e332]
+            - progressbar [ref=e333]
+            - progressbar [ref=e334]

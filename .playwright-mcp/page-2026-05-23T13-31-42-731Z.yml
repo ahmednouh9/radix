@@ -1,0 +1,150 @@
+- generic [ref=e102]:
+  - complementary [ref=e103]:
+    - generic [ref=e104]:
+      - generic [ref=e105]:
+        - link "Railway Logo" [ref=e106] [cursor=pointer]:
+          - /url: /dashboard
+          - img "Railway Logo" [ref=e108]
+        - button "ahmednouh9's Projects Trial" [ref=e295] [cursor=pointer]:
+          - generic [ref=e113]:
+            - generic "ahmednouh9's Projects" [ref=e115]
+            - generic [ref=e296]: ahmednouh9's Projects
+            - generic [ref=e297]: Trial
+            - img [ref=e299]
+      - navigation [ref=e122]:
+        - link "Projects" [ref=e301] [cursor=pointer]:
+          - /url: /dashboard
+          - generic [ref=e302]:
+            - img [ref=e304]
+            - generic [ref=e306]: Projects
+        - link "Templates" [ref=e307] [cursor=pointer]:
+          - /url: /workspace/templates
+          - generic [ref=e308]:
+            - img [ref=e310]
+            - generic [ref=e313]: Templates
+        - link "Usage" [ref=e314] [cursor=pointer]:
+          - /url: /workspace/usage
+          - generic [ref=e315]:
+            - img [ref=e317]
+            - generic [ref=e319]: Usage
+        - link "People" [ref=e320] [cursor=pointer]:
+          - /url: /workspace/people
+          - generic [ref=e321]:
+            - img [ref=e323]
+            - generic [ref=e327]: People
+        - button "Settings" [ref=e328] [cursor=pointer]:
+          - img [ref=e330]
+          - generic [ref=e332]:
+            - text: Settings
+            - img [ref=e334]
+      - generic [ref=e159]:
+        - link "Docs ↗" [ref=e336] [cursor=pointer]:
+          - /url: https://docs.railway.com
+          - generic [ref=e337]:
+            - img [ref=e340]
+            - generic [ref=e343]: Docs ↗
+        - link "Central Station ↗" [ref=e344] [cursor=pointer]:
+          - /url: https://station.railway.com
+          - generic [ref=e345]:
+            - img [ref=e348]
+            - generic [ref=e355]: Central Station ↗
+        - link "My support threads ↗" [ref=e356] [cursor=pointer]:
+          - /url: https://backboard.railway.com/csc/auth/login?redirect_uri=https%3A%2F%2Fstation-server.railway.com%2Fauth%2Fcallback%3FredirectTo%3D%252Fmy-threads
+          - generic [ref=e357]:
+            - img [ref=e360]
+            - generic [ref=e362]: My support threads ↗
+    - button "ahmednouh3230@gmail.com" [ref=e363] [cursor=pointer]:
+      - generic [ref=e198]:
+        - generic "ahmednouh3230@gmail.com" [ref=e199]
+        - paragraph [ref=e364]: ahmednouh3230@gmail.com
+        - img [ref=e366]
+    - button "Collapse sidebar" [ref=e370]
+  - generic [ref=e203]:
+    - banner [ref=e204]:
+      - generic [ref=e205]:
+        - button [ref=e206] [cursor=pointer]:
+          - img [ref=e209]
+        - button "30 days or $5.00 left" [ref=e291] [cursor=pointer]:
+          - paragraph [ref=e293]:
+            - generic [ref=e294]: 30 days or $5.00 left
+    - main [ref=e214]:
+      - generic [ref=e217]:
+        - complementary [ref=e218]:
+          - generic [ref=e219]:
+            - heading "Account" [level=2] [ref=e220]
+            - navigation [ref=e221]:
+              - link "Account" [ref=e222] [cursor=pointer]:
+                - /url: /account
+                - img [ref=e225]
+                - text: Account
+              - link "Notifications" [ref=e228] [cursor=pointer]:
+                - /url: /account/notifications
+                - img [ref=e231]
+                - text: Notifications
+              - link "Feature Flags" [ref=e233] [cursor=pointer]:
+                - /url: /account/feature-flags
+                - img [ref=e236]
+                - text: Feature Flags
+              - link "Tokens" [ref=e238] [cursor=pointer]:
+                - /url: /account/tokens
+                - img [ref=e241]
+                - text: Tokens
+              - link "SSH Keys" [ref=e243] [cursor=pointer]:
+                - /url: /account/ssh-keys
+                - img [ref=e246]
+                - text: SSH Keys
+              - link "Apps" [ref=e248] [cursor=pointer]:
+                - /url: /account/apps
+                - img [ref=e251]
+                - text: Apps
+              - link "Security" [ref=e256] [cursor=pointer]:
+                - /url: /account/security
+                - img [ref=e259]
+                - text: Security
+        - generic [ref=e263]:
+          - paragraph [ref=e265]: Tokens
+          - separator [ref=e266]
+          - generic [ref=e267]:
+            - generic [ref=e268]:
+              - heading "New Token" [level=2] [ref=e269]
+              - generic [ref=e428]:
+                - generic [ref=e430]:
+                  - generic [ref=e433]: Name
+                  - textbox "Name" [ref=e435]:
+                    - /placeholder: API Token
+                - generic [ref=e437]:
+                  - generic [ref=e438]: Workspace
+                  - generic [ref=e439]:
+                    - combobox "Workspace" [ref=e440] [cursor=pointer]:
+                      - option "No workspace"
+                      - option "ahmednouh9's Projects" [selected]
+                    - generic:
+                      - generic:
+                        - img
+                - button "Create" [ref=e441] [cursor=pointer]:
+                  - generic [ref=e442]: Create
+            - generic [ref=e286]:
+              - paragraph [ref=e287]: API Tokens
+              - paragraph [ref=e288]:
+                - text: API tokens allow you to programmatically access your Railway account.
+                - link "Read more about API tokens in our docs" [ref=e289] [cursor=pointer]:
+                  - /url: https://docs.railway.com/reference/public-api
+                - text: .
+              - table [ref=e385]:
+                - rowgroup [ref=e386]:
+                  - row "Name Scope Token" [ref=e387]:
+                    - columnheader "Name" [ref=e388]
+                    - columnheader "Scope" [ref=e389]
+                    - columnheader "Token" [ref=e390]
+                    - columnheader [ref=e391]
+                - rowgroup [ref=e392]:
+                  - row "radix-cli-token ahmednouh9's Projects ****-cbc2" [ref=e393]:
+                    - cell "radix-cli-token" [ref=e394] [cursor=pointer]:
+                      - generic [ref=e395]:
+                        - img [ref=e397]
+                        - paragraph [ref=e401]: radix-cli-token
+                    - cell "ahmednouh9's Projects" [ref=e402] [cursor=pointer]
+                    - cell "****-cbc2" [ref=e403] [cursor=pointer]
+                    - cell [ref=e404] [cursor=pointer]:
+                      - button "Delete token" [ref=e405]:
+                        - img [ref=e407]

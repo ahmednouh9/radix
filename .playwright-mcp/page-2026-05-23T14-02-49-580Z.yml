@@ -1,0 +1,272 @@
+- generic [ref=e5]:
+  - banner:
+    - generic [ref=e6]:
+      - generic:
+        - generic:
+          - button [disabled]:
+            - img
+      - link "فيسبوك" [ref=e7] [cursor=pointer]:
+        - /url: /
+        - img [ref=e8]
+    - generic [ref=e16]:
+      - generic [ref=e17]:
+        - generic:
+          - generic:
+            - generic:
+              - button:
+                - img
+      - generic [ref=e19]:
+        - generic:
+          - img
+        - combobox "بحث في فيسبوك" [ref=e20]
+    - navigation "فيسبوك" [ref=e24]:
+      - list [ref=e25]:
+        - listitem [ref=e26]:
+          - link "الصفحة الرئيسية" [ref=e29] [cursor=pointer]:
+            - /url: /
+            - img [ref=e31]
+        - listitem [ref=e33]:
+          - link "ريلز" [ref=e36] [cursor=pointer]:
+            - /url: /reel/?s=tab
+            - img [ref=e38]
+        - listitem [ref=e41]:
+          - link "الصفحات" [ref=e45] [cursor=pointer]:
+            - /url: /pages/?category=your_pages&ref=bookmarks
+            - img [ref=e47]
+        - listitem [ref=e49]:
+          - link "لوحة المعلومات الاحترافية" [ref=e52] [cursor=pointer]:
+            - /url: /professional_dashboard/?ref=tab_bar
+            - img [ref=e54]
+        - listitem [ref=e57]:
+          - link "مركز الإعلانات" [ref=e60] [cursor=pointer]:
+            - /url: /61565410412344/ad_center/
+            - img [ref=e62]
+    - navigation "عناصر التحكم وإعدادات الحساب" [ref=e65]:
+      - button "قائمة فيسبوك" [ref=e69] [cursor=pointer]:
+        - img [ref=e70]
+      - link "Messenger" [ref=e73] [cursor=pointer]:
+        - /url: https://business.facebook.com/latest/inbox/all/?nav_ref=manage_page_ap_plus_inbox_message_button&asset_id=427668740423316&business_id=
+        - link "Messenger" [ref=e75]:
+          - /url: https://business.facebook.com/latest/inbox/all/?nav_ref=manage_page_ap_plus_inbox_message_button&asset_id=427668740423316&business_id=
+          - img [ref=e76]
+      - generic [ref=e81]:
+        - button "إشعارات غير مقروءة، 5" [ref=e82] [cursor=pointer]:
+          - img [ref=e83]
+        - button [ref=e85] [cursor=pointer]:
+          - generic [ref=e86]:
+            - generic [ref=e87]: عدد الإشعارات غير المقروءة
+            - generic [ref=e88]: "5"
+      - button "ملفك الشخصي" [ref=e91] [cursor=pointer]:
+        - generic [ref=e92]:
+          - img "ملفك الشخصي" [ref=e93]
+          - img [ref=e100]
+  - generic [ref=e107]:
+    - navigation "عنوان الصفحة" [ref=e108]:
+      - generic [ref=e109]:
+        - generic [ref=e112]:
+          - heading "الصفحات" [level=1] [ref=e117]
+          - button "تعديل إعدادات الإشعارات" [ref=e120] [cursor=pointer]:
+            - img [ref=e121]
+        - generic [ref=e125]:
+          - generic [ref=e126]:
+            - link "صفحاتك انقر للتوسيع" [expanded] [ref=e128] [cursor=pointer]:
+              - /url: /pages/?category=your_pages&ref=bookmarks
+              - generic [ref=e129]:
+                - img [ref=e132]
+                - generic [ref=e134]:
+                  - generic [ref=e139]: صفحاتك
+                  - button "انقر للتوسيع" [ref=e143]
+            - generic [ref=e145]:
+              - link "Nobel Swim Academy" [ref=e147] [cursor=pointer]:
+                - /url: https://www.facebook.com/profile.php?id=61565410412344
+                - generic [ref=e148]:
+                  - img [ref=e151]
+                  - generic [ref=e161]: Nobel Swim Academy
+              - link "Z GLORY MAN EG" [ref=e163] [cursor=pointer]:
+                - /url: /61587292567989
+                - generic [ref=e164]:
+                  - img [ref=e167]
+                  - generic [ref=e177]: Z GLORY MAN EG
+              - link "موجود - Mawgood" [ref=e179] [cursor=pointer]:
+                - /url: /61586033436681
+                - generic [ref=e180]:
+                  - img [ref=e183]
+                  - generic [ref=e193]: موجود - Mawgood
+              - link "موجود" [ref=e195] [cursor=pointer]:
+                - /url: /61586871854583
+                - generic [ref=e196]:
+                  - img [ref=e199]
+                  - generic [ref=e209]: موجود
+          - separator [ref=e210]
+          - generic [ref=e211]:
+            - link "Meta Business Suite" [ref=e213] [cursor=pointer]:
+              - /url: https://www.facebook.com/latest/home?nav_ref=pages_you_manage_header_navigation_upsell
+              - generic [ref=e214]:
+                - img [ref=e217]
+                - generic [ref=e224]: Meta Business Suite
+            - link "استكشاف" [ref=e226] [cursor=pointer]:
+              - /url: /pages/?category=top&ref=bookmarks
+              - generic [ref=e227]:
+                - img [ref=e230]
+                - generic [ref=e238]: استكشاف
+            - link "Followed Pages" [ref=e240] [cursor=pointer]:
+              - /url: /pages/?category=liked&ref=bookmarks
+              - generic [ref=e241]:
+                - img [ref=e244]
+                - generic [ref=e251]: Followed Pages
+    - main "محتوى الصفحة الرئيسية" [ref=e252]:
+      - main [ref=e255]:
+        - generic [ref=e257]:
+          - generic [ref=e263]: الصفحات التي يديرها احمد نوح
+          - generic [ref=e269]:
+            - generic [ref=e274]:
+              - generic [ref=e276]:
+                - link "صورة ملف Nobel Swim Academy الشخصي" [ref=e280] [cursor=pointer]:
+                  - /url: /stories/122101197776513680/UzpfSVNDOjkyNTA5NTgxNzIyMTEyMA==/?view_single=false&__tn__=%3C
+                  - img "Nobel Swim Academy، مشاهدة القصة" [ref=e282]
+                - generic [ref=e289]:
+                  - link "Nobel Swim Academy" [ref=e293] [cursor=pointer]:
+                    - /url: https://www.facebook.com/profile.php?id=61565410412344
+                    - generic [ref=e294]: Nobel Swim Academy
+                  - generic [ref=e296]:
+                    - listitem [ref=e298]:
+                      - link "٧ إشعارات" [ref=e309] [cursor=pointer]:
+                        - /url: /notifications/
+                    - listitem [ref=e313]:
+                      - generic [ref=e315]:
+                        - img [ref=e317]
+                        - link "الرسائل" [ref=e326] [cursor=pointer]:
+                          - /url: /latest/inbox/all?asset_id=427668740423316&nav_ref=redirect_biz_inbox_pages_messages_button
+              - generic [ref=e328]:
+                - link "إنشاء منشور" [ref=e330] [cursor=pointer]:
+                  - /url: /427668740423316/?modal=composer
+                  - generic [ref=e331]:
+                    - img [ref=e332]
+                    - generic [ref=e336]: إنشاء منشور
+                - link "ترويج" [ref=e338] [cursor=pointer]:
+                  - /url: /ad_center/create/ad/?entry_point=www_pages_launchpoint&page_id=427668740423316
+                  - generic [ref=e339]:
+                    - img [ref=e340]
+                    - generic [ref=e344]: ترويج
+            - generic [ref=e349]:
+              - generic [ref=e351]:
+                - link "صورة ملف Z GLORY MAN EG الشخصي" [ref=e355] [cursor=pointer]:
+                  - /url: https://www.facebook.com/profile.php?id=61587292567989&__tn__=%3C
+                  - img "Z GLORY MAN EG" [ref=e357]
+                - generic [ref=e363]:
+                  - link "Z GLORY MAN EG" [ref=e367] [cursor=pointer]:
+                    - /url: https://www.facebook.com/profile.php?id=61587292567989
+                    - generic [ref=e368]: Z GLORY MAN EG
+                  - generic [ref=e370]:
+                    - listitem [ref=e372]:
+                      - button "٣ إشعارات" [ref=e383] [cursor=pointer]
+                    - listitem [ref=e387]:
+                      - generic [ref=e389]:
+                        - img [ref=e391]
+                        - link "الرسائل" [ref=e400] [cursor=pointer]:
+                          - /url: /latest/inbox/all?asset_id=884721134734914&nav_ref=redirect_biz_inbox_pages_messages_button
+              - generic [ref=e402]:
+                - button "إنشاء منشور" [ref=e404] [cursor=pointer]:
+                  - generic [ref=e405]:
+                    - img [ref=e406]
+                    - generic [ref=e410]: إنشاء منشور
+                - button "ترويج" [ref=e412] [cursor=pointer]:
+                  - generic [ref=e413]:
+                    - img [ref=e414]
+                    - generic [ref=e418]: ترويج
+                - button "المزيد" [ref=e420] [cursor=pointer]:
+                  - img [ref=e422]
+            - generic [ref=e428]:
+              - generic [ref=e430]:
+                - link "صورة ملف موجود - Mawgood الشخصي" [ref=e434] [cursor=pointer]:
+                  - /url: https://www.facebook.com/profile.php?id=61586033436681&__tn__=%3C
+                  - img "موجود - Mawgood" [ref=e436]
+                - generic [ref=e442]:
+                  - link "موجود - Mawgood" [ref=e446] [cursor=pointer]:
+                    - /url: https://www.facebook.com/profile.php?id=61586033436681
+                    - generic [ref=e447]: موجود - Mawgood
+                  - generic [ref=e449]:
+                    - listitem [ref=e451]:
+                      - button "٣٠ إشعارًا" [ref=e462] [cursor=pointer]
+                    - listitem [ref=e466]:
+                      - generic [ref=e468]:
+                        - img [ref=e470]
+                        - link "الرسائل" [ref=e479] [cursor=pointer]:
+                          - /url: /latest/inbox/all?asset_id=1029331893587345&nav_ref=redirect_biz_inbox_pages_messages_button
+              - generic [ref=e481]:
+                - button "إنشاء منشور" [ref=e483] [cursor=pointer]:
+                  - generic [ref=e484]:
+                    - img [ref=e485]
+                    - generic [ref=e489]: إنشاء منشور
+                - button "ترويج" [ref=e491] [cursor=pointer]:
+                  - generic [ref=e492]:
+                    - img [ref=e493]
+                    - generic [ref=e497]: ترويج
+                - button "المزيد" [ref=e499] [cursor=pointer]:
+                  - img [ref=e501]
+            - generic [ref=e507]:
+              - generic [ref=e509]:
+                - link "صورة ملف موجود الشخصي" [ref=e513] [cursor=pointer]:
+                  - /url: https://www.facebook.com/MawgoodEgypt?__tn__=%3C
+                  - img "موجود" [ref=e515]
+                - generic [ref=e521]:
+                  - link "موجود" [ref=e525] [cursor=pointer]:
+                    - /url: https://www.facebook.com/MawgoodEgypt
+                    - generic [ref=e526]: موجود
+                  - generic [ref=e528]:
+                    - listitem [ref=e530]:
+                      - button "٩ إشعارات" [ref=e541] [cursor=pointer]
+                    - listitem [ref=e545]:
+                      - generic [ref=e547]:
+                        - img [ref=e549]
+                        - link "الرسائل" [ref=e558] [cursor=pointer]:
+                          - /url: /latest/inbox/all?asset_id=873205489220320&nav_ref=redirect_biz_inbox_pages_messages_button
+              - generic [ref=e560]:
+                - button "إنشاء منشور" [ref=e562] [cursor=pointer]:
+                  - generic [ref=e563]:
+                    - img [ref=e564]
+                    - generic [ref=e568]: إنشاء منشور
+                - button "ترويج" [ref=e570] [cursor=pointer]:
+                  - generic [ref=e571]:
+                    - img [ref=e572]
+                    - generic [ref=e576]: ترويج
+                - button "المزيد" [ref=e578] [cursor=pointer]:
+                  - img [ref=e580]
+          - generic [ref=e592]:
+            - generic [ref=e593]: نماذج لإعلانات تساعدك على البدء
+            - generic [ref=e595]: ألقِ نظرة على هذه الإعلانات التوضيحية مع محتوى من صفحتك. ما عليك سوى تعديلها حسب احتياجاتك، وتعيين ميزانية، والنشر!
+            - generic [ref=e596]:
+              - generic:
+                - button [disabled]:
+                  - img
+              - generic [ref=e599]:
+                - generic [ref=e603]:
+                  - generic [ref=e604]:
+                    - img [ref=e607]
+                    - generic [ref=e613]:
+                      - generic [ref=e616]: Nobel Swim Academy
+                      - generic [ref=e619]:
+                        - text: مُموَّل (عرض توضيحي)
+                        - generic [ref=e620]: ·
+                  - generic [ref=e629]: "امته آخر مرة كنت مطمن وابنك جنب الماية؟ ⚡🏊‍♂️ أخيرًا أكاديمية سباحة متخصصة في قلب منطقتك. عارفين إن أغلب الأماكن حواليك… يا نادي كبير الطفل بيضيع وسط الزحمة، يا حمام سباحة عادي من غير تدريب حقيقي ولا متابعة. علشان كده Nobel Swim Academy اتعملت بهدف واحد: تدريب احترافى وبشكل صحيح + اهتمام حقيقي بكل مشترك. 🤝 ليه تختار Nobel؟ 🎯 مجموعات صغيرة علشان كل طفل ياخد اهتمامه الكامل ويتابع مستواه خطوة بخطوة. 👨‍🏫 مدربين معتمدين تدريب بأسس صحيحة وتكنيك سليم من أول يوم. 🛟 بيئة آمنة ومنظمة علشان تبدأ وإنت مطمن. برامجنا مناسبة لكل المستويات: 👶 رضع (من ٣ شهور) 👦 أطفال (من ٤ سنين) 👩 سيدات — خصوصية كاملة 👨 شباب ورجال ♿ ذوي الهمم 💧 تأهيل وعلاج مائي ابدأ صح من أول خطوة. واحجز تحديد مستوى دلوقتي وشوف الفرق بنفسك. ⚡ 📩 ابعتلنا رسالة دلوقتي أو تواصل واتساب: 01207769735 📍 الفسطاط — مصر القديمة #NobelSwimAcademy #سباحة #الفسطاط #مصر_القديمة #Swimming #Swimmingpool"
+                  - generic [ref=e633]:
+                    - generic [ref=e635]:
+                      - generic [ref=e637]: Nobel Swim Academy
+                      - generic [ref=e640]: Fear stops you. Nobel starts you. ⚡️ Redefining swimming education for all generations. 🫧 • Infants | Kids | Adults • Special Needs & Water Therapy • Certified Coaches | Small Groups Don’t just swim. Dominate. 🔱 📍 Fustat, Old Cairo
+                    - button "إرسال رسالة" [ref=e642] [cursor=pointer]:
+                      - generic [ref=e645]: إرسال رسالة
+                  - link "ترويج المنشور" [ref=e649] [cursor=pointer]:
+                    - /url: /ad_center/create/boostpost/?entry_point=profile_plus_pages_launchpoint_ad4ad_applus_voice&page_id=427668740423316&so=eyJvYmplY3RpdmUiOjM5LCJ0eXBlIjpudWxsfQ%3D%3D&target_id=122204938088513680
+                    - generic [ref=e652]: ترويج المنشور
+                - generic [ref=e656]:
+                  - generic [ref=e659]:
+                    - generic [ref=e660]: إنشاء إعلاناتك وإدارتها
+                    - generic [ref=e662]: يمكنك تخصيص إعلان لأهداف نشاطك التجاري أو ترويج منشور ذي أداء مرتفع للوصول إلى المزيد من العملاء.
+                  - link "استكشاف الإعلانات" [ref=e665] [cursor=pointer]:
+                    - /url: /ad_center/create/ad/?entry_point=profile_plus_pages_launchpoint_ad4ad_applus_voice&page_id=427668740423316
+                    - generic [ref=e668]: استكشاف الإعلانات
+              - button "العناصر التالية" [ref=e670] [cursor=pointer]:
+                - img [ref=e671]
+            - generic [ref=e675]:
+              - img [ref=e677]
+              - generic [ref=e680]: هذا هو الشكل الذي سيظهر به إعلانك للأشخاص الآخرين، لكن لا يمكن لأي شخص غيرك رؤية هذه المعاينة.

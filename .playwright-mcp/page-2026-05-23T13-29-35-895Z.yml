@@ -1,0 +1,78 @@
+- generic [ref=e3]:
+  - generic [ref=e6]:
+    - link "Railway" [ref=e7] [cursor=pointer]:
+      - /url: /
+      - img [ref=e9]
+      - generic [ref=e29]: Railway
+    - navigation "Main" [ref=e31]:
+      - list [ref=e33]:
+        - listitem [ref=e34]:
+          - button "Product" [ref=e35] [cursor=pointer]:
+            - generic [ref=e36]: Product
+            - img [ref=e38]
+        - listitem [ref=e40]:
+          - button "Developers" [ref=e41] [cursor=pointer]:
+            - generic [ref=e42]: Developers
+            - img [ref=e44]
+        - listitem [ref=e46]:
+          - button "Enterprise" [ref=e47] [cursor=pointer]:
+            - generic [ref=e48]: Enterprise
+            - img [ref=e50]
+        - listitem [ref=e52]:
+          - button "Company" [ref=e53] [cursor=pointer]:
+            - generic [ref=e54]: Company
+            - img [ref=e56]
+        - listitem [ref=e58]:
+          - link "Pricing" [ref=e59] [cursor=pointer]:
+            - /url: /pricing
+    - img [ref=e61]
+  - generic [ref=e65]:
+    - generic [ref=e67]:
+      - heading "Ship software peacefully" [level=1] [ref=e68]
+      - paragraph [ref=e69]:
+        - text: With the all-in-one
+        - link "intelligent" [ref=e70] [cursor=pointer]:
+          - /url: /agents
+        - text: cloud provider
+      - generic [ref=e71]:
+        - link "Deploy →" [ref=e72] [cursor=pointer]:
+          - /url: /new
+        - link "Demo" [ref=e73] [cursor=pointer]:
+          - /url: /#enterprise-calendar-embed
+    - generic [ref=e77]:
+      - img [ref=e79]:
+        - generic [ref=e84]:
+          - generic [ref=e85]: Deploy your app to production effortlessly
+          - generic [ref=e86]: New Project
+        - generic [ref=e91]:
+          - generic [ref=e93]: Dashboard
+          - generic [ref=e99]: New Project
+      - generic [ref=e100]:
+        - generic [ref=e102]:
+          - img [ref=e104]
+          - paragraph [ref=e106]: Deploy
+        - generic [ref=e109]:
+          - img [ref=e111]
+          - paragraph [ref=e116]: Network
+        - generic [ref=e119]:
+          - img [ref=e121]
+          - paragraph [ref=e122]: Scale
+        - generic [ref=e125]:
+          - img [ref=e127]
+          - paragraph [ref=e130]: Monitor
+        - generic [ref=e133]:
+          - img [ref=e135]
+          - paragraph [ref=e140]: Evolve
+    - generic [ref=e144]:
+      - img "TripAdvisor" [ref=e146]
+      - img "Cognizant" [ref=e148]
+      - img "Mercado Libre" [ref=e150]
+      - img "G2X" [ref=e152]
+      - img "Reducto" [ref=e154]
+      - img "Automattic" [ref=e156]
+      - img "hud" [ref=e158]
+      - img "Bilt" [ref=e160]
+      - img "MGM Resorts" [ref=e162]
+      - img "Chatbase" [ref=e164]
+      - img "Switzerland Tourism" [ref=e166]
+      - img "Numeral" [ref=e168]

@@ -1,0 +1,14 @@
+- generic [active] [ref=e1]:
+  - link [ref=e3] [cursor=pointer]:
+    - /url: //www.facebook.com/
+    - img [ref=e4]
+  - generic [ref=e5]:
+    - heading "Sorry, something went wrong." [level=1] [ref=e6]
+    - paragraph [ref=e7]: We're working on getting this fixed as soon as we can.
+    - paragraph [ref=e8]:
+      - link "Go back" [ref=e9] [cursor=pointer]:
+        - /url: //www.facebook.com/
+    - generic [ref=e10]:
+      - text: Meta © 2026 ·
+      - link "Help" [ref=e11] [cursor=pointer]:
+        - /url: //www.facebook.com/help/?ref=href052

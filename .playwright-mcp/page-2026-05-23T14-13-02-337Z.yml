@@ -1,0 +1,68 @@
+- generic [ref=e2]:
+  - generic:
+    - iframe
+  - generic:
+    - iframe
+  - generic:
+    - iframe
+  - generic:
+    - iframe
+  - generic [ref=e3]:
+    - generic [ref=e96]:
+      - generic [ref=e97]:
+        - link "شعار Meta" [ref=e99] [cursor=pointer]:
+          - /url: /?no_redirect=true
+          - img "شعار Meta" [ref=e101]
+        - tablist [ref=e110]:
+          - link "تطبيقاتي" [ref=e111] [cursor=pointer]:
+            - /url: /apps/
+            - generic [ref=e114]: تطبيقاتي
+          - link "الإجراءات المطلوبة" [ref=e115] [cursor=pointer]:
+            - /url: /required-actions/
+            - generic [ref=e118]: الإجراءات المطلوبة
+          - tab "الوثائق" [ref=e508] [cursor=pointer]:
+            - generic [ref=e511]: الوثائق
+          - button "المزيد" [ref=e599] [cursor=pointer]:
+            - generic [ref=e602]: المزيد
+      - generic [ref=e134]:
+        - generic [ref=e135]:
+          - generic [ref=e141]: إدخال البحث
+          - textbox "إدخال البحث" [ref=e152]:
+            - /placeholder: بحث...
+        - link [ref=e155] [cursor=pointer]:
+          - /url: "#"
+        - link "Facebook" [ref=e160] [cursor=pointer]:
+          - /url: "#"
+          - img "Facebook" [ref=e165]
+    - generic [ref=e27]:
+      - heading "إنشاء تطبيق" [level=1] [ref=e29]
+      - generic [ref=e31]:
+        - list [ref=e43]:
+          - listitem [ref=e44]:
+            - button "تفاصيل التطبيق حالة مكتملة" [ref=e229] [cursor=pointer]:
+              - generic [ref=e50]: تفاصيل التطبيق
+          - listitem [ref=e51]:
+            - button "حالات الاستخدام حالة مكتملة" [ref=e527] [cursor=pointer]:
+              - generic [ref=e57]: حالات الاستخدام
+          - listitem [ref=e58]:
+            - button "النشاط التجاري حالة مكتملة" [ref=e606] [cursor=pointer]:
+              - generic [ref=e64]: النشاط التجاري
+          - listitem [ref=e65]:
+            - button "المتطلبات حالة معلقة" [ref=e66] [cursor=pointer]:
+              - generic [ref=e71]: المتطلبات
+          - listitem [ref=e72]:
+            - button "نظرة عامة حالة معلقة" [disabled] [ref=e73]:
+              - generic [ref=e78]: نظرة عامة
+        - generic [ref=e610]:
+          - heading "متطلبات النشر" [level=2] [ref=e613]
+          - generic [ref=e617]:
+            - heading "هذه هي الخطوات التي تحتاج إلى إكمالها للحصول على صلاحية الوصول إلى بيانات المستخدم والنشاط التجاري والاحتفاظ بها." [level=3] [ref=e618]
+            - generic [ref=e622]: لم يتم تحديد المتطلبات. قد يتغير هذا الأمر إذا أضفت المزيد إلى هذا التطبيق.
+          - generic [ref=e623]:
+            - button "إلغاء" [ref=e626] [cursor=pointer]:
+              - generic [ref=e630]: إلغاء
+            - generic [ref=e631]:
+              - button "السابق" [ref=e632] [cursor=pointer]:
+                - generic [ref=e636]: السابق
+              - button "التالي" [ref=e637] [cursor=pointer]:
+                - generic [ref=e641]: التالي

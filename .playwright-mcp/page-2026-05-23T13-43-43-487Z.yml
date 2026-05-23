@@ -1,0 +1,98 @@
+- generic [ref=e2]:
+  - generic:
+    - iframe
+  - generic:
+    - iframe
+  - generic:
+    - iframe
+  - generic:
+    - iframe
+  - generic [ref=e3]:
+    - generic [ref=e9]:
+      - generic [ref=e10]:
+        - link "شعار Meta" [ref=e12] [cursor=pointer]:
+          - /url: /?no_redirect=true
+          - img "شعار Meta" [ref=e14]
+        - tablist [ref=e23]:
+          - link "تطبيقاتي" [ref=e24] [cursor=pointer]:
+            - /url: /apps/
+            - generic [ref=e27]: تطبيقاتي
+          - link "الإجراءات المطلوبة" [ref=e28] [cursor=pointer]:
+            - /url: /required-actions/
+            - generic [ref=e31]: الإجراءات المطلوبة
+          - tab "الوثائق" [ref=e32] [cursor=pointer]:
+            - generic [ref=e35]: الوثائق
+          - tab "الأدوات" [ref=e37] [cursor=pointer]:
+            - generic [ref=e40]: الأدوات
+          - tab "الدعم" [ref=e42] [cursor=pointer]:
+            - generic [ref=e45]: الدعم
+      - generic [ref=e47]:
+        - generic [ref=e48]:
+          - generic [ref=e54]: إدخال البحث
+          - textbox "إدخال البحث" [ref=e65]:
+            - /placeholder: بحث...
+        - link [ref=e68] [cursor=pointer]:
+          - /url: "#"
+        - link "Facebook" [ref=e73] [cursor=pointer]:
+          - /url: "#"
+          - img "Facebook" [ref=e78]
+    - main [ref=e79]:
+      - generic [ref=e85]:
+        - generic [ref=e86]:
+          - generic [ref=e87]: التطبيقات
+          - generic [ref=e88]:
+            - textbox [ref=e103]:
+              - /placeholder: بحث باسم التطبيق أو معرف التطبيق
+            - button "إنشاء تطبيق" [ref=e105] [cursor=pointer]:
+              - generic [ref=e109]: إنشاء تطبيق
+        - generic [ref=e110]:
+          - generic [ref=e116]:
+            - generic [ref=e117]:
+              - heading "فلترة حسب" [ref=e119]:
+                - heading "فلترة حسب" [level=3] [ref=e121]:
+                  - heading "فلترة حسب" [level=4] [ref=e122]
+              - listbox "فلترة حسب" [ref=e123]:
+                - option "كل التطبيقات (1)" [selected] [ref=e124]:
+                  - button
+                  - generic [ref=e125]:
+                    - radio [checked] [ref=e128] [cursor=pointer]
+                    - generic [ref=e130]: كل التطبيقات (1)
+                - option "العناصر المؤرشفة" [ref=e131]:
+                  - button
+                  - generic [ref=e132]:
+                    - radio [ref=e135] [cursor=pointer]
+                    - generic [ref=e137]: العناصر المؤرشفة
+                - option "الإجراءات المطلوبة" [ref=e138]:
+                  - button
+                  - generic [ref=e139]:
+                    - radio [ref=e142] [cursor=pointer]
+                    - generic [ref=e144]: الإجراءات المطلوبة
+            - generic [ref=e145]:
+              - heading "حافظة الأعمال" [level=4] [ref=e146]
+              - link "مسح" [ref=e147] [cursor=pointer]:
+                - /url: "#"
+            - generic [ref=e148]:
+              - generic [ref=e154]: حافظة الأعمال
+              - combobox "حافظة الأعمال لم يتم تحديد حافظة أعمال" [ref=e159] [cursor=pointer]:
+                - generic [ref=e166]: لم يتم تحديد حافظة أعمال
+          - generic [ref=e171]:
+            - heading "تطبيقات المسؤولين" [level=2] [ref=e173]
+            - generic [ref=e178]:
+              - generic [ref=e179]:
+                - link [ref=e180] [cursor=pointer]:
+                  - /url: /apps/1305105728421980
+                  - generic [ref=e181]:
+                    - img
+                - generic [ref=e183]:
+                  - link "DM Comment Bot" [ref=e185] [cursor=pointer]:
+                    - /url: /apps/1305105728421980
+                    - heading "DM Comment Bot" [level=3] [ref=e186]
+                  - generic [ref=e187]:
+                    - generic [ref=e188]: معرف التطبيق
+                    - 'button ": 1305105728421980" [ref=e190]':
+                      - generic [ref=e192] [cursor=pointer]: ": 1305105728421980"
+                  - generic [ref=e194]: "الوضع: قيد التطوير"
+              - generic [ref=e196]:
+                - generic [ref=e200]: مسؤول
+                - button "فتح القائمة المنسدلة" [ref=e203] [cursor=pointer]:
+                  - generic [ref=e206]: فتح القائمة المنسدلة

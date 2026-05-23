@@ -1,0 +1,119 @@
+- generic [ref=e102]:
+  - complementary [ref=e103]:
+    - generic [ref=e104]:
+      - generic [ref=e105]:
+        - link "Railway Logo" [ref=e106] [cursor=pointer]:
+          - /url: /dashboard
+          - img "Railway Logo" [ref=e108]
+        - button [ref=e112] [cursor=pointer]:
+          - generic [ref=e114]:
+            - generic "ahmednouh9's Projects" [ref=e115]
+            - img [ref=e118]
+      - navigation [ref=e122]:
+        - link [ref=e124] [cursor=pointer]:
+          - /url: /dashboard
+          - img [ref=e127]
+        - link [ref=e130] [cursor=pointer]:
+          - /url: /workspace/templates
+          - img [ref=e133]
+        - link [ref=e138] [cursor=pointer]:
+          - /url: /workspace/usage
+          - img [ref=e141]
+        - link [ref=e144] [cursor=pointer]:
+          - /url: /workspace/people
+          - img [ref=e147]
+        - link [ref=e152] [cursor=pointer]:
+          - /url: /workspace
+          - img [ref=e155]
+      - generic [ref=e159]:
+        - link [ref=e161] [cursor=pointer]:
+          - /url: https://docs.railway.com
+          - generic [ref=e163]:
+            - img [ref=e165]
+            - img [ref=e169]
+        - link [ref=e172] [cursor=pointer]:
+          - /url: https://station.railway.com
+          - generic [ref=e174]:
+            - img [ref=e176]
+            - img [ref=e184]
+        - link [ref=e187] [cursor=pointer]:
+          - /url: https://backboard.railway.com/csc/auth/login?redirect_uri=https%3A%2F%2Fstation-server.railway.com%2Fauth%2Fcallback%3FredirectTo%3D%252Fmy-threads
+          - generic [ref=e189]:
+            - img [ref=e191]
+            - img [ref=e194]
+    - button [ref=e197] [cursor=pointer]:
+      - generic "ahmednouh3230@gmail.com" [ref=e199]
+    - button "Expand sidebar" [ref=e201]
+  - generic [ref=e203]:
+    - banner [ref=e204]:
+      - generic [ref=e205]:
+        - button [ref=e206] [cursor=pointer]:
+          - img [ref=e209]
+        - button "30 days or $5.00 left" [ref=e291] [cursor=pointer]:
+          - paragraph [ref=e293]:
+            - generic [ref=e294]: 30 days or $5.00 left
+    - main [ref=e214]:
+      - generic [ref=e217]:
+        - complementary [ref=e218]:
+          - generic [ref=e219]:
+            - heading "Account" [level=2] [ref=e220]
+            - navigation [ref=e221]:
+              - link "Account" [ref=e222] [cursor=pointer]:
+                - /url: /account
+                - img [ref=e225]
+                - text: Account
+              - link "Notifications" [ref=e228] [cursor=pointer]:
+                - /url: /account/notifications
+                - img [ref=e231]
+                - text: Notifications
+              - link "Feature Flags" [ref=e233] [cursor=pointer]:
+                - /url: /account/feature-flags
+                - img [ref=e236]
+                - text: Feature Flags
+              - link "Tokens" [ref=e238] [cursor=pointer]:
+                - /url: /account/tokens
+                - img [ref=e241]
+                - text: Tokens
+              - link "SSH Keys" [ref=e243] [cursor=pointer]:
+                - /url: /account/ssh-keys
+                - img [ref=e246]
+                - text: SSH Keys
+              - link "Apps" [ref=e248] [cursor=pointer]:
+                - /url: /account/apps
+                - img [ref=e251]
+                - text: Apps
+              - link "Security" [ref=e256] [cursor=pointer]:
+                - /url: /account/security
+                - img [ref=e259]
+                - text: Security
+        - generic [ref=e263]:
+          - paragraph [ref=e265]: Tokens
+          - separator [ref=e266]
+          - generic [ref=e267]:
+            - generic [ref=e268]:
+              - heading "New Token" [level=2] [ref=e269]
+              - generic [ref=e271]:
+                - generic [ref=e273]:
+                  - generic [ref=e276]: Name
+                  - textbox "Name" [active] [ref=e278]:
+                    - /placeholder: API Token
+                    - text: radix-cli
+                - generic [ref=e280]:
+                  - generic [ref=e281]: Workspace
+                  - generic [ref=e282]:
+                    - combobox "Workspace" [ref=e283] [cursor=pointer]:
+                      - option "No workspace"
+                      - option "ahmednouh9's Projects" [selected]
+                    - generic:
+                      - generic:
+                        - img
+                - button "Create" [disabled] [ref=e284]:
+                  - generic [ref=e285]: Create
+            - generic [ref=e286]:
+              - paragraph [ref=e287]: API Tokens
+              - paragraph [ref=e288]:
+                - text: API tokens allow you to programmatically access your Railway account.
+                - link "Read more about API tokens in our docs" [ref=e289] [cursor=pointer]:
+                  - /url: https://docs.railway.com/reference/public-api
+                - text: .
+              - paragraph [ref=e290]: You have no tokens yet

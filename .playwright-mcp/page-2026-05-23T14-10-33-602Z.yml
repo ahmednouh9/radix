@@ -1,0 +1,47 @@
+- generic [ref=e2]:
+  - generic:
+    - iframe
+  - generic:
+    - iframe
+  - generic:
+    - iframe
+  - generic:
+    - iframe
+  - generic [ref=e3]:
+    - generic [ref=e9]:
+      - generic [ref=e10]:
+        - progressbar [ref=e12]
+        - generic [ref=e13]:
+          - progressbar [ref=e14]
+          - progressbar [ref=e15]
+          - progressbar [ref=e16]
+          - progressbar [ref=e17]
+          - progressbar [ref=e18]
+      - generic [ref=e19]:
+        - progressbar [ref=e20]
+        - progressbar [ref=e21]
+        - progressbar [ref=e22]
+    - generic [ref=e27]:
+      - heading "إنشاء تطبيق" [level=1] [ref=e29]
+      - generic [ref=e31]:
+        - list [ref=e43]:
+          - listitem [ref=e44]:
+            - button "تفاصيل التطبيق حالة معلقة" [ref=e45] [cursor=pointer]:
+              - generic [ref=e50]: تفاصيل التطبيق
+          - listitem [ref=e51]:
+            - button "حالات الاستخدام حالة معلقة" [disabled] [ref=e52]:
+              - generic [ref=e57]: حالات الاستخدام
+          - listitem [ref=e58]:
+            - button "النشاط التجاري حالة معلقة" [disabled] [ref=e59]:
+              - generic [ref=e64]: النشاط التجاري
+          - listitem [ref=e65]:
+            - button "المتطلبات حالة معلقة" [disabled] [ref=e66]:
+              - generic [ref=e71]: المتطلبات
+          - listitem [ref=e72]:
+            - button "نظرة عامة حالة معلقة" [disabled] [ref=e73]:
+              - generic [ref=e78]: نظرة عامة
+        - generic [ref=e90]:
+          - progressbar [ref=e91]
+          - progressbar [ref=e92]
+          - progressbar [ref=e93]
+          - progressbar [ref=e94]

@@ -46,3 +46,8 @@ async def analytics_page(request: Request):
     if is_pin_protected() and not request.session.get("authenticated"):
         return RedirectResponse(url="/login")
     return templates.TemplateResponse(request, "analytics.html", {"lang": get_lang(request)})
+
+
+@router.get("/privacy")
+async def privacy_page(request: Request):
+    return templates.TemplateResponse(request, "privacy.html", {"lang": "en"})

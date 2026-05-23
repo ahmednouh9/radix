@@ -1,0 +1,9 @@
+[    4332ms] [ERROR] Failed to load resource: the server responded with a status of 404 () @ https://www.facebook.com/business/login/?client_id=4353700201609567&redirect_uri=https://developers.facebook.com/tools/explorer/callback/&scope=pages_show_list,pages_read_engagement,pages_read_user_content,pages_manage_engagement,business_management&response_type=token,grant:0
+[    6989ms] [LOG] 
+%cانتبه! font-family:helvetica; font-size:20px; font-size:50px; font-weight:bold; color:red; -webkit-text-stroke:1px black; @ :0
+[    6990ms] [LOG] 
+%cميزة المتصفح هذه موجهة للمطورين. إذا طلب منك شخص ما نسخ ولصق أي شيء هنا لتمكين ميزة على فيسبوك أو "اختراق" حساب شخص آخر، فإن هذه محاولة احتيالية وستتيح له الوصول إلى حساب فيسبوك الخاص بك. font-family:helvetica; font-size:20px;  @ :0
+[    6990ms] [LOG] 
+%cيمكنك الاطلاع على https://www.facebook.com/selfxss للحصول على مزيد من المعلومات. font-family:helvetica; font-size:20px;  @ :0
+[    6990ms] [LOG] 
+%c  @ :0

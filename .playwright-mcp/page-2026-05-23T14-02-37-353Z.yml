@@ -1,0 +1,117 @@
+- generic [ref=e2]:
+  - generic [ref=e8]:
+    - generic [ref=e10]:
+      - heading "فيسبوك" [level=1] [ref=e12]:
+        - link "فيسبوك" [ref=e13] [cursor=pointer]:
+          - /url: https://business.facebook.com/
+      - button "navicon الإعلانات من Meta" [ref=e17] [cursor=pointer]:
+        - heading "navicon الإعلانات من Meta" [level=2] [ref=e19]:
+          - generic [ref=e21]: navicon
+          - generic [ref=e22]: الإعلانات من Meta
+    - list [ref=e24]:
+      - listitem [ref=e25]:
+        - generic [ref=e28]:
+          - combobox [ref=e30]
+          - generic [ref=e34]: magnifying-glass
+      - listitem [ref=e35]
+      - listitem [ref=e36]:
+        - button "احمد" [ref=e38] [cursor=pointer]:
+          - generic [ref=e39]: احمد
+      - listitem [ref=e41]
+      - listitem [ref=e42]:
+        - button "٠" [ref=e44] [cursor=pointer]:
+          - generic [ref=e46]: ٠
+      - listitem [ref=e47]:
+        - link "الإعدادات" [ref=e49] [cursor=pointer]:
+          - /url: /ads/manager/account_settings/?act=313821344526178&nav_source=mega_menu&privacy_mutation_token=eyJ0eXBlIjowLCJjcmVhdGlvbl90aW1lIjoxNzc5NTQ0OTUyLCJjYWxsc2l0ZV9pZCI6MzYzMjIyMDcxNDAxMjQ4fQ%3D%3D
+      - listitem [ref=e50]:
+        - link [ref=e52] [cursor=pointer]:
+          - /url: "#"
+  - generic [ref=e55]:
+    - main [ref=e56]:
+      - generic [ref=e58]:
+        - generic [ref=e60]:
+          - heading "عذراً، قد حدث خطأ ما" [level=2] [ref=e61]
+          - heading [level=2] [ref=e63]: عذراً، قد حدث خطأ ما
+        - generic [ref=e65]:
+          - generic [ref=e66]: الرجاء محاولة إغلاق وإعادة فتح نافذة المتصفح.
+          - list [ref=e67]:
+            - listitem [ref=e68]:
+              - link "عودة إلى الصفحة الرئيسية" [ref=e70] [cursor=pointer]:
+                - /url: /
+    - generic [ref=e72]:
+      - contentinfo "روابط موقع فيسبوك" [ref=e74]:
+        - list [ref=e75]:
+          - listitem [ref=e76]:
+            - link "حول" [ref=e77] [cursor=pointer]:
+              - /url: https://about.meta.com/?fbclid=IwZXh0bgNhZW0CMTEAYnJpZBExRlQ1Q0MxNXVKTFBzUWJEZXNydGMGYXBwX2lkDzQzNjc2MTc3OTc0NDYyMAABHmHyNJU1mzqLA0XiOC64IMmQrDGKOm2BkbzV5qUOrfR3lRcmCdqBqc4g3PdG_aem_jgO0AcQYeNxQRTplg7Hwhw
+          - listitem [ref=e78]:
+            - link "إنشاء إعلان" [ref=e79] [cursor=pointer]:
+              - /url: /ad_campaign/landing.php?placement=pf&campaign_id=466780656697650&nav_source=unknown&extra_1=auto
+          - listitem [ref=e80]:
+            - link "إنشاء صفحة" [ref=e81] [cursor=pointer]:
+              - /url: /pages/create/?ref_type=site_footer
+          - listitem [ref=e82]:
+            - link "المطوّرون" [ref=e83] [cursor=pointer]:
+              - /url: https://developers.facebook.com/?ref=pf
+          - listitem [ref=e84]:
+            - link "الوظائف" [ref=e85] [cursor=pointer]:
+              - /url: /careers/?ref=pf
+          - listitem [ref=e86]:
+            - link "سياسة الخصوصية" [ref=e87] [cursor=pointer]:
+              - /url: /privacy/policy/?entry_point=facebook_page_footer
+          - listitem [ref=e88]:
+            - link "ملفات تعريف الارتباط" [ref=e89] [cursor=pointer]:
+              - /url: /policies/cookies/
+          - listitem [ref=e90]:
+            - link "اختيارات الإعلانات" [ref=e91] [cursor=pointer]:
+              - /url: https://www.facebook.com/help/568137493302217
+              - text: اختيارات الإعلانات
+          - listitem [ref=e93]:
+            - link "الشروط" [ref=e94] [cursor=pointer]:
+              - /url: /policies?ref=pf
+          - listitem [ref=e95]:
+            - link "مساعدة" [ref=e96] [cursor=pointer]:
+              - /url: /help/?ref=pf
+          - listitem:
+            - link "الإعدادات" [ref=e97] [cursor=pointer]:
+              - /url: /settings
+          - listitem:
+            - link "سجل النشاطات" [ref=e98] [cursor=pointer]:
+              - /url: https://business.facebook.com/ahmd.nwh.121533/allactivity?privacy_source=activity_log_top_menu
+      - generic [ref=e100]:
+        - text: Meta © 2026
+        - list [ref=e102]:
+          - listitem [ref=e103]: العربية
+          - listitem [ref=e104]:
+            - link "English (US)" [ref=e105] [cursor=pointer]:
+              - /url: https://business.facebook.com/redirect_to_new_page_experience/?profile_id=61565410412344&redirect_uri=%2Fsettings%2F&av=61565410412344
+          - listitem [ref=e106]:
+            - link "Français (France)" [ref=e107] [cursor=pointer]:
+              - /url: https://business.facebook.com/redirect_to_new_page_experience/?profile_id=61565410412344&redirect_uri=%2Fsettings%2F&av=61565410412344
+          - listitem [ref=e108]:
+            - link "Italiano" [ref=e109] [cursor=pointer]:
+              - /url: https://business.facebook.com/redirect_to_new_page_experience/?profile_id=61565410412344&redirect_uri=%2Fsettings%2F&av=61565410412344
+          - listitem [ref=e110]:
+            - link "Deutsch" [ref=e111] [cursor=pointer]:
+              - /url: https://business.facebook.com/redirect_to_new_page_experience/?profile_id=61565410412344&redirect_uri=%2Fsettings%2F&av=61565410412344
+          - listitem [ref=e112]:
+            - link "Русский" [ref=e113] [cursor=pointer]:
+              - /url: https://business.facebook.com/redirect_to_new_page_experience/?profile_id=61565410412344&redirect_uri=%2Fsettings%2F&av=61565410412344
+          - listitem [ref=e114]:
+            - link "Español" [ref=e115] [cursor=pointer]:
+              - /url: https://business.facebook.com/redirect_to_new_page_experience/?profile_id=61565410412344&redirect_uri=%2Fsettings%2F&av=61565410412344
+          - listitem [ref=e116]:
+            - link "Bahasa Indonesia" [ref=e117] [cursor=pointer]:
+              - /url: https://business.facebook.com/redirect_to_new_page_experience/?profile_id=61565410412344&redirect_uri=%2Fsettings%2F&av=61565410412344
+          - listitem [ref=e118]:
+            - link "Türkçe" [ref=e119] [cursor=pointer]:
+              - /url: https://business.facebook.com/redirect_to_new_page_experience/?profile_id=61565410412344&redirect_uri=%2Fsettings%2F&av=61565410412344
+          - listitem [ref=e120]:
+            - link "Português (Brasil)" [ref=e121] [cursor=pointer]:
+              - /url: https://business.facebook.com/redirect_to_new_page_experience/?profile_id=61565410412344&redirect_uri=%2Fsettings%2F&av=61565410412344
+          - listitem [ref=e122]:
+            - link "हिन्दी" [ref=e123] [cursor=pointer]:
+              - /url: https://business.facebook.com/redirect_to_new_page_experience/?profile_id=61565410412344&redirect_uri=%2Fsettings%2F&av=61565410412344
+          - listitem [ref=e124]:
+            - button "عرض المزيد من اللغات" [ref=e125] [cursor=pointer]

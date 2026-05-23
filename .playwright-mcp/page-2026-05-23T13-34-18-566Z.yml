@@ -1,0 +1,155 @@
+- generic [ref=e4]:
+  - banner [ref=e6]:
+    - generic [ref=e7]:
+      - link "Railway Logo" [ref=e8] [cursor=pointer]:
+        - /url: /dashboard
+        - img "Railway Logo" [ref=e10]
+      - generic [ref=e13]:
+        - button "pleasing-recreation" [ref=e16] [cursor=pointer]:
+          - generic "ahmednouh9's Projects" [ref=e17]
+          - generic [ref=e19]: pleasing-recreation
+          - img [ref=e21]
+        - button "production" [ref=e25] [cursor=pointer]:
+          - generic [ref=e26]: production
+          - img [ref=e28]
+    - navigation [ref=e30]:
+      - generic [ref=e32]:
+        - button "Toggle activity" [ref=e34] [cursor=pointer]:
+          - img [ref=e36]
+        - button [ref=e38] [cursor=pointer]:
+          - img [ref=e41]
+        - button "30 days or $5.00 left" [ref=e44] [cursor=pointer]:
+          - paragraph [ref=e46]:
+            - generic [ref=e47]: 30 days or $5.00 left
+        - button "Agent" [ref=e49] [cursor=pointer]:
+          - img [ref=e51]
+          - text: Agent
+  - generic [ref=e53]:
+    - navigation "Project navigation" [ref=e54]:
+      - generic [ref=e55]:
+        - link "Architecture" [ref=e58] [cursor=pointer]:
+          - /url: /project/5c396182-0bd1-4e28-bdeb-1f9561dbe8a1?environmentId=598d73e2-5c28-444c-8720-515a08c35c12
+          - img [ref=e60]
+        - link "Observability" [ref=e66] [cursor=pointer]:
+          - /url: /project/5c396182-0bd1-4e28-bdeb-1f9561dbe8a1/observability?environmentId=598d73e2-5c28-444c-8720-515a08c35c12
+          - img [ref=e68]
+        - link "Logs" [ref=e71] [cursor=pointer]:
+          - /url: /project/5c396182-0bd1-4e28-bdeb-1f9561dbe8a1/logs?environmentId=598d73e2-5c28-444c-8720-515a08c35c12
+          - img [ref=e73]
+        - link "Settings" [ref=e77] [cursor=pointer]:
+          - /url: /project/5c396182-0bd1-4e28-bdeb-1f9561dbe8a1/settings?environmentId=598d73e2-5c28-444c-8720-515a08c35c12
+          - img [ref=e79]
+      - button [ref=e82] [cursor=pointer]:
+        - generic "ahmednouh3230@gmail.com" [ref=e84]
+    - region [ref=e90]:
+      - generic [ref=e91]:
+        - generic [ref=e95]:
+          - img [ref=e96]
+          - generic [ref=e97]:
+            - generic [ref=e99]:
+              - generic:
+                - img
+                - button "web web-production-be8a.up.railway.app Deploying (00:56)" [ref=e278]:
+                  - link "web web-production-be8a.up.railway.app Deploying (00:56)" [ref=e279] [cursor=pointer]:
+                    - /url: /project/5c396182-0bd1-4e28-bdeb-1f9561dbe8a1/service/9a7f263d-2102-4b21-a411-dadca75e1e21?environmentId=598d73e2-5c28-444c-8720-515a08c35c12
+                    - generic [ref=e104]:
+                      - img [ref=e106]
+                      - generic [ref=e108]:
+                        - paragraph [ref=e109]: web
+                        - paragraph [ref=e110]: web-production-be8a.up.railway.app
+                    - generic [ref=e111]:
+                      - img [ref=e113]
+                      - paragraph [ref=e115]:
+                        - text: Deploying (
+                        - time [ref=e116]: 00:56
+                        - text: )
+            - toolbar "Canvas options" [ref=e118]:
+              - button "Canvas settings" [ref=e119] [cursor=pointer]:
+                - img [ref=e121]
+              - group "canvas action" [ref=e131]:
+                - button "Zoom in" [ref=e132] [cursor=pointer]:
+                  - img [ref=e134]
+                - button "Zoom out" [ref=e136] [cursor=pointer]:
+                  - img [ref=e138]
+                - button "Center canvas" [ref=e139] [cursor=pointer]:
+                  - img [ref=e141]
+              - group "canvas action" [ref=e146]:
+                - button "Undo" [ref=e147] [cursor=pointer]:
+                  - img [ref=e149]
+                - button "Redo" [ref=e152] [cursor=pointer]:
+                  - img [ref=e154]
+              - button "Visibility layers" [ref=e157] [cursor=pointer]:
+                - img [ref=e159]
+            - img [ref=e161]
+        - generic [ref=e166]:
+          - generic [ref=e167]:
+            - generic [ref=e168]:
+              - generic [ref=e170]:
+                - button [ref=e171] [cursor=pointer]:
+                  - img [ref=e173]
+                - heading "web" [level=1] [ref=e175]:
+                  - button "web" [ref=e176] [cursor=pointer]
+              - link [ref=e178] [cursor=pointer]:
+                - /url: /project/5c396182-0bd1-4e28-bdeb-1f9561dbe8a1?environmentId=598d73e2-5c28-444c-8720-515a08c35c12
+                - img [ref=e180]
+            - generic [ref=e182]:
+              - link "Deployments" [ref=e183] [cursor=pointer]:
+                - /url: /project/5c396182-0bd1-4e28-bdeb-1f9561dbe8a1/service/9a7f263d-2102-4b21-a411-dadca75e1e21?environmentId=598d73e2-5c28-444c-8720-515a08c35c12
+                - generic [ref=e184]: Deployments
+              - link "Variables" [ref=e186] [cursor=pointer]:
+                - /url: /project/5c396182-0bd1-4e28-bdeb-1f9561dbe8a1/service/9a7f263d-2102-4b21-a411-dadca75e1e21/variables?environmentId=598d73e2-5c28-444c-8720-515a08c35c12
+                - generic [ref=e187]: Variables
+              - link "Metrics" [ref=e188] [cursor=pointer]:
+                - /url: /project/5c396182-0bd1-4e28-bdeb-1f9561dbe8a1/service/9a7f263d-2102-4b21-a411-dadca75e1e21/metrics?environmentId=598d73e2-5c28-444c-8720-515a08c35c12
+                - generic [ref=e189]: Metrics
+              - link "Settings" [ref=e190] [cursor=pointer]:
+                - /url: /project/5c396182-0bd1-4e28-bdeb-1f9561dbe8a1/service/9a7f263d-2102-4b21-a411-dadca75e1e21/settings?environmentId=598d73e2-5c28-444c-8720-515a08c35c12
+                - generic [ref=e191]: Settings
+          - generic [ref=e194]:
+            - generic [ref=e195]:
+              - generic [ref=e196]:
+                - img [ref=e198]
+                - link "web-production-be8a.up.railway.app" [ref=e201] [cursor=pointer]:
+                  - /url: https://web-production-be8a.up.railway.app
+              - generic [ref=e202]:
+                - generic [ref=e203]:
+                  - img [ref=e205]
+                  - link "US West" [ref=e208] [cursor=pointer]:
+                    - /url: /project/5c396182-0bd1-4e28-bdeb-1f9561dbe8a1/service/9a7f263d-2102-4b21-a411-dadca75e1e21/settings?environmentId=598d73e2-5c28-444c-8720-515a08c35c12#deploy-region-config
+                - generic [ref=e209]:
+                  - img [ref=e211]
+                  - link "1 Replica" [ref=e213] [cursor=pointer]:
+                    - /url: /project/5c396182-0bd1-4e28-bdeb-1f9561dbe8a1/service/9a7f263d-2102-4b21-a411-dadca75e1e21/settings?environmentId=598d73e2-5c28-444c-8720-515a08c35c12#deploy-region-config
+            - generic [ref=e215]:
+              - link "Deploying Initial commit - Radix auto-reply tool 40 seconds ago via GitHub View logs" [ref=e280] [cursor=pointer]:
+                - /url: /project/5c396182-0bd1-4e28-bdeb-1f9561dbe8a1/service/9a7f263d-2102-4b21-a411-dadca75e1e21?environmentId=598d73e2-5c28-444c-8720-515a08c35c12&id=f0acd51f-6881-4761-8095-fc609b588057#build
+                - generic [ref=e218]:
+                  - generic [ref=e220]: Deploying
+                  - generic [ref=e222]:
+                    - generic "Ahmednouh000p" [ref=e223]
+                    - img [ref=e226]
+                  - generic [ref=e229]:
+                    - paragraph [ref=e230]: Initial commit - Radix auto-reply tool
+                    - paragraph [ref=e231]:
+                      - time [ref=e232]: 40 seconds ago
+                      - text: via GitHub
+                  - generic [ref=e233]:
+                    - button "Deployment actions" [ref=e234]:
+                      - img [ref=e236]
+                    - link "View logs" [ref=e240]:
+                      - /url: /project/5c396182-0bd1-4e28-bdeb-1f9561dbe8a1/service/9a7f263d-2102-4b21-a411-dadca75e1e21?environmentId=598d73e2-5c28-444c-8720-515a08c35c12&id=f0acd51f-6881-4761-8095-fc609b588057#build
+                      - generic [ref=e241]: View logs
+              - 'button "Deployment in progress: Taking a snapshot of the code... Building the image... Publishing image... Waiting for dependencies to deploy... Migrating volume... Running pre-deploy command... Creating containers... Performing healthchecks... Tidying up previous deployments..." [ref=e272] [cursor=pointer]':
+                - generic [ref=e245]:
+                  - paragraph [ref=e246]: "Deployment in progress:"
+                  - generic [ref=e247]:
+                    - paragraph [ref=e249]: Taking a snapshot of the code...
+                    - paragraph [ref=e251]: Building the image...
+                    - paragraph [ref=e253]: Publishing image...
+                    - paragraph [ref=e255]: Waiting for dependencies to deploy...
+                    - paragraph [ref=e257]: Migrating volume...
+                    - paragraph [ref=e259]: Running pre-deploy command...
+                    - paragraph [ref=e261]: Creating containers...
+                    - paragraph [ref=e274]: Performing healthchecks...
+                    - paragraph [ref=e263]: Tidying up previous deployments...
+                - img [ref=e265]

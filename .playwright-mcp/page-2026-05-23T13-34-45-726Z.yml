@@ -1,0 +1,18 @@
+- banner [ref=e6]:
+  - link "Railway Logo" [ref=e8] [cursor=pointer]:
+    - /url: /dashboard
+    - img "Railway Logo" [ref=e10]
+  - navigation [ref=e13]:
+    - generic [ref=e15]:
+      - button "Toggle activity" [ref=e17] [cursor=pointer]:
+        - img [ref=e19]
+      - button [ref=e21] [cursor=pointer]:
+        - img [ref=e24]
+      - button "30 days or $5.00 left" [ref=e27] [cursor=pointer]:
+        - paragraph [ref=e29]:
+          - generic [ref=e30]: 30 days or $5.00 left
+      - button "Agent" [ref=e32] [cursor=pointer]:
+        - img [ref=e34]
+        - text: Agent
+      - button [ref=e36] [cursor=pointer]:
+        - generic "ahmednouh3230@gmail.com" [ref=e38]

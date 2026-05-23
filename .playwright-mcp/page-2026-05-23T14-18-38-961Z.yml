@@ -1,0 +1,103 @@
+- generic [ref=e2]:
+  - banner "فيسبوك" [ref=e6]:
+    - generic [ref=e8]:
+      - heading [level=1] [ref=e11]:
+        - link "الانتقال إلى صفحة فيسبوك الرئيسية" [ref=e12] [cursor=pointer]:
+          - /url: https://www.facebook.com/?ref=logo
+      - navigation "فيسبوك" [ref=e14]:
+        - generic [ref=e15]:
+          - link "احمد" [ref=e18] [cursor=pointer]:
+            - /url: https://www.facebook.com/ahmd.nwh.121533
+            - generic [ref=e20]: احمد
+          - link "الصفحة الرئيسية" [ref=e23] [cursor=pointer]:
+            - /url: https://www.facebook.com/?ref=tn_tnmn
+        - button "إعدادات الحساب" [ref=e28] [cursor=pointer]:
+          - generic [ref=e29]: إعدادات الحساب
+  - generic [ref=e30]:
+    - main [ref=e31]:
+      - generic [ref=e33]:
+        - generic [ref=e35]:
+          - heading "تبديل الحسابات" [level=2] [ref=e36]
+          - heading [level=2] [ref=e38]: تبديل الحسابات
+        - generic [ref=e39]:
+          - generic [ref=e45]: احمد نوح
+          - paragraph [ref=e46]: يجب التبديل إلى ‏احمد نوح‏ للمتابعة.
+        - button "متابعة" [ref=e51] [cursor=pointer]
+    - generic [ref=e54]:
+      - contentinfo "روابط موقع فيسبوك" [ref=e56]:
+        - list [ref=e57]:
+          - listitem [ref=e58]:
+            - link "حول" [ref=e59] [cursor=pointer]:
+              - /url: https://about.meta.com/?fbclid=IwZXh0bgNhZW0CMTEAYnJpZBExWUx1NTBLUHNOb1FHREszdHNydGMGYXBwX2lkDDI1NjI4MTA0MDU1OAABHv1M7beDb63FcFpe0u4qlk5Jf5ruf4PWM8KbtQzp3kkIXGtpWda__KsEaMAp_aem_bEVekCgXEwRkzVzEuZ1KkA
+          - listitem [ref=e60]:
+            - link "إنشاء إعلان" [ref=e61] [cursor=pointer]:
+              - /url: /ad_campaign/landing.php?placement=pf&campaign_id=466780656697650&nav_source=unknown&extra_1=auto
+          - listitem [ref=e62]:
+            - link "إنشاء صفحة" [ref=e63] [cursor=pointer]:
+              - /url: /pages/create/?ref_type=site_footer
+          - listitem [ref=e64]:
+            - link "المطوّرون" [ref=e65] [cursor=pointer]:
+              - /url: https://developers.facebook.com/?ref=pf
+          - listitem [ref=e66]:
+            - link "الوظائف" [ref=e67] [cursor=pointer]:
+              - /url: /careers/?ref=pf
+          - listitem [ref=e68]:
+            - link "سياسة الخصوصية" [ref=e69] [cursor=pointer]:
+              - /url: /privacy/policy/?entry_point=facebook_page_footer
+          - listitem [ref=e70]:
+            - link "ملفات تعريف الارتباط" [ref=e71] [cursor=pointer]:
+              - /url: /policies/cookies/
+          - listitem [ref=e72]:
+            - link "اختيارات الإعلانات" [ref=e73] [cursor=pointer]:
+              - /url: https://www.facebook.com/help/568137493302217
+              - text: اختيارات الإعلانات
+          - listitem [ref=e75]:
+            - link "الشروط" [ref=e76] [cursor=pointer]:
+              - /url: /policies?ref=pf
+          - listitem [ref=e77]:
+            - link "مساعدة" [ref=e78] [cursor=pointer]:
+              - /url: /help/?ref=pf
+          - listitem:
+            - link "الإعدادات" [ref=e79] [cursor=pointer]:
+              - /url: /settings
+          - listitem:
+            - link "سجل النشاطات" [ref=e80] [cursor=pointer]:
+              - /url: https://www.facebook.com/ahmd.nwh.121533/allactivity?privacy_source=activity_log_top_menu
+      - generic [ref=e82]:
+        - text: Meta © 2026
+        - list [ref=e84]:
+          - listitem [ref=e85]: العربية
+          - listitem [ref=e86]:
+            - link "English (US)" [ref=e87] [cursor=pointer]:
+              - /url: https://www.facebook.com/forced_account_switch?next=https%3A%2F%2Fwww.facebook.com%2Fv25.0%2Fdialog%2Foauth%3Fencrypted_query_string%3DAeE4E_GUX8NT2kW9Peys7P-H25r_RIsqNIFEfTEW6AARjS-sc_LcTKxzDTl21j6nQmnBZrEsqCxbkf4piOgybhPUJ0FskrfmREUtghbcGghx_4LV_kGHbCJjotdA-xSvd35b3duWlaUropWLpnu-7ydqu-_HDi7UlYNVfFrJocjTF0NV6ztCYEvV6JuFsaKiVKT9JAneFcIjXT8gBKvzxKQcQGHQBp6SEJGOEmw_nz1Y6Vsr-gLomreidKNOFjM6pF9WmlxeFBn7Pv6WSIiXq4tP7cSa4slvJe0jxTy3P3hFzhkzb48N5j39clRQE_CDFtxryj-Tel33Xv3nufws79XsJvSNqGuzVxvUHQLRYRT9h6aTliwuLSZCeDXFuF2qXFcljA
+          - listitem [ref=e88]:
+            - link "Français (France)" [ref=e89] [cursor=pointer]:
+              - /url: https://www.facebook.com/forced_account_switch?next=https%3A%2F%2Fwww.facebook.com%2Fv25.0%2Fdialog%2Foauth%3Fencrypted_query_string%3DAeE4E_GUX8NT2kW9Peys7P-H25r_RIsqNIFEfTEW6AARjS-sc_LcTKxzDTl21j6nQmnBZrEsqCxbkf4piOgybhPUJ0FskrfmREUtghbcGghx_4LV_kGHbCJjotdA-xSvd35b3duWlaUropWLpnu-7ydqu-_HDi7UlYNVfFrJocjTF0NV6ztCYEvV6JuFsaKiVKT9JAneFcIjXT8gBKvzxKQcQGHQBp6SEJGOEmw_nz1Y6Vsr-gLomreidKNOFjM6pF9WmlxeFBn7Pv6WSIiXq4tP7cSa4slvJe0jxTy3P3hFzhkzb48N5j39clRQE_CDFtxryj-Tel33Xv3nufws79XsJvSNqGuzVxvUHQLRYRT9h6aTliwuLSZCeDXFuF2qXFcljA
+          - listitem [ref=e90]:
+            - link "Italiano" [ref=e91] [cursor=pointer]:
+              - /url: https://fr-fr.facebook.com/forced_account_switch?next=https%3A%2F%2Fwww.facebook.com%2Fv25.0%2Fdialog%2Foauth%3Fencrypted_query_string%3DAeE4E_GUX8NT2kW9Peys7P-H25r_RIsqNIFEfTEW6AARjS-sc_LcTKxzDTl21j6nQmnBZrEsqCxbkf4piOgybhPUJ0FskrfmREUtghbcGghx_4LV_kGHbCJjotdA-xSvd35b3duWlaUropWLpnu-7ydqu-_HDi7UlYNVfFrJocjTF0NV6ztCYEvV6JuFsaKiVKT9JAneFcIjXT8gBKvzxKQcQGHQBp6SEJGOEmw_nz1Y6Vsr-gLomreidKNOFjM6pF9WmlxeFBn7Pv6WSIiXq4tP7cSa4slvJe0jxTy3P3hFzhkzb48N5j39clRQE_CDFtxryj-Tel33Xv3nufws79XsJvSNqGuzVxvUHQLRYRT9h6aTliwuLSZCeDXFuF2qXFcljA
+          - listitem [ref=e92]:
+            - link "Deutsch" [ref=e93] [cursor=pointer]:
+              - /url: https://it-it.facebook.com/forced_account_switch?next=https%3A%2F%2Fwww.facebook.com%2Fv25.0%2Fdialog%2Foauth%3Fencrypted_query_string%3DAeE4E_GUX8NT2kW9Peys7P-H25r_RIsqNIFEfTEW6AARjS-sc_LcTKxzDTl21j6nQmnBZrEsqCxbkf4piOgybhPUJ0FskrfmREUtghbcGghx_4LV_kGHbCJjotdA-xSvd35b3duWlaUropWLpnu-7ydqu-_HDi7UlYNVfFrJocjTF0NV6ztCYEvV6JuFsaKiVKT9JAneFcIjXT8gBKvzxKQcQGHQBp6SEJGOEmw_nz1Y6Vsr-gLomreidKNOFjM6pF9WmlxeFBn7Pv6WSIiXq4tP7cSa4slvJe0jxTy3P3hFzhkzb48N5j39clRQE_CDFtxryj-Tel33Xv3nufws79XsJvSNqGuzVxvUHQLRYRT9h6aTliwuLSZCeDXFuF2qXFcljA
+          - listitem [ref=e94]:
+            - link "Русский" [ref=e95] [cursor=pointer]:
+              - /url: https://de-de.facebook.com/forced_account_switch?next=https%3A%2F%2Fwww.facebook.com%2Fv25.0%2Fdialog%2Foauth%3Fencrypted_query_string%3DAeE4E_GUX8NT2kW9Peys7P-H25r_RIsqNIFEfTEW6AARjS-sc_LcTKxzDTl21j6nQmnBZrEsqCxbkf4piOgybhPUJ0FskrfmREUtghbcGghx_4LV_kGHbCJjotdA-xSvd35b3duWlaUropWLpnu-7ydqu-_HDi7UlYNVfFrJocjTF0NV6ztCYEvV6JuFsaKiVKT9JAneFcIjXT8gBKvzxKQcQGHQBp6SEJGOEmw_nz1Y6Vsr-gLomreidKNOFjM6pF9WmlxeFBn7Pv6WSIiXq4tP7cSa4slvJe0jxTy3P3hFzhkzb48N5j39clRQE_CDFtxryj-Tel33Xv3nufws79XsJvSNqGuzVxvUHQLRYRT9h6aTliwuLSZCeDXFuF2qXFcljA
+          - listitem [ref=e96]:
+            - link "Español" [ref=e97] [cursor=pointer]:
+              - /url: https://ru-ru.facebook.com/forced_account_switch?next=https%3A%2F%2Fwww.facebook.com%2Fv25.0%2Fdialog%2Foauth%3Fencrypted_query_string%3DAeE4E_GUX8NT2kW9Peys7P-H25r_RIsqNIFEfTEW6AARjS-sc_LcTKxzDTl21j6nQmnBZrEsqCxbkf4piOgybhPUJ0FskrfmREUtghbcGghx_4LV_kGHbCJjotdA-xSvd35b3duWlaUropWLpnu-7ydqu-_HDi7UlYNVfFrJocjTF0NV6ztCYEvV6JuFsaKiVKT9JAneFcIjXT8gBKvzxKQcQGHQBp6SEJGOEmw_nz1Y6Vsr-gLomreidKNOFjM6pF9WmlxeFBn7Pv6WSIiXq4tP7cSa4slvJe0jxTy3P3hFzhkzb48N5j39clRQE_CDFtxryj-Tel33Xv3nufws79XsJvSNqGuzVxvUHQLRYRT9h6aTliwuLSZCeDXFuF2qXFcljA
+          - listitem [ref=e98]:
+            - link "Bahasa Indonesia" [ref=e99] [cursor=pointer]:
+              - /url: https://es-la.facebook.com/forced_account_switch?next=https%3A%2F%2Fwww.facebook.com%2Fv25.0%2Fdialog%2Foauth%3Fencrypted_query_string%3DAeE4E_GUX8NT2kW9Peys7P-H25r_RIsqNIFEfTEW6AARjS-sc_LcTKxzDTl21j6nQmnBZrEsqCxbkf4piOgybhPUJ0FskrfmREUtghbcGghx_4LV_kGHbCJjotdA-xSvd35b3duWlaUropWLpnu-7ydqu-_HDi7UlYNVfFrJocjTF0NV6ztCYEvV6JuFsaKiVKT9JAneFcIjXT8gBKvzxKQcQGHQBp6SEJGOEmw_nz1Y6Vsr-gLomreidKNOFjM6pF9WmlxeFBn7Pv6WSIiXq4tP7cSa4slvJe0jxTy3P3hFzhkzb48N5j39clRQE_CDFtxryj-Tel33Xv3nufws79XsJvSNqGuzVxvUHQLRYRT9h6aTliwuLSZCeDXFuF2qXFcljA
+          - listitem [ref=e100]:
+            - link "Türkçe" [ref=e101] [cursor=pointer]:
+              - /url: https://id-id.facebook.com/forced_account_switch?next=https%3A%2F%2Fwww.facebook.com%2Fv25.0%2Fdialog%2Foauth%3Fencrypted_query_string%3DAeE4E_GUX8NT2kW9Peys7P-H25r_RIsqNIFEfTEW6AARjS-sc_LcTKxzDTl21j6nQmnBZrEsqCxbkf4piOgybhPUJ0FskrfmREUtghbcGghx_4LV_kGHbCJjotdA-xSvd35b3duWlaUropWLpnu-7ydqu-_HDi7UlYNVfFrJocjTF0NV6ztCYEvV6JuFsaKiVKT9JAneFcIjXT8gBKvzxKQcQGHQBp6SEJGOEmw_nz1Y6Vsr-gLomreidKNOFjM6pF9WmlxeFBn7Pv6WSIiXq4tP7cSa4slvJe0jxTy3P3hFzhkzb48N5j39clRQE_CDFtxryj-Tel33Xv3nufws79XsJvSNqGuzVxvUHQLRYRT9h6aTliwuLSZCeDXFuF2qXFcljA
+          - listitem [ref=e102]:
+            - link "Português (Brasil)" [ref=e103] [cursor=pointer]:
+              - /url: https://tr-tr.facebook.com/forced_account_switch?next=https%3A%2F%2Fwww.facebook.com%2Fv25.0%2Fdialog%2Foauth%3Fencrypted_query_string%3DAeE4E_GUX8NT2kW9Peys7P-H25r_RIsqNIFEfTEW6AARjS-sc_LcTKxzDTl21j6nQmnBZrEsqCxbkf4piOgybhPUJ0FskrfmREUtghbcGghx_4LV_kGHbCJjotdA-xSvd35b3duWlaUropWLpnu-7ydqu-_HDi7UlYNVfFrJocjTF0NV6ztCYEvV6JuFsaKiVKT9JAneFcIjXT8gBKvzxKQcQGHQBp6SEJGOEmw_nz1Y6Vsr-gLomreidKNOFjM6pF9WmlxeFBn7Pv6WSIiXq4tP7cSa4slvJe0jxTy3P3hFzhkzb48N5j39clRQE_CDFtxryj-Tel33Xv3nufws79XsJvSNqGuzVxvUHQLRYRT9h6aTliwuLSZCeDXFuF2qXFcljA
+          - listitem [ref=e104]:
+            - link "हिन्दी" [ref=e105] [cursor=pointer]:
+              - /url: https://pt-br.facebook.com/forced_account_switch?next=https%3A%2F%2Fwww.facebook.com%2Fv25.0%2Fdialog%2Foauth%3Fencrypted_query_string%3DAeE4E_GUX8NT2kW9Peys7P-H25r_RIsqNIFEfTEW6AARjS-sc_LcTKxzDTl21j6nQmnBZrEsqCxbkf4piOgybhPUJ0FskrfmREUtghbcGghx_4LV_kGHbCJjotdA-xSvd35b3duWlaUropWLpnu-7ydqu-_HDi7UlYNVfFrJocjTF0NV6ztCYEvV6JuFsaKiVKT9JAneFcIjXT8gBKvzxKQcQGHQBp6SEJGOEmw_nz1Y6Vsr-gLomreidKNOFjM6pF9WmlxeFBn7Pv6WSIiXq4tP7cSa4slvJe0jxTy3P3hFzhkzb48N5j39clRQE_CDFtxryj-Tel33Xv3nufws79XsJvSNqGuzVxvUHQLRYRT9h6aTliwuLSZCeDXFuF2qXFcljA
+          - listitem [ref=e106]:
+            - button "عرض المزيد من اللغات" [ref=e107] [cursor=pointer]
+  - link "الترجمات" [ref=e112] [cursor=pointer]:
+    - /url: https://www.facebook.com/translations/?ref=trans_nub

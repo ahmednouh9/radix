@@ -1,0 +1,1201 @@
+- generic [ref=e31]:
+  - banner [ref=e33]:
+    - generic [ref=e34]:
+      - link "Railway Logo" [ref=e35] [cursor=pointer]:
+        - /url: /dashboard
+        - img "Railway Logo" [ref=e37]
+      - generic [ref=e40]:
+        - button "pleasing-recreation" [ref=e43] [cursor=pointer]:
+          - generic "ahmednouh9's Projects" [ref=e44]
+          - generic [ref=e46]: pleasing-recreation
+          - img [ref=e48]
+        - button "production" [ref=e52] [cursor=pointer]:
+          - generic [ref=e53]: production
+          - img [ref=e55]
+    - navigation [ref=e57]:
+      - generic [ref=e59]:
+        - button "Toggle activity" [ref=e61] [cursor=pointer]:
+          - img [ref=e63]
+        - button [ref=e65] [cursor=pointer]:
+          - img [ref=e68]
+        - button "30 days or $5.00 left" [ref=e71] [cursor=pointer]:
+          - paragraph [ref=e73]:
+            - generic [ref=e74]: 30 days or $5.00 left
+        - button "Agent" [ref=e76] [cursor=pointer]:
+          - img [ref=e78]
+          - text: Agent
+  - generic [ref=e80]:
+    - navigation "Project navigation" [ref=e81]:
+      - generic [ref=e82]:
+        - link "Architecture" [ref=e85] [cursor=pointer]:
+          - /url: /project/5c396182-0bd1-4e28-bdeb-1f9561dbe8a1?environmentId=598d73e2-5c28-444c-8720-515a08c35c12
+          - img [ref=e87]
+        - link "Observability" [ref=e93] [cursor=pointer]:
+          - /url: /project/5c396182-0bd1-4e28-bdeb-1f9561dbe8a1/observability?environmentId=598d73e2-5c28-444c-8720-515a08c35c12
+          - img [ref=e95]
+        - link "Logs" [ref=e98] [cursor=pointer]:
+          - /url: /project/5c396182-0bd1-4e28-bdeb-1f9561dbe8a1/logs?environmentId=598d73e2-5c28-444c-8720-515a08c35c12
+          - img [ref=e100]
+        - link "Settings" [ref=e104] [cursor=pointer]:
+          - /url: /project/5c396182-0bd1-4e28-bdeb-1f9561dbe8a1/settings?environmentId=598d73e2-5c28-444c-8720-515a08c35c12
+          - img [ref=e106]
+      - button [ref=e109] [cursor=pointer]:
+        - generic "ahmednouh3230@gmail.com" [ref=e111]
+    - region [ref=e117]:
+      - generic [ref=e122]:
+        - generic [ref=e124]:
+          - generic [ref=e125]:
+            - generic [ref=e126]:
+              - generic:
+                - img
+              - generic [ref=e127]:
+                - generic: Filter and search logs
+                - textbox [ref=e128]
+              - generic [ref=e130]: /
+            - generic [ref=e131]:
+              - button "Last 15 min" [ref=e132] [cursor=pointer]:
+                - img [ref=e134]
+                - generic [ref=e137]: Last 15 min
+              - button "Pause live updates" [ref=e138]:
+                - img [ref=e140]
+            - button "Options" [ref=e142] [cursor=pointer]:
+              - img [ref=e144]
+          - generic [ref=e147]:
+            - generic [ref=e149]:
+              - generic [ref=e150]:
+                - generic:
+                  - generic:
+                    - generic:
+                      - generic: May 23 · 4:32 PM GMT+3
+              - generic [ref=e154]:
+                - generic:
+                  - generic:
+                    - generic:
+                      - generic: May 23 · 4:32 PM GMT+3
+              - generic [ref=e158]:
+                - generic:
+                  - generic:
+                    - generic:
+                      - generic: May 23 · 4:33 PM GMT+3
+              - generic [ref=e162]:
+                - generic:
+                  - generic:
+                    - generic:
+                      - generic: May 23 · 4:33 PM GMT+3
+              - generic [ref=e166]:
+                - generic:
+                  - generic:
+                    - generic:
+                      - generic: May 23 · 4:33 PM GMT+3
+              - generic [ref=e170]:
+                - generic:
+                  - generic:
+                    - generic:
+                      - generic: May 23 · 4:33 PM GMT+3
+              - generic [ref=e174]:
+                - generic:
+                  - generic:
+                    - generic:
+                      - generic: May 23 · 4:33 PM GMT+3
+              - generic [ref=e178]:
+                - generic:
+                  - generic:
+                    - generic:
+                      - generic: May 23 · 4:33 PM GMT+3
+              - generic [ref=e182]:
+                - generic:
+                  - generic:
+                    - generic:
+                      - generic: May 23 · 4:34 PM GMT+3
+                      - generic:
+                        - generic:
+                          - generic:
+                            - generic:
+                              - generic: "@level:error"
+                            - generic: "566"
+                          - generic:
+                            - generic:
+                              - generic: "@level:info"
+                            - generic: "1"
+              - generic [ref=e187]:
+                - generic:
+                  - generic:
+                    - generic:
+                      - generic: May 23 · 4:34 PM GMT+3
+                      - generic:
+                        - generic:
+                          - generic:
+                            - generic:
+                              - generic: "@level:error"
+                            - generic: "57"
+              - generic [ref=e191]:
+                - generic:
+                  - generic:
+                    - generic:
+                      - generic: May 23 · 4:34 PM GMT+3
+              - generic [ref=e195]:
+                - generic:
+                  - generic:
+                    - generic:
+                      - generic: May 23 · 4:34 PM GMT+3
+              - generic [ref=e199]:
+                - generic:
+                  - generic:
+                    - generic:
+                      - generic: May 23 · 4:34 PM GMT+3
+              - generic [ref=e203]:
+                - generic:
+                  - generic:
+                    - generic:
+                      - generic: May 23 · 4:34 PM GMT+3
+              - generic [ref=e207]:
+                - generic:
+                  - generic:
+                    - generic:
+                      - generic: May 23 · 4:35 PM GMT+3
+            - generic:
+              - generic: 4:32 PM
+              - generic: 4:35 PM
+        - table [ref=e213]:
+          - rowgroup [ref=e214]:
+            - row "Time (GMT+3) service Data" [ref=e215]:
+              - columnheader "Time (GMT+3)" [ref=e216]: Time (GMT+3)
+              - columnheader "service" [ref=e220]: service
+              - columnheader "Data" [ref=e224]: Data
+              - columnheader [ref=e226]:
+                - button "Layout settings" [ref=e227] [cursor=pointer]:
+                  - img [ref=e229]
+          - rowgroup [ref=e234]:
+            - 'row "May 23 2026 16:34:08 web ModuleNotFoundError: No module named ''itsdangerous''" [ref=e235] [cursor=pointer]':
+              - cell "May 23 2026 16:34:08" [ref=e236]:
+                - generic [ref=e237]:
+                  - button [ref=e238]
+                  - time [ref=e241]: May 23 2026 16:34:08
+              - cell "web" [ref=e242]:
+                - button "web" [ref=e243]
+              - 'cell "ModuleNotFoundError: No module named ''itsdangerous''" [ref=e244]':
+                - generic [ref=e246]: "ModuleNotFoundError: No module named 'itsdangerous'"
+            - row "May 23 2026 16:34:09 web Traceback (most recent call last):" [ref=e247] [cursor=pointer]:
+              - cell "May 23 2026 16:34:09" [ref=e248]:
+                - generic [ref=e249]:
+                  - button [ref=e250]
+                  - time [ref=e253]: May 23 2026 16:34:09
+              - cell "web" [ref=e254]:
+                - button "web" [ref=e255]
+              - cell "Traceback (most recent call last):" [ref=e256]:
+                - generic [ref=e258]: "Traceback (most recent call last):"
+            - row "May 23 2026 16:34:09 web ^^^^^^^^^^^^^^^^^^^^^^^^^^" [ref=e259] [cursor=pointer]:
+              - cell "May 23 2026 16:34:09" [ref=e260]:
+                - generic [ref=e261]:
+                  - button [ref=e262]
+                  - time [ref=e265]: May 23 2026 16:34:09
+              - cell "web" [ref=e266]:
+                - button "web" [ref=e267]
+              - cell "^^^^^^^^^^^^^^^^^^^^^^^^^^" [ref=e268]:
+                - generic [ref=e270]: ^^^^^^^^^^^^^^^^^^^^^^^^^^
+            - row "May 23 2026 16:34:09 web File \"/opt/venv/bin/uvicorn\", line 8, in <module>" [ref=e271] [cursor=pointer]:
+              - cell "May 23 2026 16:34:09" [ref=e272]:
+                - generic [ref=e273]:
+                  - button [ref=e274]
+                  - time [ref=e277]: May 23 2026 16:34:09
+              - cell "web" [ref=e278]:
+                - button "web" [ref=e279]
+              - cell "File \"/opt/venv/bin/uvicorn\", line 8, in <module>" [ref=e280]:
+                - generic [ref=e282]: File "/opt/venv/bin/uvicorn", line 8, in <module>
+            - row "May 23 2026 16:34:09 web File \"/opt/venv/lib/python3.12/site-packages/click/core.py\", line 1445, in main" [ref=e283] [cursor=pointer]:
+              - cell "May 23 2026 16:34:09" [ref=e284]:
+                - generic [ref=e285]:
+                  - button [ref=e286]
+                  - time [ref=e289]: May 23 2026 16:34:09
+              - cell "web" [ref=e290]:
+                - button "web" [ref=e291]
+              - cell "File \"/opt/venv/lib/python3.12/site-packages/click/core.py\", line 1445, in main" [ref=e292]:
+                - generic [ref=e294]: File "/opt/venv/lib/python3.12/site-packages/click/core.py", line 1445, in main
+            - row "May 23 2026 16:34:09 web sys.exit(main())" [ref=e295] [cursor=pointer]:
+              - cell "May 23 2026 16:34:09" [ref=e296]:
+                - generic [ref=e297]:
+                  - button [ref=e298]
+                  - time [ref=e301]: May 23 2026 16:34:09
+              - cell "web" [ref=e302]:
+                - button "web" [ref=e303]
+              - cell "sys.exit(main())" [ref=e304]:
+                - generic [ref=e306]: sys.exit(main())
+            - row "May 23 2026 16:34:09 web rv = self.invoke(ctx)" [ref=e307] [cursor=pointer]:
+              - cell "May 23 2026 16:34:09" [ref=e308]:
+                - generic [ref=e309]:
+                  - button [ref=e310]
+                  - time [ref=e313]: May 23 2026 16:34:09
+              - cell "web" [ref=e314]:
+                - button "web" [ref=e315]
+              - cell "rv = self.invoke(ctx)" [ref=e316]:
+                - generic [ref=e318]: rv = self.invoke(ctx)
+            - row "May 23 2026 16:34:09 web ^^^^^^" [ref=e319] [cursor=pointer]:
+              - cell "May 23 2026 16:34:09" [ref=e320]:
+                - generic [ref=e321]:
+                  - button [ref=e322]
+                  - time [ref=e325]: May 23 2026 16:34:09
+              - cell "web" [ref=e326]:
+                - button "web" [ref=e327]
+              - cell "^^^^^^" [ref=e328]:
+                - generic [ref=e330]: ^^^^^^
+            - row "May 23 2026 16:34:09 web ^^^^^^^^^^^^^^^^" [ref=e331] [cursor=pointer]:
+              - cell "May 23 2026 16:34:09" [ref=e332]:
+                - generic [ref=e333]:
+                  - button [ref=e334]
+                  - time [ref=e337]: May 23 2026 16:34:09
+              - cell "web" [ref=e338]:
+                - button "web" [ref=e339]
+              - cell "^^^^^^^^^^^^^^^^" [ref=e340]:
+                - generic [ref=e342]: ^^^^^^^^^^^^^^^^
+            - row "May 23 2026 16:34:09 web File \"/opt/venv/lib/python3.12/site-packages/click/core.py\", line 1524, in __call__" [ref=e343] [cursor=pointer]:
+              - cell "May 23 2026 16:34:09" [ref=e344]:
+                - generic [ref=e345]:
+                  - button [ref=e346]
+                  - time [ref=e349]: May 23 2026 16:34:09
+              - cell "web" [ref=e350]:
+                - button "web" [ref=e351]
+              - cell "File \"/opt/venv/lib/python3.12/site-packages/click/core.py\", line 1524, in __call__" [ref=e352]:
+                - generic [ref=e354]: File "/opt/venv/lib/python3.12/site-packages/click/core.py", line 1524, in __call__
+            - row "May 23 2026 16:34:09 web File \"/opt/venv/lib/python3.12/site-packages/click/core.py\", line 1308, in invoke" [ref=e355] [cursor=pointer]:
+              - cell "May 23 2026 16:34:09" [ref=e356]:
+                - generic [ref=e357]:
+                  - button [ref=e358]
+                  - time [ref=e361]: May 23 2026 16:34:09
+              - cell "web" [ref=e362]:
+                - button "web" [ref=e363]
+              - cell "File \"/opt/venv/lib/python3.12/site-packages/click/core.py\", line 1308, in invoke" [ref=e364]:
+                - generic [ref=e366]: File "/opt/venv/lib/python3.12/site-packages/click/core.py", line 1308, in invoke
+            - row "May 23 2026 16:34:09 web return self.main(*args, **kwargs)" [ref=e367] [cursor=pointer]:
+              - cell "May 23 2026 16:34:09" [ref=e368]:
+                - generic [ref=e369]:
+                  - button [ref=e370]
+                  - time [ref=e373]: May 23 2026 16:34:09
+              - cell "web" [ref=e374]:
+                - button "web" [ref=e375]
+              - cell "return self.main(*args, **kwargs)" [ref=e376]:
+                - generic [ref=e378]: return self.main(*args, **kwargs)
+            - row "May 23 2026 16:34:09 web return ctx.invoke(self.callback, **ctx.params)" [ref=e379] [cursor=pointer]:
+              - cell "May 23 2026 16:34:09" [ref=e380]:
+                - generic [ref=e381]:
+                  - button [ref=e382]
+                  - time [ref=e385]: May 23 2026 16:34:09
+              - cell "web" [ref=e386]:
+                - button "web" [ref=e387]
+              - cell "return ctx.invoke(self.callback, **ctx.params)" [ref=e388]:
+                - generic [ref=e390]: return ctx.invoke(self.callback, **ctx.params)
+            - row "May 23 2026 16:34:09 web ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^" [ref=e391] [cursor=pointer]:
+              - cell "May 23 2026 16:34:09" [ref=e392]:
+                - generic [ref=e393]:
+                  - button [ref=e394]
+                  - time [ref=e397]: May 23 2026 16:34:09
+              - cell "web" [ref=e398]:
+                - button "web" [ref=e399]
+              - cell "^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^" [ref=e400]:
+                - generic [ref=e402]: ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+            - row "May 23 2026 16:34:09 web File \"/opt/venv/lib/python3.12/site-packages/click/core.py\", line 877, in invoke" [ref=e403] [cursor=pointer]:
+              - cell "May 23 2026 16:34:09" [ref=e404]:
+                - generic [ref=e405]:
+                  - button [ref=e406]
+                  - time [ref=e409]: May 23 2026 16:34:09
+              - cell "web" [ref=e410]:
+                - button "web" [ref=e411]
+              - cell "File \"/opt/venv/lib/python3.12/site-packages/click/core.py\", line 877, in invoke" [ref=e412]:
+                - generic [ref=e414]: File "/opt/venv/lib/python3.12/site-packages/click/core.py", line 877, in invoke
+            - row "May 23 2026 16:34:09 web return callback(*args, **kwargs)" [ref=e415] [cursor=pointer]:
+              - cell "May 23 2026 16:34:09" [ref=e416]:
+                - generic [ref=e417]:
+                  - button [ref=e418]
+                  - time [ref=e421]: May 23 2026 16:34:09
+              - cell "web" [ref=e422]:
+                - button "web" [ref=e423]
+              - cell "return callback(*args, **kwargs)" [ref=e424]:
+                - generic [ref=e426]: return callback(*args, **kwargs)
+            - row "May 23 2026 16:34:09 web ^^^^^^^^^^^^^^^^" [ref=e427] [cursor=pointer]:
+              - cell "May 23 2026 16:34:09" [ref=e428]:
+                - generic [ref=e429]:
+                  - button [ref=e430]
+                  - time [ref=e433]: May 23 2026 16:34:09
+              - cell "web" [ref=e434]:
+                - button "web" [ref=e435]
+              - cell "^^^^^^^^^^^^^^^^" [ref=e436]:
+                - generic [ref=e438]: ^^^^^^^^^^^^^^^^
+            - row "May 23 2026 16:34:09 web File \"/root/.nix-profile/lib/python3.12/asyncio/runners.py\", line 118, in run" [ref=e439] [cursor=pointer]:
+              - cell "May 23 2026 16:34:09" [ref=e440]:
+                - generic [ref=e441]:
+                  - button [ref=e442]
+                  - time [ref=e445]: May 23 2026 16:34:09
+              - cell "web" [ref=e446]:
+                - button "web" [ref=e447]
+              - cell "File \"/root/.nix-profile/lib/python3.12/asyncio/runners.py\", line 118, in run" [ref=e448]:
+                - generic [ref=e450]: File "/root/.nix-profile/lib/python3.12/asyncio/runners.py", line 118, in run
+            - row "May 23 2026 16:34:09 web return self._loop.run_until_complete(task)" [ref=e451] [cursor=pointer]:
+              - cell "May 23 2026 16:34:09" [ref=e452]:
+                - generic [ref=e453]:
+                  - button [ref=e454]
+                  - time [ref=e457]: May 23 2026 16:34:09
+              - cell "web" [ref=e458]:
+                - button "web" [ref=e459]
+              - cell "return self._loop.run_until_complete(task)" [ref=e460]:
+                - generic [ref=e462]: return self._loop.run_until_complete(task)
+            - row "May 23 2026 16:34:09 web ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^" [ref=e463] [cursor=pointer]:
+              - cell "May 23 2026 16:34:09" [ref=e464]:
+                - generic [ref=e465]:
+                  - button [ref=e466]
+                  - time [ref=e469]: May 23 2026 16:34:09
+              - cell "web" [ref=e470]:
+                - button "web" [ref=e471]
+              - cell "^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^" [ref=e472]:
+                - generic [ref=e474]: ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+            - row "May 23 2026 16:34:09 web File \"uvloop/loop.pyx\", line 1518, in uvloop.loop.Loop.run_until_complete" [ref=e475] [cursor=pointer]:
+              - cell "May 23 2026 16:34:09" [ref=e476]:
+                - generic [ref=e477]:
+                  - button [ref=e478]
+                  - time [ref=e481]: May 23 2026 16:34:09
+              - cell "web" [ref=e482]:
+                - button "web" [ref=e483]
+              - cell "File \"uvloop/loop.pyx\", line 1518, in uvloop.loop.Loop.run_until_complete" [ref=e484]:
+                - generic [ref=e486]: File "uvloop/loop.pyx", line 1518, in uvloop.loop.Loop.run_until_complete
+            - row "May 23 2026 16:34:09 web ^^^^^^^^^^^^^^^^^^^^^^^^^" [ref=e487] [cursor=pointer]:
+              - cell "May 23 2026 16:34:09" [ref=e488]:
+                - generic [ref=e489]:
+                  - button [ref=e490]
+                  - time [ref=e493]: May 23 2026 16:34:09
+              - cell "web" [ref=e494]:
+                - button "web" [ref=e495]
+              - cell "^^^^^^^^^^^^^^^^^^^^^^^^^" [ref=e496]:
+                - generic [ref=e498]: ^^^^^^^^^^^^^^^^^^^^^^^^^
+            - row "May 23 2026 16:34:09 web File \"/opt/venv/lib/python3.12/site-packages/uvicorn/main.py\", line 412, in main" [ref=e499] [cursor=pointer]:
+              - cell "May 23 2026 16:34:09" [ref=e500]:
+                - generic [ref=e501]:
+                  - button [ref=e502]
+                  - time [ref=e505]: May 23 2026 16:34:09
+              - cell "web" [ref=e506]:
+                - button "web" [ref=e507]
+              - cell "File \"/opt/venv/lib/python3.12/site-packages/uvicorn/main.py\", line 412, in main" [ref=e508]:
+                - generic [ref=e510]: File "/opt/venv/lib/python3.12/site-packages/uvicorn/main.py", line 412, in main
+            - row "May 23 2026 16:34:09 web run(" [ref=e511] [cursor=pointer]:
+              - cell "May 23 2026 16:34:09" [ref=e512]:
+                - generic [ref=e513]:
+                  - button [ref=e514]
+                  - time [ref=e517]: May 23 2026 16:34:09
+              - cell "web" [ref=e518]:
+                - button "web" [ref=e519]
+              - cell "run(" [ref=e520]:
+                - generic [ref=e522]: run(
+            - row "May 23 2026 16:34:09 web File \"/opt/venv/lib/python3.12/site-packages/uvicorn/main.py\", line 579, in run" [ref=e523] [cursor=pointer]:
+              - cell "May 23 2026 16:34:09" [ref=e524]:
+                - generic [ref=e525]:
+                  - button [ref=e526]
+                  - time [ref=e529]: May 23 2026 16:34:09
+              - cell "web" [ref=e530]:
+                - button "web" [ref=e531]
+              - cell "File \"/opt/venv/lib/python3.12/site-packages/uvicorn/main.py\", line 579, in run" [ref=e532]:
+                - generic [ref=e534]: File "/opt/venv/lib/python3.12/site-packages/uvicorn/main.py", line 579, in run
+            - row "May 23 2026 16:34:09 web server.run()" [ref=e535] [cursor=pointer]:
+              - cell "May 23 2026 16:34:09" [ref=e536]:
+                - generic [ref=e537]:
+                  - button [ref=e538]
+                  - time [ref=e541]: May 23 2026 16:34:09
+              - cell "web" [ref=e542]:
+                - button "web" [ref=e543]
+              - cell "server.run()" [ref=e544]:
+                - generic [ref=e546]: server.run()
+            - row "May 23 2026 16:34:09 web File \"/opt/venv/lib/python3.12/site-packages/uvicorn/server.py\", line 66, in run" [ref=e547] [cursor=pointer]:
+              - cell "May 23 2026 16:34:09" [ref=e548]:
+                - generic [ref=e549]:
+                  - button [ref=e550]
+                  - time [ref=e553]: May 23 2026 16:34:09
+              - cell "web" [ref=e554]:
+                - button "web" [ref=e555]
+              - cell "File \"/opt/venv/lib/python3.12/site-packages/uvicorn/server.py\", line 66, in run" [ref=e556]:
+                - generic [ref=e558]: File "/opt/venv/lib/python3.12/site-packages/uvicorn/server.py", line 66, in run
+            - row "May 23 2026 16:34:09 web return asyncio.run(self.serve(sockets=sockets))" [ref=e559] [cursor=pointer]:
+              - cell "May 23 2026 16:34:09" [ref=e560]:
+                - generic [ref=e561]:
+                  - button [ref=e562]
+                  - time [ref=e565]: May 23 2026 16:34:09
+              - cell "web" [ref=e566]:
+                - button "web" [ref=e567]
+              - cell "return asyncio.run(self.serve(sockets=sockets))" [ref=e568]:
+                - generic [ref=e570]: return asyncio.run(self.serve(sockets=sockets))
+            - row "May 23 2026 16:34:09 web ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^" [ref=e571] [cursor=pointer]:
+              - cell "May 23 2026 16:34:09" [ref=e572]:
+                - generic [ref=e573]:
+                  - button [ref=e574]
+                  - time [ref=e577]: May 23 2026 16:34:09
+              - cell "web" [ref=e578]:
+                - button "web" [ref=e579]
+              - cell "^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^" [ref=e580]:
+                - generic [ref=e582]: ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+            - row "May 23 2026 16:34:09 web File \"/root/.nix-profile/lib/python3.12/asyncio/runners.py\", line 194, in run" [ref=e583] [cursor=pointer]:
+              - cell "May 23 2026 16:34:09" [ref=e584]:
+                - generic [ref=e585]:
+                  - button [ref=e586]
+                  - time [ref=e589]: May 23 2026 16:34:09
+              - cell "web" [ref=e590]:
+                - button "web" [ref=e591]
+              - cell "File \"/root/.nix-profile/lib/python3.12/asyncio/runners.py\", line 194, in run" [ref=e592]:
+                - generic [ref=e594]: File "/root/.nix-profile/lib/python3.12/asyncio/runners.py", line 194, in run
+            - row "May 23 2026 16:34:09 web return runner.run(main)" [ref=e595] [cursor=pointer]:
+              - cell "May 23 2026 16:34:09" [ref=e596]:
+                - generic [ref=e597]:
+                  - button [ref=e598]
+                  - time [ref=e601]: May 23 2026 16:34:09
+              - cell "web" [ref=e602]:
+                - button "web" [ref=e603]
+              - cell "return runner.run(main)" [ref=e604]:
+                - generic [ref=e606]: return runner.run(main)
+            - row "May 23 2026 16:34:09 web File \"/opt/venv/lib/python3.12/site-packages/uvicorn/server.py\", line 70, in serve" [ref=e607] [cursor=pointer]:
+              - cell "May 23 2026 16:34:09" [ref=e608]:
+                - generic [ref=e609]:
+                  - button [ref=e610]
+                  - time [ref=e613]: May 23 2026 16:34:09
+              - cell "web" [ref=e614]:
+                - button "web" [ref=e615]
+              - cell "File \"/opt/venv/lib/python3.12/site-packages/uvicorn/server.py\", line 70, in serve" [ref=e616]:
+                - generic [ref=e618]: File "/opt/venv/lib/python3.12/site-packages/uvicorn/server.py", line 70, in serve
+            - row "May 23 2026 16:34:09 web await self._serve(sockets)" [ref=e619] [cursor=pointer]:
+              - cell "May 23 2026 16:34:09" [ref=e620]:
+                - generic [ref=e621]:
+                  - button [ref=e622]
+                  - time [ref=e625]: May 23 2026 16:34:09
+              - cell "web" [ref=e626]:
+                - button "web" [ref=e627]
+              - cell "await self._serve(sockets)" [ref=e628]:
+                - generic [ref=e630]: await self._serve(sockets)
+            - row "May 23 2026 16:34:09 web File \"/opt/venv/lib/python3.12/site-packages/uvicorn/server.py\", line 77, in _serve" [ref=e631] [cursor=pointer]:
+              - cell "May 23 2026 16:34:09" [ref=e632]:
+                - generic [ref=e633]:
+                  - button [ref=e634]
+                  - time [ref=e637]: May 23 2026 16:34:09
+              - cell "web" [ref=e638]:
+                - button "web" [ref=e639]
+              - cell "File \"/opt/venv/lib/python3.12/site-packages/uvicorn/server.py\", line 77, in _serve" [ref=e640]:
+                - generic [ref=e642]: File "/opt/venv/lib/python3.12/site-packages/uvicorn/server.py", line 77, in _serve
+            - row "May 23 2026 16:34:09 web config.load()" [ref=e643] [cursor=pointer]:
+              - cell "May 23 2026 16:34:09" [ref=e644]:
+                - generic [ref=e645]:
+                  - button [ref=e646]
+                  - time [ref=e649]: May 23 2026 16:34:09
+              - cell "web" [ref=e650]:
+                - button "web" [ref=e651]
+              - cell "config.load()" [ref=e652]:
+                - generic [ref=e654]: config.load()
+            - row "May 23 2026 16:34:09 web File \"/opt/venv/lib/python3.12/site-packages/uvicorn/config.py\", line 435, in load" [ref=e655] [cursor=pointer]:
+              - cell "May 23 2026 16:34:09" [ref=e656]:
+                - generic [ref=e657]:
+                  - button [ref=e658]
+                  - time [ref=e661]: May 23 2026 16:34:09
+              - cell "web" [ref=e662]:
+                - button "web" [ref=e663]
+              - cell "File \"/opt/venv/lib/python3.12/site-packages/uvicorn/config.py\", line 435, in load" [ref=e664]:
+                - generic [ref=e666]: File "/opt/venv/lib/python3.12/site-packages/uvicorn/config.py", line 435, in load
+            - row "May 23 2026 16:34:09 web self.loaded_app = import_from_string(self.app)" [ref=e667] [cursor=pointer]:
+              - cell "May 23 2026 16:34:09" [ref=e668]:
+                - generic [ref=e669]:
+                  - button [ref=e670]
+                  - time [ref=e673]: May 23 2026 16:34:09
+              - cell "web" [ref=e674]:
+                - button "web" [ref=e675]
+              - cell "self.loaded_app = import_from_string(self.app)" [ref=e676]:
+                - generic [ref=e678]: self.loaded_app = import_from_string(self.app)
+            - row "May 23 2026 16:34:09 web ^^^^^^^^^^^^^^^^^^^^^^^^^^^^" [ref=e679] [cursor=pointer]:
+              - cell "May 23 2026 16:34:09" [ref=e680]:
+                - generic [ref=e681]:
+                  - button [ref=e682]
+                  - time [ref=e685]: May 23 2026 16:34:09
+              - cell "web" [ref=e686]:
+                - button "web" [ref=e687]
+              - cell "^^^^^^^^^^^^^^^^^^^^^^^^^^^^" [ref=e688]:
+                - generic [ref=e690]: ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+            - row "May 23 2026 16:34:09 web File \"/opt/venv/lib/python3.12/site-packages/uvicorn/importer.py\", line 22, in import_from_string" [ref=e691] [cursor=pointer]:
+              - cell "May 23 2026 16:34:09" [ref=e692]:
+                - generic [ref=e693]:
+                  - button [ref=e694]
+                  - time [ref=e697]: May 23 2026 16:34:09
+              - cell "web" [ref=e698]:
+                - button "web" [ref=e699]
+              - cell "File \"/opt/venv/lib/python3.12/site-packages/uvicorn/importer.py\", line 22, in import_from_string" [ref=e700]:
+                - generic [ref=e702]: File "/opt/venv/lib/python3.12/site-packages/uvicorn/importer.py", line 22, in import_from_string
+            - row "May 23 2026 16:34:09 web raise exc from None" [ref=e703] [cursor=pointer]:
+              - cell "May 23 2026 16:34:09" [ref=e704]:
+                - generic [ref=e705]:
+                  - button [ref=e706]
+                  - time [ref=e709]: May 23 2026 16:34:09
+              - cell "web" [ref=e710]:
+                - button "web" [ref=e711]
+              - cell "raise exc from None" [ref=e712]:
+                - generic [ref=e714]: raise exc from None
+            - row "May 23 2026 16:34:09 web File \"/opt/venv/lib/python3.12/site-packages/uvicorn/importer.py\", line 19, in import_from_string" [ref=e715] [cursor=pointer]:
+              - cell "May 23 2026 16:34:09" [ref=e716]:
+                - generic [ref=e717]:
+                  - button [ref=e718]
+                  - time [ref=e721]: May 23 2026 16:34:09
+              - cell "web" [ref=e722]:
+                - button "web" [ref=e723]
+              - cell "File \"/opt/venv/lib/python3.12/site-packages/uvicorn/importer.py\", line 19, in import_from_string" [ref=e724]:
+                - generic [ref=e726]: File "/opt/venv/lib/python3.12/site-packages/uvicorn/importer.py", line 19, in import_from_string
+            - row "May 23 2026 16:34:09 web module = importlib.import_module(module_str)" [ref=e727] [cursor=pointer]:
+              - cell "May 23 2026 16:34:09" [ref=e728]:
+                - generic [ref=e729]:
+                  - button [ref=e730]
+                  - time [ref=e733]: May 23 2026 16:34:09
+              - cell "web" [ref=e734]:
+                - button "web" [ref=e735]
+              - cell "module = importlib.import_module(module_str)" [ref=e736]:
+                - generic [ref=e738]: module = importlib.import_module(module_str)
+            - row "May 23 2026 16:34:09 web ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^" [ref=e739] [cursor=pointer]:
+              - cell "May 23 2026 16:34:09" [ref=e740]:
+                - generic [ref=e741]:
+                  - button [ref=e742]
+                  - time [ref=e745]: May 23 2026 16:34:09
+              - cell "web" [ref=e746]:
+                - button "web" [ref=e747]
+              - cell "^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^" [ref=e748]:
+                - generic [ref=e750]: ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+            - row "May 23 2026 16:34:09 web File \"/root/.nix-profile/lib/python3.12/importlib/__init__.py\", line 90, in import_module" [ref=e751] [cursor=pointer]:
+              - cell "May 23 2026 16:34:09" [ref=e752]:
+                - generic [ref=e753]:
+                  - button [ref=e754]
+                  - time [ref=e757]: May 23 2026 16:34:09
+              - cell "web" [ref=e758]:
+                - button "web" [ref=e759]
+              - cell "File \"/root/.nix-profile/lib/python3.12/importlib/__init__.py\", line 90, in import_module" [ref=e760]:
+                - generic [ref=e762]: File "/root/.nix-profile/lib/python3.12/importlib/__init__.py", line 90, in import_module
+            - row "May 23 2026 16:34:09 web return _bootstrap._gcd_import(name[level:], package, level)" [ref=e763] [cursor=pointer]:
+              - cell "May 23 2026 16:34:09" [ref=e764]:
+                - generic [ref=e765]:
+                  - button [ref=e766]
+                  - time [ref=e769]: May 23 2026 16:34:09
+              - cell "web" [ref=e770]:
+                - button "web" [ref=e771]
+              - cell "return _bootstrap._gcd_import(name[level:], package, level)" [ref=e772]:
+                - generic [ref=e774]: return _bootstrap._gcd_import(name[level:], package, level)
+            - row "May 23 2026 16:34:09 web ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^" [ref=e775] [cursor=pointer]:
+              - cell "May 23 2026 16:34:09" [ref=e776]:
+                - generic [ref=e777]:
+                  - button [ref=e778]
+                  - time [ref=e781]: May 23 2026 16:34:09
+              - cell "web" [ref=e782]:
+                - button "web" [ref=e783]
+              - cell "^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^" [ref=e784]:
+                - generic [ref=e786]: ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+            - row "May 23 2026 16:34:09 web File \"<frozen importlib._bootstrap>\", line 1387, in _gcd_import" [ref=e787] [cursor=pointer]:
+              - cell "May 23 2026 16:34:09" [ref=e788]:
+                - generic [ref=e789]:
+                  - button [ref=e790]
+                  - time [ref=e793]: May 23 2026 16:34:09
+              - cell "web" [ref=e794]:
+                - button "web" [ref=e795]
+              - cell "File \"<frozen importlib._bootstrap>\", line 1387, in _gcd_import" [ref=e796]:
+                - generic [ref=e798]: File "<frozen importlib._bootstrap>", line 1387, in _gcd_import
+            - row "May 23 2026 16:34:09 web File \"<frozen importlib._bootstrap>\", line 1360, in _find_and_load" [ref=e799] [cursor=pointer]:
+              - cell "May 23 2026 16:34:09" [ref=e800]:
+                - generic [ref=e801]:
+                  - button [ref=e802]
+                  - time [ref=e805]: May 23 2026 16:34:09
+              - cell "web" [ref=e806]:
+                - button "web" [ref=e807]
+              - cell "File \"<frozen importlib._bootstrap>\", line 1360, in _find_and_load" [ref=e808]:
+                - generic [ref=e810]: File "<frozen importlib._bootstrap>", line 1360, in _find_and_load
+            - row "May 23 2026 16:34:09 web File \"<frozen importlib._bootstrap>\", line 1331, in _find_and_load_unlocked" [ref=e811] [cursor=pointer]:
+              - cell "May 23 2026 16:34:09" [ref=e812]:
+                - generic [ref=e813]:
+                  - button [ref=e814]
+                  - time [ref=e817]: May 23 2026 16:34:09
+              - cell "web" [ref=e818]:
+                - button "web" [ref=e819]
+              - cell "File \"<frozen importlib._bootstrap>\", line 1331, in _find_and_load_unlocked" [ref=e820]:
+                - generic [ref=e822]: File "<frozen importlib._bootstrap>", line 1331, in _find_and_load_unlocked
+            - row "May 23 2026 16:34:09 web File \"<frozen importlib._bootstrap>\", line 935, in _load_unlocked" [ref=e823] [cursor=pointer]:
+              - cell "May 23 2026 16:34:09" [ref=e824]:
+                - generic [ref=e825]:
+                  - button [ref=e826]
+                  - time [ref=e829]: May 23 2026 16:34:09
+              - cell "web" [ref=e830]:
+                - button "web" [ref=e831]
+              - cell "File \"<frozen importlib._bootstrap>\", line 935, in _load_unlocked" [ref=e832]:
+                - generic [ref=e834]: File "<frozen importlib._bootstrap>", line 935, in _load_unlocked
+            - row "May 23 2026 16:34:09 web File \"<frozen importlib._bootstrap_external>\", line 995, in exec_module" [ref=e835] [cursor=pointer]:
+              - cell "May 23 2026 16:34:09" [ref=e836]:
+                - generic [ref=e837]:
+                  - button [ref=e838]
+                  - time [ref=e841]: May 23 2026 16:34:09
+              - cell "web" [ref=e842]:
+                - button "web" [ref=e843]
+              - cell "File \"<frozen importlib._bootstrap_external>\", line 995, in exec_module" [ref=e844]:
+                - generic [ref=e846]: File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+            - row "May 23 2026 16:34:09 web File \"<frozen importlib._bootstrap>\", line 488, in _call_with_frames_removed" [ref=e847] [cursor=pointer]:
+              - cell "May 23 2026 16:34:09" [ref=e848]:
+                - generic [ref=e849]:
+                  - button [ref=e850]
+                  - time [ref=e853]: May 23 2026 16:34:09
+              - cell "web" [ref=e854]:
+                - button "web" [ref=e855]
+              - cell "File \"<frozen importlib._bootstrap>\", line 488, in _call_with_frames_removed" [ref=e856]:
+                - generic [ref=e858]: File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+            - row "May 23 2026 16:34:09 web File \"/app/app/main.py\", line 9, in <module>" [ref=e859] [cursor=pointer]:
+              - cell "May 23 2026 16:34:09" [ref=e860]:
+                - generic [ref=e861]:
+                  - button [ref=e862]
+                  - time [ref=e865]: May 23 2026 16:34:09
+              - cell "web" [ref=e866]:
+                - button "web" [ref=e867]
+              - cell "File \"/app/app/main.py\", line 9, in <module>" [ref=e868]:
+                - generic [ref=e870]: File "/app/app/main.py", line 9, in <module>
+            - row "May 23 2026 16:34:09 web from starlette.middleware.sessions import SessionMiddleware" [ref=e871] [cursor=pointer]:
+              - cell "May 23 2026 16:34:09" [ref=e872]:
+                - generic [ref=e873]:
+                  - button [ref=e874]
+                  - time [ref=e877]: May 23 2026 16:34:09
+              - cell "web" [ref=e878]:
+                - button "web" [ref=e879]
+              - cell "from starlette.middleware.sessions import SessionMiddleware" [ref=e880]:
+                - generic [ref=e882]: from starlette.middleware.sessions import SessionMiddleware
+            - row "May 23 2026 16:34:09 web File \"/opt/venv/lib/python3.12/site-packages/starlette/middleware/sessions.py\", line 7, in <module>" [ref=e883] [cursor=pointer]:
+              - cell "May 23 2026 16:34:09" [ref=e884]:
+                - generic [ref=e885]:
+                  - button [ref=e886]
+                  - time [ref=e889]: May 23 2026 16:34:09
+              - cell "web" [ref=e890]:
+                - button "web" [ref=e891]
+              - cell "File \"/opt/venv/lib/python3.12/site-packages/starlette/middleware/sessions.py\", line 7, in <module>" [ref=e892]:
+                - generic [ref=e894]: File "/opt/venv/lib/python3.12/site-packages/starlette/middleware/sessions.py", line 7, in <module>
+            - row "May 23 2026 16:34:09 web import itsdangerous" [ref=e895] [cursor=pointer]:
+              - cell "May 23 2026 16:34:09" [ref=e896]:
+                - generic [ref=e897]:
+                  - button [ref=e898]
+                  - time [ref=e901]: May 23 2026 16:34:09
+              - cell "web" [ref=e902]:
+                - button "web" [ref=e903]
+              - cell "import itsdangerous" [ref=e904]:
+                - generic [ref=e906]: import itsdangerous
+            - 'row "May 23 2026 16:34:09 web ModuleNotFoundError: No module named ''itsdangerous''" [ref=e907] [cursor=pointer]':
+              - cell "May 23 2026 16:34:09" [ref=e908]:
+                - generic [ref=e909]:
+                  - button [ref=e910]
+                  - time [ref=e913]: May 23 2026 16:34:09
+              - cell "web" [ref=e914]:
+                - button "web" [ref=e915]
+              - 'cell "ModuleNotFoundError: No module named ''itsdangerous''" [ref=e916]':
+                - generic [ref=e918]: "ModuleNotFoundError: No module named 'itsdangerous'"
+            - row "May 23 2026 16:34:10 web Traceback (most recent call last):" [ref=e919] [cursor=pointer]:
+              - cell "May 23 2026 16:34:10" [ref=e920]:
+                - generic [ref=e921]:
+                  - button [ref=e922]
+                  - time [ref=e925]: May 23 2026 16:34:10
+              - cell "web" [ref=e926]:
+                - button "web" [ref=e927]
+              - cell "Traceback (most recent call last):" [ref=e928]:
+                - generic [ref=e930]: "Traceback (most recent call last):"
+            - row "May 23 2026 16:34:10 web File \"/opt/venv/bin/uvicorn\", line 8, in <module>" [ref=e931] [cursor=pointer]:
+              - cell "May 23 2026 16:34:10" [ref=e932]:
+                - generic [ref=e933]:
+                  - button [ref=e934]
+                  - time [ref=e937]: May 23 2026 16:34:10
+              - cell "web" [ref=e938]:
+                - button "web" [ref=e939]
+              - cell "File \"/opt/venv/bin/uvicorn\", line 8, in <module>" [ref=e940]:
+                - generic [ref=e942]: File "/opt/venv/bin/uvicorn", line 8, in <module>
+            - row "May 23 2026 16:34:10 web sys.exit(main())" [ref=e943] [cursor=pointer]:
+              - cell "May 23 2026 16:34:10" [ref=e944]:
+                - generic [ref=e945]:
+                  - button [ref=e946]
+                  - time [ref=e949]: May 23 2026 16:34:10
+              - cell "web" [ref=e950]:
+                - button "web" [ref=e951]
+              - cell "sys.exit(main())" [ref=e952]:
+                - generic [ref=e954]: sys.exit(main())
+            - row "May 23 2026 16:34:10 web ^^^^^^" [ref=e955] [cursor=pointer]:
+              - cell "May 23 2026 16:34:10" [ref=e956]:
+                - generic [ref=e957]:
+                  - button [ref=e958]
+                  - time [ref=e961]: May 23 2026 16:34:10
+              - cell "web" [ref=e962]:
+                - button "web" [ref=e963]
+              - cell "^^^^^^" [ref=e964]:
+                - generic [ref=e966]: ^^^^^^
+            - row "May 23 2026 16:34:10 web File \"/opt/venv/lib/python3.12/site-packages/click/core.py\", line 1524, in __call__" [ref=e967] [cursor=pointer]:
+              - cell "May 23 2026 16:34:10" [ref=e968]:
+                - generic [ref=e969]:
+                  - button [ref=e970]
+                  - time [ref=e973]: May 23 2026 16:34:10
+              - cell "web" [ref=e974]:
+                - button "web" [ref=e975]
+              - cell "File \"/opt/venv/lib/python3.12/site-packages/click/core.py\", line 1524, in __call__" [ref=e976]:
+                - generic [ref=e978]: File "/opt/venv/lib/python3.12/site-packages/click/core.py", line 1524, in __call__
+            - row "May 23 2026 16:34:10 web return self.main(*args, **kwargs)" [ref=e979] [cursor=pointer]:
+              - cell "May 23 2026 16:34:10" [ref=e980]:
+                - generic [ref=e981]:
+                  - button [ref=e982]
+                  - time [ref=e985]: May 23 2026 16:34:10
+              - cell "web" [ref=e986]:
+                - button "web" [ref=e987]
+              - cell "return self.main(*args, **kwargs)" [ref=e988]:
+                - generic [ref=e990]: return self.main(*args, **kwargs)
+            - row "May 23 2026 16:34:10 web ^^^^^^^^^^^^^^^^^^^^^^^^^^" [ref=e991] [cursor=pointer]:
+              - cell "May 23 2026 16:34:10" [ref=e992]:
+                - generic [ref=e993]:
+                  - button [ref=e994]
+                  - time [ref=e997]: May 23 2026 16:34:10
+              - cell "web" [ref=e998]:
+                - button "web" [ref=e999]
+              - cell "^^^^^^^^^^^^^^^^^^^^^^^^^^" [ref=e1000]:
+                - generic [ref=e1002]: ^^^^^^^^^^^^^^^^^^^^^^^^^^
+            - row "May 23 2026 16:34:10 web File \"/opt/venv/lib/python3.12/site-packages/click/core.py\", line 1445, in main" [ref=e1003] [cursor=pointer]:
+              - cell "May 23 2026 16:34:10" [ref=e1004]:
+                - generic [ref=e1005]:
+                  - button [ref=e1006]
+                  - time [ref=e1009]: May 23 2026 16:34:10
+              - cell "web" [ref=e1010]:
+                - button "web" [ref=e1011]
+              - cell "File \"/opt/venv/lib/python3.12/site-packages/click/core.py\", line 1445, in main" [ref=e1012]:
+                - generic [ref=e1014]: File "/opt/venv/lib/python3.12/site-packages/click/core.py", line 1445, in main
+            - row "May 23 2026 16:34:10 web rv = self.invoke(ctx)" [ref=e1015] [cursor=pointer]:
+              - cell "May 23 2026 16:34:10" [ref=e1016]:
+                - generic [ref=e1017]:
+                  - button [ref=e1018]
+                  - time [ref=e1021]: May 23 2026 16:34:10
+              - cell "web" [ref=e1022]:
+                - button "web" [ref=e1023]
+              - cell "rv = self.invoke(ctx)" [ref=e1024]:
+                - generic [ref=e1026]: rv = self.invoke(ctx)
+            - row "May 23 2026 16:34:10 web ^^^^^^^^^^^^^^^^" [ref=e1027] [cursor=pointer]:
+              - cell "May 23 2026 16:34:10" [ref=e1028]:
+                - generic [ref=e1029]:
+                  - button [ref=e1030]
+                  - time [ref=e1033]: May 23 2026 16:34:10
+              - cell "web" [ref=e1034]:
+                - button "web" [ref=e1035]
+              - cell "^^^^^^^^^^^^^^^^" [ref=e1036]:
+                - generic [ref=e1038]: ^^^^^^^^^^^^^^^^
+            - row "May 23 2026 16:34:10 web File \"/opt/venv/lib/python3.12/site-packages/click/core.py\", line 1308, in invoke" [ref=e1039] [cursor=pointer]:
+              - cell "May 23 2026 16:34:10" [ref=e1040]:
+                - generic [ref=e1041]:
+                  - button [ref=e1042]
+                  - time [ref=e1045]: May 23 2026 16:34:10
+              - cell "web" [ref=e1046]:
+                - button "web" [ref=e1047]
+              - cell "File \"/opt/venv/lib/python3.12/site-packages/click/core.py\", line 1308, in invoke" [ref=e1048]:
+                - generic [ref=e1050]: File "/opt/venv/lib/python3.12/site-packages/click/core.py", line 1308, in invoke
+            - row "May 23 2026 16:34:10 web return ctx.invoke(self.callback, **ctx.params)" [ref=e1051] [cursor=pointer]:
+              - cell "May 23 2026 16:34:10" [ref=e1052]:
+                - generic [ref=e1053]:
+                  - button [ref=e1054]
+                  - time [ref=e1057]: May 23 2026 16:34:10
+              - cell "web" [ref=e1058]:
+                - button "web" [ref=e1059]
+              - cell "return ctx.invoke(self.callback, **ctx.params)" [ref=e1060]:
+                - generic [ref=e1062]: return ctx.invoke(self.callback, **ctx.params)
+            - row "May 23 2026 16:34:10 web ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^" [ref=e1063] [cursor=pointer]:
+              - cell "May 23 2026 16:34:10" [ref=e1064]:
+                - generic [ref=e1065]:
+                  - button [ref=e1066]
+                  - time [ref=e1069]: May 23 2026 16:34:10
+              - cell "web" [ref=e1070]:
+                - button "web" [ref=e1071]
+              - cell "^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^" [ref=e1072]:
+                - generic [ref=e1074]: ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+            - row "May 23 2026 16:34:10 web File \"/opt/venv/lib/python3.12/site-packages/click/core.py\", line 877, in invoke" [ref=e1075] [cursor=pointer]:
+              - cell "May 23 2026 16:34:10" [ref=e1076]:
+                - generic [ref=e1077]:
+                  - button [ref=e1078]
+                  - time [ref=e1081]: May 23 2026 16:34:10
+              - cell "web" [ref=e1082]:
+                - button "web" [ref=e1083]
+              - cell "File \"/opt/venv/lib/python3.12/site-packages/click/core.py\", line 877, in invoke" [ref=e1084]:
+                - generic [ref=e1086]: File "/opt/venv/lib/python3.12/site-packages/click/core.py", line 877, in invoke
+            - row "May 23 2026 16:34:10 web return callback(*args, **kwargs)" [ref=e1087] [cursor=pointer]:
+              - cell "May 23 2026 16:34:10" [ref=e1088]:
+                - generic [ref=e1089]:
+                  - button [ref=e1090]
+                  - time [ref=e1093]: May 23 2026 16:34:10
+              - cell "web" [ref=e1094]:
+                - button "web" [ref=e1095]
+              - cell "return callback(*args, **kwargs)" [ref=e1096]:
+                - generic [ref=e1098]: return callback(*args, **kwargs)
+            - row "May 23 2026 16:34:10 web ^^^^^^^^^^^^^^^^^^^^^^^^^" [ref=e1099] [cursor=pointer]:
+              - cell "May 23 2026 16:34:10" [ref=e1100]:
+                - generic [ref=e1101]:
+                  - button [ref=e1102]
+                  - time [ref=e1105]: May 23 2026 16:34:10
+              - cell "web" [ref=e1106]:
+                - button "web" [ref=e1107]
+              - cell "^^^^^^^^^^^^^^^^^^^^^^^^^" [ref=e1108]:
+                - generic [ref=e1110]: ^^^^^^^^^^^^^^^^^^^^^^^^^
+            - row "May 23 2026 16:34:10 web return self._loop.run_until_complete(task)" [ref=e1111] [cursor=pointer]:
+              - cell "May 23 2026 16:34:10" [ref=e1112]:
+                - generic [ref=e1113]:
+                  - button [ref=e1114]
+                  - time [ref=e1117]: May 23 2026 16:34:10
+              - cell "web" [ref=e1118]:
+                - button "web" [ref=e1119]
+              - cell "return self._loop.run_until_complete(task)" [ref=e1120]:
+                - generic [ref=e1122]: return self._loop.run_until_complete(task)
+            - row "May 23 2026 16:34:10 web File \"/opt/venv/lib/python3.12/site-packages/uvicorn/main.py\", line 412, in main" [ref=e1123] [cursor=pointer]:
+              - cell "May 23 2026 16:34:10" [ref=e1124]:
+                - generic [ref=e1125]:
+                  - button [ref=e1126]
+                  - time [ref=e1129]: May 23 2026 16:34:10
+              - cell "web" [ref=e1130]:
+                - button "web" [ref=e1131]
+              - cell "File \"/opt/venv/lib/python3.12/site-packages/uvicorn/main.py\", line 412, in main" [ref=e1132]:
+                - generic [ref=e1134]: File "/opt/venv/lib/python3.12/site-packages/uvicorn/main.py", line 412, in main
+            - row "May 23 2026 16:34:10 web run(" [ref=e1135] [cursor=pointer]:
+              - cell "May 23 2026 16:34:10" [ref=e1136]:
+                - generic [ref=e1137]:
+                  - button [ref=e1138]
+                  - time [ref=e1141]: May 23 2026 16:34:10
+              - cell "web" [ref=e1142]:
+                - button "web" [ref=e1143]
+              - cell "run(" [ref=e1144]:
+                - generic [ref=e1146]: run(
+            - row "May 23 2026 16:34:10 web File \"/opt/venv/lib/python3.12/site-packages/uvicorn/main.py\", line 579, in run" [ref=e1147] [cursor=pointer]:
+              - cell "May 23 2026 16:34:10" [ref=e1148]:
+                - generic [ref=e1149]:
+                  - button [ref=e1150]
+                  - time [ref=e1153]: May 23 2026 16:34:10
+              - cell "web" [ref=e1154]:
+                - button "web" [ref=e1155]
+              - cell "File \"/opt/venv/lib/python3.12/site-packages/uvicorn/main.py\", line 579, in run" [ref=e1156]:
+                - generic [ref=e1158]: File "/opt/venv/lib/python3.12/site-packages/uvicorn/main.py", line 579, in run
+            - row "May 23 2026 16:34:10 web server.run()" [ref=e1159] [cursor=pointer]:
+              - cell "May 23 2026 16:34:10" [ref=e1160]:
+                - generic [ref=e1161]:
+                  - button [ref=e1162]
+                  - time [ref=e1165]: May 23 2026 16:34:10
+              - cell "web" [ref=e1166]:
+                - button "web" [ref=e1167]
+              - cell "server.run()" [ref=e1168]:
+                - generic [ref=e1170]: server.run()
+            - row "May 23 2026 16:34:10 web File \"/opt/venv/lib/python3.12/site-packages/uvicorn/server.py\", line 66, in run" [ref=e1171] [cursor=pointer]:
+              - cell "May 23 2026 16:34:10" [ref=e1172]:
+                - generic [ref=e1173]:
+                  - button [ref=e1174]
+                  - time [ref=e1177]: May 23 2026 16:34:10
+              - cell "web" [ref=e1178]:
+                - button "web" [ref=e1179]
+              - cell "File \"/opt/venv/lib/python3.12/site-packages/uvicorn/server.py\", line 66, in run" [ref=e1180]:
+                - generic [ref=e1182]: File "/opt/venv/lib/python3.12/site-packages/uvicorn/server.py", line 66, in run
+            - row "May 23 2026 16:34:10 web return asyncio.run(self.serve(sockets=sockets))" [ref=e1183] [cursor=pointer]:
+              - cell "May 23 2026 16:34:10" [ref=e1184]:
+                - generic [ref=e1185]:
+                  - button [ref=e1186]
+                  - time [ref=e1189]: May 23 2026 16:34:10
+              - cell "web" [ref=e1190]:
+                - button "web" [ref=e1191]
+              - cell "return asyncio.run(self.serve(sockets=sockets))" [ref=e1192]:
+                - generic [ref=e1194]: return asyncio.run(self.serve(sockets=sockets))
+            - row "May 23 2026 16:34:10 web ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^" [ref=e1195] [cursor=pointer]:
+              - cell "May 23 2026 16:34:10" [ref=e1196]:
+                - generic [ref=e1197]:
+                  - button [ref=e1198]
+                  - time [ref=e1201]: May 23 2026 16:34:10
+              - cell "web" [ref=e1202]:
+                - button "web" [ref=e1203]
+              - cell "^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^" [ref=e1204]:
+                - generic [ref=e1206]: ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+            - row "May 23 2026 16:34:10 web File \"/root/.nix-profile/lib/python3.12/asyncio/runners.py\", line 194, in run" [ref=e1207] [cursor=pointer]:
+              - cell "May 23 2026 16:34:10" [ref=e1208]:
+                - generic [ref=e1209]:
+                  - button [ref=e1210]
+                  - time [ref=e1213]: May 23 2026 16:34:10
+              - cell "web" [ref=e1214]:
+                - button "web" [ref=e1215]
+              - cell "File \"/root/.nix-profile/lib/python3.12/asyncio/runners.py\", line 194, in run" [ref=e1216]:
+                - generic [ref=e1218]: File "/root/.nix-profile/lib/python3.12/asyncio/runners.py", line 194, in run
+            - row "May 23 2026 16:34:10 web return runner.run(main)" [ref=e1219] [cursor=pointer]:
+              - cell "May 23 2026 16:34:10" [ref=e1220]:
+                - generic [ref=e1221]:
+                  - button [ref=e1222]
+                  - time [ref=e1225]: May 23 2026 16:34:10
+              - cell "web" [ref=e1226]:
+                - button "web" [ref=e1227]
+              - cell "return runner.run(main)" [ref=e1228]:
+                - generic [ref=e1230]: return runner.run(main)
+            - row "May 23 2026 16:34:10 web ^^^^^^^^^^^^^^^^" [ref=e1231] [cursor=pointer]:
+              - cell "May 23 2026 16:34:10" [ref=e1232]:
+                - generic [ref=e1233]:
+                  - button [ref=e1234]
+                  - time [ref=e1237]: May 23 2026 16:34:10
+              - cell "web" [ref=e1238]:
+                - button "web" [ref=e1239]
+              - cell "^^^^^^^^^^^^^^^^" [ref=e1240]:
+                - generic [ref=e1242]: ^^^^^^^^^^^^^^^^
+            - row "May 23 2026 16:34:10 web File \"/root/.nix-profile/lib/python3.12/asyncio/runners.py\", line 118, in run" [ref=e1243] [cursor=pointer]:
+              - cell "May 23 2026 16:34:10" [ref=e1244]:
+                - generic [ref=e1245]:
+                  - button [ref=e1246]
+                  - time [ref=e1249]: May 23 2026 16:34:10
+              - cell "web" [ref=e1250]:
+                - button "web" [ref=e1251]
+              - cell "File \"/root/.nix-profile/lib/python3.12/asyncio/runners.py\", line 118, in run" [ref=e1252]:
+                - generic [ref=e1254]: File "/root/.nix-profile/lib/python3.12/asyncio/runners.py", line 118, in run
+            - row "May 23 2026 16:34:10 web ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^" [ref=e1255] [cursor=pointer]:
+              - cell "May 23 2026 16:34:10" [ref=e1256]:
+                - generic [ref=e1257]:
+                  - button [ref=e1258]
+                  - time [ref=e1261]: May 23 2026 16:34:10
+              - cell "web" [ref=e1262]:
+                - button "web" [ref=e1263]
+              - cell "^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^" [ref=e1264]:
+                - generic [ref=e1266]: ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+            - row "May 23 2026 16:34:10 web File \"uvloop/loop.pyx\", line 1518, in uvloop.loop.Loop.run_until_complete" [ref=e1267] [cursor=pointer]:
+              - cell "May 23 2026 16:34:10" [ref=e1268]:
+                - generic [ref=e1269]:
+                  - button [ref=e1270]
+                  - time [ref=e1273]: May 23 2026 16:34:10
+              - cell "web" [ref=e1274]:
+                - button "web" [ref=e1275]
+              - cell "File \"uvloop/loop.pyx\", line 1518, in uvloop.loop.Loop.run_until_complete" [ref=e1276]:
+                - generic [ref=e1278]: File "uvloop/loop.pyx", line 1518, in uvloop.loop.Loop.run_until_complete
+            - row "May 23 2026 16:34:10 web File \"/opt/venv/lib/python3.12/site-packages/uvicorn/server.py\", line 70, in serve" [ref=e1279] [cursor=pointer]:
+              - cell "May 23 2026 16:34:10" [ref=e1280]:
+                - generic [ref=e1281]:
+                  - button [ref=e1282]
+                  - time [ref=e1285]: May 23 2026 16:34:10
+              - cell "web" [ref=e1286]:
+                - button "web" [ref=e1287]
+              - cell "File \"/opt/venv/lib/python3.12/site-packages/uvicorn/server.py\", line 70, in serve" [ref=e1288]:
+                - generic [ref=e1290]: File "/opt/venv/lib/python3.12/site-packages/uvicorn/server.py", line 70, in serve
+            - row "May 23 2026 16:34:10 web await self._serve(sockets)" [ref=e1291] [cursor=pointer]:
+              - cell "May 23 2026 16:34:10" [ref=e1292]:
+                - generic [ref=e1293]:
+                  - button [ref=e1294]
+                  - time [ref=e1297]: May 23 2026 16:34:10
+              - cell "web" [ref=e1298]:
+                - button "web" [ref=e1299]
+              - cell "await self._serve(sockets)" [ref=e1300]:
+                - generic [ref=e1302]: await self._serve(sockets)
+            - row "May 23 2026 16:34:10 web File \"/opt/venv/lib/python3.12/site-packages/uvicorn/server.py\", line 77, in _serve" [ref=e1303] [cursor=pointer]:
+              - cell "May 23 2026 16:34:10" [ref=e1304]:
+                - generic [ref=e1305]:
+                  - button [ref=e1306]
+                  - time [ref=e1309]: May 23 2026 16:34:10
+              - cell "web" [ref=e1310]:
+                - button "web" [ref=e1311]
+              - cell "File \"/opt/venv/lib/python3.12/site-packages/uvicorn/server.py\", line 77, in _serve" [ref=e1312]:
+                - generic [ref=e1314]: File "/opt/venv/lib/python3.12/site-packages/uvicorn/server.py", line 77, in _serve
+            - row "May 23 2026 16:34:10 web config.load()" [ref=e1315] [cursor=pointer]:
+              - cell "May 23 2026 16:34:10" [ref=e1316]:
+                - generic [ref=e1317]:
+                  - button [ref=e1318]
+                  - time [ref=e1321]: May 23 2026 16:34:10
+              - cell "web" [ref=e1322]:
+                - button "web" [ref=e1323]
+              - cell "config.load()" [ref=e1324]:
+                - generic [ref=e1326]: config.load()
+            - row "May 23 2026 16:34:10 web File \"/opt/venv/lib/python3.12/site-packages/uvicorn/config.py\", line 435, in load" [ref=e1327] [cursor=pointer]:
+              - cell "May 23 2026 16:34:10" [ref=e1328]:
+                - generic [ref=e1329]:
+                  - button [ref=e1330]
+                  - time [ref=e1333]: May 23 2026 16:34:10
+              - cell "web" [ref=e1334]:
+                - button "web" [ref=e1335]
+              - cell "File \"/opt/venv/lib/python3.12/site-packages/uvicorn/config.py\", line 435, in load" [ref=e1336]:
+                - generic [ref=e1338]: File "/opt/venv/lib/python3.12/site-packages/uvicorn/config.py", line 435, in load
+            - row "May 23 2026 16:34:10 web self.loaded_app = import_from_string(self.app)" [ref=e1339] [cursor=pointer]:
+              - cell "May 23 2026 16:34:10" [ref=e1340]:
+                - generic [ref=e1341]:
+                  - button [ref=e1342]
+                  - time [ref=e1345]: May 23 2026 16:34:10
+              - cell "web" [ref=e1346]:
+                - button "web" [ref=e1347]
+              - cell "self.loaded_app = import_from_string(self.app)" [ref=e1348]:
+                - generic [ref=e1350]: self.loaded_app = import_from_string(self.app)
+            - row "May 23 2026 16:34:10 web ^^^^^^^^^^^^^^^^^^^^^^^^^^^^" [ref=e1351] [cursor=pointer]:
+              - cell "May 23 2026 16:34:10" [ref=e1352]:
+                - generic [ref=e1353]:
+                  - button [ref=e1354]
+                  - time [ref=e1357]: May 23 2026 16:34:10
+              - cell "web" [ref=e1358]:
+                - button "web" [ref=e1359]
+              - cell "^^^^^^^^^^^^^^^^^^^^^^^^^^^^" [ref=e1360]:
+                - generic [ref=e1362]: ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+            - row "May 23 2026 16:34:10 web File \"/opt/venv/lib/python3.12/site-packages/uvicorn/importer.py\", line 22, in import_from_string" [ref=e1363] [cursor=pointer]:
+              - cell "May 23 2026 16:34:10" [ref=e1364]:
+                - generic [ref=e1365]:
+                  - button [ref=e1366]
+                  - time [ref=e1369]: May 23 2026 16:34:10
+              - cell "web" [ref=e1370]:
+                - button "web" [ref=e1371]
+              - cell "File \"/opt/venv/lib/python3.12/site-packages/uvicorn/importer.py\", line 22, in import_from_string" [ref=e1372]:
+                - generic [ref=e1374]: File "/opt/venv/lib/python3.12/site-packages/uvicorn/importer.py", line 22, in import_from_string
+            - row "May 23 2026 16:34:10 web raise exc from None" [ref=e1375] [cursor=pointer]:
+              - cell "May 23 2026 16:34:10" [ref=e1376]:
+                - generic [ref=e1377]:
+                  - button [ref=e1378]
+                  - time [ref=e1381]: May 23 2026 16:34:10
+              - cell "web" [ref=e1382]:
+                - button "web" [ref=e1383]
+              - cell "raise exc from None" [ref=e1384]:
+                - generic [ref=e1386]: raise exc from None
+            - row "May 23 2026 16:34:10 web File \"/opt/venv/lib/python3.12/site-packages/uvicorn/importer.py\", line 19, in import_from_string" [ref=e1387] [cursor=pointer]:
+              - cell "May 23 2026 16:34:10" [ref=e1388]:
+                - generic [ref=e1389]:
+                  - button [ref=e1390]
+                  - time [ref=e1393]: May 23 2026 16:34:10
+              - cell "web" [ref=e1394]:
+                - button "web" [ref=e1395]
+              - cell "File \"/opt/venv/lib/python3.12/site-packages/uvicorn/importer.py\", line 19, in import_from_string" [ref=e1396]:
+                - generic [ref=e1398]: File "/opt/venv/lib/python3.12/site-packages/uvicorn/importer.py", line 19, in import_from_string
+            - row "May 23 2026 16:34:10 web module = importlib.import_module(module_str)" [ref=e1399] [cursor=pointer]:
+              - cell "May 23 2026 16:34:10" [ref=e1400]:
+                - generic [ref=e1401]:
+                  - button [ref=e1402]
+                  - time [ref=e1405]: May 23 2026 16:34:10
+              - cell "web" [ref=e1406]:
+                - button "web" [ref=e1407]
+              - cell "module = importlib.import_module(module_str)" [ref=e1408]:
+                - generic [ref=e1410]: module = importlib.import_module(module_str)
+            - row "May 23 2026 16:34:10 web ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^" [ref=e1411] [cursor=pointer]:
+              - cell "May 23 2026 16:34:10" [ref=e1412]:
+                - generic [ref=e1413]:
+                  - button [ref=e1414]
+                  - time [ref=e1417]: May 23 2026 16:34:10
+              - cell "web" [ref=e1418]:
+                - button "web" [ref=e1419]
+              - cell "^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^" [ref=e1420]:
+                - generic [ref=e1422]: ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+            - row "May 23 2026 16:34:10 web File \"/root/.nix-profile/lib/python3.12/importlib/__init__.py\", line 90, in import_module" [ref=e1423] [cursor=pointer]:
+              - cell "May 23 2026 16:34:10" [ref=e1424]:
+                - generic [ref=e1425]:
+                  - button [ref=e1426]
+                  - time [ref=e1429]: May 23 2026 16:34:10
+              - cell "web" [ref=e1430]:
+                - button "web" [ref=e1431]
+              - cell "File \"/root/.nix-profile/lib/python3.12/importlib/__init__.py\", line 90, in import_module" [ref=e1432]:
+                - generic [ref=e1434]: File "/root/.nix-profile/lib/python3.12/importlib/__init__.py", line 90, in import_module
+            - row "May 23 2026 16:34:10 web return _bootstrap._gcd_import(name[level:], package, level)" [ref=e1435] [cursor=pointer]:
+              - cell "May 23 2026 16:34:10" [ref=e1436]:
+                - generic [ref=e1437]:
+                  - button [ref=e1438]
+                  - time [ref=e1441]: May 23 2026 16:34:10
+              - cell "web" [ref=e1442]:
+                - button "web" [ref=e1443]
+              - cell "return _bootstrap._gcd_import(name[level:], package, level)" [ref=e1444]:
+                - generic [ref=e1446]: return _bootstrap._gcd_import(name[level:], package, level)
+            - row "May 23 2026 16:34:10 web ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^" [ref=e1447] [cursor=pointer]:
+              - cell "May 23 2026 16:34:10" [ref=e1448]:
+                - generic [ref=e1449]:
+                  - button [ref=e1450]
+                  - time [ref=e1453]: May 23 2026 16:34:10
+              - cell "web" [ref=e1454]:
+                - button "web" [ref=e1455]
+              - cell "^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^" [ref=e1456]:
+                - generic [ref=e1458]: ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+            - row "May 23 2026 16:34:10 web ^^^^^^^^^^^^^" [ref=e1459] [cursor=pointer]:
+              - cell "May 23 2026 16:34:10" [ref=e1460]:
+                - generic [ref=e1461]:
+                  - button [ref=e1462]
+                  - time [ref=e1465]: May 23 2026 16:34:10
+              - cell "web" [ref=e1466]:
+                - button "web" [ref=e1467]
+              - cell "^^^^^^^^^^^^^" [ref=e1468]:
+                - generic [ref=e1470]: ^^^^^^^^^^^^^
+            - row "May 23 2026 16:34:10 web File \"<frozen importlib._bootstrap>\", line 1387, in _gcd_import" [ref=e1471] [cursor=pointer]:
+              - cell "May 23 2026 16:34:10" [ref=e1472]:
+                - generic [ref=e1473]:
+                  - button [ref=e1474]
+                  - time [ref=e1477]: May 23 2026 16:34:10
+              - cell "web" [ref=e1478]:
+                - button "web" [ref=e1479]
+              - cell "File \"<frozen importlib._bootstrap>\", line 1387, in _gcd_import" [ref=e1480]:
+                - generic [ref=e1482]: File "<frozen importlib._bootstrap>", line 1387, in _gcd_import
+            - row "May 23 2026 16:34:10 web File \"<frozen importlib._bootstrap>\", line 1360, in _find_and_load" [ref=e1483] [cursor=pointer]:
+              - cell "May 23 2026 16:34:10" [ref=e1484]:
+                - generic [ref=e1485]:
+                  - button [ref=e1486]
+                  - time [ref=e1489]: May 23 2026 16:34:10
+              - cell "web" [ref=e1490]:
+                - button "web" [ref=e1491]
+              - cell "File \"<frozen importlib._bootstrap>\", line 1360, in _find_and_load" [ref=e1492]:
+                - generic [ref=e1494]: File "<frozen importlib._bootstrap>", line 1360, in _find_and_load
+            - row "May 23 2026 16:34:10 web File \"<frozen importlib._bootstrap>\", line 1331, in _find_and_load_unlocked" [ref=e1495] [cursor=pointer]:
+              - cell "May 23 2026 16:34:10" [ref=e1496]:
+                - generic [ref=e1497]:
+                  - button [ref=e1498]
+                  - time [ref=e1501]: May 23 2026 16:34:10
+              - cell "web" [ref=e1502]:
+                - button "web" [ref=e1503]
+              - cell "File \"<frozen importlib._bootstrap>\", line 1331, in _find_and_load_unlocked" [ref=e1504]:
+                - generic [ref=e1506]: File "<frozen importlib._bootstrap>", line 1331, in _find_and_load_unlocked
+            - row "May 23 2026 16:34:10 web File \"<frozen importlib._bootstrap>\", line 935, in _load_unlocked" [ref=e1507] [cursor=pointer]:
+              - cell "May 23 2026 16:34:10" [ref=e1508]:
+                - generic [ref=e1509]:
+                  - button [ref=e1510]
+                  - time [ref=e1513]: May 23 2026 16:34:10
+              - cell "web" [ref=e1514]:
+                - button "web" [ref=e1515]
+              - cell "File \"<frozen importlib._bootstrap>\", line 935, in _load_unlocked" [ref=e1516]:
+                - generic [ref=e1518]: File "<frozen importlib._bootstrap>", line 935, in _load_unlocked
+            - row "May 23 2026 16:34:10 web File \"<frozen importlib._bootstrap_external>\", line 995, in exec_module" [ref=e1519] [cursor=pointer]:
+              - cell "May 23 2026 16:34:10" [ref=e1520]:
+                - generic [ref=e1521]:
+                  - button [ref=e1522]
+                  - time [ref=e1525]: May 23 2026 16:34:10
+              - cell "web" [ref=e1526]:
+                - button "web" [ref=e1527]
+              - cell "File \"<frozen importlib._bootstrap_external>\", line 995, in exec_module" [ref=e1528]:
+                - generic [ref=e1530]: File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+            - row "May 23 2026 16:34:10 web File \"<frozen importlib._bootstrap>\", line 488, in _call_with_frames_removed" [ref=e1531] [cursor=pointer]:
+              - cell "May 23 2026 16:34:10" [ref=e1532]:
+                - generic [ref=e1533]:
+                  - button [ref=e1534]
+                  - time [ref=e1537]: May 23 2026 16:34:10
+              - cell "web" [ref=e1538]:
+                - button "web" [ref=e1539]
+              - cell "File \"<frozen importlib._bootstrap>\", line 488, in _call_with_frames_removed" [ref=e1540]:
+                - generic [ref=e1542]: File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+            - row "May 23 2026 16:34:10 web File \"/app/app/main.py\", line 9, in <module>" [ref=e1543] [cursor=pointer]:
+              - cell "May 23 2026 16:34:10" [ref=e1544]:
+                - generic [ref=e1545]:
+                  - button [ref=e1546]
+                  - time [ref=e1549]: May 23 2026 16:34:10
+              - cell "web" [ref=e1550]:
+                - button "web" [ref=e1551]
+              - cell "File \"/app/app/main.py\", line 9, in <module>" [ref=e1552]:
+                - generic [ref=e1554]: File "/app/app/main.py", line 9, in <module>
+            - row "May 23 2026 16:34:10 web from starlette.middleware.sessions import SessionMiddleware" [ref=e1555] [cursor=pointer]:
+              - cell "May 23 2026 16:34:10" [ref=e1556]:
+                - generic [ref=e1557]:
+                  - button [ref=e1558]
+                  - time [ref=e1561]: May 23 2026 16:34:10
+              - cell "web" [ref=e1562]:
+                - button "web" [ref=e1563]
+              - cell "from starlette.middleware.sessions import SessionMiddleware" [ref=e1564]:
+                - generic [ref=e1566]: from starlette.middleware.sessions import SessionMiddleware
+            - row "May 23 2026 16:34:10 web File \"/opt/venv/lib/python3.12/site-packages/starlette/middleware/sessions.py\", line 7, in <module>" [ref=e1567] [cursor=pointer]:
+              - cell "May 23 2026 16:34:10" [ref=e1568]:
+                - generic [ref=e1569]:
+                  - button [ref=e1570]
+                  - time [ref=e1573]: May 23 2026 16:34:10
+              - cell "web" [ref=e1574]:
+                - button "web" [ref=e1575]
+              - cell "File \"/opt/venv/lib/python3.12/site-packages/starlette/middleware/sessions.py\", line 7, in <module>" [ref=e1576]:
+                - generic [ref=e1578]: File "/opt/venv/lib/python3.12/site-packages/starlette/middleware/sessions.py", line 7, in <module>
+            - row "May 23 2026 16:34:10 web import itsdangerous" [ref=e1579] [cursor=pointer]:
+              - cell "May 23 2026 16:34:10" [ref=e1580]:
+                - generic [ref=e1581]:
+                  - button [ref=e1582]
+                  - time [ref=e1585]: May 23 2026 16:34:10
+              - cell "web" [ref=e1586]:
+                - button "web" [ref=e1587]
+              - cell "import itsdangerous" [ref=e1588]:
+                - generic [ref=e1590]: import itsdangerous
+            - 'row "May 23 2026 16:34:10 web ModuleNotFoundError: No module named ''itsdangerous''" [ref=e1591] [cursor=pointer]':
+              - cell "May 23 2026 16:34:10" [ref=e1592]:
+                - generic [ref=e1593]:
+                  - button [ref=e1594]
+                  - time [ref=e1597]: May 23 2026 16:34:10
+              - cell "web" [ref=e1598]:
+                - button "web" [ref=e1599]
+              - 'cell "ModuleNotFoundError: No module named ''itsdangerous''" [ref=e1600]':
+                - generic [ref=e1602]: "ModuleNotFoundError: No module named 'itsdangerous'"
+            - row [ref=e1603]:
+              - cell [ref=e1604]
+          - generic [ref=e1605]:
+            - button "Jump to top" [ref=e1606] [cursor=pointer]:
+              - img [ref=e1608]
+            - button "Jump to bottom" [disabled] [ref=e1610]:
+              - img [ref=e1612]

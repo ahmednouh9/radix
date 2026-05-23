@@ -1,0 +1,182 @@
+- generic:
+  - generic [ref=e1]:
+    - banner "فيسبوك" [ref=e5]:
+      - generic [ref=e7]:
+        - heading [level=1] [ref=e10]:
+          - link "الانتقال إلى صفحة فيسبوك الرئيسية" [ref=e11] [cursor=pointer]:
+            - /url: https://www.facebook.com/?ref=logo
+        - navigation "فيسبوك" [ref=e13]:
+          - generic [ref=e14]:
+            - link "احمد" [ref=e17] [cursor=pointer]:
+              - /url: https://www.facebook.com/ahmd.nwh.121533
+              - generic [ref=e19]: احمد
+            - link "الصفحة الرئيسية" [ref=e22] [cursor=pointer]:
+              - /url: https://www.facebook.com/?ref=tn_tnmn
+          - button "إعدادات الحساب" [ref=e27] [cursor=pointer]:
+            - generic [ref=e28]: إعدادات الحساب
+    - generic [ref=e29]:
+      - main [ref=e30]
+      - generic [ref=e34]:
+        - contentinfo "روابط موقع فيسبوك" [ref=e36]:
+          - list [ref=e37]:
+            - listitem [ref=e38]:
+              - link "حول" [ref=e39] [cursor=pointer]:
+                - /url: https://about.meta.com/?fbclid=IwZXh0bgNhZW0CMTEAYnJpZBExWUx1NTBLUHNOb1FHREszdHNydGMGYXBwX2lkDDI1NjI4MTA0MDU1OAABHrxHRHI3fIC4SSDhv4MWc-JQgGCh7EK21XCsVUGbtceMEWo_4zZHUgs5ZeL3_aem_Tsd0lH3_0emgYd-5oU5WuA
+            - listitem [ref=e40]:
+              - link "إنشاء إعلان" [ref=e41] [cursor=pointer]:
+                - /url: /ad_campaign/landing.php?placement=pf&campaign_id=466780656697650&nav_source=unknown&extra_1=auto
+            - listitem [ref=e42]:
+              - link "إنشاء صفحة" [ref=e43] [cursor=pointer]:
+                - /url: /pages/create/?ref_type=site_footer
+            - listitem [ref=e44]:
+              - link "المطوّرون" [ref=e45] [cursor=pointer]:
+                - /url: https://developers.facebook.com/?ref=pf
+            - listitem [ref=e46]:
+              - link "الوظائف" [ref=e47] [cursor=pointer]:
+                - /url: /careers/?ref=pf
+            - listitem [ref=e48]:
+              - link "سياسة الخصوصية" [ref=e49] [cursor=pointer]:
+                - /url: /privacy/policy/?entry_point=facebook_page_footer
+            - listitem [ref=e50]:
+              - link "ملفات تعريف الارتباط" [ref=e51] [cursor=pointer]:
+                - /url: /policies/cookies/
+            - listitem [ref=e52]:
+              - link "اختيارات الإعلانات" [ref=e53] [cursor=pointer]:
+                - /url: https://www.facebook.com/help/568137493302217
+                - text: اختيارات الإعلانات
+            - listitem [ref=e55]:
+              - link "الشروط" [ref=e56] [cursor=pointer]:
+                - /url: /policies?ref=pf
+            - listitem [ref=e57]:
+              - link "مساعدة" [ref=e58] [cursor=pointer]:
+                - /url: /help/?ref=pf
+            - listitem:
+              - link "الإعدادات" [ref=e59] [cursor=pointer]:
+                - /url: /settings
+            - listitem:
+              - link "سجل النشاطات" [ref=e60] [cursor=pointer]:
+                - /url: https://www.facebook.com/ahmd.nwh.121533/allactivity?privacy_source=activity_log_top_menu
+        - generic [ref=e62]:
+          - text: Meta © 2026
+          - list [ref=e64]:
+            - listitem [ref=e65]: العربية
+            - listitem [ref=e66]:
+              - link "English (US)" [ref=e67] [cursor=pointer]:
+                - /url: https://www.facebook.com/v25.0/dialog/oauth?encrypted_query_string=AeGGQ9RoehKhT58ug6JarL91ogoWIrTFdVh088QNy6Vn_J-eMvzFucrC7cWdpgGX64QsWJWUpoP_3FlI9GtNRgtApum-S7RLfJ_FzZNhIAAJIQZT1GXawtnHKmmIT6g0-WRIsI_6XziuS62H-5WrBGVtWvAaJr2EUvoWCNcsJaa7zQBCHhYmibsCvLt5iZtXqsLyL1Hl3onJMXrirLxEOCRqXpfe2B_spROh3BrLttpnRyxsl0TEiQlXPAq2Y2cSIFf5
+            - listitem [ref=e68]:
+              - link "Français (France)" [ref=e69] [cursor=pointer]:
+                - /url: https://www.facebook.com/v25.0/dialog/oauth?encrypted_query_string=AeGGQ9RoehKhT58ug6JarL91ogoWIrTFdVh088QNy6Vn_J-eMvzFucrC7cWdpgGX64QsWJWUpoP_3FlI9GtNRgtApum-S7RLfJ_FzZNhIAAJIQZT1GXawtnHKmmIT6g0-WRIsI_6XziuS62H-5WrBGVtWvAaJr2EUvoWCNcsJaa7zQBCHhYmibsCvLt5iZtXqsLyL1Hl3onJMXrirLxEOCRqXpfe2B_spROh3BrLttpnRyxsl0TEiQlXPAq2Y2cSIFf5
+            - listitem [ref=e70]:
+              - link "Italiano" [ref=e71] [cursor=pointer]:
+                - /url: https://fr-fr.facebook.com/v25.0/dialog/oauth?encrypted_query_string=AeGGQ9RoehKhT58ug6JarL91ogoWIrTFdVh088QNy6Vn_J-eMvzFucrC7cWdpgGX64QsWJWUpoP_3FlI9GtNRgtApum-S7RLfJ_FzZNhIAAJIQZT1GXawtnHKmmIT6g0-WRIsI_6XziuS62H-5WrBGVtWvAaJr2EUvoWCNcsJaa7zQBCHhYmibsCvLt5iZtXqsLyL1Hl3onJMXrirLxEOCRqXpfe2B_spROh3BrLttpnRyxsl0TEiQlXPAq2Y2cSIFf5
+            - listitem [ref=e72]:
+              - link "Deutsch" [ref=e73] [cursor=pointer]:
+                - /url: https://it-it.facebook.com/v25.0/dialog/oauth?encrypted_query_string=AeGGQ9RoehKhT58ug6JarL91ogoWIrTFdVh088QNy6Vn_J-eMvzFucrC7cWdpgGX64QsWJWUpoP_3FlI9GtNRgtApum-S7RLfJ_FzZNhIAAJIQZT1GXawtnHKmmIT6g0-WRIsI_6XziuS62H-5WrBGVtWvAaJr2EUvoWCNcsJaa7zQBCHhYmibsCvLt5iZtXqsLyL1Hl3onJMXrirLxEOCRqXpfe2B_spROh3BrLttpnRyxsl0TEiQlXPAq2Y2cSIFf5
+            - listitem [ref=e74]:
+              - link "Русский" [ref=e75] [cursor=pointer]:
+                - /url: https://de-de.facebook.com/v25.0/dialog/oauth?encrypted_query_string=AeGGQ9RoehKhT58ug6JarL91ogoWIrTFdVh088QNy6Vn_J-eMvzFucrC7cWdpgGX64QsWJWUpoP_3FlI9GtNRgtApum-S7RLfJ_FzZNhIAAJIQZT1GXawtnHKmmIT6g0-WRIsI_6XziuS62H-5WrBGVtWvAaJr2EUvoWCNcsJaa7zQBCHhYmibsCvLt5iZtXqsLyL1Hl3onJMXrirLxEOCRqXpfe2B_spROh3BrLttpnRyxsl0TEiQlXPAq2Y2cSIFf5
+            - listitem [ref=e76]:
+              - link "Español" [ref=e77] [cursor=pointer]:
+                - /url: https://ru-ru.facebook.com/v25.0/dialog/oauth?encrypted_query_string=AeGGQ9RoehKhT58ug6JarL91ogoWIrTFdVh088QNy6Vn_J-eMvzFucrC7cWdpgGX64QsWJWUpoP_3FlI9GtNRgtApum-S7RLfJ_FzZNhIAAJIQZT1GXawtnHKmmIT6g0-WRIsI_6XziuS62H-5WrBGVtWvAaJr2EUvoWCNcsJaa7zQBCHhYmibsCvLt5iZtXqsLyL1Hl3onJMXrirLxEOCRqXpfe2B_spROh3BrLttpnRyxsl0TEiQlXPAq2Y2cSIFf5
+            - listitem [ref=e78]:
+              - link "Bahasa Indonesia" [ref=e79] [cursor=pointer]:
+                - /url: https://es-la.facebook.com/v25.0/dialog/oauth?encrypted_query_string=AeGGQ9RoehKhT58ug6JarL91ogoWIrTFdVh088QNy6Vn_J-eMvzFucrC7cWdpgGX64QsWJWUpoP_3FlI9GtNRgtApum-S7RLfJ_FzZNhIAAJIQZT1GXawtnHKmmIT6g0-WRIsI_6XziuS62H-5WrBGVtWvAaJr2EUvoWCNcsJaa7zQBCHhYmibsCvLt5iZtXqsLyL1Hl3onJMXrirLxEOCRqXpfe2B_spROh3BrLttpnRyxsl0TEiQlXPAq2Y2cSIFf5
+            - listitem [ref=e80]:
+              - link "Türkçe" [ref=e81] [cursor=pointer]:
+                - /url: https://id-id.facebook.com/v25.0/dialog/oauth?encrypted_query_string=AeGGQ9RoehKhT58ug6JarL91ogoWIrTFdVh088QNy6Vn_J-eMvzFucrC7cWdpgGX64QsWJWUpoP_3FlI9GtNRgtApum-S7RLfJ_FzZNhIAAJIQZT1GXawtnHKmmIT6g0-WRIsI_6XziuS62H-5WrBGVtWvAaJr2EUvoWCNcsJaa7zQBCHhYmibsCvLt5iZtXqsLyL1Hl3onJMXrirLxEOCRqXpfe2B_spROh3BrLttpnRyxsl0TEiQlXPAq2Y2cSIFf5
+            - listitem [ref=e82]:
+              - link "Português (Brasil)" [ref=e83] [cursor=pointer]:
+                - /url: https://tr-tr.facebook.com/v25.0/dialog/oauth?encrypted_query_string=AeGGQ9RoehKhT58ug6JarL91ogoWIrTFdVh088QNy6Vn_J-eMvzFucrC7cWdpgGX64QsWJWUpoP_3FlI9GtNRgtApum-S7RLfJ_FzZNhIAAJIQZT1GXawtnHKmmIT6g0-WRIsI_6XziuS62H-5WrBGVtWvAaJr2EUvoWCNcsJaa7zQBCHhYmibsCvLt5iZtXqsLyL1Hl3onJMXrirLxEOCRqXpfe2B_spROh3BrLttpnRyxsl0TEiQlXPAq2Y2cSIFf5
+            - listitem [ref=e84]:
+              - link "हिन्दी" [ref=e85] [cursor=pointer]:
+                - /url: https://pt-br.facebook.com/v25.0/dialog/oauth?encrypted_query_string=AeGGQ9RoehKhT58ug6JarL91ogoWIrTFdVh088QNy6Vn_J-eMvzFucrC7cWdpgGX64QsWJWUpoP_3FlI9GtNRgtApum-S7RLfJ_FzZNhIAAJIQZT1GXawtnHKmmIT6g0-WRIsI_6XziuS62H-5WrBGVtWvAaJr2EUvoWCNcsJaa7zQBCHhYmibsCvLt5iZtXqsLyL1Hl3onJMXrirLxEOCRqXpfe2B_spROh3BrLttpnRyxsl0TEiQlXPAq2Y2cSIFf5
+            - listitem [ref=e86]:
+              - button "عرض المزيد من اللغات" [ref=e87] [cursor=pointer]
+    - link "الترجمات" [ref=e92] [cursor=pointer]:
+      - /url: https://www.facebook.com/translations/?ref=trans_nub
+  - dialog "محتوى مربع الحوار" [ref=e96]:
+    - generic [ref=e104]:
+      - generic [ref=e105]:
+        - button "فتح القائمة المنسدلة Facebook" [ref=e113] [cursor=pointer]:
+          - generic [ref=e115]:
+            - generic [ref=e116]: فتح القائمة المنسدلة
+            - generic [ref=e119]:
+              - generic:
+                - img
+              - img "Facebook" [ref=e121]
+        - progressbar [ref=e124]
+      - generic [ref=e156]:
+        - generic [ref=e157]:
+          - heading "اختيار عناصر \"صفحات\" التي تريد أن يصل إليها Radix Auto Reply" [level=2] [ref=e158]
+          - generic [ref=e159]: ستتمكن لاحقًا من مراجعة ما يمكن لتطبيق Radix Auto Reply القيام به بشأن ما تقوم بتحديده من عناصر "صفحات".
+        - radiogroup [ref=e166]:
+          - generic [ref=e167]:
+            - generic [ref=e170] [cursor=pointer]:
+              - radio "الاشتراك في كل عناصر \"صفحات\" الحالية والمستقبلية" [ref=e175]
+              - generic [ref=e176]:
+                - generic [ref=e178]: الاشتراك في كل عناصر "صفحات" الحالية والمستقبلية
+                - generic [ref=e179]: سيمنح هذا تطبيق Radix Auto Reply صلاحية الوصول إلى عناصر "صفحات" الحالية، بالإضافة إلى أي عنصر من عناصر "صفحات" التي تقوم بإنشائها في المستقبل.
+            - generic [ref=e182] [cursor=pointer]:
+              - radio "الاشتراك في عناصر \"صفحات\" الحالية فقط" [checked] [ref=e187]
+              - generic [ref=e190]:
+                - generic [ref=e192]: الاشتراك في عناصر "صفحات" الحالية فقط
+                - generic [ref=e193]: سيمنح هذا تطبيق Radix Auto Reply فقط صلاحية الوصول إلى عناصر "صفحات" التي تحددها.
+        - generic [ref=e195]:
+          - generic [ref=e198] [cursor=pointer]:
+            - generic [ref=e202]:
+              - checkbox "تحديد الكل" [ref=e203]
+              - generic:
+                - img
+            - generic [ref=e206]: تحديد الكل
+            - generic [ref=e207]: تم تحديد أصل واحد
+          - separator [ref=e208]
+          - grid [ref=e210]:
+            - row "Nobel Swim Academy" [ref=e211]:
+              - gridcell "Nobel Swim Academy" [active] [selected] [ref=e212] [cursor=pointer]:
+                - generic [ref=e214]:
+                  - generic [ref=e218]:
+                    - checkbox "Nobel Swim Academy" [checked] [ref=e219]
+                    - img [ref=e288]
+                  - generic [ref=e221]:
+                    - generic [ref=e223]: Nobel Swim Academy
+                    - generic [ref=e224]: "427668740423316"
+            - separator [ref=e225]
+            - row "موجود - Mawgood" [ref=e226]:
+              - gridcell "موجود - Mawgood" [ref=e227] [cursor=pointer]:
+                - generic [ref=e229]:
+                  - generic [ref=e233]:
+                    - checkbox "موجود - Mawgood" [ref=e234]
+                    - generic:
+                      - img
+                  - generic [ref=e236]:
+                    - generic [ref=e238]: موجود - Mawgood
+                    - generic [ref=e239]: "1029331893587345"
+            - separator [ref=e240]
+            - row "موجود" [ref=e241]:
+              - gridcell "موجود" [ref=e242] [cursor=pointer]:
+                - generic [ref=e244]:
+                  - generic [ref=e248]:
+                    - checkbox "موجود" [ref=e249]
+                    - generic:
+                      - img
+                  - generic [ref=e251]:
+                    - generic [ref=e253]: موجود
+                    - generic [ref=e254]: "873205489220320"
+            - separator [ref=e255]
+            - row "Z GLORY MAN EG" [ref=e256]:
+              - gridcell "Z GLORY MAN EG" [ref=e257] [cursor=pointer]:
+                - generic [ref=e259]:
+                  - generic [ref=e263]:
+                    - checkbox "Z GLORY MAN EG" [ref=e264]
+                    - generic:
+                      - img
+                  - generic [ref=e266]:
+                    - generic [ref=e268]: Z GLORY MAN EG
+                    - generic [ref=e269]: "884721134734914"
+      - generic [ref=e271]:
+        - separator [ref=e272]
+        - generic [ref=e274]:
+          - button "عودة" [ref=e276] [cursor=pointer]:
+            - generic [ref=e280]: عودة
+          - button "متابعة" [ref=e282] [cursor=pointer]:
+            - generic [ref=e286]: متابعة
