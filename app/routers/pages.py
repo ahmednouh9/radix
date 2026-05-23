@@ -51,3 +51,13 @@ async def analytics_page(request: Request):
 @router.get("/privacy")
 async def privacy_page(request: Request):
     return templates.TemplateResponse(request, "privacy.html", {"lang": "en"})
+
+
+@router.get("/terms")
+async def terms_page(request: Request):
+    return templates.TemplateResponse(request, "terms.html", {"lang": "en"})
+
+
+@router.get("/data-deletion")
+async def data_deletion_page(request: Request):
+    return templates.TemplateResponse(request, "data_deletion.html", {"lang": "en"})
