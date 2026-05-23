@@ -8,11 +8,23 @@ from app.models.notification import Notification
 from app.models.campaign import Campaign
 from app.services.campaign_matcher import campaign_matcher
 from app.services.instagram_api import InstagramAPI
+from app.services.instagram_direct import InstagramDirectClient
 from app.services.facebook_api import FacebookAPI
 from app.services.sse_manager import sse_manager
 
 
 class WebhookProcessor:
+    async def _get_direct_client(self, config: PlatformConfig) -> Optional[InstagramDirectClient]:
+        """Initialize and return an InstagramDirectClient if credentials are available."""
+        from app.services.instagram_direct import instagram_direct_client
+        if config.instagram_username and config.instagram_password:
+            try:
+                await instagram_direct_client.login(config.instagram_username, config.instagram_password)
+                return instagram_direct_client
+            except Exception as e:
+                logger.warning(f"Instagrapi login failed, falling back to Graph API: {e}")
+        return None
+
     async def process_instagram_comment(
         self,
         comment_id: str,
@@ -33,8 +45,11 @@ class WebhookProcessor:
             return existing
 
         config = db.query(PlatformConfig).filter_by(platform="instagram", is_active=True).first()
-        if not config or not config.ig_user_id:
-            logger.warning("Instagram config not found or inactive for webhook processing")
+        if not config:
+            logger.warning("Instagram config not found for webhook processing")
+            return None
+        if not config.ig_user_id and not (config.instagram_username and config.instagram_password):
+            logger.warning("Instagram config missing both IG User ID and direct login credentials")
             return None
 
         campaign = campaign_matcher.match(comment_text, "instagram", db)
@@ -59,7 +74,8 @@ class WebhookProcessor:
             await self._create_notification(db, "comment_received", "instagram", f"New comment by {commenter_name}", comment_text[:200], comment_id, None)
             return processed
 
-        ig_api = InstagramAPI(config.access_token, config.ig_user_id)
+        direct_client = await self._get_direct_client(config)
+        ig_api = None if direct_client else InstagramAPI(config.access_token, config.ig_user_id)
 
         try:
             reply_result = None
@@ -67,7 +83,10 @@ class WebhookProcessor:
 
             if campaign.reply_text:
                 try:
-                    reply_result = await ig_api.reply_to_comment(comment_id, campaign.reply_text)
+                    if direct_client:
+                        reply_result = await direct_client.reply_to_comment(media_id, comment_id, campaign.reply_text)
+                    else:
+                        reply_result = await ig_api.reply_to_comment(comment_id, campaign.reply_text)
                     processed.reply_sent = reply_result.get("success", False)
                     processed.reply_text = campaign.reply_text
                 except Exception as e:
@@ -77,7 +96,10 @@ class WebhookProcessor:
 
             if campaign.dm_text:
                 try:
-                    dm_result = await ig_api.send_dm(comment_id, campaign.dm_text)
+                    if direct_client:
+                        dm_result = await direct_client.send_dm(commenter_id, campaign.dm_text)
+                    else:
+                        dm_result = await ig_api.send_dm(comment_id, campaign.dm_text)
                     processed.dm_sent = dm_result.get("success", False)
                     processed.dm_text = campaign.dm_text
                 except Exception as e:
@@ -112,7 +134,8 @@ class WebhookProcessor:
             db.add(processed)
             db.commit()
         finally:
-            await ig_api.close()
+            if ig_api:
+                await ig_api.close()
 
         return processed
 

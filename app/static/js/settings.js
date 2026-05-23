@@ -28,6 +28,7 @@ async function loadConfig(platform) {
     document.getElementById(`${prefix}-access-token`).value = data.access_token || "";
     if (platform === "instagram") {
       document.getElementById("ig-user-id").value = data.ig_user_id || "";
+      document.getElementById("ig-username").value = data.instagram_username || "";
     } else {
       document.getElementById("fb-page-id").value = data.page_id || "";
     }
@@ -50,6 +51,8 @@ async function saveConfig(event, platform) {
   };
   if (platform === "instagram") {
     data.ig_user_id = formData.querySelector("[name='ig_user_id']").value;
+    data.instagram_username = formData.querySelector("[name='instagram_username']").value;
+    data.instagram_password = formData.querySelector("[name='instagram_password']").value;
   } else {
     data.page_id = formData.querySelector("[name='page_id']").value;
   }

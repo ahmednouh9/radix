@@ -37,6 +37,21 @@
           <button type="button" class="password-toggle" onclick="togglePassword(this)">👁️</button>
         </div>
       </div>
+      <h3 style="color:var(--accent-purple);margin-bottom:12px;font-size:14px;border-bottom:1px solid var(--border);padding-bottom:8px;">📱 <span data-i18n="settings.direct_login">{{ t('settings.direct_login', lang) }}</span></h3>
+      <div class="form-row">
+        <div class="form-group">
+          <label class="form-label" data-i18n="settings.ig_username">{{ t('settings.ig_username', lang) }}</label>
+          <input type="text" class="form-input" name="instagram_username" id="ig-username" placeholder="@username">
+        </div>
+        <div class="form-group">
+          <label class="form-label" data-i18n="settings.ig_password">{{ t('settings.ig_password', lang) }}</label>
+          <div class="password-field">
+            <input type="password" class="form-input" name="instagram_password" id="ig-password">
+            <button type="button" class="password-toggle" onclick="togglePassword(this)">👁️</button>
+          </div>
+        </div>
+      </div>
+      <h3 style="color:var(--accent-purple);margin-bottom:12px;margin-top:20px;font-size:14px;border-bottom:1px solid var(--border);padding-bottom:8px;">🔗 <span data-i18n="settings.meta_api">{{ t('settings.meta_api', lang) }}</span></h3>
       <div class="form-row">
         <div class="form-group">
           <label class="form-label" data-i18n="settings.ig_user_id">{{ t('settings.ig_user_id', lang) }}</label>

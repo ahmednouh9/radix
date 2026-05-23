@@ -22,6 +22,18 @@ from app.templates_setup import templates
 async def lifespan(app: FastAPI):
     logger.info("Starting SocialAutoReply...")
     Base.metadata.create_all(bind=engine)
+    # Add new columns for older databases (safe to run multiple times)
+    from sqlalchemy import inspect, text
+    inspector = inspect(engine)
+    columns = [c["name"] for c in inspector.get_columns("platform_configs")]
+    with engine.connect() as conn:
+        if "instagram_username" not in columns:
+            conn.execute(text("ALTER TABLE platform_configs ADD COLUMN instagram_username VARCHAR(255)"))
+            logger.info("Added column: instagram_username")
+        if "instagram_password" not in columns:
+            conn.execute(text("ALTER TABLE platform_configs ADD COLUMN instagram_password TEXT"))
+            logger.info("Added column: instagram_password")
+        conn.commit()
     logger.info("Database tables created successfully")
     yield
     logger.info("Shutting down SocialAutoReply...")

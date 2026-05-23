@@ -16,6 +16,9 @@ class PlatformConfig(Base):
     webhook_verify_token = Column(String(255), nullable=False)
     is_active = Column(Boolean, default=True)
     last_token_refresh = Column(DateTime, nullable=True)
+    # Direct login credentials for instagrapi (Instagram only)
+    instagram_username = Column(String(255), nullable=True)
+    instagram_password = Column(Text, nullable=True)
     created_at = Column(DateTime, default=datetime.utcnow)
     updated_at = Column(DateTime, default=datetime.utcnow, onupdate=datetime.utcnow)
 

@@ -66,6 +66,10 @@ const i18n = {
   "settings.test_success": { en: "Connection successful!", ar: "تم الاتصال بنجاح!" },
   "settings.test_fail": { en: "Connection failed", ar: "فشل الاتصال" },
   "settings.not_configured": { en: "Not configured", ar: "غير مهيأ" },
+  "settings.direct_login": { en: "Direct Login (instagrapi)", ar: "تسجيل الدخول المباشر" },
+  "settings.ig_username": { en: "Instagram Username", ar: "اسم المستخدم في إنستغرام" },
+  "settings.ig_password": { en: "Instagram Password", ar: "كلمة المرور في إنستغرام" },
+  "settings.meta_api": { en: "Meta API (Fallback)", ar: "ميتا API (احتياطي)" },
 
   "notif.title": { en: "Notifications", ar: "الإشعارات" },
   "notif.filter_all": { en: "All", ar: "الكل" },

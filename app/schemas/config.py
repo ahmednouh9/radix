@@ -12,6 +12,8 @@ class ConfigBase(BaseModel):
     ig_user_id: Optional[str] = None
     webhook_verify_token: str
     is_active: bool = True
+    instagram_username: Optional[str] = None
+    instagram_password: Optional[str] = None
 
 
 class ConfigCreate(ConfigBase):
@@ -26,6 +28,8 @@ class ConfigUpdate(BaseModel):
     ig_user_id: Optional[str] = None
     webhook_verify_token: Optional[str] = None
     is_active: Optional[bool] = None
+    instagram_username: Optional[str] = None
+    instagram_password: Optional[str] = None
 
 
 class ConfigOut(BaseModel):
@@ -39,6 +43,7 @@ class ConfigOut(BaseModel):
     last_token_refresh: Optional[datetime] = None
     created_at: datetime
     updated_at: datetime
+    instagram_username: Optional[str] = None
 
     class Config:
         from_attributes = True

@@ -75,6 +75,27 @@ async def test_config(platform: str, db: Session = Depends(get_db)):
 
     try:
         if platform == "instagram":
+            # Try instagrapi direct login first if credentials available
+            if config.instagram_username and config.instagram_password:
+                from app.services.instagram_direct import InstagramDirectClient
+                client = InstagramDirectClient()
+                try:
+                    await client.login(config.instagram_username, config.instagram_password)
+                    username = config.instagram_username
+                    user_id = await client.get_user_id_from_username(username)
+                    await client.close()
+                    return ConfigTestResult(
+                        success=True,
+                        message=f"Connected as @{username} via direct login",
+                        page_name=username,
+                    )
+                except Exception as e:
+                    await client.close()
+                    return ConfigTestResult(
+                        success=False,
+                        message=f"Direct login failed: {str(e)}"
+                    )
+            # Fall back to Graph API
             if not config.ig_user_id:
                 return ConfigTestResult(success=False, message="IG User ID not configured")
             api = InstagramAPI(config.access_token, config.ig_user_id)
