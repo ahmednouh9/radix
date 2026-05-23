@@ -1,0 +1,37 @@
+{% extends "base.html" %}
+{% block title %}{{ app_name }} - {{ t('nav.analytics', lang) }}{% endblock %}
+{% block heading %}{{ t('nav.analytics', lang) }}{% endblock %}
+{% set topbar_i18n = 'topbar.analytics' %}
+
+{% block content %}
+<div class="stats-grid" style="grid-template-columns:repeat(4,1fr);">
+  <div class="card stat-card">
+    <div class="stat-icon purple">💬</div>
+    <div class="stat-label" data-i18n="analytics.total_replies">{{ t('analytics.total_replies', lang) }}</div>
+    <div class="stat-value" id="ana-replies">0</div>
+  </div>
+  <div class="card stat-card">
+    <div class="stat-icon green">✉️</div>
+    <div class="stat-label" data-i18n="analytics.total_dms">{{ t('analytics.total_dms', lang) }}</div>
+    <div class="stat-value" id="ana-dms">0</div>
+  </div>
+  <div class="card stat-card">
+    <div class="stat-icon amber">📈</div>
+    <div class="stat-label" data-i18n="analytics.success_rate">{{ t('analytics.success_rate', lang) }}</div>
+    <div class="stat-value" id="ana-success">0%</div>
+  </div>
+  <div class="card stat-card">
+    <div class="stat-icon blue">🎯</div>
+    <div class="stat-label" data-i18n="analytics.keywords_matched">{{ t('analytics.keywords_matched', lang) }}</div>
+    <div class="stat-value" id="ana-matched">0</div>
+  </div>
+</div>
+
+<div class="card">
+  <div class="section-title" style="margin-bottom:16px;" data-i18n="analytics.chart_title">{{ t('analytics.chart_title', lang) }}</div>
+  <canvas id="analytics-chart" height="250"></canvas>
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.7/dist/chart.umd.min.js"></script>
+<script src="/static/js/analytics.js"></script>
+{% endblock %}

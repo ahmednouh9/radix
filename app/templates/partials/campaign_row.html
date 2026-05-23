@@ -1,0 +1,30 @@
+<tr data-id="{{ campaign.id }}">
+  <td><strong>{{ campaign.name }}</strong></td>
+  <td>
+    <span class="badge {{ 'badge-instagram' if campaign.platform == 'instagram' else 'badge-facebook' }}">
+      {{ '📱 Instagram' if campaign.platform == 'instagram' else '📘 Facebook' }}
+    </span>
+  </td>
+  <td>
+    <div class="keyword-chips">
+      {% for kw in campaign.keywords.split(',') %}
+      <span class="keyword-chip">{{ kw.strip() }}</span>
+      {% endfor %}
+    </div>
+  </td>
+  <td><span class="badge badge-amber">{{ campaign.match_type }}</span></td>
+  <td>{{ campaign.reply_text[:50] + '...' if campaign.reply_text and campaign.reply_text|length > 50 else campaign.reply_text or '—' }}</td>
+  <td>
+    <label class="toggle">
+      <input type="checkbox" {{ 'checked' if campaign.is_active else '' }} onchange="toggleCampaign({{ campaign.id }})">
+      <span class="toggle-slider"></span>
+    </label>
+  </td>
+  <td>{{ campaign.stats_total_matched }}</td>
+  <td>
+    <div class="action-group">
+      <button class="btn btn-ghost btn-sm" onclick="editCampaign({{ campaign.id }})">✏️</button>
+      <button class="btn btn-ghost btn-sm btn-danger" onclick="deleteCampaign({{ campaign.id }})">🗑️</button>
+    </div>
+  </td>
+</tr>

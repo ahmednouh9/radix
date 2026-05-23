@@ -1,0 +1,108 @@
+{% extends "base.html" %}
+{% block title %}{{ app_name }} - {{ t('nav.campaigns', lang) }}{% endblock %}
+{% block heading %}{{ t('nav.campaigns', lang) }}{% endblock %}
+{% set topbar_i18n = 'topbar.campaigns' %}
+
+{% block content %}
+<div class="section-header">
+  <h2 class="section-title" data-i18n="campaign.title">{{ t('campaign.title', lang) }}</h2>
+  <button class="btn btn-primary" onclick="openAddModal()">+ <span data-i18n="campaign.add">{{ t('campaign.add', lang) }}</span></button>
+</div>
+
+<div class="card" style="padding:0;overflow:hidden;">
+  <div class="table-container">
+    <table>
+      <thead>
+        <tr>
+          <th data-i18n="campaign.name">{{ t('campaign.name', lang) }}</th>
+          <th data-i18n="campaign.platform">{{ t('campaign.platform', lang) }}</th>
+          <th data-i18n="campaign.keywords">{{ t('campaign.keywords', lang) }}</th>
+          <th data-i18n="campaign.match_type">{{ t('campaign.match_type', lang) }}</th>
+          <th>{{ t('campaign.reply', lang) }}</th>
+          <th data-i18n="campaign.status">{{ t('campaign.status', lang) }}</th>
+          <th data-i18n="campaign.matched">{{ t('campaign.matched', lang) }}</th>
+          <th data-i18n="campaign.actions">{{ t('campaign.actions', lang) }}</th>
+        </tr>
+      </thead>
+      <tbody id="campaigns-tbody">
+      </tbody>
+    </table>
+  </div>
+  <div class="empty-state" id="campaigns-empty">
+    <div class="empty-icon">🎯</div>
+    <div class="empty-text" data-i18n="campaign.empty">{{ t('campaign.empty', lang) }}</div>
+  </div>
+</div>
+
+<!-- Add/Edit Modal -->
+<div class="modal-overlay" id="campaign-modal">
+  <div class="modal">
+    <div class="modal-header">
+      <h3 class="modal-title" id="modal-title">{{ t('campaign.add', lang) }}</h3>
+      <button class="modal-close" onclick="closeModal()">✕</button>
+    </div>
+    <form id="campaign-form" onsubmit="saveCampaign(event)">
+      <div class="modal-body">
+        <input type="hidden" id="campaign-id">
+        <div class="form-group">
+          <label class="form-label" data-i18n="campaign.name">{{ t('campaign.name', lang) }}</label>
+          <input type="text" class="form-input" id="campaign-name" required>
+        </div>
+        <div class="form-row">
+          <div class="form-group">
+            <label class="form-label" data-i18n="campaign.platform">{{ t('campaign.platform', lang) }}</label>
+            <select class="form-select" id="campaign-platform">
+              <option value="instagram">📱 Instagram</option>
+              <option value="facebook">📘 Facebook</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <label class="form-label" data-i18n="campaign.match_type">{{ t('campaign.match_type', lang) }}</label>
+            <select class="form-select" id="campaign-match-type">
+              <option value="contains" data-i18n="campaign.match_contains">{{ t('campaign.match_contains', lang) }}</option>
+              <option value="exact" data-i18n="campaign.match_exact">{{ t('campaign.match_exact', lang) }}</option>
+              <option value="regex" data-i18n="campaign.match_regex">{{ t('campaign.match_regex', lang) }}</option>
+            </select>
+          </div>
+        </div>
+        <div class="form-group">
+          <label class="form-label" data-i18n="campaign.keywords">{{ t('campaign.keywords', lang) }}</label>
+          <textarea class="form-textarea" id="campaign-keywords" placeholder="keyword1, keyword2, keyword3" required></textarea>
+          <div class="form-help" data-i18n="campaign.keywords_help">{{ t('campaign.keywords_help', lang) }}</div>
+        </div>
+        <div class="form-group">
+          <label class="form-label" data-i18n="campaign.reply">{{ t('campaign.reply', lang) }}</label>
+          <textarea class="form-textarea" id="campaign-reply-text" placeholder="Public reply text"></textarea>
+        </div>
+        <div class="form-group">
+          <label class="form-label" data-i18n="campaign.dm">{{ t('campaign.dm', lang) }}</label>
+          <textarea class="form-textarea" id="campaign-dm-text" placeholder="Private DM text"></textarea>
+        </div>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" onclick="closeModal()" data-i18n="common.cancel">{{ t('common.cancel', lang) }}</button>
+        <button type="submit" class="btn btn-primary" data-i18n="campaign.save">{{ t('campaign.save', lang) }}</button>
+      </div>
+    </form>
+  </div>
+</div>
+
+<!-- Delete Confirm Modal -->
+<div class="modal-overlay" id="delete-modal">
+  <div class="modal" style="max-width:380px;">
+    <div class="modal-header">
+      <h3 class="modal-title" data-i18n="common.confirm">{{ t('common.confirm', lang) }}</h3>
+      <button class="modal-close" onclick="document.getElementById('delete-modal').classList.remove('open')">✕</button>
+    </div>
+    <div class="modal-body">
+      <p data-i18n="campaign.confirm_delete">{{ t('campaign.confirm_delete', lang) }}</p>
+    </div>
+    <div class="modal-footer">
+      <button class="btn btn-secondary" onclick="document.getElementById('delete-modal').classList.remove('open')" data-i18n="common.cancel">{{ t('common.cancel', lang) }}</button>
+      <button class="btn btn-danger" id="confirm-delete-btn" data-i18n="common.delete">{{ t('common.delete', lang) }}</button>
+    </div>
+  </div>
+</div>
+
+<script src="/static/js/campaigns.js"></script>
+{% endblock %}

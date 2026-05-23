@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="{{ lang }}" dir="{{ 'rtl' if lang == 'ar' else 'ltr' }}">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>{% block title %}{{ app_name }}{% endblock %}</title>
+  {% if lang == 'ar' %}
+  <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;500;600;700&display=swap" rel="stylesheet">
+  {% endif %}
+  <link rel="stylesheet" href="/static/css/main.css">
+  <link rel="stylesheet" href="/static/css/components.css">
+  <script src="/static/js/i18n.js"></script>
+  <script src="/static/js/app.js"></script>
+  {% block head %}{% endblock %}
+</head>
+<body>
+  <div class="app-layout">
+    <aside class="sidebar">
+      <div class="sidebar-brand">
+        <div class="logo-icon">Rx</div>
+        <span class="logo-text">{{ app_name }}</span>
+      </div>
+      {% include "partials/nav.html" %}
+    </aside>
+
+    <main class="main-content">
+      <header class="topbar">
+        <div style="display:flex;align-items:center;gap:12px;">
+          <button class="hamburger" onclick="toggleSidebar()">☰</button>
+          <h1 class="topbar-title" data-i18n="{{ topbar_i18n|default('topbar.dashboard') }}">{% block heading %}{{ app_name }}{% endblock %}</h1>
+        </div>
+        <div class="topbar-actions">
+          <span class="platform-status">
+            <span class="platform-status-item" id="ig-status">
+              <span class="status-dot disconnected"></span>
+              <span>IG</span>
+            </span>
+            <span class="platform-status-item" id="fb-status">
+              <span class="status-dot disconnected"></span>
+              <span>FB</span>
+            </span>
+          </span>
+        </div>
+      </header>
+
+      <div class="page-content">
+        {% block content %}{% endblock %}
+      </div>
+    </main>
+  </div>
+
+  <div class="toast-container"></div>
+
+  <script>
+    document.addEventListener("DOMContentLoaded", function() {
+      setLanguage(currentLang);
+      // Check platform status
+      fetch('/api/v1/configs').then(r => r.json()).then(configs => {
+        configs.forEach(c => {
+          const el = document.getElementById(c.platform === 'instagram' ? 'ig-status' : 'fb-status');
+          if (el) {
+            const dot = el.querySelector('.status-dot');
+            if (c.is_active) {
+              dot.className = 'status-dot connected';
+            }
+          }
+        });
+      }).catch(() => {});
+    });
+  </script>
+  {% block scripts %}{% endblock %}
+</body>
+</html>

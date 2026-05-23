@@ -1,0 +1,91 @@
+{% extends "base.html" %}
+{% block title %}{{ app_name }} - {{ t('nav.dashboard', lang) }}{% endblock %}
+{% block heading %}{{ t('nav.dashboard', lang) }}{% endblock %}
+{% set topbar_i18n = 'topbar.dashboard' %}
+
+{% block content %}
+<div class="share-banner">
+  <div>
+    <div class="banner-text" data-i18n="share.desc">{{ t('share.desc', lang) }}</div>
+  </div>
+  <div class="banner-url">
+    <span class="url-display">{{ public_url }}</span>
+    <button class="copy-btn" onclick="copyToClipboard('{{ public_url }}', this)" data-i18n="share.copy">{{ t('share.copy', lang) }}</button>
+  </div>
+</div>
+
+{% include "partials/stats_cards.html" %}
+
+<div class="section-header">
+  <h2 class="section-title" style="font-size:15px;font-weight:600;">{{ t('notif.title', lang) }}</h2>
+</div>
+<div class="live-feed" id="live-feed">
+  <div class="empty-state" id="feed-empty">
+    <div class="empty-text" data-i18n="notif.empty">{{ t('notif.empty', lang) }}</div>
+  </div>
+</div>
+{% endblock %}
+
+{% block scripts %}
+<script>
+async function loadOverview() {
+  try {
+    const data = await apiFetch('/api/v1/analytics/overview');
+    document.getElementById('stat-replies').textContent = data.total_replies;
+    document.getElementById('stat-dms').textContent = data.total_dms;
+    document.getElementById('stat-active').textContent = data.active_campaigns;
+    document.getElementById('stat-errors').textContent = data.total_failed;
+  } catch(e) {}
+}
+
+async function loadRecentNotifications() {
+  try {
+    const data = await apiFetch('/api/v1/notifications?page_size=10');
+    const feed = document.getElementById('live-feed');
+    const empty = document.getElementById('feed-empty');
+    if (data.items.length === 0) return;
+    if (empty) empty.style.display = 'none';
+    data.items.forEach(n => {
+      const card = document.createElement('div');
+      card.className = 'notif-card' + (n.is_read ? '' : ' unread');
+      card.innerHTML = `
+        <div class="notif-icon">${n.type === 'reply_sent' ? '💬' : n.type === 'dm_sent' ? '✉️' : n.type === 'error' ? '⚠️' : '💭'}</div>
+        <div class="notif-body">
+          <div class="notif-title">${n.title}</div>
+          <div class="notif-message">${n.message}</div>
+        </div>
+        <div class="notif-time">${formatDate(n.created_at)}</div>
+      `;
+      feed.appendChild(card);
+    });
+  } catch(e) {}
+}
+
+window.addEventListener('sse-notification', (e) => {
+  const data = e.detail;
+  const feed = document.getElementById('live-feed');
+  const empty = document.getElementById('feed-empty');
+  if (empty) empty.style.display = 'none';
+  const card = document.createElement('div');
+  card.className = 'notif-card unread';
+  card.innerHTML = `
+    <div class="notif-icon">${data.type === 'reply_sent' ? '💬' : data.type === 'dm_sent' ? '✉️' : data.type === 'error' ? '⚠️' : '💭'}</div>
+    <div class="notif-body">
+      <div class="notif-title">${data.title}</div>
+      <div class="notif-message">${data.message}</div>
+    </div>
+    <div class="notif-time">${formatDate(data.created_at)}</div>
+  `;
+  feed.insertBefore(card, feed.firstChild);
+  while (feed.children.length > 10) {
+    feed.removeChild(feed.lastChild);
+  }
+  loadOverview();
+});
+
+document.addEventListener('DOMContentLoaded', () => {
+  loadOverview();
+  loadRecentNotifications();
+});
+</script>
+{% endblock %}

@@ -1,0 +1,10 @@
+<div class="notif-card {{ 'unread' if not notif.is_read else '' }}" data-id="{{ notif.id }}" onclick="markNotifRead({{ notif.id }})">
+  <div class="notif-icon">
+    {% if notif.type == 'reply_sent' %}💬{% elif notif.type == 'dm_sent' %}✉️{% elif notif.type == 'error' %}⚠️{% else %}💭{% endif %}
+  </div>
+  <div class="notif-body">
+    <div class="notif-title">{{ notif.title }}</div>
+    <div class="notif-message">{{ notif.message }}</div>
+  </div>
+  <div class="notif-time">{{ notif.created_at }}</div>
+</div>

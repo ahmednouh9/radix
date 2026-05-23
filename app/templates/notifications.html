@@ -1,0 +1,42 @@
+{% extends "base.html" %}
+{% block title %}{{ app_name }} - {{ t('nav.notifications', lang) }}{% endblock %}
+{% block heading %}{{ t('nav.notifications', lang) }}{% endblock %}
+{% set topbar_i18n = 'topbar.notifications' %}
+
+{% block content %}
+<div class="section-header">
+  <h2 class="section-title" data-i18n="notif.title">{{ t('notif.title', lang) }}</h2>
+  <button class="btn btn-ghost btn-sm" onclick="markAllRead()" data-i18n="notif.mark_all_read">{{ t('notif.mark_all_read', lang) }}</button>
+</div>
+
+<div class="filter-bar">
+  <select class="form-select" id="filter-platform" onchange="loadNotifications()">
+    <option value="" data-i18n="notif.filter_all">{{ t('notif.filter_all', lang) }}</option>
+    <option value="instagram">📱 Instagram</option>
+    <option value="facebook">📘 Facebook</option>
+  </select>
+  <select class="form-select" id="filter-type" onchange="loadNotifications()">
+    <option value="" data-i18n="notif.filter_all">{{ t('notif.filter_all', lang) }}</option>
+    <option value="reply_sent" data-i18n="notif.filter_replies">{{ t('notif.filter_replies', lang) }}</option>
+    <option value="dm_sent" data-i18n="notif.filter_dms">{{ t('notif.filter_dms', lang) }}</option>
+    <option value="error" data-i18n="notif.filter_errors">{{ t('notif.filter_errors', lang) }}</option>
+  </select>
+  <select class="form-select" id="filter-read" onchange="loadNotifications()">
+    <option value="" data-i18n="notif.filter_all">{{ t('notif.filter_all', lang) }}</option>
+    <option value="unread">{{ t('notif.filter_unread'|default('Unread'), lang) if false else 'Unread' }}</option>
+  </select>
+</div>
+
+<div class="live-feed" id="notifications-feed">
+  <div class="empty-state" id="notif-empty">
+    <div class="empty-icon">🔔</div>
+    <div class="empty-text" data-i18n="notif.empty">{{ t('notif.empty', lang) }}</div>
+  </div>
+</div>
+
+<div style="text-align:center;padding:20px;" id="notif-loading">
+  <span data-i18n="common.loading">{{ t('common.loading', lang) }}</span>
+</div>
+
+<script src="/static/js/notifications.js"></script>
+{% endblock %}

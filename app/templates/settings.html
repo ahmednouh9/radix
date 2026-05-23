@@ -1,0 +1,117 @@
+{% extends "base.html" %}
+{% block title %}{{ app_name }} - {{ t('nav.settings', lang) }}{% endblock %}
+{% block heading %}{{ t('nav.settings', lang) }}{% endblock %}
+{% set topbar_i18n = 'topbar.settings' %}
+
+{% block content %}
+<div class="tabs">
+  <button class="tab active" data-tab="instagram" onclick="switchTab('instagram')">
+    📱 <span data-i18n="settings.instagram">{{ t('settings.instagram', lang) }}</span>
+  </button>
+  <button class="tab" data-tab="facebook" onclick="switchTab('facebook')">
+    📘 <span data-i18n="settings.facebook">{{ t('settings.facebook', lang) }}</span>
+  </button>
+</div>
+
+<div class="tab-content active" id="tab-instagram">
+  <form id="config-form-instagram" onsubmit="saveConfig(event, 'instagram')">
+    <input type="hidden" name="platform" value="instagram">
+    <div class="card">
+      <div class="form-row">
+        <div class="form-group">
+          <label class="form-label" data-i18n="settings.app_id">{{ t('settings.app_id', lang) }}</label>
+          <input type="text" class="form-input" name="app_id" id="ig-app-id">
+        </div>
+        <div class="form-group">
+          <label class="form-label" data-i18n="settings.app_secret">{{ t('settings.app_secret', lang) }}</label>
+          <div class="password-field">
+            <input type="password" class="form-input" name="app_secret" id="ig-app-secret">
+            <button type="button" class="password-toggle" onclick="togglePassword(this)">👁️</button>
+          </div>
+        </div>
+      </div>
+      <div class="form-group">
+        <label class="form-label" data-i18n="settings.access_token">{{ t('settings.access_token', lang) }}</label>
+        <div class="password-field">
+          <input type="password" class="form-input" name="access_token" id="ig-access-token">
+          <button type="button" class="password-toggle" onclick="togglePassword(this)">👁️</button>
+        </div>
+      </div>
+      <div class="form-row">
+        <div class="form-group">
+          <label class="form-label" data-i18n="settings.ig_user_id">{{ t('settings.ig_user_id', lang) }}</label>
+          <input type="text" class="form-input" name="ig_user_id" id="ig-user-id">
+        </div>
+        <div class="form-group">
+          <label class="form-label" data-i18n="settings.webhook_token">{{ t('settings.webhook_token', lang) }}</label>
+          <input type="text" class="form-input" name="webhook_verify_token" id="ig-webhook-token">
+        </div>
+      </div>
+      <div class="form-group">
+        <label class="form-label" data-i18n="settings.webhook_url">{{ t('settings.webhook_url', lang) }}</label>
+        <div style="display:flex;gap:8px;">
+          <input type="text" class="form-input" value="{{ public_url }}/webhook/instagram" readonly style="color:var(--accent-purple);font-family:monospace;font-size:12px;">
+          <button class="copy-btn" onclick="copyToClipboard('{{ public_url }}/webhook/instagram', this)">{{ t('share.copy', lang) }}</button>
+        </div>
+      </div>
+      <div style="display:flex;gap:10px;margin-top:16px;flex-wrap:wrap;">
+        <button type="submit" class="btn btn-primary" data-i18n="settings.save">{{ t('settings.save', lang) }}</button>
+        <button type="button" class="btn btn-secondary" onclick="testConnection('instagram')" data-i18n="settings.test">{{ t('settings.test', lang) }}</button>
+      </div>
+      <div id="ig-test-result" style="margin-top:12px;"></div>
+    </div>
+  </form>
+</div>
+
+<div class="tab-content" id="tab-facebook">
+  <form id="config-form-facebook" onsubmit="saveConfig(event, 'facebook')">
+    <input type="hidden" name="platform" value="facebook">
+    <div class="card">
+      <div class="form-row">
+        <div class="form-group">
+          <label class="form-label" data-i18n="settings.app_id">{{ t('settings.app_id', lang) }}</label>
+          <input type="text" class="form-input" name="app_id" id="fb-app-id">
+        </div>
+        <div class="form-group">
+          <label class="form-label" data-i18n="settings.app_secret">{{ t('settings.app_secret', lang) }}</label>
+          <div class="password-field">
+            <input type="password" class="form-input" name="app_secret" id="fb-app-secret">
+            <button type="button" class="password-toggle" onclick="togglePassword(this)">👁️</button>
+          </div>
+        </div>
+      </div>
+      <div class="form-group">
+        <label class="form-label" data-i18n="settings.access_token">{{ t('settings.access_token', lang) }}</label>
+        <div class="password-field">
+          <input type="password" class="form-input" name="access_token" id="fb-access-token">
+          <button type="button" class="password-toggle" onclick="togglePassword(this)">👁️</button>
+        </div>
+      </div>
+      <div class="form-row">
+        <div class="form-group">
+          <label class="form-label" data-i18n="settings.page_id">{{ t('settings.page_id', lang) }}</label>
+          <input type="text" class="form-input" name="page_id" id="fb-page-id">
+        </div>
+        <div class="form-group">
+          <label class="form-label" data-i18n="settings.webhook_token">{{ t('settings.webhook_token', lang) }}</label>
+          <input type="text" class="form-input" name="webhook_verify_token" id="fb-webhook-token">
+        </div>
+      </div>
+      <div class="form-group">
+        <label class="form-label" data-i18n="settings.webhook_url">{{ t('settings.webhook_url', lang) }}</label>
+        <div style="display:flex;gap:8px;">
+          <input type="text" class="form-input" value="{{ public_url }}/webhook/facebook" readonly style="color:var(--accent-purple);font-family:monospace;font-size:12px;">
+          <button class="copy-btn" onclick="copyToClipboard('{{ public_url }}/webhook/facebook', this)">{{ t('share.copy', lang) }}</button>
+        </div>
+      </div>
+      <div style="display:flex;gap:10px;margin-top:16px;flex-wrap:wrap;">
+        <button type="submit" class="btn btn-primary" data-i18n="settings.save">{{ t('settings.save', lang) }}</button>
+        <button type="button" class="btn btn-secondary" onclick="testConnection('facebook')" data-i18n="settings.test">{{ t('settings.test', lang) }}</button>
+      </div>
+      <div id="fb-test-result" style="margin-top:12px;"></div>
+    </div>
+  </form>
+</div>
+
+<script src="/static/js/settings.js"></script>
+{% endblock %}
